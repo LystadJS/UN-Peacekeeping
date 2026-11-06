@@ -1,0 +1,17 @@
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+.Renviron
+.env
+.env.*
+!.env.example
+renv/library/
+renv/staging/
+data/raw/*
+data/interim/*
+data/processed/*
+outputs/*
+!outputs/.gitkeep
+*.zip
+*.tar.gz

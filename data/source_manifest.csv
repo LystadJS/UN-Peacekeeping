@@ -1,0 +1,4 @@
+source_id,landing_url,version,retrieved_on,local_path,sha256,license_or_terms,coverage,audit_status
+ucdp_ged,https://ucdp.uu.se/downloads/,,,,,,,pending
+geo_pko,https://www.uu.se/en/department/peace-and-conflict-research/research/research-data/geo-pko-dataset,,,,,,,pending
+administrative_boundaries,,,,,,,,pending
