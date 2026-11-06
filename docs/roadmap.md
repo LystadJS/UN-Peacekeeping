@@ -10,3 +10,5 @@ The [full four-week acceptance plan](project_plan.md) is the controlling task ch
 6. **Write the memo.** Three figures, estimand, assumptions, failures and limits; no causal or locality-ranking claims beyond evidence.
 
 Completed in scaffold: protocol, data gates, source-manifest template, simulation generator, candidate model formulas, runnable simulation entry point and deterministic checks. Model fitting, recovery metrics, empirical adapters, figures, and final memo are intentionally still to be implemented.
+
+Week 1 update: acquisition, source/boundary audit scripts, feasibility coverage panels and audit figures are now implemented. The decision is **revise the design**; see `week_1_audit.md`. Model-ready panel construction, simulation recovery, estimation and portfolio outputs remain pending.

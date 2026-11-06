@@ -1,6 +1,6 @@
 # Week 1 preparation and execution runbook
 
-**Status: prepared; empirical audit not run.** Follow the [full plan](project_plan.md). The current scope is preparation only. This runbook does not approve a dataset, choose boundaries, or authorize conclusions.
+**Status: acquisition and feasibility audit executed; revise-design decision recorded.** See [findings](week_1_audit.md) and [decision](feasibility_decision.md). This runbook preserves the workflow; unresolved gates remain open before modeling.
 
 ## Preparation available now
 

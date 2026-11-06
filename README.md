@@ -6,19 +6,19 @@ This project asks how the association between peacekeeping presence and subseque
 
 ## Status
 
-Research scaffold: no empirical data have been acquired, audited, or analyzed. The simulation generator and checks run independently of empirical inputs. No findings or causal peacekeeping effects are claimed.
+Week 1 acquisition and measurement audit are complete, with a **revise-design** decision before modeling. Read [the findings](docs/week_1_audit.md) and [feasibility decision](docs/feasibility_decision.md). Sparse binary deployment changes and unverified absence coding require attention. No empirical model or causal peacekeeping effect is claimed.
 
 The provisional study is eastern DRC, 2015–2023, at a consistent administrative area–month level. The primary outcome is recorded UCDP one-sided violence event counts; civilian fatalities are a separate secondary outcome. These are qualifying lethal organized violence events, not all civilian harm.
 
 ## Start here
 
-1. Read [the full four-week plan](docs/project_plan.md), [Week 1 runbook](docs/week_1_runbook.md), and [research protocol](docs/research_protocol.md). The immediate scope is Week 1 preparation, not empirical execution.
+1. Read [the full four-week plan](docs/project_plan.md), [Week 1 audit](docs/week_1_audit.md), and [research protocol](docs/research_protocol.md). Resolve the revised-design gate before empirical fitting.
 2. Open `un_peacekeeping.Rproj`, or run R from the repository root.
 3. Run `source("scripts/check_environment.R")` to inspect dependencies.
 4. Run `source("tests/run_checks.R")` for synthetic-data checks.
 5. Run `source("scripts/run_simulation.R")` to generate all eight design cells locally under `outputs/simulation/`. This generates data and known truth, **not fitted model performance**.
 
-For Week 1 setup, run `source("scripts/prepare_week_1.R")`. It creates ignored working directories, checks the audit-template structure and records the current package environment. It does not download data or fit models. The [feasibility gate](docs/feasibility_decision.md) remains pending.
+For initial setup, `source("scripts/prepare_week_1.R")` creates ignored directories and records the environment. Acquisition and audit commands are in the findings. The [feasibility gate](docs/feasibility_decision.md) requires design revision; `empirical_ready` remains false.
 
 Only dplyr is required for the initial simulation. Planned packages are ggplot2 (figures), glmmTMB (negative-binomial mixed models), sf (spatial joins), and renv (a versioned environment once fitting dependencies are installed and tested). No lockfile is supplied or reproducibility of an untested package environment implied.
 

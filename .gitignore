@@ -8,6 +8,7 @@
 !.env.example
 renv/library/
 renv/staging/
+.local_library/
 data/raw/*
 data/interim/*
 data/processed/*

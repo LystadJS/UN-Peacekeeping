@@ -1,20 +1,20 @@
-check_id,stage,source_or_table,check,acceptance_rule,status,records_checked,records_affected,evidence_path,resolution
-A001,provenance,all_sources,Version hash URL date and terms recorded,Every acquired artifact has complete provenance,not_run,,,,
-A002,source,ucdp_ged,Duplicate source event identifiers,Every duplicate resolved without silent deletion,not_run,,,,
-A003,source,all_sources,Date parsing and ordering,Every invalid or conflicting date resolved or excluded with reason,not_run,,,,
-A004,source,spatial_records,Coordinate range and CRS validity,Invalid coordinates identified and excluded or corrected with evidence,not_run,,,,
-A005,source,locality_labels,Names and stable identifiers,Label variants mapped without treating name alone as a key,not_run,,,,
-A006,geography,boundaries,Boundary vintage and crosswalk,Stable units and changes documented,not_run,,,,
-A007,geography,spatial_join,Unmatched and multiple matches,Every match ambiguity resolved or explicitly excluded,not_run,,,,
-A008,coverage,event_panel,Zero versus missing coverage,Zero-fill only within audited eligible source coverage,not_run,,,,
-A009,coverage,deployment_panel,Absence versus unknown deployment,No unknown status recoded to absence,not_run,,,,
-A010,timing,geo_pko,Map dates carry-forward ages and update gaps,Every expanded value traceable to contributing source map,not_run,,,,
-A011,precision,ucdp_ged,Event date and location precision,Rules frozen and alternative assignments documented,not_run,,,,
-A012,join,all_joins,Join row counts and identifier conservation,No unexplained expansion or loss,not_run,,,,
-A013,aggregation,event_panel,Source event total reconciliation,Retained totals reconcile and exclusions accounted for,not_run,,,,
-A014,aggregation,deployment_panel,Repeated unit representations,No double counting of the same eligible unit,not_run,,,,
-A015,panel,analysis_panel,Unique locality-time keys,Zero duplicate keys,not_run,,,,
-A016,design,deployment_panel,Within-locality variation and independent updates,Document support before choosing random slopes,not_run,,,,
-A017,lineage,retained_records,Source traceability,All retained rows link to source records and transformation version,not_run,,,,
-A018,exclusions,exclusion_ledger,Exclusion accounting,All excluded source records have stage and reason,not_run,,,,
-A019,decision,feasibility,Monthly versus quarterly and scope decision,Written decision cites audit evidence and unresolved risks,not_run,,,,
+"check_id","stage","source_or_table","check","acceptance_rule","status","records_checked","records_affected","evidence_path","resolution"
+"A001","provenance","all_sources","Version hash URL date and terms recorded","Every acquired artifact has complete provenance","qualified",20,,"data/source_manifest.csv","20 artifacts hashed; Geo-PKO redistribution license not explicit; raw data remain local"
+"A002","source","ucdp_ged","Duplicate source event identifiers","Every duplicate resolved without silent deletion","passed",417968,0,"outputs/week_1/audit_aggregated/source_checks.csv","Zero duplicate IDs in global GED file"
+"A003","source","all_sources","Date parsing and ordering","Every invalid or conflicting date resolved or excluded with reason","passed",5511,0,"outputs/week_1/audit_aggregated/source_checks.csv","Zero invalid or reversed dates in DRC 2014-2023 subset"
+"A004","source","spatial_records","Coordinate range and CRS validity","Invalid coordinates identified and excluded or corrected with evidence","passed",5511,0,"outputs/week_1/audit_aggregated/source_checks.csv","Zero impossible coordinate ranges; geographic accuracy assessed separately"
+"A005","source","locality_labels","Names and stable identifiers","Label variants mapped without treating name alone as a key","qualified",5511,,"outputs/week_1/audit_aggregated/event_name_crosswalk.csv","Coordinate-based assignment retained; historical name crosswalk exported; three Vido I records disagree with target geography"
+"A006","geography","boundaries","Boundary vintage and crosswalk","Stable units and changes documented","qualified",4,1,"outputs/week_1/audit_aggregated/boundary_footprint_stability.csv","Composite footprints agree from July 2015; early Djugu geometry invalid and not repaired"
+"A007","geography","spatial_join","Unmatched and multiple matches","Every match ambiguity resolved or explicitly excluded","qualified",5511,1,"outputs/week_1/audit_aggregated/event_ledger.csv","One Djugu/Irumu boundary event excluded; no arbitrary assignment; 275 outside-target or unmatched cases remain explicit"
+"A008","coverage","event_panel","Zero versus missing coverage","Zero-fill only within audited eligible source coverage","qualified",2052,,"outputs/week_1/audit_aggregated/feasibility_coverage_panel.csv","Zero means no retained recorded event; completeness of underlying reporting is not established"
+"A009","coverage","deployment_panel","Absence versus unknown deployment","No unknown status recoded to absence","unresolved",2052,823,"outputs/week_1/audit_aggregated/feasibility_coverage_panel.csv","823 composite-months unlisted; no absence inferred; source map review needed"
+"A010","timing","geo_pko","Map dates carry-forward ages and update gaps","Every expanded value traceable to contributing source map","passed",3917,0,"outputs/week_1/audit_aggregated/monthly_rows_without_matching_map.csv","All 3917 MONUSCO monthly rows match original map attributes including June 2013 carry-forward"
+"A011","precision","ucdp_ged","Event date and location precision","Rules frozen and alternative assignments documented","qualified",2917,728,"outputs/week_1/audit_aggregated/event_flow.csv","719 imprecise and 9 cross-month events excluded from 2917 uniquely assigned one-sided events"
+"A012","join","all_joins","Join row counts and identifier conservation","No unexplained expansion or loss","passed",5511,0,"outputs/week_1/audit_aggregated/join_audit.csv","List-based matching preserves input rows; no join expansion"
+"A013","aggregation","event_panel","Source event total reconciliation","Retained totals reconcile and exclusions accounted for","passed",2189,0,"outputs/week_1/audit_aggregated/feasibility_coverage_panel.csv","2189 retained event IDs reconcile to complete 2052-row feasibility grid"
+"A014","aggregation","deployment_panel","Repeated unit representations","No double counting of the same eligible unit","qualified",1342,65,"outputs/week_1/audit_aggregated/deployment_measurement_flags.csv","No duplicate location-map keys; 64 geosplit rows preserve source allocations; one unknown-strength row outside target; no unit IDs for independent unit-level audit"
+"A015","panel","analysis_panel","Unique locality-time keys","Zero duplicate keys","passed_feasibility_only",2052,0,"outputs/week_1/audit_aggregated/feasibility_coverage_panel.csv","No duplicate composite-month keys; not a frozen analysis panel"
+"A016","design","deployment_panel","Within-locality variation and independent updates","Document support before choosing random slopes","insufficient_for_random_slopes",19,,"outputs/week_1/audit_aggregated/locality_variation.csv","Only seven conditional binary switchers with one to three changes; zeros remain unverified"
+"A017","lineage","retained_records","Source traceability","All retained rows link to source records and transformation version","passed_feasibility_only",2189,0,"outputs/week_1/audit_aggregated/event_ledger.csv","Retained IDs and map source row/date references saved locally"
+"A018","exclusions","exclusion_ledger","Exclusion accounting","All excluded source records have stage and reason","passed_with_scope_limit",5511,0,"outputs/week_1/audit_aggregated/event_flow.csv","Ledger covers all 5511 in-scope DRC source rows; country/year prefilter reproducible from original archive"
+"A019","decision","feasibility","Monthly versus quarterly and scope decision","Written decision cites audit evidence and unresolved risks","revise_design",19,,"docs/feasibility_decision.md","Revise geography/timing/deployment contrast before empirical modeling; keep empirical_ready FALSE"

@@ -2,7 +2,7 @@
 
 **Goal:** Produce an audited dataset, validated simulation, defensible multilevel analysis, and concise research portfolio suitable for discussing research-assistant work with Dr. Scott.
 
-**Plan recorded:** 2026-11-05 (America/New_York). Weeks indicate sequence and approximate effort, not scheduled dates. Current authorization: save the plan and prepare Week 1. Acquisition, empirical analysis and full simulation evaluation have not begun.
+**Plan recorded:** 2026-11-05 (America/New_York). Weeks indicate sequence and approximate effort, not scheduled dates. Week 1 acquisition and audit were subsequently authorized and executed; see [findings](week_1_audit.md). Decision: revise the design. Empirical fitting and full simulation evaluation remain pending.
 
 Checked items have evidence in the current repository. Unchecked items may have scaffolding but have not met their acceptance conditions. Change status only when an evidence path can be recorded. See [Week 1 runbook](week_1_runbook.md), [research protocol](research_protocol.md), and [decision log](decision_log.md).
 
@@ -13,42 +13,42 @@ Checked items have evidence in the current repository. Unchecked items may have 
 - [x] Define the primary question: how does the association between deployment and subsequent recorded violence vary across localities? Evidence: README and research protocol.
 - [x] Define the methodological question: when do deployment selection and incomplete reporting distort that association? Evidence: README and research protocol.
 - [x] Set recorded UCDP one-sided violence event counts as the primary outcome. Evidence: research protocol and analysis config.
-- [ ] Define civilian fatalities as a secondary outcome, distinguishing targeted killings from other civilian deaths.
+- [x] Define civilian fatalities as a secondary outcome, distinguishing targeted killings from other civilian deaths. Evidence: Week 1 audit; `deaths_civilians` within one-sided events is separate from other categories.
 - [ ] Confirm the geographic scope, administrative unit and provisional 2015–2023 period.
 - [x] Record the intended interpretation: observational associations and predictive performance. Evidence: research protocol.
 
 ### Source collection and provenance
 
-- [ ] Obtain Geo-PKO deployment data, UCDP GED, their codebooks and suitable administrative boundaries.
-- [ ] Record source URLs, versions, retrieval dates, file hashes and applicable use requirements.
-- [ ] Preserve original files separately from processed data.
+- [x] Obtain Geo-PKO deployment data, UCDP GED, their codebooks and suitable administrative boundaries. Evidence: 20-artifact manifest; SALB and geoBoundaries acquired; HDX geometry download failed.
+- [x] Record source URLs, versions, retrieval dates, file hashes and applicable use requirements. Evidence: source manifest; unresolved Geo-PKO redistribution permission is documented.
+- [x] Preserve original files separately from processed data. Evidence: ignored `data/raw/` and `data/interim/`.
 - [ ] Create a data dictionary documenting variable definitions, units, missing values and transformations.
 - [ ] Establish an R project with relative paths, fixed random seeds and recorded package versions. Project and seed exist; a tested, locked analysis environment remains pending.
 
 ### Coverage and measurement audit
 
-- [ ] Inventory observations by locality, month and source.
-- [ ] Check duplicate identifiers, invalid dates, impossible coordinates and inconsistent locality names.
-- [ ] Audit administrative boundary changes and document the geographic crosswalk.
+- [x] Inventory observations by locality, month and source. Evidence: Week 1 audit outputs.
+- [x] Check duplicate identifiers, invalid dates, impossible coordinates and inconsistent locality names. Evidence: source checks and name/discrepancy ledgers.
+- [x] Audit administrative boundary changes and document the geographic crosswalk. Evidence: four vintages and footprint comparison; early Djugu equivalence remains unresolved.
 - [ ] Distinguish observed deployment absence from unknown deployment status.
-- [ ] Preserve deployment-map dates and identify months populated through carry-forward.
-- [ ] Inspect conflict-event date and location precision; define exclusion or aggregation rules.
-- [ ] Identify localities with sufficient deployment changes to support within-locality analysis.
+- [x] Preserve deployment-map dates and identify months populated through carry-forward. Evidence: monthly-to-map reconciliation and freshness table.
+- [x] Inspect conflict-event date and location precision; define exclusion or aggregation rules. Evidence: strict feasibility rules and event ledger; model protocol not yet frozen.
+- [x] Identify localities with sufficient deployment changes to support within-locality analysis. Assessment completed: sparse support and unverified zeros prevent approval of varying presence slopes.
 
 ### Outputs and visualizations
 
-- [ ] Produce a source inventory, data dictionary and machine-readable audit table. Preparation templates exist; populated and validated outputs are pending.
-- [ ] Create a locality-by-time coverage heatmap.
-- [ ] Plot deployment observation freshness and intervals between source maps.
-- [ ] Create a geographic overview showing retained localities and uncertain event locations.
+- [x] Produce a source inventory, data dictionary and machine-readable audit table. Audit field mappings populated; model predictors remain explicitly unconstructed.
+- [x] Create a locality-by-time coverage heatmap. Evidence: deployment and retained-event heatmaps in local figure outputs.
+- [x] Plot deployment observation freshness and intervals between source maps. Evidence: freshness figure with update lines and map schedule table.
+- [x] Create a geographic overview showing retained localities and uncertain event locations. Evidence: inspected geographic overview.
 
 ### Evaluation and progress gate
 
-- [ ] Resolve every duplicate analysis key and unexplained join expansion.
-- [ ] Account for every excluded record with a documented reason.
-- [ ] Confirm that retained observations can be traced to their sources.
-- [ ] Decide whether monthly timing is defensible or quarterly aggregation should be primary.
-- [ ] Record the feasibility decision: **proceed, narrow the scope, or revise the design**.
+- [x] Resolve every duplicate analysis key and unexplained join expansion. No duplicate feasibility keys or join expansion; final model panel remains pending.
+- [x] Account for every excluded record with a documented reason. Evidence: all 5,511 DRC audit records accounted for; global country/year filter reproducible.
+- [x] Confirm that retained observations can be traced to their sources. Evidence: event IDs and deployment source-row/map references.
+- [x] Decide whether monthly timing is defensible or quarterly aggregation should be primary. Recommend quarterly for revised pilot; monthly sensitivity remains necessary.
+- [x] Record the feasibility decision: **revise the design**. Evidence: `feasibility_decision.md`; empirical estimation is not cleared.
 
 ## 2. Minimal simulation and model validation — Weeks 1–2
 
