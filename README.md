@@ -18,6 +18,8 @@ The [quarterly panel audit](docs/quarterly_panel_audit.md) reconciles 608 rows a
 
 Start with the [combined evaluation findings](docs/quarterly_evaluation_findings.md). All 17 history-model deletion intervals and all 11 measurement/secondary/monthly specification intervals include zero. Residual temporal structure remains. Across 20 rolling forecast quarters, history has a small mean log-score gain (+0.0429), but removing Irumu's scores reverses that average advantage. Reporting sensitivity remains assumption-dependent; no causal protection effect or operational forecasting readiness is established.
 
+The [research discussion portfolio](portfolio/README.md) now includes a four-page memo, five-slide editable deck, and final figures using the saved findings. Independent human figure review and prospective validation remain open.
+
 ## Start here
 
 For the active revision, use the [quarterly runbook](docs/quarterly_runbook.md), [freshness audit](docs/quarterly_freshness_audit.md), and [predictor-design diagnostics](docs/quarterly_design_diagnostics.md). The older starter commands below remain useful for the original scaffold, not as evidence that its full model has been validated.

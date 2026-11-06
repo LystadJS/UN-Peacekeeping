@@ -45,3 +45,11 @@ All 34 deletion fits, 44 sensitivity fits, and 40 rolling prediction fits met th
 History improves mean held-out log score by 0.0429 across 180 forecasts, with 14 of 20 favorable quarters but only four of nine favorable locality averages. Removing Irumu scores reverses the mean gain. Both plug-in 95% intervals cover 171/180 outcomes. This is retrospective prediction in the selected sample, not full predictive uncertainty or operational validation.
 
 Independent checks reconstructed prediction means and probabilities, verified training-only information, confirmed primary-input hashes, checked saved model summaries, and audited timing/source boundaries. A source-map summary-ordering check was repaired without changing numerical findings. See quarterly_evaluation_findings.md and quarterly_evaluation_peer_review.md. Remaining work concerns scientific refinement, external/human review and portfolio preparation rather than unexecuted checks in this requested evaluation scope.
+
+## Research discussion portfolio prepared — 2026-11-06
+
+Parallel agents prepared a four-page research memo, final ggplot2 figures, and a five-slide editable discussion deck from the saved evaluation at analysis commit 36f4b09adcddb954db3de59975155fc95659f513. No new models were fitted or more favorable specifications selected for presentation. The memo and deck retain the inconclusive common association, residual temporal warning, concentrated retrospective predictive gains, and conditional reporting sensitivity.
+
+The proposed local-effect figure was replaced with evidence about the common association and simulation recovery because locality-specific slopes were not fitted. Scott's research connections were checked against primary institutional/publication sources and are bounded in docs/scott_research_connection.md. The package includes two discussion questions and one prespecified-history extension.
+
+PDF pages, figure exports and all five slides were visually reviewed; package and numeric checks are recorded in docs/portfolio_validation.md. These are agent checks, not the independent human interpretation required for final acceptance. A clean locked-environment end-to-end rebuild, human review and prospective operational validation remain open. No outreach was sent.

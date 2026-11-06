@@ -1,0 +1,29 @@
+{
+  "analysis_commit": "36f4b09adcddb954db3de59975155fc95659f513",
+  "human_review": false,
+  "native_powerpoint_tested": false,
+  "validation_scope": "Automated structural and hash checks; agent visual QA is documented separately.",
+  "checks": {
+    "memo_pages": 4,
+    "deck": {
+      "slides": 5,
+      "notes": 5,
+      "charts": 3,
+      "embedded_workbooks": 3,
+      "tables": 2
+    },
+    "verified_figure_hashes": 16
+  },
+  "artifacts": [
+    {
+      "file": "portfolio/research_memo.pdf",
+      "bytes": 299065,
+      "sha256": "bb33e02a97ec2ddab3bb3f12cd036edd29f97c9f2efe83f4a0f180fee7b54e7b"
+    },
+    {
+      "file": "portfolio/scott_discussion.pptx",
+      "bytes": 56050,
+      "sha256": "ea1ce76bed11e4373839970d77f17c9c6dbcbbee5cf6d258fd0a08f77b59c59f"
+    }
+  ]
+}

@@ -2,11 +2,11 @@
 
 **Goal:** Produce an audited dataset, validated simulation, defensible multilevel analysis, and concise research portfolio suitable for discussing research-assistant work with Dr. Scott.
 
-**Plan recorded:** 2026-11-05 (America/New_York). Weeks indicate sequence and approximate effort, not scheduled dates. Week 1 acquisition and audit were subsequently authorized and executed; see [findings](week_1_audit.md). Decision: revise the design. Empirical fitting and full simulation evaluation remain pending.
+**Plan recorded:** 2026-11-05 (America/New_York). Weeks indicate sequence and approximate effort, not scheduled dates. Week 1 acquisition and audit were subsequently authorized and executed; see [findings](week_1_audit.md). Decision: revise the design. The revised quarterly model, bounded simulation evaluation and follow-up diagnostics are now complete; see the active revision below.
 
 Checked items have evidence in the current repository. Unchecked items may have scaffolding but have not met their acceptance conditions. Change status only when an evidence path can be recorded. See [Week 1 runbook](week_1_runbook.md), [research protocol](research_protocol.md), and [decision log](decision_log.md).
 
-**Authorized scope revision:** the active pilot is 2016–2023 quarterly, with a common listed-strength slope in 19 candidate composites and nine complete-history localities. Monthly binary-presence models, the original eight-cell heterogeneity design and locality-specific slope recovery are deferred extensions, not requirements that have already been satisfied. The [quarterly protocol](quarterly_protocol.md) controls current modeling. The core and ordinary dynamic simulation gates passed, panel checks passed, and the bounded baseline/history fits are complete. The requested residual, influence, sensitivity and retrospective prediction evaluation is complete; unresolved model limitations and portfolio tasks remain open. See quarterly_evaluation_findings.md. An independent review and parallel follow-up work began on 2026-11-06.
+**Authorized scope revision:** the active pilot is 2016–2023 quarterly, with a common listed-strength slope in 19 candidate composites and nine complete-history localities. Monthly binary-presence models, the original eight-cell heterogeneity design and locality-specific slope recovery are deferred extensions, not requirements that have already been satisfied. The [quarterly protocol](quarterly_protocol.md) controls current modeling. The core and ordinary dynamic simulation gates passed, panel checks passed, and the bounded baseline/history fits are complete. The requested residual, influence, sensitivity and retrospective prediction evaluation is complete; unresolved model limitations remain; the research portfolio is now prepared. See quarterly_evaluation_findings.md. An independent review and parallel follow-up work began on 2026-11-06.
 
 ## 1. Data audit and feasibility — Week 1
 
@@ -205,38 +205,38 @@ The common-strength core passed its favorable/null gate. This does not validate 
 
 ### Research memo
 
-- [ ] Write a 3–4-page memo covering the question, data, model, simulation, findings and limitations.
-- [ ] Explain what the simulation establishes and what the empirical analysis cannot establish.
-- [ ] Connect the work specifically to Scott’s interests in histories, heterogeneity, uncertainty and usable methods.
-- [ ] Distinguish methodological application from any genuinely new contribution.
-- [ ] Identify one bounded follow-on research question suitable for supervision.
+- [x] Write a 3–4-page memo covering the question, data, model, simulation, findings and limitations.
+- [x] Explain what the simulation establishes and what the empirical analysis cannot establish.
+- [x] Connect the work specifically to Scott’s interests in histories, heterogeneity, uncertainty and usable methods.
+- [x] Distinguish methodological application from any genuinely new contribution.
+- [x] Identify one bounded follow-on research question suitable for supervision.
 
-Verify the intended Scott's identity and relevant publications before attributing research interests in the memo; no outreach is authorized by this plan.
+Evidence: portfolio/research_memo.pdf (four pages), portfolio/scott_discussion.pptx (five slides), portfolio/figures/, and docs/scott_research_connection.md. The primary sources identify Marc A. Scott; no outreach is authorized by this plan.
 
 ### Figures and presentation
 
-- [ ] Finalize the coverage, simulation-recovery, trajectory, heterogeneity and sensitivity figures.
-- [ ] Use ggplot2 with consistent typography, scales, uncertainty displays and accessible colors.
-- [ ] Label counts, time units, sample sizes and exclusions clearly.
-- [ ] Produce a five-slide discussion deck using actual results.
-- [ ] Remove or prominently label any remaining simulated presentation examples.
+- [x] Finalize simulation-recovery, trajectory, common-association and sensitivity figures. Existing coverage figures remain audit artifacts; locality-specific heterogeneity is deferred by the revised design.
+- [x] Use ggplot2 with consistent typography, scales, uncertainty displays and accessible colors.
+- [x] Label counts, time units, sample sizes and exclusions clearly.
+- [x] Produce a five-slide discussion deck using actual results.
+- [x] Remove or prominently label any remaining simulated presentation examples.
 
 ### Real-world relevance
 
-- [ ] Identify which findings could improve monitoring or evaluation practice.
-- [ ] Identify specific information gaps that better records could address.
-- [ ] Explain how reporting differences could distort assessments of civilian protection.
-- [ ] State what prospective validation would be required before operational forecasting.
-- [ ] Avoid translating uncertain locality associations into deployment recommendations or success rankings.
+- [x] Identify which findings could improve monitoring or evaluation practice.
+- [x] Identify specific information gaps that better records could address.
+- [x] Explain how reporting differences could distort assessments of civilian protection.
+- [x] State what prospective validation would be required before operational forecasting.
+- [x] Avoid translating uncertain locality associations into deployment recommendations or success rankings.
 
 ### Reproducibility and final acceptance
 
-- [ ] Run the workflow from original inputs through final tables and figures.
-- [ ] Confirm source versions, random seeds and package environments are recorded.
-- [ ] Verify every numerical statement against the saved analysis outputs.
-- [ ] Document failed models, exclusions, deviations and unresolved discrepancies.
+- [ ] Run the workflow from original inputs through final tables and figures in one clean environment. Individual stages have been executed; a locked clean rebuild remains open.
+- [x] Confirm source versions, random seeds and package environments are recorded.
+- [x] Verify every numerical statement against the saved analysis outputs.
+- [x] Document failed models, exclusions, deviations and unresolved discrepancies.
 - [ ] Have another reader interpret the central figures without coaching.
-- [ ] Prepare a concise explanation of the skills demonstrated: data auditing, multilevel modeling, simulation and uncertainty analysis.
-- [ ] Prepare two focused questions for Scott about the findings and a possible research extension.
+- [x] Prepare a concise explanation of the skills demonstrated: data auditing, multilevel modeling, simulation and uncertainty analysis.
+- [x] Prepare two focused questions for Scott about the findings and a possible research extension.
 
 Independent reader review is an external acceptance step; a self-check cannot mark it complete.

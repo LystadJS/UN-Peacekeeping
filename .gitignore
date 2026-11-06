@@ -16,3 +16,6 @@ outputs/*
 !outputs/.gitkeep
 *.zip
 *.tar.gz
+
+# Temporary embedded chart workbooks from presentation validation
+.chart-data-*/

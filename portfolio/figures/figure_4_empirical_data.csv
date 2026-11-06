@@ -1,0 +1,6 @@
+"scenario","family_group","outcome","rows","localities","event_total","outcome_total","rank","columns","estimate","se","lower_95","upper_95","convergence","positive_hessian","random_intercept_sd","usable","q_min","q_max","messages","label"
+"primary","measurement","recorded_events",288,9,1248,1248,12,12,-0.132590307723376,0.324960856253598,-0.769501882365725,0.504321266918973,0,TRUE,0.629048188171925,TRUE,1,1,NA,"Primary quarterly (n=288)"
+"age_three","measurement","recorded_events",252,9,1233,1233,12,12,0.00387700003787303,0.326561356873237,-0.636171498176203,0.643925498251949,0,TRUE,0.530510149811484,TRUE,1,1,NA,"Map age at most 3 months (n=252)"
+"early_map_switch","measurement","recorded_events",288,9,1248,1248,12,12,0.192812062124574,0.269745123646964,-0.33587866522878,0.721502789477927,0,TRUE,0.620034758960653,TRUE,1,1,NA,"Early map switch (n=288)"
+"midpoint_map_switch","measurement","recorded_events",288,9,1248,1248,12,12,0.346948501187639,0.281977582623689,-0.205717405202459,0.899614407577736,0,TRUE,0.613684002853041,TRUE,1,1,NA,"Midpoint switch (n=288)"
+"location_precision_1_or_2","measurement","recorded_events",288,9,1594,1594,12,12,-0.180104799689949,0.296642034195471,-0.761512503013772,0.401302903633874,0,TRUE,0.601242215147476,TRUE,1,1,NA,"Location precision 1 or 2 (n=288)"

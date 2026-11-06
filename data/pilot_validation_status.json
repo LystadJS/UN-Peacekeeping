@@ -41,5 +41,9 @@
   "mean_history_log_score_gain": 0.04289534148,
   "operational_forecast_validated": false,
   "causal_effect_identified": false,
-  "prediction_scope": "Retrospective selected nine-locality sample; conditional plug-in NB2 count distributions"
+  "prediction_scope": "Retrospective selected nine-locality sample; conditional plug-in NB2 count distributions",
+  "portfolio_prepared": true,
+  "portfolio_memo_pages": 4,
+  "portfolio_deck_slides": 5,
+  "independent_human_figure_review_complete": false
 }
