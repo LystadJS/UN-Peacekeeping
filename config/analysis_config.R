@@ -9,6 +9,7 @@ analysis_config <- list(
   deployment_lag_quarters = 1L,
   outcome = "recorded_one_sided_events",
   core_simulation_validated = TRUE, # Only the fixed-design quarterly core, not history extensions.
-  empirical_ready = FALSE,
+  history_simulation_validated = TRUE, # Limited prespecified dynamic scenarios; see results.
+  empirical_ready = TRUE, # Bounded baseline/history fits only; JSON status governs entry point.
   seed = 20261105L
 )

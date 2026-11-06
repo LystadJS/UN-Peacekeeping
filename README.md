@@ -6,15 +6,21 @@ This project asks how the association between peacekeeping presence and subseque
 
 ## Status
 
-Week 1 acquisition and measurement audit are complete, with a **revise-design** decision before modeling. Read [the findings](docs/week_1_audit.md) and [feasibility decision](docs/feasibility_decision.md). Sparse binary deployment changes and unverified absence coding require attention. No empirical model or causal peacekeeping effect is claimed.
+Week 1 acquisition and measurement audit are complete, with a **revise-design** decision before modeling. Read [the findings](docs/week_1_audit.md) and [feasibility decision](docs/feasibility_decision.md). Sparse binary deployment changes and unverified absence coding require attention. Initial empirical baseline/history fits are now saved; no causal peacekeeping effect is claimed.
 
-The authorized revision is the [2016–2023 quarterly pilot](docs/quarterly_protocol.md), using a common within-locality listed-strength slope. See the [absence investigation](docs/deployment_absence_review.md). Empirical fitting remains disabled while the revised gates are assessed.
+The authorized revision is the [2016–2023 quarterly pilot](docs/quarterly_protocol.md), using a common within-locality listed-strength slope. See the [absence investigation](docs/deployment_absence_review.md). The required ordinary-history gates have passed; bounded empirical fits follow the documented measurement decision.
 
-The [core simulation validation](docs/quarterly_validation_results.md) passed favorable/null recovery checks across 800 total fits. Reporting and hidden-risk stress tests show large failures of structural-effect recovery. Dynamic history adjustment and the full empirical workflow remain behind separate gates.
+The [core simulation validation](docs/quarterly_validation_results.md) passed favorable/null recovery checks across 800 total fits. Reporting and hidden-risk stress tests show large failures of structural-effect recovery. The subsequent 1,400-fit dynamic validation also passed its required ordinary-model gates; the full empirical evaluation remains incomplete.
 
-The provisional study is eastern DRC, 2015–2023, at a consistent administrative area–month level. The primary outcome is recorded UCDP one-sided violence event counts; civilian fatalities are a separate secondary outcome. These are qualifying lethal organized violence events, not all civilian harm.
+The active pilot covers eastern DRC, 2016–2023, at a consistent composite-locality–quarter level. The primary outcome is recorded UCDP one-sided violence event counts; civilian fatalities are a separate secondary outcome. These are qualifying lethal organized violence events, not all civilian harm. The earlier monthly design is retained as historical planning context.
+
+The [quarterly panel audit](docs/quarterly_panel_audit.md) reconciles 608 rows and 2,166 retained events; the nine-locality complete-exposure sample contains 288 rows and 1,248 events. See the [independent computational review](docs/quarterly_independent_review.md) and [dynamic validation protocol](docs/dynamic_quarterly_protocol.md). Complete exposure depends on permitting source maps up to five months old: a three-month limit leaves no locality with uninterrupted coverage. Unknown deployment remains missing.
+
+Read the [dynamic results](docs/dynamic_quarterly_results.md) and [initial empirical results](docs/quarterly_empirical_results.md). The common strength interval includes both directions; residual, influence, robustness, and predictive evaluation remain unfinished.
 
 ## Start here
+
+For the active revision, use the [quarterly runbook](docs/quarterly_runbook.md), [freshness audit](docs/quarterly_freshness_audit.md), and [predictor-design diagnostics](docs/quarterly_design_diagnostics.md). The older starter commands below remain useful for the original scaffold, not as evidence that its full model has been validated.
 
 1. Read [the full four-week plan](docs/project_plan.md), [Week 1 audit](docs/week_1_audit.md), and [research protocol](docs/research_protocol.md). Resolve the revised-design gate before empirical fitting.
 2. Open `un_peacekeeping.Rproj`, or run R from the repository root.
@@ -22,7 +28,7 @@ The provisional study is eastern DRC, 2015–2023, at a consistent administrativ
 4. Run `source("tests/run_checks.R")` for synthetic-data checks.
 5. Run `source("scripts/run_simulation.R")` to generate all eight design cells locally under `outputs/simulation/`. This generates data and known truth, **not fitted model performance**.
 
-For initial setup, `source("scripts/prepare_week_1.R")` creates ignored directories and records the environment. Acquisition and audit commands are in the findings. The [feasibility gate](docs/feasibility_decision.md) requires design revision; `empirical_ready` remains false.
+For initial setup, `source("scripts/prepare_week_1.R")` creates ignored directories and records the environment. Acquisition and audit commands are in the findings. The original [feasibility gate](docs/feasibility_decision.md) led to the authorized quarterly revision; current readiness is recorded in `data/pilot_validation_status.json`.
 
 Only dplyr is required for the initial simulation. Planned packages are ggplot2 (figures), glmmTMB (negative-binomial mixed models), sf (spatial joins), and renv (a versioned environment once fitting dependencies are installed and tested). No lockfile is supplied or reproducibility of an untested package environment implied.
 

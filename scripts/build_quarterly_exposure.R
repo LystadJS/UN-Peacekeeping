@@ -11,14 +11,15 @@ lineage <- lineage |> filter(nzchar(locality_id)) |> mutate(period=as.Date(perio
 monthly <- lineage |> group_by(locality_id,period) |>
   summarise(strength=if(any(is.na(strength))) NA_real_ else sum(strength),
     max_age=max(map_age), sources=paste(sort(unique(paste(source,map_date))),collapse=";"),.groups="drop")
+stopifnot(!anyDuplicated(monthly[c("locality_id","period")]))
 localities <- read.csv("outputs/week_1/audit_aggregated/locality_inventory.csv")
 grid <- crossing(locality_id=localities$locality_id,
                  period=seq(as.Date("2015-10-01"),as.Date("2023-12-01"),by="month")) |>
   left_join(monthly,by=c("locality_id","period"),relationship="one-to-one") |>
   mutate(year=as.integer(format(period,"%Y")),quarter=(as.integer(format(period,"%m"))-1L)%/%3L+1L,
-         acceptable=!is.na(strength)&!is.na(max_age)&max_age<=5)
+         acceptable=is.finite(strength)&strength>=0&is.finite(max_age)&max_age>=0&max_age<=5)
 quarters <- grid |> group_by(locality_id,year,quarter) |>
-  summarise(known_months=sum(acceptable),strength=if(all(acceptable)) mean(strength)/1000 else NA_real_,
+  summarise(known_months=sum(acceptable),strength=if(n()==3L && all(acceptable)) mean(strength)/1000 else NA_real_,
     source_maps=paste(unique(na.omit(sources)),collapse=";"),.groups="drop") |>
   arrange(locality_id,year,quarter) |> group_by(locality_id) |>
   mutate(strength_lag=lag(strength),exposure_sources=lag(source_maps)) |>

@@ -1,0 +1,6 @@
+"path","sha256","bytes","rows","recorded_utc","status"
+"outputs/quarterly_pilot/panel/quarterly_panel_all_localities.csv","b85e028585062810bd47f810e84d60e49d01cb3e7f331de98b19c8f239a73830",181764,608,"2026-11-06 05:16:21 UTC","audited_snapshot_not_empirical_model_freeze"
+"outputs/quarterly_pilot/panel/quarterly_panel_complete_exposure.csv","5cbc990402efeb48170988c31bec42dcd2b1f4cebd5de6da93878c2e28be0d8d",107275,288,"2026-11-06 05:16:21 UTC","audited_snapshot_not_empirical_model_freeze"
+"outputs/quarterly_pilot/panel/history_grid_2014_2023.csv","4b5dd53d031765ccd8e2708145cbdaf5211228c8104a3bb5440fee58cde229ce",52025,760,"2026-11-06 05:16:21 UTC","audited_snapshot_not_empirical_model_freeze"
+"outputs/quarterly_pilot/panel/initial_conditions_2015_q4.csv","72f033c4e60d607a6a81e9def1a21144a7fb1ece29665e952a3af5496ed79971",714,19,"2026-11-06 05:16:21 UTC","audited_snapshot_not_empirical_model_freeze"
+"outputs/quarterly_pilot/panel/panel_summary.csv","31d091abb01df26958e535f75c3cdce1325c6c935b0c6f0c86fe02e4582ccaec",305,9,"2026-11-06 05:16:21 UTC","audited_snapshot_not_empirical_model_freeze"

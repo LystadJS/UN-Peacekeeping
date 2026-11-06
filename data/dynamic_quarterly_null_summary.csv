@@ -1,0 +1,2 @@
+"scenario","estimator","attempts","n_usable","fit_rate","bias","bias_mcse","rmse","coverage","coverage_mcse","success_and_coverage","directional_error","directional_mcse","near_zero_intercept_fits","elapsed_seconds","gate"
+"correlated_prehistory_null","ordinary_history",200,200,1,0.0420793958892789,0.0228296471754214,0.324789225189349,0.955,0.0146586152142691,0.955,0.045,0.014658615214269,15,153.02,TRUE

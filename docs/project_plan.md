@@ -6,6 +6,8 @@
 
 Checked items have evidence in the current repository. Unchecked items may have scaffolding but have not met their acceptance conditions. Change status only when an evidence path can be recorded. See [Week 1 runbook](week_1_runbook.md), [research protocol](research_protocol.md), and [decision log](decision_log.md).
 
+**Authorized scope revision:** the active pilot is 2016–2023 quarterly, with a common listed-strength slope in 19 candidate composites and nine complete-history localities. Monthly binary-presence models, the original eight-cell heterogeneity design and locality-specific slope recovery are deferred extensions, not requirements that have already been satisfied. The [quarterly protocol](quarterly_protocol.md) controls current modeling. The core and ordinary dynamic simulation gates passed, panel checks passed, and the bounded baseline/history fits are complete. Full empirical evaluation remains open. An independent review and parallel follow-up work began on 2026-11-06.
+
 ## 1. Data audit and feasibility — Week 1
 
 ### Research scope
@@ -14,7 +16,7 @@ Checked items have evidence in the current repository. Unchecked items may have 
 - [x] Define the methodological question: when do deployment selection and incomplete reporting distort that association? Evidence: README and research protocol.
 - [x] Set recorded UCDP one-sided violence event counts as the primary outcome. Evidence: research protocol and analysis config.
 - [x] Define civilian fatalities as a secondary outcome, distinguishing targeted killings from other civilian deaths. Evidence: Week 1 audit; `deaths_civilians` within one-sided events is separate from other categories.
-- [ ] Confirm the geographic scope, administrative unit and provisional 2015–2023 period.
+- [x] Confirm the revised 2016–2023 quarterly scope and fixed city–territory composites. Complete-history restriction and generalization limits are explicit in the quarterly protocol.
 - [x] Record the intended interpretation: observational associations and predictive performance. Evidence: research protocol.
 
 ### Source collection and provenance
@@ -37,7 +39,7 @@ Checked items have evidence in the current repository. Unchecked items may have 
 
 ### Outputs and visualizations
 
-- [x] Produce a source inventory, data dictionary and machine-readable audit table. Audit field mappings populated; model predictors remain explicitly unconstructed.
+- [x] Produce a source inventory, data dictionary and machine-readable audit table. Audit field mappings populated; quarterly model predictors are now constructed and checked in the panel audit.
 - [x] Create a locality-by-time coverage heatmap. Evidence: deployment and retained-event heatmaps in local figure outputs.
 - [x] Plot deployment observation freshness and intervals between source maps. Evidence: freshness figure with update lines and map schedule table.
 - [x] Create a geographic overview showing retained localities and uncertain event locations. Evidence: inspected geographic overview.
@@ -54,44 +56,44 @@ Checked items have evidence in the current repository. Unchecked items may have 
 
 ### Minimal data-generating process
 
-- [ ] Simulate repeated monthly observations within localities.
-- [ ] Generate locality-specific baseline violence and overdispersed event counts.
-- [ ] Specify a known common deployment effect and initially independent deployment assignment.
+- [x] Simulate repeated quarterly observations within localities. Evidence: core quarterly generator; monthly design is deferred.
+- [x] Generate locality-specific baseline violence and overdispersed event counts. Evidence: NB2 core simulation.
+- [x] Specify a known common deployment effect under a favorable exposure design. The core conditions on observed strength schedules; dynamic assignment is a separate scenario.
 - [ ] Fit the proposed baseline count model.
 - [ ] Verify that simulated deployment, violence and locality differences match their intended distributions.
-- [ ] Confirm that model coefficients use the same scale and interpretation as the simulation truth.
+- [x] Confirm that core coefficients and truth share the log-count scale per 1,000 listed personnel. Dynamic extension checked separately.
 
-The starter generator implements several mechanisms, but this stage stays open until distribution and model-recovery checks pass. Its selection-off assignment is persistent over time; add an explicitly independent-assignment favorable case. The baseline without deployment has no deployment coefficient; recovery must use a correctly specified deployment model.
+The common-strength core passed its favorable/null gate. This does not validate history adjustment or endogenous deployment. The baseline without strength has no strength coefficient; recovery uses the corresponding strength model. The original binary generator is retained as historical scaffolding.
 
 ### Challenging scenarios
 
-- [ ] Add deployment responding to prior violence.
-- [ ] Add an incompletely observed risk process influencing deployment and violence.
-- [ ] Add constant versus deployment- and risk-dependent recording probabilities.
-- [ ] Add common versus genuinely heterogeneous deployment effects.
-- [ ] Implement the eight primary combinations of selection, reporting and heterogeneity.
-- [ ] Include a null-effect scenario to assess spurious directional conclusions.
+- [x] Add deployment responding to prior violence. Evidence: dynamic selection scenario.
+- [x] Add a controlled hidden-risk confounding stress case. Evidence: core stress simulation; temporal selection remains a separate requirement.
+- [x] Add constant versus deployment- and risk-dependent recording probabilities. Evidence: core simulation; not estimated DRC reporting rates.
+- [ ] Deferred: compare common versus heterogeneous effects after common-slope recovery is defensible.
+- [ ] Deferred: implement the original eight-cell selection/reporting/heterogeneity design if heterogeneity is reinstated.
+- [x] Include a null-effect scenario to assess spurious directional conclusions. Evidence: core null scenario.
 - [ ] Preserve latent event counts, recorded counts, deployment assignments and true parameters.
 
 ### Performance evaluation
 
-- [ ] Run approximately 100 replications per scenario for debugging.
-- [ ] Track convergence, failed fits and computational time; retain failures in the evaluation.
-- [ ] Measure coefficient bias, RMSE and interval coverage.
-- [ ] Measure recovery of between-locality deployment-effect variation.
-- [ ] Measure confidently incorrect directional conclusions.
+- [x] Run initial replications: 200 per core scenario, 800 total; dynamic runs reported separately.
+- [x] Track convergence, failed fits and runtime in core evaluation; retain all attempts.
+- [x] Measure core coefficient bias, RMSE and interval coverage.
+- [ ] Deferred: measure between-locality slope-variation recovery if varying slopes return to scope.
+- [x] Measure confidently incorrect directional conclusions in core scenarios.
 - [ ] Increase replications until Monte Carlo uncertainty is sufficiently small for the planned comparisons.
-- [ ] Set evaluation tolerances before the final simulation run.
+- [x] Set core tolerances before the validation run; dynamic tolerances recorded independently before that run.
 
 ### Outputs and visualizations
 
-- [ ] Plot estimated deployment coefficients against the known truth.
-- [ ] Create coverage and directional-error panels by scenario.
-- [ ] Produce a concise table identifying conditions under which each model succeeds or fails.
+- [x] Plot common-strength estimates against known truth. Evidence: inspected core recovery figure.
+- [x] Create coverage and directional-error panels by scenario. Evidence: inspected dynamic interval-performance figure.
+- [x] Produce a core success/failure table. Evidence: quarterly validation results; dynamic conclusions remain separate.
 
 ### Evaluation and progress gate
 
-- [ ] Verify acceptable recovery under the correctly specified favorable scenario.
+- [x] Verify favorable common-strength core recovery. Ordinary history-adjusted recovery subsequently passed its required gates; see dynamic results.
 - [ ] Investigate unexpected failures before interpreting adverse scenarios.
 - [ ] Distinguish computational failure, finite-sample limitations and structural bias.
 - [ ] Freeze a manageable model set for the empirical analysis.
@@ -100,12 +102,12 @@ The starter generator implements several mechanisms, but this stage stays open u
 
 ### Panel construction
 
-- [ ] Construct the complete eligible locality–time grid.
-- [ ] Aggregate conflict events using the audited geographic and temporal rules.
+- [x] Construct the complete eligible locality–time grid.
+- [x] Aggregate conflict events using the audited geographic and temporal rules.
 - [ ] Distinguish zero recorded events from unavailable or ineligible observations.
-- [ ] Aggregate deployments without counting repeated representations of the same unit twice.
-- [ ] Calculate lagged deployment, prior violence and recent conflict-history variables.
-- [ ] Calculate within-locality deployment deviations and between-locality deployment averages.
+- [x] Aggregate deployments without counting repeated representations of the same unit twice.
+- [x] Calculate lagged deployment, prior violence and recent conflict-history variables.
+- [x] Calculate within-locality deployment deviations and between-locality deployment averages.
 - [ ] Ensure every predictor uses information available before the relevant outcome period.
 - [ ] Verify selected locality–time records manually against their source records.
 
@@ -121,14 +123,14 @@ The starter generator implements several mechanisms, but this stage stays open u
 
 ### Outputs and visualizations
 
-- [ ] Save the analysis panel with a reproducible construction script.
-- [ ] Produce a sample-flow table showing retention and exclusions.
+- [x] Save the analysis panel with a reproducible construction script.
+- [x] Produce a sample-flow table showing retention and exclusions.
 - [ ] Plot outcome distributions, deployment variation and usable observations by locality.
 
 ### Evaluation and progress gate
 
-- [ ] Confirm unique locality–time keys and reconciled event totals.
-- [ ] Verify that joins have not duplicated events or deployments.
+- [x] Confirm unique locality–time keys and reconciled event totals.
+- [x] Verify that joins have not duplicated events or deployments.
 - [ ] Confirm adequate within-locality deployment variation.
 - [ ] Freeze the panel and protocol; log subsequent changes explicitly.
 
@@ -136,9 +138,9 @@ The starter generator implements several mechanisms, but this stage stays open u
 
 ### Model fitting
 
-- [ ] Fit the locality and calendar baseline model.
-- [ ] Add deployment and prespecified conflict-history variables.
-- [ ] Distinguish within-locality deployment associations from between-locality differences.
+- [x] Fit the locality and calendar baseline model. Evidence: initial empirical results.
+- [x] Add deployment and prespecified conflict-history variables. Evidence: initial empirical results.
+- [x] Distinguish within-locality deployment associations from between-locality differences. Evidence: fitted history formula.
 - [ ] Fit locality-specific deployment slopes only where the design supports them.
 - [ ] Document estimator settings, convergence information and uncertainty calculations.
 

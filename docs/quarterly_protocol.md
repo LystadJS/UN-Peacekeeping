@@ -27,3 +27,11 @@ Run 200 replicates per scenario with seed base 20261106; save every fit, warning
 Both exposure coverage and simulation gates must pass. Source-map spot checks may clarify mapped presence but cannot certify absence over all unreviewed dates or operational patrol activity. Unlisted months stay excluded. Investigate changed totals, unknown strength and source-map replication. For later prediction, use expanding windows beginning after 12 quarters and predict the next quarter using only prior-quarter covariates; retrospective release data do not establish real-time forecast availability.
 
 Report residual dependence, predictive count checks, influence and small-cluster uncertainty. Strength reporting sensitivity uses a declared continuous q(strength,risk) grid and log(q) offsets, not binary q1/q0 unless a binary contrast is explicitly reintroduced. Empirical fitting remains disabled in the current task until results of this validation and remaining measurement gates are recorded.
+
+## Audit addendum — 2026-11-06
+
+The quarterly panel and its histories are now constructed and independently checked; see [panel audit](quarterly_panel_audit.md). The 2016 Q1 second strength lag uses 2015 Q3, and violent-spell history extends to 2014 with explicit left-censor flags. Event occurrence histories remain retrospective, not evidence of real-time data availability.
+
+The [freshness audit](quarterly_freshness_audit.md) shows that the nine-locality complete-exposure design depends on permitting five-month-old source maps. A three-month rule retains 343 locality-quarters but no complete locality. This finding is reported without changing the rule to optimize outcome estimates. Eligibility now explicitly rejects negative/nonfinite strength or source age and requires exactly three months.
+
+The [dynamic protocol](dynamic_quarterly_protocol.md) governs history-model validation, including initial-condition stress and a separately specified matched null check. Its adjusted initial-state model is diagnostic unless separately validated. No substantive empirical deployment estimate has been inspected in making these additions.

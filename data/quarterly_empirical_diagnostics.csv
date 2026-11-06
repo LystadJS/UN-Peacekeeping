@@ -1,0 +1,3 @@
+"model","rows","convergence","positive_definite_hessian","usable","nb2_dispersion","pearson_sum_per_residual_df","observed_zero_fraction","conditional_expected_zero_fraction","seconds","messages"
+"baseline",288,0,TRUE,TRUE,1.8009586124344,1.05684576874625,0.458333333333333,0.445502650603711,0.27,NA
+"history",288,0,TRUE,TRUE,3.59354095543769,1.13671246892634,0.458333333333333,0.436758819477764,0.37,NA

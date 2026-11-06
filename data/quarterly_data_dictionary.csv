@@ -1,0 +1,23 @@
+variable,grain,definition,units,missing_rule
+locality_id,locality_quarter,Fixed SALB city-territory composite identifier,identifier,Not allowed
+year,locality_quarter,Outcome calendar year,year,Not allowed
+quarter,locality_quarter,Outcome calendar quarter,quarter_1_to_4,Not allowed
+season,locality_quarter,Four-level categorical calendar quarter,factor,Not allowed; refactor after CSV import
+time_index,locality_quarter,Sequential outcome quarter from 2016Q1,index,Not allowed
+recorded_events,locality_quarter,Retained UCDP type-3 event count under strict date and location rules,events,Zero means no retained source record rather than no underlying violence
+civilian_fatalities,locality_quarter,Sum deaths_civilians among the same retained one-sided events,people,Not a measure of all civilian harm
+strength_lag,locality_quarter,Prior-quarter mean monthly listed military strength excluding FPU,1000_personnel,NA if any month unknown or source map older than five months
+strength_lag2,locality_quarter,Military strength two quarters before outcome using identical eligibility rules,1000_personnel,NA if any required month unavailable
+strength_between,locality_quarter,Full-period locality mean of eligible lagged strength,1000_personnel,Descriptive retrospective centering; recompute on training data for prediction
+strength_within,locality_quarter,Lagged strength minus locality mean,1000_personnel,NA when lagged strength unknown
+events_lag,locality_quarter,Prior-quarter retained recorded-event count,events,Unavailable prehistory must not be filled with zero
+log1p_events_lag,locality_quarter,Natural logarithm of one plus prior recorded-event count,log_count,NA if prior count missing
+violent_spell_lag_observed,locality_quarter,Observed consecutive positive-count quarters ending before outcome,quarters,Lower bound when onset precedes available history
+violent_spell_left_censored,locality_quarter,Positive run may begin before available 2014 history,boolean,Preserve flag
+violent_spell_lag,locality_quarter,Uncensored consecutive positive-count quarters before outcome,quarters,NA when left censored
+complete_locality,locality_quarter,All 32 lagged exposure quarters available under five-month rule,boolean,Retrospective eligibility; not a prospective selection rule
+core_sample,locality_quarter,Membership of nine-locality complete-exposure sample,boolean,Does not certify reporting completeness
+history_complete,locality_quarter,Prior count and uncensored spell and second strength lag available,boolean,False if any required history missing
+history_sample_candidate,locality_quarter,Core sample with complete required histories,boolean,Does not authorize model fitting before validation gate
+initial_spell,locality_initial_state,Observed consecutive positive-count quarters through 2015Q4,quarters,Use with initial censoring flag; exported separately from panel
+initial_spell_left_censored,locality_initial_state,Initial positive run may precede available 2014 history,boolean,Preserve flag; exported in initial-condition table

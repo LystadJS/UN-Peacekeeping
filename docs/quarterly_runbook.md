@@ -1,0 +1,40 @@
+# Reproduce the quarterly pilot
+
+Run R from the repository root with the acquired, hashed original inputs still in the ignored `data/raw/` directory. Source acquisition and the original geographic audit must already be complete; see the Week 1 runbook. Package versions are recorded in the pilot and dynamic run metadata. Installed packages and raw data are not distributed in Git.
+
+## Panel and descriptive measurement audit
+
+```r
+source("scripts/build_quarterly_exposure.R")
+source("tests/run_quarterly_checks.R")
+source("scripts/build_quarterly_panel.R")
+source("tests/run_quarterly_panel_checks.R")
+source("scripts/audit_quarterly_freshness.R")
+source("scripts/plot_quarterly_coverage.R")
+source("scripts/audit_quarterly_design.R")
+source("scripts/record_quarterly_panel_manifest.R")
+```
+
+The panel builder preserves the original 19-locality grid and separately exports the nine-locality complete-exposure sample. The manifest records an audited snapshot, not a frozen empirical model. Read the quarterly dictionary alongside the older monthly source dictionary.
+
+## Simulation validation
+
+The previously completed core experiment is reproducible with `scripts/validate_quarterly_simulation.R`; independently check its saved records with `scripts/recheck_simulation_summary.R`. Re-running fitting is unnecessary merely to inspect existing results.
+
+The history experiment and its separately specified initial-condition null extension are:
+
+```r
+source("tests/run_dynamic_quarterly_checks.R")
+source("scripts/validate_dynamic_quarterly.R")
+source("scripts/check_dynamic_generated_data.R")
+source("scripts/validate_dynamic_quarterly_null.R")
+source("scripts/summarize_dynamic_quarterly.R")
+source("scripts/update_quarterly_validation_status.R")
+source("scripts/plot_dynamic_validation.R")
+```
+
+These fit synthetic outcomes only. They retain failures and warnings in local per-fit records. The original history experiment has 1,200 fit attempts; the matched null extension adds 200. Seeds and generator parameters reconstruct the datasets. The initial-adjusted estimator is diagnostic and cannot substitute for a failed ordinary-model gate without its own validation.
+
+The status updater checks all required ordinary-model scenarios and never automatically enables empirical fitting. A changed estimator, eligibility rule, or history treatment requires a documented protocol change and matching validation. Predictive evaluation additionally requires training-only exposure centering and an explicit treatment of retrospective event-reporting availability.
+
+The bounded empirical protocol and its measurement decision were subsequently recorded in `docs/empirical_quarterly_protocol.md`. With both readiness flags explicitly true, run `scripts/fit_quarterly_empirical.R`, then `scripts/summarize_quarterly_empirical.R`. Refreshing validation deliberately closes readiness again; it preserves the historical fitted-model flag and requires the measurement decision to be reaffirmed before another empirical run.

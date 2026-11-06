@@ -1,0 +1,6 @@
+"scenario","max_true_events","max_recorded_events","max_spell","max_initial_events","max_initial_spell","min_recording","max_recording","max_strength","all_finite_counts","all_valid_thinning"
+"differential_recording",376,302,31,0,0,0.205298377667904,0.924188259770642,3.05,TRUE,TRUE
+"favorable",261,167,31,0,0,0.65,0.65,3.05,TRUE,TRUE
+"null",364,248,31,0,0,0.65,0.65,3.05,TRUE,TRUE
+"selection",334,222,31,0,0,0.65,0.65,4.11049355099391,TRUE,TRUE
+"stationary_initial",540,333,71,115,40,0.65,0.65,3.05,TRUE,TRUE
