@@ -23,8 +23,12 @@ theme_portfolio <- function(size = 10) {
       panel.spacing.x = grid::unit(.4, "cm"), plot.margin = margin(7, 8, 7, 8))
 }
 save_figure <- function(plot, name, width, height) {
+  # ggsave's inferred PNG device changes when optional ragg is installed.
+  # Use R's explicit Cairo renderer so unrelated optional packages cannot
+  # silently change the portfolio typography in an isolated reproduction.
   ggsave(file.path(directory, paste0(name, ".png")), plot,
-    width = width, height = height, dpi = 300, bg = "white")
+    width = width, height = height, dpi = 300, bg = "white",
+    device = grDevices::png, type = "cairo-png")
   ggsave(file.path(directory, paste0(name, ".pdf")), plot,
     width = width, height = height, bg = "white", device = cairo_pdf)
   for (extension in c("png", "pdf")) {

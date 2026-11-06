@@ -1,0 +1,35 @@
+{
+  "runtime_root": "C:/Program Files/WindowsApps/OpenAI.CodexPrimaryRuntime.v26-1030-493-0_26.1030.493.0_x64__3k8sg7r9htsxt/dependencies",
+  "python": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "reportlab": "4.4.9",
+    "pypdf": "6.10.0"
+  },
+  "node": "v24.22.1",
+  "artifact_tool": "2.8.119",
+  "fonts": [
+    {
+      "file": "calibri.ttf",
+      "sha256": "57e93ff143572bcc092c1f56202d43ddc07bb119aa104c6d7af163470fb551f6"
+    },
+    {
+      "file": "calibrib.ttf",
+      "sha256": "0a8296747536ead27d5f48f67e911cc3b207742b3f704e66995251d12fd422e5"
+    },
+    {
+      "file": "calibrii.ttf",
+      "sha256": "7f150e9eabe5db3e1b0f9469dca5c96176bc2fbb306dc9d48b7029dc69c52763"
+    },
+    {
+      "file": "calibriz.ttf",
+      "sha256": "760539bfedbe24e7853ca8a621d9cb1f3de52036c116e81aae36b33c4ab60a7c"
+    },
+    {
+      "file": "arial.ttf",
+      "sha256": "edfbd22a3d088fc2f5d7c79b8c9c732df6dc878a60f0a80be0f92a3c7a634404"
+    }
+  ],
+  "human_review": false,
+  "native_powerpoint_tested": false,
+  "figure_png_device": "grDevices::png(type=\"cairo-png\")"
+}

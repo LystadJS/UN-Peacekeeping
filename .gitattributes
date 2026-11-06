@@ -1,0 +1,4 @@
+# Preserve generated artifact bytes and avoid text line-ending transformations.
+*.pdf binary
+*.pptx binary
+*.png binary

@@ -1,5 +1,7 @@
 # Reproduce the quarterly pilot
 
+For a clean end-to-end run from retained originals, use the [clean rebuild runbook](clean_rebuild_runbook.md). The commands below describe individual stages; the isolated workflow has now been executed and independently compared.
+
 Run R from the repository root with the acquired, hashed original inputs still in the ignored `data/raw/` directory. Source acquisition and the original geographic audit must already be complete; see the Week 1 runbook. Package versions are recorded in the pilot and dynamic run metadata. Installed packages and raw data are not distributed in Git.
 
 ## Panel and descriptive measurement audit

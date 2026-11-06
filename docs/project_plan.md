@@ -25,7 +25,7 @@ Checked items have evidence in the current repository. Unchecked items may have 
 - [x] Record source URLs, versions, retrieval dates, file hashes and applicable use requirements. Evidence: source manifest; unresolved Geo-PKO redistribution permission is documented.
 - [x] Preserve original files separately from processed data. Evidence: ignored `data/raw/` and `data/interim/`.
 - [ ] Create a data dictionary documenting variable definitions, units, missing values and transformations.
-- [ ] Establish an R project with relative paths, fixed random seeds and recorded package versions. Project and seed exist; a tested, locked analysis environment remains pending.
+- [x] Establish an R project with relative paths, fixed seeds and recorded packages. The clean run verified exact installed-package versions and hashes in an isolated Windows/R library; source reinstall and cross-platform restoration remain untested.
 
 ### Coverage and measurement audit
 
@@ -231,7 +231,7 @@ Evidence: portfolio/research_memo.pdf (four pages), portfolio/scott_discussion.p
 
 ### Reproducibility and final acceptance
 
-- [ ] Run the workflow from original inputs through final tables and figures in one clean environment. Individual stages have been executed; a locked clean rebuild remains open.
+- [x] Run the active revised workflow from retained original inputs through final tables, figures, memo and deck in an isolated environment. Evidence: docs/clean_rebuild_results.md; 383 scientific comparisons passed. This is an installed-binary environment reproduction, not a fresh source installation.
 - [x] Confirm source versions, random seeds and package environments are recorded.
 - [x] Verify every numerical statement against the saved analysis outputs.
 - [x] Document failed models, exclusions, deviations and unresolved discrepancies.

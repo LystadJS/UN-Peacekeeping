@@ -4,7 +4,7 @@
 
 Prepared for Marc A. Scott | 6 November 2026
 
-**The pilot does not establish a protective or harmful deployment association.** It provides a reproducible assessment of what a multilevel count model can recover, where that recovery fails, and how measurement assumptions affect interpretation. Recorded conflict history modestly improves retrospective prediction, but the average gain is concentrated geographically. The contribution is a methodological application with an empirical case, rather than a new identification result.
+**The pilot does not establish a protective or harmful deployment association.** It provides a reproducible assessment of what a multilevel count model can recover, where that recovery fails, and how measurement assumptions affect interpretation. The history-adjusted model modestly improves retrospective prediction, but the average gain is concentrated geographically. The contribution is a methodological application with an empirical case, rather than a new identification result.
 
 ## Scope and measurement
 
@@ -24,7 +24,7 @@ Locality-specific deployment slopes were not fitted. Only eight of the nine reta
 
 ## What simulation establishes
 
-Simulation preceded empirical fitting. An initial fixed-design experiment used 800 fits. The subsequent dynamic evaluation used the actual nine-locality exposure schedule with synthetic counts, known coefficients and explicit initial histories. It retained 1,400 fits across 1,200 generated panels; two estimators were applied to the same 200 prehistory panels. The ordinary model was tested under favorable and null conditions, correlated prehistory, responsive deployment and differential recording. Each scenario used 200 replications.
+Simulation preceded empirical fitting. An initial fixed-design experiment used 800 fits. The subsequent dynamic evaluation used the actual nine-locality exposure schedule as a base, with synthetic counts, known coefficients and explicit initial histories; the selection scenario perturbed that schedule. It retained 1,400 fits across 1,200 generated panels; two estimators were applied to the same 200 prehistory panels. The ordinary model was tested under favorable and null conditions, correlated prehistory, responsive deployment and differential recording. Each scenario used 200 replications.
 
 ![Simulation recovery across controlled and adverse scenarios](figures/figure_2_simulation_recovery_memo.png)
 
@@ -56,7 +56,7 @@ Conditional count simulations reproduced the inspected history-model summaries, 
 
 ## Prediction and discussion
 
-Expanding training windows predicted 2019 Q1 through 2023 Q4, using training-only exposure means and preceding-quarter outcomes. All 40 fits were usable, producing 180 held-out forecasts per model. History improved mean log score by 0.0429 and performed better in 14 of 20 quarters. Only four of nine locality averages improved; excluding Irumu's scores reversed the aggregate advantage. This concentration check changes score aggregation without refitting the models.
+Expanding training windows predicted 2019 Q1 through 2023 Q4, using training-only exposure means and preceding-quarter outcomes. All 40 fits were usable, producing 180 held-out forecasts per model. The history model improved mean log score by 0.0429 and performed better in 14 of 20 quarters. Only four of nine locality averages improved; excluding Irumu's scores reversed the aggregate advantage. This concentration check changes score aggregation without refitting the models.
 
 | Held-out metric | Baseline | History |
 |---|---:|---:|

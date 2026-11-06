@@ -17,13 +17,13 @@
   "artifacts": [
     {
       "file": "portfolio/research_memo.pdf",
-      "bytes": 299065,
-      "sha256": "bb33e02a97ec2ddab3bb3f12cd036edd29f97c9f2efe83f4a0f180fee7b54e7b"
+      "bytes": 282054,
+      "sha256": "9cb1dcb52770d9a69ab291d7fceec2f0288f14ff778ef323a5ead0554f10af3b"
     },
     {
       "file": "portfolio/scott_discussion.pptx",
-      "bytes": 56050,
-      "sha256": "ea1ce76bed11e4373839970d77f17c9c6dbcbbee5cf6d258fd0a08f77b59c59f"
+      "bytes": 56132,
+      "sha256": "64c1c5368d021a14a2ea3c6265c7700d31aa237177dccf8fb8cdeeac009553d3"
     }
   ]
 }

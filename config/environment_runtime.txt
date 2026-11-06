@@ -1,0 +1,8 @@
+R version: 4.5.3
+Platform: x86_64-w64-mingw32
+R executable: C:/PROGRA~1/R/R-45~1.3/bin/x64/Rscript.exe
+Prepared UTC: 2026-11-06 17:34:18 UTC
+Method: offline copy of installed packages; SHA256 of every package file checked before/after copy.
+Not a network reinstall, source rebuild, renv restore, or portable cross-platform binary bundle.
+Copied packages: 85
+R-bundled dependencies: 19

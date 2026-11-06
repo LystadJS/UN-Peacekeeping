@@ -20,6 +20,8 @@ Start with the [combined evaluation findings](docs/quarterly_evaluation_findings
 
 The [research discussion portfolio](portfolio/README.md) now includes a four-page memo, five-slide editable deck, and final figures using the saved findings. Independent human figure review and prospective validation remain open.
 
+The [clean rebuild](docs/clean_rebuild_results.md) reproduced the active workflow from retained originals in an isolated, hash-verified Windows/R package environment. All 383 scientific comparisons passed. Use the [clean-run instructions](docs/clean_rebuild_runbook.md); human review remains outstanding.
+
 ## Start here
 
 For the active revision, use the [quarterly runbook](docs/quarterly_runbook.md), [freshness audit](docs/quarterly_freshness_audit.md), and [predictor-design diagnostics](docs/quarterly_design_diagnostics.md). The older starter commands below remain useful for the original scaffold, not as evidence that its full model has been validated.
@@ -32,7 +34,7 @@ For the active revision, use the [quarterly runbook](docs/quarterly_runbook.md),
 
 For initial setup, `source("scripts/prepare_week_1.R")` creates ignored directories and records the environment. Acquisition and audit commands are in the findings. The original [feasibility gate](docs/feasibility_decision.md) led to the authorized quarterly revision; current readiness is recorded in `data/pilot_validation_status.json`.
 
-Only dplyr is required for the initial simulation. Planned packages are ggplot2 (figures), glmmTMB (negative-binomial mixed models), sf (spatial joins), and renv (a versioned environment once fitting dependencies are installed and tested). No lockfile is supplied or reproducibility of an untested package environment implied.
+Only dplyr is required for the initial simulation. The active pilot uses ggplot2, glmmTMB and sf, among the dependencies pinned in config/environment_packages.csv. An isolated offline copy of the exact installed Windows/R packages has been tested; fresh source installation, renv restoration and cross-platform portability have not.
 
 ## Repository structure
 

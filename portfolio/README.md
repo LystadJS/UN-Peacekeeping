@@ -8,7 +8,7 @@ Prepared on 6 November 2026 for discussion with Marc A. Scott. The portfolio pre
 - [Five-slide discussion deck](scott_discussion.pptx): editable evidence and speaker notes for a short discussion. [Discussion outline](discussion_outline.md).
 - [Final figures](figures/): publication-ready PNG and PDF exports with aggregate chart data.
 
-The central finding is an inconclusive common deployment-strength association. History improves retrospective prediction modestly on average, with gains concentrated in a few localities. Timing and recording assumptions remain consequential. No locality-specific deployment slopes or protection rankings are presented.
+The central finding is an inconclusive common deployment-strength association. The history model improves retrospective prediction modestly on average, with gains concentrated in a few localities. Timing and recording assumptions remain consequential. No locality-specific deployment slopes or protection rankings are presented.
 
 ## Figure guide
 
@@ -29,3 +29,5 @@ Rebuild figures with `scripts/build_portfolio_figures.R`. The memo and deck have
 No outreach is included. Independent human interpretation of the central figures remains a separate acceptance step. Automated checks and agent review do not satisfy that requirement.
 
 See the [validation record](../docs/portfolio_validation.md) and [artifact manifest](artifact_manifest.json). Run the bundled Python interpreter on scripts/check_portfolio_artifacts.py to recheck page/object counts and hashes. The deck builder depends on the recorded Codex presentation runtime; native PowerPoint behavior has not been tested.
+
+The [clean reproduction and final audit](../docs/clean_rebuild_results.md) rebuilt the scientific workflow and presentation artifacts. It corrected model-attribution wording, the responsive-selection description, and implicit PNG-renderer selection. Scientific findings are unchanged; human review remains outstanding.

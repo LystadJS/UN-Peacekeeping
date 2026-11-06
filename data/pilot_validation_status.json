@@ -45,5 +45,8 @@
   "portfolio_prepared": true,
   "portfolio_memo_pages": 4,
   "portfolio_deck_slides": 5,
-  "independent_human_figure_review_complete": false
+  "independent_human_figure_review_complete": false,
+  "clean_end_to_end_reproduction_complete": true,
+  "clean_reproduction_comparisons_passed": 383,
+  "reproduction_environment_scope": "R 4.5.3 Windows; isolated verified installed-package copy; fresh source installation and cross-platform restore untested"
 }
