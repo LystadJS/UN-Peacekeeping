@@ -1,0 +1,7 @@
+"model","lag_quarters","correlation"
+"baseline",1,0.21551195518209
+"baseline",2,0.288163588954773
+"baseline",4,0.133154061051672
+"history",1,-0.131074920247626
+"history",2,0.189326965552467
+"history",4,0.0850156937513663

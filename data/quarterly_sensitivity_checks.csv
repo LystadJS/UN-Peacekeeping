@@ -1,0 +1,8 @@
+"check","passed"
+"primary_outcome_reproduced",TRUE
+"primary_history_reproduced",TRUE
+"baseline_fit_reproduced",TRUE
+"log_linear_offset_verified",TRUE
+"age_three_paired_sample_identical",TRUE
+"timing_does_not_fill_unknowns",TRUE
+"all_reporting_probabilities_valid",TRUE

@@ -6,7 +6,7 @@
 
 Checked items have evidence in the current repository. Unchecked items may have scaffolding but have not met their acceptance conditions. Change status only when an evidence path can be recorded. See [Week 1 runbook](week_1_runbook.md), [research protocol](research_protocol.md), and [decision log](decision_log.md).
 
-**Authorized scope revision:** the active pilot is 2016–2023 quarterly, with a common listed-strength slope in 19 candidate composites and nine complete-history localities. Monthly binary-presence models, the original eight-cell heterogeneity design and locality-specific slope recovery are deferred extensions, not requirements that have already been satisfied. The [quarterly protocol](quarterly_protocol.md) controls current modeling. The core and ordinary dynamic simulation gates passed, panel checks passed, and the bounded baseline/history fits are complete. Full empirical evaluation remains open. An independent review and parallel follow-up work began on 2026-11-06.
+**Authorized scope revision:** the active pilot is 2016–2023 quarterly, with a common listed-strength slope in 19 candidate composites and nine complete-history localities. Monthly binary-presence models, the original eight-cell heterogeneity design and locality-specific slope recovery are deferred extensions, not requirements that have already been satisfied. The [quarterly protocol](quarterly_protocol.md) controls current modeling. The core and ordinary dynamic simulation gates passed, panel checks passed, and the bounded baseline/history fits are complete. The requested residual, influence, sensitivity and retrospective prediction evaluation is complete; unresolved model limitations and portfolio tasks remain open. See quarterly_evaluation_findings.md. An independent review and parallel follow-up work began on 2026-11-06.
 
 ## 1. Data audit and feasibility — Week 1
 
@@ -142,64 +142,64 @@ The common-strength core passed its favorable/null gate. This does not validate 
 - [x] Add deployment and prespecified conflict-history variables. Evidence: initial empirical results.
 - [x] Distinguish within-locality deployment associations from between-locality differences. Evidence: fitted history formula.
 - [ ] Fit locality-specific deployment slopes only where the design supports them.
-- [ ] Document estimator settings, convergence information and uncertainty calculations.
+- [x] Document estimator settings, convergence information and uncertainty calculations.
 
 ### Diagnostics and validation
 
-- [ ] Examine overdispersion, zero counts and extreme-event reproduction.
-- [ ] Examine residual temporal and spatial dependence.
-- [ ] Check singularity, unstable variance estimates and influential localities.
-- [ ] Evaluate predictions using rolling temporal validation.
-- [ ] Compare predictive log scores and interval coverage against the baseline.
-- [ ] Assess performance in high-violence periods, alongside aggregate performance.
-- [ ] Ensure validation does not use future information.
-- [ ] Describe validation as forecasting recorded violence, not unobserved violence.
+- [x] Examine overdispersion, zero counts and extreme-event reproduction.
+- [x] Examine residual temporal and spatial dependence.
+- [x] Inspect random-intercept variance, numerical boundary flags and locality/year influence. No near-zero SD among 36 inspected fits; material variance shifts and small-cluster uncertainty remain.
+- [x] Evaluate predictions using rolling temporal validation.
+- [x] Compare predictive log scores and interval coverage against the baseline.
+- [x] Assess performance in high-violence periods, alongside aggregate performance.
+- [x] Exclude held-out outcomes and future exposure means from fitting. Full-period locality selection and retrospective release availability remain explicit limitations; this is not fully prospective validation.
+- [x] Describe validation as forecasting recorded violence, not unobserved violence.
 
 ### Outputs and visualizations
 
 - [ ] Create small-multiple locality trajectories with observed deployment dates and predictive intervals.
 - [ ] Plot partially pooled deployment coefficients with uncertainty and deployment-change information.
-- [ ] Show predictive performance across validation periods.
-- [ ] Retain informative null results and poorly supported heterogeneity.
+- [x] Show predictive performance across validation periods.
+- [x] Retain the inconclusive common association; locality-specific heterogeneity remains deferred, not estimated.
 
 ### Evaluation and progress gate
 
-- [ ] Resolve or disclose every material computational and diagnostic issue.
-- [ ] Confirm that conclusions are not driven by one locality or exceptional period.
-- [ ] Determine whether history improves prediction and whether varying slopes add supported information.
-- [ ] Avoid interpreting prediction gains or adjusted coefficients as causal identification.
+- [x] Resolve computational issues and disclose material diagnostic limitations within the evaluated scope. Residual temporal structure and concentrated predictive gains remain.
+- [x] Assess locality/year influence. All deletion intervals remain inconclusive, but point estimates shift; the predictive gain reverses when Irumu scores are omitted. Uniform stability is not established.
+- [x] Assess history prediction: a small average gain is concentrated geographically. Varying slopes remain deferred and unvalidated.
+- [x] Avoid interpreting prediction gains or adjusted coefficients as causal identification.
 
 ## 5. Observation uncertainty and robustness — Week 3
 
 ### Reporting sensitivity
 
-- [ ] Define the assumed relationship between underlying and recorded events.
-- [ ] Specify hypothetical recording probabilities and their dependence on deployment and risk.
-- [ ] Explain which assumptions are externally informed and which are illustrative.
-- [ ] Recalculate conclusions across the prespecified scenarios.
-- [ ] Identify assumptions under which estimated associations change direction or become inconclusive.
-- [ ] Separate uncertainty within each scenario from differences across scenarios.
-- [ ] State explicitly that reporting sensitivity does not resolve deployment confounding.
+- [x] Define the assumed relationship between underlying and recorded events.
+- [x] Specify hypothetical recording probabilities and their dependence on deployment and risk.
+- [x] Explain which assumptions are externally informed and which are illustrative.
+- [x] Recalculate conclusions across the prespecified scenarios.
+- [x] Identify assumptions under which estimated associations change direction or become inconclusive.
+- [x] Separate uncertainty within each scenario from differences across scenarios.
+- [x] State explicitly that reporting sensitivity does not resolve deployment confounding.
 
 ### Timing and geographic sensitivity
 
-- [ ] Compare monthly and quarterly aggregation where feasible.
-- [ ] Test alternative deployment-change timing assumptions consistent with source-map intervals.
-- [ ] Repeat analyses excluding especially stale deployment observations.
-- [ ] Test sensitivity to uncertain event dates and locations.
-- [ ] Compare primary and secondary outcomes without treating them as interchangeable measures.
+- [x] Compare an exploratory monthly analogue with quarterly results. Different exposure/history horizons and unvalidated monthly uncertainty prevent treating it as the same estimand.
+- [x] Test alternative deployment-change timing assumptions consistent with source-map intervals.
+- [x] Repeat analyses excluding especially stale deployment observations.
+- [x] Test sensitivity to uncertain event dates and locations.
+- [x] Compare primary and secondary outcomes without treating them as interchangeable measures.
 
 ### Outputs and visualizations
 
-- [ ] Plot deployment associations against assumed relative recording probabilities.
-- [ ] Create a specification comparison showing estimates under the main timing and inclusion rules.
-- [ ] Produce a robustness table distinguishing stable findings, assumption-dependent findings and unresolved results.
+- [x] Plot deployment associations against assumed relative recording probabilities.
+- [x] Create a specification comparison showing estimates under the main timing and inclusion rules.
+- [x] Produce a robustness table distinguishing stable findings, assumption-dependent findings and unresolved results.
 
 ### Evaluation and progress gate
 
-- [ ] Identify which conclusions survive the prespecified alternatives.
-- [ ] Label sensitivity results as conditional, rather than corrections known to recover truth.
-- [ ] Document additional evidence that would most reduce the remaining uncertainty.
+- [x] Identify which conclusions survive the prespecified alternatives.
+- [x] Label sensitivity results as conditional, rather than corrections known to recover truth.
+- [x] Document additional evidence that would most reduce the remaining uncertainty.
 
 ## 6. Research portfolio and practical impact — Week 4
 

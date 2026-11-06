@@ -1,0 +1,11 @@
+"model","metric","reference_replicates","observed","reference_median","reference_lower","reference_upper","outside_reference"
+"baseline","zero_fraction",2000,0.458333333333333,0.444444444444444,0.402777777777778,0.486111111111111,FALSE
+"baseline","total_events",2000,1248,1221,1001,1476.025,FALSE
+"baseline","maximum_events",2000,48,79,46,160,FALSE
+"baseline","quantile_95",2000,24.5,21,16,27.75625,FALSE
+"baseline","quarters_at_least_20",2000,23,16,10,22,TRUE
+"history","zero_fraction",2000,0.458333333333333,0.4375,0.392361111111111,0.479166666666667,FALSE
+"history","total_events",2000,1248,1253.5,1088.975,1439,FALSE
+"history","maximum_events",2000,48,69,45,117,FALSE
+"history","quantile_95",2000,24.5,23.5,18.25,29.5,FALSE
+"history","quarters_at_least_20",2000,23,19,13,24,FALSE

@@ -1,0 +1,6 @@
+"path","bytes","sha256","recorded_utc"
+"outputs/quarterly_pilot/panel/quarterly_panel_complete_exposure.rds",5234,"584c847da48a920525331db191301f99cbc3f5f0baa8827393ae7c8347d74c48","2026-11-06 15:59:10 UTC"
+"outputs/quarterly_pilot/panel/quarterly_panel_all_localities.rds",7926,"83fadd09de7cbb35ec0543431bbc474da0f5d5e44e512e18755d89061654235c","2026-11-06 15:59:10 UTC"
+"outputs/quarterly_pilot/empirical/baseline_model.rds",49960,"5228a5edc2ecd0a8fe357f4c6d074eda9bc5c21903ca086d91c61efde849ff59","2026-11-06 15:59:10 UTC"
+"outputs/quarterly_pilot/empirical/history_model.rds",57392,"b14a257c261a3e18cdc8ef48d7154be5e00c990b2632a325f723e5a811ea4159","2026-11-06 15:59:10 UTC"
+"outputs/quarterly_pilot/empirical/gate_at_fit.json",971,"9e89a61f0017d2b9e66c8dcfc6adcf46da1df68681cee48ff75657258d1ab487","2026-11-06 15:59:10 UTC"

@@ -1,0 +1,4 @@
+"scenario","family_group","outcome","rows","localities","event_total","outcome_total","rank","columns","estimate","se","lower_95","upper_95","convergence","positive_hessian","random_intercept_sd","usable","q_min","q_max","messages","lambda"
+"linear_q_500","reporting_check","recorded_events",288,9,1248,1248,12,12,0.560556290419643,0.324961048456703,-0.0763556609338698,1.19746824177316,0,TRUE,0.629045624625635,TRUE,0.107177346253629,0.8,"",-0.693147180559945
+"linear_q_1000","reporting_check","recorded_events",288,9,1248,1248,12,12,-0.1325914752572,0.324960773355458,-0.769502887422181,0.504319936907782,0,TRUE,0.629047171445222,TRUE,0.8,0.8,"",0
+"linear_q_2000","reporting_check","recorded_events",288,9,1248,1248,12,12,-0.82572654981885,0.32496112026322,-1.46263864191055,-0.188814457727149,0,TRUE,0.629048086125294,TRUE,0.107177346253629,0.8,"",0.693147180559945

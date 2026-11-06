@@ -1,0 +1,29 @@
+# Independent evaluation review
+
+Reviewed 2026-11-06 by an agent that authored the predictive evaluation but did not author the residual/influence or sensitivity code. This is an independent computational/code review of those other components, not an independent human substantive review. No models were refitted and no specification was selected during this review.
+
+## Residual diagnostics and influence
+
+Inspected `R/diagnostic_helpers.R`, `scripts/diagnose_quarterly_models.R`, the dated protocol, aggregate CSVs, and results narrative. The randomized residual transformation uses the NB2 CDF interval for each discrete count. Temporal pairs match the same locality and explicit quarter lag. Conditional count simulations hold fitted locality effects, parameters and observed history regressors fixed, as disclosed. Their reference envelopes therefore do not reproduce dynamic trajectories or calibrated goodness-of-fit testing; the results narrative correctly preserves those limits.
+
+The history lag-2 residual median is 0.1403 against upper conditional reference 0.1137, with observed-jitter range 0.0552–0.2068. This supports the stated unresolved warning, not a formal rejection at a nominal test level. The deterministic Pearson check is properly identified as a post-readout exploratory addition.
+
+The spatial implementation uses a zero-diagonal symmetric binary two-nearest-centroid graph. As a projection check, transformed the saved EPSG:6933 centroids to EPSG:4326 and recomputed spherical distances with `sf`/S2. The projected and spherical graphs both contain **11 undirected edges, with zero differing edges**. Recomputing the mean Moran statistic on the same 200 observed residual draws consequently gives identical medians: baseline −0.12536 and history −0.12077. This verifies this projection sensitivity only; it does not establish that every plausible neighborhood definition gives the same result. The negative-statistic interpretation and restrictions to nine retained localities are accurately disclosed.
+
+Independently checked that all 17 history-model deletion intervals contain zero and that coefficient ranges match the narrative: locality omissions −0.30585 to +0.02773; year omissions −0.53539 to +0.05771. Original histories and centering are retained, so the analysis measures case deletion rather than reconstructed missing histories or prediction. Deleting the sole Ituri locality changes province support, and this is disclosed. Calling the results inconclusive is supported; calling the association direction stable would not be supported.
+
+## Reporting and measurement sensitivity
+
+Inspected the dated sensitivity protocol and `scripts/analyze_quarterly_sensitivity.R`, including its later recorded-history-risk amendment. For the log-linear scenario, `log(q)` is a constant plus lambda times lagged strength. Since lagged strength equals its within and between components, the exact coefficient shift is minus lambda and the intercept absorbs normalization. The stated sign/interval threshold directions are correct. This curve is an algebraic sensitivity translation; it provides no new empirical evidence about recording probabilities.
+
+For all nine joint reporting-risk scenarios, independently recomputed probabilities from the direct logistic formula using within-strength and centered `log1p(events_lag)`. Saved `log_q`, reported probability minima/maxima, and saved-model strength coefficients/standard errors agree numerically. All inspected coefficient matrices are finite. The risk term is a proxy based on recorded past events, not observed latent risk. The procedure leaves recorded outcomes unchanged and fits an assumed offset; it does not establish a known correction for selective reporting or deployment confounding.
+
+Timing code requires finite positive endpoint stocks tracing to the corresponding map dates, changes only already-listed intervening months, leaves actual map-date observations intact, and preserves unknownness. It intentionally uses later maps retrospectively and is not eligible as a forecasting input. The three-month-age comparison includes an exactly matched-row reference, which separates sample removal from exposure changes. Expanded event-precision scenarios rebuild prior histories; the monthly and fatality alternatives change the target and are explicitly not covered by the quarterly event-count simulation validation.
+
+No material implementation or interpretation error was identified in the reviewed components. The sensitivity results narrative was not yet saved when this review was written; its final claims should remain tied to the inspected aggregate outputs and the distinctions above. The parent separately recomputed predictive means and case-deletion model summaries; this note does not substitute self-review for that independent predictive verification.
+
+**Assessment: share with caveats within the reviewed scope.** Remaining temporal structure, geographically concentrated prediction gains, recording assumptions, deployment timing, and case-deletion sensitivity are analytical limitations that should accompany the results. Completion of these checks does not establish model adequacy for causal or operational decisions.
+
+## Final integration check
+
+The parent subsequently read the completed sensitivity narrative against the saved aggregate tables and inspected the specification figure. It independently reconstructed all 360 saved predictive means from fixed-effect design matrices and fitted locality intercepts, checked all 40 training frames and NB2 log probabilities, verified all 17 history influence summaries against model objects, and confirmed unchanged primary-input hashes. All three workflow test suites and the separate cross-check passed. The additional saved-variance inspection covers 36 models without refitting. These are computational checks, not an independent human reading of the scientific portfolio.

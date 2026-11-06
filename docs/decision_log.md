@@ -35,3 +35,13 @@ The quarterly panel reconciled 608 rows/2,166 events; the nine-locality sample h
 The ordinary dynamic model passed all prespecified favorable/null and correlated-prehistory gates across 1,400 retained fits including diagnostic alternatives. An overlapping-seed null extension was superseded with a disjoint-seed run; its records remain local and excluded. Independent recomputation confirmed all retained summaries. Selection/reporting stress results retain material bias.
 
 A documented measurement decision permitted the two bounded baseline/history fits under the unchanged five-month rule. Both converged with positive Hessians. The common within-strength estimate is −0.1326 (95% Wald interval −0.7695 to 0.5043); this is an inconclusive conditional association. Full diagnostics, sensitivity and prediction remain open. See quarterly_empirical_results.md. Raw data and row-level outputs remain local.
+
+## Follow-up evaluation completed — 2026-11-06
+
+The user authorized parallel residual diagnostics, influence checks, sensitivity analysis, and predictive evaluation. Detailed protocols were recorded before the main runs; auxiliary Pearson residuals, score-concentration summaries and the joint reporting grid are explicitly documented as follow-up additions. No more favorable primary specification or sample was selected after results.
+
+All 34 deletion fits, 44 sensitivity fits, and 40 rolling prediction fits met their numerical checks. The history model retains a lag-2 residual warning. All 17 history deletion intervals and all 11 measurement/secondary/monthly intervals include zero, but deployment-timing alternatives reverse the point estimate. Reporting-offset conclusions depend on assumed recording mechanisms; linear-offset thresholds are algebraic rather than estimated reporting rates.
+
+History improves mean held-out log score by 0.0429 across 180 forecasts, with 14 of 20 favorable quarters but only four of nine favorable locality averages. Removing Irumu scores reverses the mean gain. Both plug-in 95% intervals cover 171/180 outcomes. This is retrospective prediction in the selected sample, not full predictive uncertainty or operational validation.
+
+Independent checks reconstructed prediction means and probabilities, verified training-only information, confirmed primary-input hashes, checked saved model summaries, and audited timing/source boundaries. A source-map summary-ordering check was repaired without changing numerical findings. See quarterly_evaluation_findings.md and quarterly_evaluation_peer_review.md. Remaining work concerns scientific refinement, external/human review and portfolio preparation rather than unexecuted checks in this requested evaluation scope.

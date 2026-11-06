@@ -38,3 +38,24 @@ These fit synthetic outcomes only. They retain failures and warnings in local pe
 The status updater checks all required ordinary-model scenarios and never automatically enables empirical fitting. A changed estimator, eligibility rule, or history treatment requires a documented protocol change and matching validation. Predictive evaluation additionally requires training-only exposure centering and an explicit treatment of retrospective event-reporting availability.
 
 The bounded empirical protocol and its measurement decision were subsequently recorded in `docs/empirical_quarterly_protocol.md`. With both readiness flags explicitly true, run `scripts/fit_quarterly_empirical.R`, then `scripts/summarize_quarterly_empirical.R`. Refreshing validation deliberately closes readiness again; it preserves the historical fitted-model flag and requires the measurement decision to be reaffirmed before another empirical run.
+
+## Residual, sensitivity, and predictive evaluation
+
+Read `docs/quarterly_evaluation_scope.md` and the three follow-up protocols. With the audited panel and saved primary models available, run:
+
+```r
+source("scripts/record_evaluation_inputs.R")
+source("scripts/diagnose_quarterly_models.R")
+source("tests/run_quarterly_diagnostic_checks.R")
+source("scripts/summarize_quarterly_variance.R")
+source("scripts/analyze_quarterly_sensitivity.R")
+source("tests/run_quarterly_sensitivity_checks.R")
+source("scripts/validate_quarterly_prediction.R")
+source("tests/run_quarterly_prediction_checks.R")
+source("scripts/check_quarterly_evaluation.R")
+source("scripts/record_quarterly_evaluation_status.R")
+```
+
+The three fitting/diagnostic workflows are independent and use distinct output directories. Their tests and the final cross-check require completed outputs. `scripts/summarize_quarterly_prediction.R` can refresh score aggregates and figures from saved predictions without refitting. The input manifest fingerprints the primary panel and models; the cross-check verifies that evaluation did not alter them.
+
+Tracked CSVs contain aggregate findings. Fitted objects, event-level and locality-quarter inputs, residual draws and figures remain local under `outputs/quarterly_diagnostics/`, `outputs/quarterly_sensitivity/`, and `outputs/quarterly_prediction/`. Their session files record the loaded package environments. Completion flags mean the specified evaluations were performed; they do not certify that residual dependence, measurement bias, or operational uncertainty were resolved.

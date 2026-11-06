@@ -10,13 +10,13 @@ Week 1 acquisition and measurement audit are complete, with a **revise-design** 
 
 The authorized revision is the [2016–2023 quarterly pilot](docs/quarterly_protocol.md), using a common within-locality listed-strength slope. See the [absence investigation](docs/deployment_absence_review.md). The required ordinary-history gates have passed; bounded empirical fits follow the documented measurement decision.
 
-The [core simulation validation](docs/quarterly_validation_results.md) passed favorable/null recovery checks across 800 total fits. Reporting and hidden-risk stress tests show large failures of structural-effect recovery. The subsequent 1,400-fit dynamic validation also passed its required ordinary-model gates; the full empirical evaluation remains incomplete.
+The [core simulation validation](docs/quarterly_validation_results.md) passed favorable/null recovery checks across 800 total fits. Reporting and hidden-risk stress tests show large failures of structural-effect recovery. The subsequent 1,400-fit dynamic validation also passed its required ordinary-model gates. The requested follow-up empirical evaluation is now complete, with unresolved limitations documented rather than treated as passed diagnostics.
 
 The active pilot covers eastern DRC, 2016–2023, at a consistent composite-locality–quarter level. The primary outcome is recorded UCDP one-sided violence event counts; civilian fatalities are a separate secondary outcome. These are qualifying lethal organized violence events, not all civilian harm. The earlier monthly design is retained as historical planning context.
 
 The [quarterly panel audit](docs/quarterly_panel_audit.md) reconciles 608 rows and 2,166 retained events; the nine-locality complete-exposure sample contains 288 rows and 1,248 events. See the [independent computational review](docs/quarterly_independent_review.md) and [dynamic validation protocol](docs/dynamic_quarterly_protocol.md). Complete exposure depends on permitting source maps up to five months old: a three-month limit leaves no locality with uninterrupted coverage. Unknown deployment remains missing.
 
-Read the [dynamic results](docs/dynamic_quarterly_results.md) and [initial empirical results](docs/quarterly_empirical_results.md). The common strength interval includes both directions; residual, influence, robustness, and predictive evaluation remain unfinished.
+Start with the [combined evaluation findings](docs/quarterly_evaluation_findings.md). All 17 history-model deletion intervals and all 11 measurement/secondary/monthly specification intervals include zero. Residual temporal structure remains. Across 20 rolling forecast quarters, history has a small mean log-score gain (+0.0429), but removing Irumu's scores reverses that average advantage. Reporting sensitivity remains assumption-dependent; no causal protection effect or operational forecasting readiness is established.
 
 ## Start here
 
