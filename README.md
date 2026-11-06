@@ -8,6 +8,10 @@ This project asks how the association between peacekeeping presence and subseque
 
 Week 1 acquisition and measurement audit are complete, with a **revise-design** decision before modeling. Read [the findings](docs/week_1_audit.md) and [feasibility decision](docs/feasibility_decision.md). Sparse binary deployment changes and unverified absence coding require attention. No empirical model or causal peacekeeping effect is claimed.
 
+The authorized revision is the [2016–2023 quarterly pilot](docs/quarterly_protocol.md), using a common within-locality listed-strength slope. See the [absence investigation](docs/deployment_absence_review.md). Empirical fitting remains disabled while the revised gates are assessed.
+
+The [core simulation validation](docs/quarterly_validation_results.md) passed favorable/null recovery checks across 800 total fits. Reporting and hidden-risk stress tests show large failures of structural-effect recovery. Dynamic history adjustment and the full empirical workflow remain behind separate gates.
+
 The provisional study is eastern DRC, 2015–2023, at a consistent administrative area–month level. The primary outcome is recorded UCDP one-sided violence event counts; civilian fatalities are a separate secondary outcome. These are qualifying lethal organized violence events, not all civilian harm.
 
 ## Start here

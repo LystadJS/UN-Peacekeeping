@@ -1,5 +1,7 @@
 # Research protocol — provisional
 
+**Superseded specification:** the user authorized the [2016–2023 quarterly protocol](quarterly_protocol.md). Use that revision for current work; the monthly/binary model below is retained as historical proposal context.
+
 ## Scope and interpretation
 
 Estimate conditional within-locality deployment associations and their variation, with predictive validation. Deployment responds to conflict, recording may depend on deployment, and unmeasured confounding remains possible. Neither lagging deployment nor partial pooling establishes causality. The simulation has known structural effects; empirical slopes do not inherit that interpretation.

@@ -1,0 +1,4 @@
+map_id,publication_month,review_scope,observation,implication,review_status
+4412_Rev18,2016-01,Visual review of source report page 18,Legend distinguishes headquarters and formed police from other units; deployment markers visible around Beni Goma Shabunda and Uvira,Mapped positive presence supported at selected locations; not an exhaustive symbol or strength recoding,spot_check_only
+4412_Rev52,2023-11,Visual review of whole map and eastern deployment insets,Headquarters FPU UNMO and troop symbols are distinct; positive units visible at Beni Goma Shabunda and Uvira,Do not equate every mission marker with military personnel,spot_check_only
+4412_Rev18_and_Rev52,2016-01_and_2023-11,Unlisted localities including Djugu Aru and Idjwi,No statement certifying exhaustive locality-level zero deployment was identified,Unlisted status stays unknown; absence of a marker does not certify absence of patrols or operational activity,absence_unresolved

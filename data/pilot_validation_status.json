@@ -1,0 +1,15 @@
+{
+  "protocol": "quarterly_protocol_revision_1",
+  "outcome_period": "2016Q1-2023Q4",
+  "candidate_localities": 19,
+  "complete_history_localities": 9,
+  "synthetic_design_rows": 288,
+  "attempted_simulation_fits": 800,
+  "usable_simulation_fits": 800,
+  "favorable_core_gate": "passed",
+  "null_core_gate": "passed",
+  "absence_certified": false,
+  "history_extension_validated": false,
+  "empirical_models_fitted": false,
+  "empirical_ready": false
+}

@@ -1,9 +1,11 @@
 # Retrieve the declared sources once. Existing nonempty originals are never
 # overwritten; a hash mismatch requires a new version directory and review.
 .libPaths(c(".local_library", .libPaths()))
-sources <- read.csv("config/week_1_sources.csv", stringsAsFactors = FALSE)
-previous <- if (file.exists("data/source_manifest.csv")) {
-  read.csv("data/source_manifest.csv", stringsAsFactors = FALSE)
+catalog_path <- Sys.getenv("SOURCE_CATALOG", "config/week_1_sources.csv")
+manifest_path <- Sys.getenv("SOURCE_MANIFEST", "data/source_manifest.csv")
+sources <- read.csv(catalog_path, stringsAsFactors = FALSE)
+previous <- if (file.exists(manifest_path)) {
+  read.csv(manifest_path, stringsAsFactors = FALSE)
 } else NULL
 options(timeout = 300)
 for (index in seq_len(nrow(sources))) {
@@ -31,5 +33,5 @@ for (index in seq_len(nrow(sources))) {
   sources$retrieved_at_utc[index] <- format(file.info(path)$mtime, "%Y-%m-%dT%H:%M:%SZ", tz = "UTC")
   sources$audit_status[index] <- "acquired_hash_verified"
 }
-write.csv(sources, "data/source_manifest.csv", row.names = FALSE, na = "")
+write.csv(sources, manifest_path, row.names = FALSE, na = "")
 message("Verified ", nrow(sources), " acquired artifacts; originals preserved.")

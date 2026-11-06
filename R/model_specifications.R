@@ -1,4 +1,4 @@
-# Candidate descriptive formulas, not fitted or validated models.
+# Historical monthly/binary candidates; current core pilot formula is below.
 # glmmTMB::nbinom2(link = "log") is the intended family.
 model_formulas <- list(
   baseline = recorded_events ~ factor(month_index) + province_id +
@@ -16,3 +16,7 @@ model_formulas <- list(
 prediction_formula <- recorded_events ~ month_index + month_of_year +
   province_id + presence_within + presence_between + log1p(events_lag) +
   violent_spell_lag + presence_lag2 + (1 | locality_id)
+
+# Current quarterly core model: history additions need a separate dynamic gate.
+quarterly_core_formula <- recorded_events ~ strength_within + strength_between +
+  time_index + season + province + (1 | locality_id)

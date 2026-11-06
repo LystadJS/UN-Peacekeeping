@@ -1,12 +1,14 @@
 # Provisional choices: freeze only after the feasibility audit.
 analysis_config <- list(
-  start_month = as.Date("2015-01-01"),
+  start_month = as.Date("2016-01-01"),
   end_month = as.Date("2023-12-01"),
-  provinces = NULL, # Define eastern DRC explicitly before filtering.
-  boundary_version = NULL, # Select stable geography and retain crosswalks.
-  deployment_measure = "binary_presence", # Strength is a sensitivity candidate.
-  deployment_lag_months = 1L,
+  provinces = c("Nord-Kivu", "Sud-Kivu", "Ituri"),
+  boundary_version = "SALB_2018_city_territory_composites",
+  deployment_measure = "listed_military_strength_per_1000",
+  period = "quarter",
+  deployment_lag_quarters = 1L,
   outcome = "recorded_one_sided_events",
+  core_simulation_validated = TRUE, # Only the fixed-design quarterly core, not history extensions.
   empirical_ready = FALSE,
   seed = 20261105L
 )

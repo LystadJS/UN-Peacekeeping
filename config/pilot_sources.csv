@@ -1,0 +1,4 @@
+source_id,version,local_path,download_url,use_requirements
+monusco_2016_map,4412_Rev18_in_S2016_233,data/raw/map_review/report_2016_233.pdf,https://monusco.unmissions.org/sites/default/files/n1606133.pdf,UN source document kept local; cite map number and report
+monusco_2023_map,4412_Rev52,data/raw/map_review/map_2023_52.pdf,https://www.un.org/geospatial/sites/default/files/files/documents/2023/Nov/monusco_4412_r52_nov23_120.pdf,UN source map kept local; cite UN Geospatial and revision
+monusco_2023_page,retrieved_snapshot,data/raw/map_review/november_2023_page.html,https://www.un.org/geospatial/content/monusco-deployment-november-2023,Official download-page provenance
