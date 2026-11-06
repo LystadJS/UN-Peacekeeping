@@ -1,5 +1,7 @@
 # Implementation roadmap
 
+The [full four-week acceptance plan](project_plan.md) is the controlling task checklist. Begin with the [Week 1 runbook](week_1_runbook.md); its preparation templates do not count as completed audits. The concise implementation sequence below supplements that plan.
+
 1. **Freeze scope and provenance.** Choose geography, releases and licensing; populate source manifest. Deliver a coverage and precision audit before panel construction.
 2. **Build the panel.** Implement version-specific adapters, spatial reconciliation, complete calendar, history construction and map-age diagnostics. Validate totals and distinguish zeros from unknowns.
 3. **Fit the common-slope model.** Install/test glmmTMB, freeze an renv environment, implement calendar alternatives and rolling validation. Deliver diagnostics and count predictions before varying slopes.

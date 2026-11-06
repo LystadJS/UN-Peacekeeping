@@ -1,4 +1,8 @@
-source_id,landing_url,version,retrieved_on,local_path,sha256,license_or_terms,coverage,audit_status
-ucdp_ged,https://ucdp.uu.se/downloads/,,,,,,,pending
-geo_pko,https://www.uu.se/en/department/peace-and-conflict-research/research/research-data/geo-pko-dataset,,,,,,,pending
-administrative_boundaries,,,,,,,,pending
+source_id,artifact_role,landing_url,download_url,candidate_version,acquired_version,retrieved_at_utc,local_path,sha256,license_or_terms,required_citation,coverage,audit_status
+ucdp_ged,data,https://ucdp.uu.se/downloads/,,26.1,,,,,,,,not_acquired
+ucdp_ged_codebook,codebook,https://ucdp.uu.se/downloads/,,26.1,,,,,,,,not_acquired
+geo_pko_map,data,https://www.uu.se/en/department/peace-and-conflict-research/research/research-data/geo-pko-dataset,,2.3,,,,,,,,not_acquired
+geo_pko_month,data,https://www.uu.se/en/department/peace-and-conflict-research/research/research-data/geo-pko-dataset,,2.3,,,,,,,,not_acquired
+geo_pko_codebook,codebook,https://www.uu.se/en/department/peace-and-conflict-research/research/research-data/geo-pko-dataset,,2.3,,,,,,,,not_acquired
+administrative_boundaries,boundaries,,,,,,,,,,,not_selected
+administrative_boundaries_metadata,metadata,,,,,,,,,,,not_selected

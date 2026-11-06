@@ -1,0 +1,240 @@
+# MONUSCO Multilevel Research Pilot
+
+**Goal:** Produce an audited dataset, validated simulation, defensible multilevel analysis, and concise research portfolio suitable for discussing research-assistant work with Dr. Scott.
+
+**Plan recorded:** 2026-11-05 (America/New_York). Weeks indicate sequence and approximate effort, not scheduled dates. Current authorization: save the plan and prepare Week 1. Acquisition, empirical analysis and full simulation evaluation have not begun.
+
+Checked items have evidence in the current repository. Unchecked items may have scaffolding but have not met their acceptance conditions. Change status only when an evidence path can be recorded. See [Week 1 runbook](week_1_runbook.md), [research protocol](research_protocol.md), and [decision log](decision_log.md).
+
+## 1. Data audit and feasibility — Week 1
+
+### Research scope
+
+- [x] Define the primary question: how does the association between deployment and subsequent recorded violence vary across localities? Evidence: README and research protocol.
+- [x] Define the methodological question: when do deployment selection and incomplete reporting distort that association? Evidence: README and research protocol.
+- [x] Set recorded UCDP one-sided violence event counts as the primary outcome. Evidence: research protocol and analysis config.
+- [ ] Define civilian fatalities as a secondary outcome, distinguishing targeted killings from other civilian deaths.
+- [ ] Confirm the geographic scope, administrative unit and provisional 2015–2023 period.
+- [x] Record the intended interpretation: observational associations and predictive performance. Evidence: research protocol.
+
+### Source collection and provenance
+
+- [ ] Obtain Geo-PKO deployment data, UCDP GED, their codebooks and suitable administrative boundaries.
+- [ ] Record source URLs, versions, retrieval dates, file hashes and applicable use requirements.
+- [ ] Preserve original files separately from processed data.
+- [ ] Create a data dictionary documenting variable definitions, units, missing values and transformations.
+- [ ] Establish an R project with relative paths, fixed random seeds and recorded package versions. Project and seed exist; a tested, locked analysis environment remains pending.
+
+### Coverage and measurement audit
+
+- [ ] Inventory observations by locality, month and source.
+- [ ] Check duplicate identifiers, invalid dates, impossible coordinates and inconsistent locality names.
+- [ ] Audit administrative boundary changes and document the geographic crosswalk.
+- [ ] Distinguish observed deployment absence from unknown deployment status.
+- [ ] Preserve deployment-map dates and identify months populated through carry-forward.
+- [ ] Inspect conflict-event date and location precision; define exclusion or aggregation rules.
+- [ ] Identify localities with sufficient deployment changes to support within-locality analysis.
+
+### Outputs and visualizations
+
+- [ ] Produce a source inventory, data dictionary and machine-readable audit table. Preparation templates exist; populated and validated outputs are pending.
+- [ ] Create a locality-by-time coverage heatmap.
+- [ ] Plot deployment observation freshness and intervals between source maps.
+- [ ] Create a geographic overview showing retained localities and uncertain event locations.
+
+### Evaluation and progress gate
+
+- [ ] Resolve every duplicate analysis key and unexplained join expansion.
+- [ ] Account for every excluded record with a documented reason.
+- [ ] Confirm that retained observations can be traced to their sources.
+- [ ] Decide whether monthly timing is defensible or quarterly aggregation should be primary.
+- [ ] Record the feasibility decision: **proceed, narrow the scope, or revise the design**.
+
+## 2. Minimal simulation and model validation — Weeks 1–2
+
+### Minimal data-generating process
+
+- [ ] Simulate repeated monthly observations within localities.
+- [ ] Generate locality-specific baseline violence and overdispersed event counts.
+- [ ] Specify a known common deployment effect and initially independent deployment assignment.
+- [ ] Fit the proposed baseline count model.
+- [ ] Verify that simulated deployment, violence and locality differences match their intended distributions.
+- [ ] Confirm that model coefficients use the same scale and interpretation as the simulation truth.
+
+The starter generator implements several mechanisms, but this stage stays open until distribution and model-recovery checks pass. Its selection-off assignment is persistent over time; add an explicitly independent-assignment favorable case. The baseline without deployment has no deployment coefficient; recovery must use a correctly specified deployment model.
+
+### Challenging scenarios
+
+- [ ] Add deployment responding to prior violence.
+- [ ] Add an incompletely observed risk process influencing deployment and violence.
+- [ ] Add constant versus deployment- and risk-dependent recording probabilities.
+- [ ] Add common versus genuinely heterogeneous deployment effects.
+- [ ] Implement the eight primary combinations of selection, reporting and heterogeneity.
+- [ ] Include a null-effect scenario to assess spurious directional conclusions.
+- [ ] Preserve latent event counts, recorded counts, deployment assignments and true parameters.
+
+### Performance evaluation
+
+- [ ] Run approximately 100 replications per scenario for debugging.
+- [ ] Track convergence, failed fits and computational time; retain failures in the evaluation.
+- [ ] Measure coefficient bias, RMSE and interval coverage.
+- [ ] Measure recovery of between-locality deployment-effect variation.
+- [ ] Measure confidently incorrect directional conclusions.
+- [ ] Increase replications until Monte Carlo uncertainty is sufficiently small for the planned comparisons.
+- [ ] Set evaluation tolerances before the final simulation run.
+
+### Outputs and visualizations
+
+- [ ] Plot estimated deployment coefficients against the known truth.
+- [ ] Create coverage and directional-error panels by scenario.
+- [ ] Produce a concise table identifying conditions under which each model succeeds or fails.
+
+### Evaluation and progress gate
+
+- [ ] Verify acceptable recovery under the correctly specified favorable scenario.
+- [ ] Investigate unexpected failures before interpreting adverse scenarios.
+- [ ] Distinguish computational failure, finite-sample limitations and structural bias.
+- [ ] Freeze a manageable model set for the empirical analysis.
+
+## 3. Analysis panel and protocol — Week 2
+
+### Panel construction
+
+- [ ] Construct the complete eligible locality–time grid.
+- [ ] Aggregate conflict events using the audited geographic and temporal rules.
+- [ ] Distinguish zero recorded events from unavailable or ineligible observations.
+- [ ] Aggregate deployments without counting repeated representations of the same unit twice.
+- [ ] Calculate lagged deployment, prior violence and recent conflict-history variables.
+- [ ] Calculate within-locality deployment deviations and between-locality deployment averages.
+- [ ] Ensure every predictor uses information available before the relevant outcome period.
+- [ ] Verify selected locality–time records manually against their source records.
+
+### Analysis commitments
+
+- [ ] Specify baseline, history-adjusted and varying-slope models.
+- [ ] Define the primary deployment contrast and coefficient interpretation.
+- [ ] Prespecify temporal validation windows, predictive scores and interval levels.
+- [ ] Define how sparse localities, uncertain locations and stale deployments will be handled.
+- [ ] Specify criteria for simplifying unsupported random slopes.
+- [ ] Separate confirmatory analyses from exploratory extensions.
+- [ ] Timestamp the protocol before examining substantive deployment estimates.
+
+### Outputs and visualizations
+
+- [ ] Save the analysis panel with a reproducible construction script.
+- [ ] Produce a sample-flow table showing retention and exclusions.
+- [ ] Plot outcome distributions, deployment variation and usable observations by locality.
+
+### Evaluation and progress gate
+
+- [ ] Confirm unique locality–time keys and reconciled event totals.
+- [ ] Verify that joins have not duplicated events or deployments.
+- [ ] Confirm adequate within-locality deployment variation.
+- [ ] Freeze the panel and protocol; log subsequent changes explicitly.
+
+## 4. Multilevel estimation and predictive evaluation — Week 3
+
+### Model fitting
+
+- [ ] Fit the locality and calendar baseline model.
+- [ ] Add deployment and prespecified conflict-history variables.
+- [ ] Distinguish within-locality deployment associations from between-locality differences.
+- [ ] Fit locality-specific deployment slopes only where the design supports them.
+- [ ] Document estimator settings, convergence information and uncertainty calculations.
+
+### Diagnostics and validation
+
+- [ ] Examine overdispersion, zero counts and extreme-event reproduction.
+- [ ] Examine residual temporal and spatial dependence.
+- [ ] Check singularity, unstable variance estimates and influential localities.
+- [ ] Evaluate predictions using rolling temporal validation.
+- [ ] Compare predictive log scores and interval coverage against the baseline.
+- [ ] Assess performance in high-violence periods, alongside aggregate performance.
+- [ ] Ensure validation does not use future information.
+- [ ] Describe validation as forecasting recorded violence, not unobserved violence.
+
+### Outputs and visualizations
+
+- [ ] Create small-multiple locality trajectories with observed deployment dates and predictive intervals.
+- [ ] Plot partially pooled deployment coefficients with uncertainty and deployment-change information.
+- [ ] Show predictive performance across validation periods.
+- [ ] Retain informative null results and poorly supported heterogeneity.
+
+### Evaluation and progress gate
+
+- [ ] Resolve or disclose every material computational and diagnostic issue.
+- [ ] Confirm that conclusions are not driven by one locality or exceptional period.
+- [ ] Determine whether history improves prediction and whether varying slopes add supported information.
+- [ ] Avoid interpreting prediction gains or adjusted coefficients as causal identification.
+
+## 5. Observation uncertainty and robustness — Week 3
+
+### Reporting sensitivity
+
+- [ ] Define the assumed relationship between underlying and recorded events.
+- [ ] Specify hypothetical recording probabilities and their dependence on deployment and risk.
+- [ ] Explain which assumptions are externally informed and which are illustrative.
+- [ ] Recalculate conclusions across the prespecified scenarios.
+- [ ] Identify assumptions under which estimated associations change direction or become inconclusive.
+- [ ] Separate uncertainty within each scenario from differences across scenarios.
+- [ ] State explicitly that reporting sensitivity does not resolve deployment confounding.
+
+### Timing and geographic sensitivity
+
+- [ ] Compare monthly and quarterly aggregation where feasible.
+- [ ] Test alternative deployment-change timing assumptions consistent with source-map intervals.
+- [ ] Repeat analyses excluding especially stale deployment observations.
+- [ ] Test sensitivity to uncertain event dates and locations.
+- [ ] Compare primary and secondary outcomes without treating them as interchangeable measures.
+
+### Outputs and visualizations
+
+- [ ] Plot deployment associations against assumed relative recording probabilities.
+- [ ] Create a specification comparison showing estimates under the main timing and inclusion rules.
+- [ ] Produce a robustness table distinguishing stable findings, assumption-dependent findings and unresolved results.
+
+### Evaluation and progress gate
+
+- [ ] Identify which conclusions survive the prespecified alternatives.
+- [ ] Label sensitivity results as conditional, rather than corrections known to recover truth.
+- [ ] Document additional evidence that would most reduce the remaining uncertainty.
+
+## 6. Research portfolio and practical impact — Week 4
+
+### Research memo
+
+- [ ] Write a 3–4-page memo covering the question, data, model, simulation, findings and limitations.
+- [ ] Explain what the simulation establishes and what the empirical analysis cannot establish.
+- [ ] Connect the work specifically to Scott’s interests in histories, heterogeneity, uncertainty and usable methods.
+- [ ] Distinguish methodological application from any genuinely new contribution.
+- [ ] Identify one bounded follow-on research question suitable for supervision.
+
+Verify the intended Scott's identity and relevant publications before attributing research interests in the memo; no outreach is authorized by this plan.
+
+### Figures and presentation
+
+- [ ] Finalize the coverage, simulation-recovery, trajectory, heterogeneity and sensitivity figures.
+- [ ] Use ggplot2 with consistent typography, scales, uncertainty displays and accessible colors.
+- [ ] Label counts, time units, sample sizes and exclusions clearly.
+- [ ] Produce a five-slide discussion deck using actual results.
+- [ ] Remove or prominently label any remaining simulated presentation examples.
+
+### Real-world relevance
+
+- [ ] Identify which findings could improve monitoring or evaluation practice.
+- [ ] Identify specific information gaps that better records could address.
+- [ ] Explain how reporting differences could distort assessments of civilian protection.
+- [ ] State what prospective validation would be required before operational forecasting.
+- [ ] Avoid translating uncertain locality associations into deployment recommendations or success rankings.
+
+### Reproducibility and final acceptance
+
+- [ ] Run the workflow from original inputs through final tables and figures.
+- [ ] Confirm source versions, random seeds and package environments are recorded.
+- [ ] Verify every numerical statement against the saved analysis outputs.
+- [ ] Document failed models, exclusions, deviations and unresolved discrepancies.
+- [ ] Have another reader interpret the central figures without coaching.
+- [ ] Prepare a concise explanation of the skills demonstrated: data auditing, multilevel modeling, simulation and uncertainty analysis.
+- [ ] Prepare two focused questions for Scott about the findings and a possible research extension.
+
+Independent reader review is an external acceptance step; a self-check cannot mark it complete.

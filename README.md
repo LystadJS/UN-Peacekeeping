@@ -12,11 +12,13 @@ The provisional study is eastern DRC, 2015–2023, at a consistent administrativ
 
 ## Start here
 
-1. Read [the research protocol](docs/research_protocol.md), [data audit](docs/data_audit.md), and [implementation roadmap](docs/roadmap.md).
+1. Read [the full four-week plan](docs/project_plan.md), [Week 1 runbook](docs/week_1_runbook.md), and [research protocol](docs/research_protocol.md). The immediate scope is Week 1 preparation, not empirical execution.
 2. Open `un_peacekeeping.Rproj`, or run R from the repository root.
 3. Run `source("scripts/check_environment.R")` to inspect dependencies.
 4. Run `source("tests/run_checks.R")` for synthetic-data checks.
 5. Run `source("scripts/run_simulation.R")` to generate all eight design cells locally under `outputs/simulation/`. This generates data and known truth, **not fitted model performance**.
+
+For Week 1 setup, run `source("scripts/prepare_week_1.R")`. It creates ignored working directories, checks the audit-template structure and records the current package environment. It does not download data or fit models. The [feasibility gate](docs/feasibility_decision.md) remains pending.
 
 Only dplyr is required for the initial simulation. Planned packages are ggplot2 (figures), glmmTMB (negative-binomial mixed models), sf (spatial joins), and renv (a versioned environment once fitting dependencies are installed and tested). No lockfile is supplied or reproducibility of an untested package environment implied.
 

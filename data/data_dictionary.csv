@@ -1,0 +1,22 @@
+variable,table_grain,type,definition,units,missing_rule,transformation,source_mapping_status
+locality_id,locality_month,character,Stable boundary-system locality identifier,identifier,Not permitted for retained rows,Assign after audited geographic join,pending
+province_id,locality_month,character,Province under chosen stable geography,identifier,Not permitted for retained rows,Use validated boundary hierarchy,pending
+month,locality_month,date,First day of outcome month,calendar_month,Not permitted for retained rows,Apply frozen event-date assignment rule,pending
+recorded_events,locality_month,integer,Qualifying recorded one-sided violence events,event_count,NA if coverage is unknown,Deduplicate source events then count eligible assigned events,pending
+civilian_fatalities,locality_month,numeric,Recorded civilian fatalities within selected one-sided events,persons,NA if source value or coverage unknown,Sum verified civilian fatality field after codebook review,pending
+other_civilian_fatalities,locality_month,numeric,Separate optional series for civilian deaths in other violence categories,persons,NA if source value or coverage unknown,Do not pool with primary secondary-outcome series,pending
+deployment_presence,locality_month,integer,At least one eligible deployment in locality,0_or_1,NA unless source coverage supports absence,Derive from deduplicated eligible deployment records,pending
+deployment_strength,locality_month,numeric,Estimated troop strength rather than directly observed headcount,persons_estimated,NA if unknown,Deduplicate units before summing estimates,pending
+source_map_id,locality_month_provenance,character,Map supplying deployment information,identifier,NA if map unavailable,Retain multiple contributing map IDs in linked provenance table,pending
+source_map_date,locality_month_provenance,date,Reference date of contributing deployment map,date,NA if unavailable,Preserve source reference date and publication date separately if available,pending
+map_age_months,locality_month_provenance,integer,Months since source map reference month,months,NA if source date unknown,Outcome reference month minus source map reference month,pending
+carried_forward,locality_month_provenance,logical,Value reused from prior source map,boolean,NA if provenance unknown,Compare row month with source map reference month,pending
+event_coverage_complete,locality_month,logical,Audited source coverage sufficient for zero-filling recorded event counts,boolean,NA until audited,Does not imply all underlying events were observed,pending
+deployment_coverage_complete,locality_month,logical,Audited map coverage supports local presence or absence,boolean,NA until audited,Assess mission and map coverage before zero-filling,pending
+boundary_version,locality_month,character,Version of stable boundary file,version,Not permitted for retained rows,Join from source manifest,pending
+presence_lag,locality_month,integer,Deployment presence in preceding month,0_or_1,NA when preceding month is unknown,Calendar-aware one-month lag,pending
+presence_lag2,locality_month,integer,Deployment presence two months earlier,0_or_1,NA when required month is unknown,Calendar-aware two-month lag,pending
+events_lag,locality_month,integer,Recorded event count in preceding month,event_count,NA when preceding month coverage unknown,Calendar-aware one-month lag,pending
+violent_spell_lag,locality_month,integer,Consecutive positive-event months ending in preceding month,months,NA for unresolved history,Do not treat unknown months as spell termination,pending
+presence_between,locality_month,numeric,Locality mean of eligible lagged deployment,proportion,NA if no eligible training history,Training-only mean in validation,pending
+presence_within,locality_month,numeric,Lagged deployment minus locality mean,proportion_difference,NA if either component unknown,presence_lag minus presence_between,pending

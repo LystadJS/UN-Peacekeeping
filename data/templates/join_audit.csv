@@ -1,0 +1,1 @@
+join_id,script_path,left_table,right_table,join_keys,expected_relationship,left_rows,right_rows,output_rows,unmatched_left_keys,multiply_matched_left_keys,unique_events_before,unique_events_after,resolution,evidence_path
