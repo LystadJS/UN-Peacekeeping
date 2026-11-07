@@ -1,5 +1,7 @@
 # Deployment histories and September reporting: completion audit
 
+**Adjudication update — 2026-11-07:** The [new source-level decisions](deployment_adjudication_findings.md) supersede the unresolved ten-row discussion below: three Mavivi readings were our transcription errors, Bukavu has an FPU subtraction inconsistency, and the six site assignments plus Nyamilima locality are adjudicated. One separate Mavivi contributor-subtotal inconsistency remains. Earlier tables are retained as the audit trail; no frozen panel was changed.
+
 Investigated 7 November 2026 for **1 October 2023, 00:00 UTC**. The reconstruction now covers a broader set of deployment-map symbols and a recovered later data release. **Complete 2021–September 2023 deployment histories available at that cutoff have not been established.** The expanded evidence identifies specific coding and provenance gaps rather than resolving them by substituting current data.
 
 ## Deployment evidence

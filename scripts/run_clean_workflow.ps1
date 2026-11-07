@@ -151,6 +151,25 @@ Run-RStage 'scripts/audit_deployment_release.R'
 Run-RStage 'scripts/audit_september_reporting_gaps.R'
 Run-RStage 'scripts/reconstruct_deployment_2021_2023.R'
 Run-RStage 'tests/run_deployment_history_completion_checks.R'
+# Adjudication inputs are the retained source documents and explicit decisions,
+# never a corrected panel. Regenerate geographic and coding-impact summaries.
+foreach ($manifest in @('deployment_coding_conventions_sources.csv','nyamilima_geography_sources.csv',
+    'deployment_symbol_adjudication_sources.csv','deployment_symbol_adjudication.csv')) {
+    Copy-Item -LiteralPath (Join-Path 'data' $manifest) -Destination (Join-Path $cleanProject "data/$manifest")
+}
+$adjudicationOriginals = @('deployment_coding_conventions_sources.csv','nyamilima_geography_sources.csv',
+    'deployment_symbol_adjudication_sources.csv') | ForEach-Object {
+    Import-Csv (Join-Path 'data' $_) | ForEach-Object { $_.path }
+}
+foreach ($relativePath in ($adjudicationOriginals | Sort-Object -Unique)) {
+    $destination = Join-Path $cleanProject $relativePath
+    New-Item -ItemType Directory -Path (Split-Path $destination) -Force | Out-Null
+    Copy-Item -LiteralPath $relativePath -Destination $destination
+}
+Run-RStage 'scripts/audit_deployment_coding_conventions.R'
+Run-RStage 'scripts/adjudicate_nyamilima_geography.R'
+Run-RStage 'scripts/audit_deployment_adjudication_impact.R'
+Run-RStage 'tests/run_deployment_adjudication_checks.R'
 
 Run-RStage 'scripts/check_quarterly_source_records.R'
 Run-RStage 'scripts/audit_absence_followup.R'

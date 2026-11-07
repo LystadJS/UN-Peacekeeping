@@ -100,5 +100,15 @@
   "retrospective_2_3_numeric_locality_months_through_cutoff": 462,
   "late_release_admitted_to_historical_training": false,
   "september_candidate_kst_only_records": 21,
-  "new_measurement_discrepancies_adjudicated": false
+  "new_measurement_discrepancies_adjudicated": true,
+  "deployment_adjudication_completed_on": "2026-11-07",
+  "original_component_discrepancies_adjudicated": 10,
+  "prior_agent_transcription_errors_resolved": 3,
+  "fpu_component_inconsistencies_adjudicated": 1,
+  "map_site_assignments_adjudicated": 6,
+  "nyamilima_locality_adjudicated": "COD009015; settlement/locality correction scenario",
+  "nyamilima_exact_base_point_verified": false,
+  "remaining_mavivi_tcc_total_inconsistencies": 1,
+  "adjudicated_corrections_applied_to_frozen_panel": false,
+  "corrected_panel_sensitivity_fitted": false
 }

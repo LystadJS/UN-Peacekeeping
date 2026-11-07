@@ -35,6 +35,10 @@ completion_static <- c("deployment_release_catalog_sources.csv",
   "deployment_release_evidence.csv", "september_reporting_gap_sources.csv",
   "deployment_2021_2023_added_transcription.csv")
 static_data <- c(static_data, completion_static)
+adjudication_static <- c("deployment_coding_conventions_sources.csv",
+  "nyamilima_geography_sources.csv", "deployment_symbol_adjudication_sources.csv",
+  "deployment_symbol_adjudication.csv")
+static_data <- c(static_data, adjudication_static)
 reference_data <- list.files("data", pattern = "\\.csv$", full.names = TRUE)
 expected_data <- reference_data[!basename(reference_data) %in% static_data]
 raw_directories <- c("outputs/week_1/audit_aggregated", "outputs/quarterly_pilot/panel",
@@ -54,7 +58,7 @@ if (panel_only) {
   # Also inspect every other common data CSV, including the pinned source manifest.
   common <- intersect(reference_data, paste0("data/", list.files(file.path(clean_root, "data"),
     pattern = "\\.csv$")))
-  csv_paths <- c(csv_paths, common[!basename(common) %in% c(post2019_static, completion_static)])
+  csv_paths <- c(csv_paths, common[!basename(common) %in% c(post2019_static, completion_static, adjudication_static)])
   # Enumerate derived private files explicitly: never compare a raw CSV as though
   # it were regenerated, and never silently omit a missing private reconstruction.
   csv_paths <- c(csv_paths,
@@ -72,7 +76,10 @@ if (panel_only) {
     "outputs/deployment_2021_2023/locality_map_history.csv",
     "outputs/deployment_2021_2023/monthly_history_gaps.csv",
     "outputs/deployment_2021_2023/retrospective_monthly_strength.csv",
-    "outputs/deployment_2021_2023/retrospective_release_comparison.csv")
+    "outputs/deployment_2021_2023/retrospective_release_comparison.csv",
+    "outputs/coding_conventions/affected_source_rows.csv",
+    "outputs/nyamilima_adjudication/osm_coordinate_history.csv",
+    "outputs/deployment_adjudication/source_row_scenarios.csv")
 }
 csv_paths <- sort(unique(gsub("\\\\", "/", csv_paths)))
 panel_paths <- c(unlist(lapply(raw_directories, list.files, pattern = "\\.csv$",

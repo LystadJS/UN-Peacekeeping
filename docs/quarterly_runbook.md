@@ -77,3 +77,7 @@ Read [the synthesis](post2019_and_september_followup.md). After the existing ori
 ## Expanded deployment histories and September provenance
 
 After the prior post-2019 stages, run `audit_deployment_release_catalog.R`, `audit_deployment_release.R`, `audit_september_reporting_gaps.R`, and `reconstruct_deployment_2021_2023.R`, then `tests/run_deployment_history_completion_checks.R`. Script names are relative to `scripts/` except the test. Follow the static source manifests and retain their original bytes. These stages produce a retrospective comparison and an explicit historical-gap ledger; they do not feed the fitted panel. See [findings](deployment_history_completion_followup.md).
+
+## Deployment adjudication
+
+After the deployment-history completion checks, run `scripts/audit_deployment_coding_conventions.R`, `scripts/adjudicate_nyamilima_geography.R`, `scripts/audit_deployment_adjudication_impact.R`, and `tests/run_deployment_adjudication_checks.R`. Preserve the four static inputs: the three source manifests and ten-row symbol decision ledger. The three stages regenerate component evidence, the geographic proposal and crossed map-subtotal scenarios; they do not modify the fitted panel. See [decisions and scope](deployment_adjudication_findings.md).

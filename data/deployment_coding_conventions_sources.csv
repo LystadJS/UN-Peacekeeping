@@ -1,0 +1,4 @@
+"source_id","path","url","bytes","sha256"
+"geo_pko_map","data/raw/geo_pko/2.3/location_map.rds","https://www.uu.se/download/18.74301a071971546b354496b0/1749556889697/Geo_PKO_v.2.3_location_map.rds",357432,"bd75161e315c6c0837b6b3782dbf2e370f6f81a59155df21cc407350371831ce"
+"geo_pko_codebook","data/raw/geo_pko/2.3/codebook.pdf","https://www.uu.se/download/18.74301a071971546b354496ad/1749556887803/Codebook_v.2.3.pdf",346424,"a902f21e20e513cb31dd48e1d17fb06b18e897ce74ce0afeb87eaf5ce55038f1"
+"codebook_2_0","outputs/forecast_origin/coding/codebook_2_0.pdf","https://www.uu.se/download/18.3f2acc1b18f157bd287131/1714053575165/Codebook-v-2-0.pdf",343732,"f5e9c94f36361d9ab3565da92898f54244e1d40e55f77107b592b7aa91cec6e4"

@@ -1,0 +1,19 @@
+{
+  "adjudication_date": "2026-11-07",
+  "scope": "Three additive stages and checks in retained isolated project; no corrected-panel or full-model run",
+  "generated_public_tables_matched": 4,
+  "private_tables_matched": 3,
+  "distinct_original_source_hashes_verified": 8,
+  "original_component_decisions": 10,
+  "prior_transcription_errors_resolved": 3,
+  "source_fpu_decisions": 1,
+  "source_site_decisions": 6,
+  "residual_tcc_total_inconsistencies": 1,
+  "source_row_scenarios_verified": 384,
+  "locality_scenario_totals_verified": 36,
+  "frozen_analysis_files_verified": 18,
+  "project_plan_unchanged": true,
+  "project_plan_sha256": "e6a030f560f682facab30843f298731e69b85c8cb523021c2ce0341ac609d4b9",
+  "corrected_panel_fitted": false,
+  "human_review": "skipped_by_user_not_completed"
+}

@@ -1,6 +1,6 @@
 # MONUSCO Multilevel Research Pilot — Remaining Checklist
 
-Unchecked items from the [full project plan](docs/project_plan.md). Deferred, skipped, and historical-limit labels are preserved; these items are not all active work.
+Remaining items from the [full project plan](docs/project_plan.md), updated below as follow-up work is resolved. Deferred, skipped, and historical-limit labels are preserved; these items are not all active work.
 
 ## 2. Minimal simulation and model validation — Weeks 1–2
 
@@ -48,6 +48,10 @@ Unchecked items from the [full project plan](docs/project_plan.md). Deferred, sk
 
 ## Deployment-history completion investigation — 2026-11-07
 
-- [ ] Adjudicate ten symbol-coding discrepancies and Nyamilima geography before any corrected-panel sensitivity analysis.
+The [adjudication findings](docs/deployment_adjudication_findings.md) resolve the ten original component discrepancies and Nyamilima's settlement/locality assignment. The original panel remains unchanged.
+
+- [ ] Resolve the separate Mavivi revision-51 contributor-subtotal inconsistency: 2,350 versus the 2,200 total and unit-count arithmetic.
+
+- [ ] Complete a separately versioned corrected-panel sensitivity analysis, auditing all 17 affected Nyamilima source rows and the adjudicated 2023 unit decisions.
 
 - [ ] Establish complete deployment histories and September coded inputs available at the fixed cutoff; still unresolved.

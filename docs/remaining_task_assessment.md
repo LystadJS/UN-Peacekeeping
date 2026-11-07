@@ -97,3 +97,7 @@ The [latest follow-up](post2019_and_september_followup.md) resolves a further ye
 ## Latest completion audit — 2026-11-07
 
 [Expanded deployment reconstruction and September investigation](deployment_history_completion_followup.md) are complete for their documented scope. Retrospective coding and 279 numerical map readings do not authenticate a complete historical dataset. Ten coding discrepancies, Nyamilima geography, remaining map sites/unit conventions, unlisted absence, and September release/source recovery remain substantive gaps. The original estimates were not refitted after these discoveries and should not be treated as measurement-validated by prior computational checks.
+
+## Adjudication follow-up — 2026-11-07
+
+The [ten component decisions and Nyamilima locality](deployment_adjudication_findings.md) are adjudicated. Earlier Mavivi readings were corrected rather than forcing the provider total to match our mistaken transcription. The remaining work is the separate August contributor-subtotal inconsistency, a separately versioned corrected-panel sensitivity covering the full affected source lineage, and the previously documented historical-availability gaps. Exact base coordinates and actual unsized personnel remain unknown. No original fits changed; docs/project_plan.md remains untouched.

@@ -1,5 +1,7 @@
 # Deployment histories for 2021–2023: reconstruction and unresolved gaps
 
+**Adjudication update — 2026-11-07:** The [new source-level decisions](deployment_adjudication_findings.md) supersede the unresolved ten-row discussion below: three Mavivi readings were our transcription errors, Bukavu has an FPU subtraction inconsistency, and the six site assignments plus Nyamilima locality are adjudicated. One separate Mavivi contributor-subtotal inconsistency remains. Earlier tables are retained as the audit trail; no frozen panel was changed.
+
 Completed 7 November 2026 for the unchanged 1 October 2023 cutoff. **The work reconstructs retrospective listed-strength histories and substantially expands source-map readings, but it does not recover a complete authenticated historical deployment panel.** The original panel and fitted results are unchanged.
 
 ## What has been reconstructed
