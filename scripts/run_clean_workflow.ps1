@@ -130,6 +130,27 @@ Run-RStage 'scripts/reconstruct_post2019_deployment.R'
 Run-RStage 'scripts/audit_post2019_map_coding.R'
 Run-RStage 'scripts/assemble_post2019_training.R'
 Run-RStage 'tests/run_post2019_followup_checks.R'
+# Preserve release evidence and explicit map readings as inputs. Original HTML,
+# catalogue metadata and the recovered historical RDS are copied by manifest;
+# reconstructed monthly histories and aggregate tables are regenerated below.
+foreach ($manifest in @('deployment_release_catalog_sources.csv','deployment_release_evidence.csv',
+    'september_reporting_gap_sources.csv','deployment_2021_2023_added_transcription.csv')) {
+    Copy-Item -LiteralPath (Join-Path 'data' $manifest) -Destination (Join-Path $cleanProject "data/$manifest")
+}
+$completionOriginals = @('deployment_release_catalog_sources.csv','deployment_release_evidence.csv',
+    'september_reporting_gap_sources.csv') | ForEach-Object {
+    Import-Csv (Join-Path 'data' $_) | ForEach-Object { $_.path }
+}
+foreach ($relativePath in ($completionOriginals | Sort-Object -Unique)) {
+    $destination = Join-Path $cleanProject $relativePath
+    New-Item -ItemType Directory -Path (Split-Path $destination) -Force | Out-Null
+    Copy-Item -LiteralPath $relativePath -Destination $destination
+}
+Run-RStage 'scripts/audit_deployment_release_catalog.R'
+Run-RStage 'scripts/audit_deployment_release.R'
+Run-RStage 'scripts/audit_september_reporting_gaps.R'
+Run-RStage 'scripts/reconstruct_deployment_2021_2023.R'
+Run-RStage 'tests/run_deployment_history_completion_checks.R'
 
 Run-RStage 'scripts/check_quarterly_source_records.R'
 Run-RStage 'scripts/audit_absence_followup.R'

@@ -31,6 +31,10 @@ static_data <- c("audit_checks.csv", "audit_package_versions.csv", "data_diction
 post2019_static <- c("september_2023_evidence.csv", "post2019_deployment_sources.csv",
   "post2019_map_coding_sources.csv", "post2019_map_coding_transcription.csv")
 static_data <- c(static_data, post2019_static)
+completion_static <- c("deployment_release_catalog_sources.csv",
+  "deployment_release_evidence.csv", "september_reporting_gap_sources.csv",
+  "deployment_2021_2023_added_transcription.csv")
+static_data <- c(static_data, completion_static)
 reference_data <- list.files("data", pattern = "\\.csv$", full.names = TRUE)
 expected_data <- reference_data[!basename(reference_data) %in% static_data]
 raw_directories <- c("outputs/week_1/audit_aggregated", "outputs/quarterly_pilot/panel",
@@ -50,7 +54,7 @@ if (panel_only) {
   # Also inspect every other common data CSV, including the pinned source manifest.
   common <- intersect(reference_data, paste0("data/", list.files(file.path(clean_root, "data"),
     pattern = "\\.csv$")))
-  csv_paths <- c(csv_paths, common[!basename(common) %in% post2019_static])
+  csv_paths <- c(csv_paths, common[!basename(common) %in% c(post2019_static, completion_static)])
   # Enumerate derived private files explicitly: never compare a raw CSV as though
   # it were regenerated, and never silently omit a missing private reconstruction.
   csv_paths <- c(csv_paths,
@@ -62,7 +66,13 @@ if (panel_only) {
     "outputs/post2019_deployment/december_2020_coding_differences.csv",
     "outputs/post2019_deployment/joint_training_history.csv",
     "outputs/post2019_map_coding/site_map_comparison.csv",
-    "outputs/post2019_map_coding/partial_site_histories.csv")
+    "outputs/post2019_map_coding/partial_site_histories.csv",
+    "outputs/september_reporting_gaps/candidate_provenance_ledger.csv",
+    "outputs/deployment_2021_2023/all_site_reconciliation.csv",
+    "outputs/deployment_2021_2023/locality_map_history.csv",
+    "outputs/deployment_2021_2023/monthly_history_gaps.csv",
+    "outputs/deployment_2021_2023/retrospective_monthly_strength.csv",
+    "outputs/deployment_2021_2023/retrospective_release_comparison.csv")
 }
 csv_paths <- sort(unique(gsub("\\\\", "/", csv_paths)))
 panel_paths <- c(unlist(lapply(raw_directories, list.files, pattern = "\\.csv$",
@@ -176,7 +186,7 @@ if (panel_only) {
     paste("Checks:", nrow(result), "; passed:", sum(result$passed), "; failed:", sum(!result$passed)), "",
     "Scientific numeric tolerance: absolute 1e-8. Panel/source-lineage cells, integer-valued fields, coverage, gates and convergence flags require exact equality.",
     "Only seconds/elapsed_seconds and explicitly named manifest recorded_utc/sha256/bytes fields are omitted. Relative paths and scientific identifiers remain checked.",
-    "Non-generated documentation/provenance CSVs are not required outputs; common legacy inputs are compared, while the four new September/post-2019 static manifests are excluded. Explicit static list:",
+    "Non-generated documentation/provenance CSVs are not required outputs; common legacy inputs are compared, while explicitly listed historical supplement manifests and transcriptions are excluded. Explicit static list:",
     paste0("- ", static_data), "",
     "All retained reference scientific CSVs and selected private RDS objects are required; a missing rebuilt file fails. Model object environments are not byte-compared; fixed coefficients, SEs, dispersion, random-effect variance, sample size and convergence flags are compared.",
     "This script reads reference outputs only for post-generation comparison. It does not feed them into the clean workflow, fit models, alter scientific tables, or complete independent human interpretation.", "",

@@ -73,3 +73,7 @@ The [training extension](forecast_training_followup.md) adds annual/cumulative e
 ## Post-2019 and September supplement — 2026-11-07
 
 Read [the synthesis](post2019_and_september_followup.md). After the existing origin-event and training-history stages, run `scripts/audit_september_2023.R`, `scripts/reconstruct_post2019_deployment.R` and `scripts/audit_post2019_map_coding.R`, then `scripts/assemble_post2019_training.R` and `tests/run_post2019_followup_checks.R`. The deployment stage also requires the original quarterly panel and earlier coding audit. Original evidence and static transcription manifests are required; derived ledgers must be regenerated. These stages fit no models and do not replace the frozen panel. They expand joint training overlap to 204 of 570 rows while leaving complete September counts, later locality deployment histories and full-window centering unresolved. Unknown absence stays missing.
+
+## Expanded deployment histories and September provenance
+
+After the prior post-2019 stages, run `audit_deployment_release_catalog.R`, `audit_deployment_release.R`, `audit_september_reporting_gaps.R`, and `reconstruct_deployment_2021_2023.R`, then `tests/run_deployment_history_completion_checks.R`. Script names are relative to `scripts/` except the test. Follow the static source manifests and retain their original bytes. These stages produce a retrospective comparison and an explicit historical-gap ledger; they do not feed the fitted panel. See [findings](deployment_history_completion_followup.md).

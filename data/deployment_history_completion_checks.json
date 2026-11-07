@@ -1,0 +1,19 @@
+{
+  "investigation_date": "2026-11-07",
+  "forecast_origin_utc": "2023-10-01T00:00:00Z",
+  "scope": "Four additive stages rerun in retained isolated project; not a full model rerun",
+  "generated_public_tables_matched": 9,
+  "private_history_tables_matched": 6,
+  "new_evidence_hashes_verified_per_project": 16,
+  "derived_input_hashes_verified_per_project": 1,
+  "prior_map_pdf_hashes_verified_per_project": 12,
+  "independent_completion_checks": "passed in working and isolated projects",
+  "frozen_analysis_files_verified": 18,
+  "site_map_rows": 431,
+  "numeric_component_readings": 279,
+  "component_discrepancies": 10,
+  "complete_historical_monthly_cells_certified": 0,
+  "historical_monthly_cells": 627,
+  "authenticated_september_count": false,
+  "human_review": "skipped_by_user_not_completed"
+}

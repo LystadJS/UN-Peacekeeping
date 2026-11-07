@@ -93,3 +93,7 @@ The [available training-history reconstruction](forecast_training_followup.md) i
 ## Post-2019/September reassessment — 2026-11-07
 
 The [latest follow-up](post2019_and_september_followup.md) resolves a further year of archived numeric deployment coding and extends selected dated-map evidence. It yields 208 known first lags and 204 jointly populated training rows, including 189 in the current sample. Two current-vintage first-lag differences are preserved. September source availability is better characterized but a complete pre-cutoff coded count remains unknown; seven records with earlier listed material do not complete the quarter. Full later locality deployment histories, historical centering and geographic availability remain unresolved. Further fitting is not warranted by this partial reconstruction alone. Human review remains skipped, not completed.
+
+## Latest completion audit — 2026-11-07
+
+[Expanded deployment reconstruction and September investigation](deployment_history_completion_followup.md) are complete for their documented scope. Retrospective coding and 279 numerical map readings do not authenticate a complete historical dataset. Ten coding discrepancies, Nyamilima geography, remaining map sites/unit conventions, unlisted absence, and September release/source recovery remain substantive gaps. The original estimates were not refitted after these discoveries and should not be treated as measurement-validated by prior computational checks.

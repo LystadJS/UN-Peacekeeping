@@ -1,0 +1,20 @@
+"locality_id","locality","province","map_observations","maps_with_numeric_components","maps_all_current_catalog_sites_read","complete_historical_strength_observations"
+"COD009007","Masisi","Nord-Kivu",12,12,3,0
+"COD009012","Walikale","Nord-Kivu",12,12,12,0
+"COD009015","Rutshuru","Nord-Kivu",12,12,3,0
+"COD011004","Idjwi","Sud-Kivu",12,0,0,0
+"COD011006","Kalehe","Sud-Kivu",12,12,12,0
+"COD011013","Walungu","Sud-Kivu",12,12,3,0
+"COD011015","Mwenga","Sud-Kivu",12,12,12,0
+"COD011016","Shabunda","Sud-Kivu",12,12,12,0
+"COD017010","Mambasa","Ituri",12,0,0,0
+"COD017012","Aru","Ituri",12,0,0,0
+"COD017013","Djugu","Ituri",12,0,0,0
+"COD017014","Mahagi","Ituri",12,0,0,0
+"COMPOSITE_BENI","Beni including city","Nord-Kivu",12,12,3,0
+"COMPOSITE_FIZI","Fizi including Baraka","Sud-Kivu",12,12,12,0
+"COMPOSITE_IRUMU","Irumu including Bunia","Ituri",12,12,2,0
+"COMPOSITE_KABARE","Kabare including Bukavu","Sud-Kivu",12,3,3,0
+"COMPOSITE_LUBERO","Lubero including Butembo","Nord-Kivu",12,12,5,0
+"COMPOSITE_NYIRAGONGO","Nyiragongo including Goma","Nord-Kivu",12,12,3,0
+"COMPOSITE_UVIRA","Uvira including city","Sud-Kivu",12,12,11,0

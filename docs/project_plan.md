@@ -250,3 +250,14 @@ Independent reader review was waived by the user for continuation. It remains un
 - [ ] Authenticate complete September coded inputs and the full later deployment sequence; unresolved, not an instruction to impute missing information. Joint overlap is now 204 of 570 rows, not a complete historical training set.
 
 See [the combined findings](post2019_and_september_followup.md). No fitted estimate or model scope changed. Human review remains user-skipped, not completed.
+
+## Deployment-history completion investigation — 2026-11-07
+
+- [x] Recover later 2.2 coding and audit advertised release timing.
+- [x] Reconstruct retrospective 2021–2023 monthly histories separately from historical availability.
+- [x] Expand map readings and enumerate the full requested grid, retaining unresolved cells.
+- [x] Investigate the KST source bottleneck and additional September archive routes.
+- [ ] Adjudicate ten symbol-coding discrepancies and Nyamilima geography before any corrected-panel sensitivity analysis.
+- [ ] Establish complete deployment histories and September coded inputs available at the fixed cutoff; still unresolved.
+
+See [completion findings](deployment_history_completion_followup.md). Human review remains skipped, not completed.

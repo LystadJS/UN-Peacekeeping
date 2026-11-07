@@ -34,3 +34,5 @@ The new R stages are `audit_september_2023.R`, `reconstruct_post2019_deployment.
 Four new stages, including joint-history assembly, and the new checks ran in the retained isolated project. **Twelve generated public tables and nine private tables matched exactly; 21 input hashes per project, the historical Git blob and all 18 frozen analysis files were verified.** The [validation receipt](../data/post2019_followup_checks.json) records the additive scope. This was not a full model or estimation rerun.
 
 The next evidentiary requirements are a contemporaneous September coded information snapshot, complete later unit/location histories with defensible availability dates, and historically available geography. Absence certification remains unresolved. No model refit, forecast-performance claim, new sample inclusion rule or operational deployment recommendation follows from this supplement. Human review remains **skipped at the user's request, not completed**.
+
+Follow-up: the [expanded completion audit](deployment_history_completion_followup.md) adds later-release comparisons and new coding discrepancies; the counts above retain this earlier supplement's scope.

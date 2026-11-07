@@ -49,3 +49,9 @@ The [new reconstruction](post2019_and_september_followup.md) adds four R audit/a
 Regenerate September source-date summaries, extended deployment histories and map comparisons from those originals, following the quarterly runbook's dependencies. No derived history is an original input and none is used to refit models. An additive isolated rerun must be reported separately from the earlier 383-comparison full fitting run; do not update the full-run completion receipt merely because these extra audits pass. Human review remains skipped, not completed.
 
 The completed additive isolated check matched 12 generated public tables and nine private histories exactly, verified 21 input hashes per project and the historical Git blob, and rechecked all 18 frozen analysis files. See [the receipt](../data/post2019_followup_checks.json). This is not a new full estimation run.
+
+## Expanded completion audit — 2026-11-07
+
+The orchestrator now stages the originals listed in `deployment_release_catalog_sources.csv`, `deployment_release_evidence.csv`, and `september_reporting_gap_sources.csv`, plus static `deployment_2021_2023_added_transcription.csv`, all under `data/`. Four new stages and the independent completion test run after the earlier post-2019 checks. Derived histories are regenerated rather than copied. The comparator requires the six new private histories and all nine generated public tables.
+
+An additive run in the retained isolated project matched all those tables exactly and verified all 18 frozen analysis files. See [completion receipt](../data/deployment_history_completion_checks.json). The earlier full-fitting receipt is unchanged; human review remains skipped.
