@@ -1,0 +1,3 @@
+"population","events","events_with_valid_dates","events_with_missing_tokens","events_without_valid_dates","earliest_strictly_after_next_quarter_start","latest_strictly_after_next_quarter_start","earliest_on_next_quarter_start","latest_on_next_quarter_start"
+"all_retained_2016_2023",1248,1248,0,0,350,470,2,1
+"immediate_history_of_20_forecast_folds",1107,1107,0,0,300,406,2,0

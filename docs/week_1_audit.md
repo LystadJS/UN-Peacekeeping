@@ -20,7 +20,7 @@ The source audit covers DRC (`country_id = 490`), 2014–2023, with 2014 reserve
 
 The secondary measure is `deaths_civilians` in retained one-sided events. Civilian deaths in other violence categories stay separate. GED `low` and `high` concern total event fatalities, not independently supplied civilian-specific bounds.
 
-Geo-PKO `no.troops` includes formed police units. Listed military strength is numeric `no.troops - fpu.no`, with unknown values preserved. Headquarters or observer presence alone does not establish troop presence. Source publication months are preserved via `source_year/source_month`; geosplit allocations are used as published.
+Geo-PKO `no.troops` includes formed police units. Listed military strength is numeric `no.troops - fpu.no`, with unknown values preserved. Headquarters or observer presence alone does not establish troop presence. Coded source-map months are preserved via `source_year/source_month`; geosplit allocations are used as published. Clarification added 2026-11-07: these fields do not independently establish when a particular map or dataset revision became publicly available. The legacy Week 1 figure's axis, "Months since source-map publication", should be read as age relative to the coded source-map month. The frozen generator is preserved; current quarterly figures use source-map age. See the [historical availability investigation](historical_data_availability.md).
 
 ## Boundary assessment
 

@@ -108,7 +108,7 @@ The common-strength core passed its favorable/null gate. This does not validate 
 - [x] Aggregate deployments without counting repeated representations of the same unit twice.
 - [x] Calculate lagged deployment, prior violence and recent conflict-history variables.
 - [x] Calculate within-locality deployment deviations and between-locality deployment averages.
-- [ ] Unresolved: historical release vintages are unavailable, so real-time information availability cannot be certified. Lag construction and training-only centering are verified; retrospective full-period sample selection is disclosed.
+- [ ] Unresolved: real-time information availability cannot be certified for the current panel. The 2026-11-07 investigation located archived UCDP releases, so blanket unavailability is no longer claimed; a complete as-of reconstruction across event, deployment and boundary sources has not been performed. Lag construction and training-only centering are verified. See [historical availability](historical_data_availability.md) and the [code audit](historical_availability_code_audit.md).
 - [ ] Skipped with human review: manual source verification. A separate automated reconstruction of six fixed cases passed against original GED and Geo-PKO files; see quarterly_source_spotchecks.md.
 
 ### Analysis commitments

@@ -53,5 +53,13 @@
   "quarterly_dictionary_fields": 36,
   "original_source_spotchecks_passed": 6,
   "archived_synthetic_panels": 2000,
-  "current_analysis_snapshot_files": 18
+  "current_analysis_snapshot_files": 18,
+  "absence_followup_completed_on": "2026-11-07",
+  "unlisted_locality_positive_deployment_evidence": "Djugu; dated official UN reporting, not a quarterly strength reconstruction",
+  "historical_availability_investigation_complete": true,
+  "historical_predictor_availability_certified": false,
+  "historical_candidate_files_verified": 2,
+  "past_only_eligibility_matching_folds": 20,
+  "immediate_history_events_audited": 1107,
+  "immediate_history_events_earliest_listed_source_after_origin": 300
 }

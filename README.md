@@ -24,6 +24,8 @@ The [clean rebuild](docs/clean_rebuild_results.md) reproduced the active workflo
 
 ## Start here
 
+The [deployment-absence follow-up](docs/deployment_absence_followup.md) and [historical-availability investigation](docs/historical_data_availability.md) document what additional sources can resolve. UN reports provide positive deployment evidence for an unlisted locality; archived UCDP releases provide a route to a future as-of reconstruction. Neither certifies zero deployment or real-time availability for the current panel. The [code audit](docs/historical_availability_code_audit.md) separates occurrence-time checks from publication availability. These follow-ups leave the fitted sample and model estimates unchanged.
+
 For the active revision, use the [quarterly runbook](docs/quarterly_runbook.md), [freshness audit](docs/quarterly_freshness_audit.md), and [predictor-design diagnostics](docs/quarterly_design_diagnostics.md). The older starter commands below remain useful for the original scaffold, not as evidence that its full model has been validated.
 
 1. Read [the full four-week plan](docs/project_plan.md), [Week 1 audit](docs/week_1_audit.md), and [research protocol](docs/research_protocol.md). Resolve the revised-design gate before empirical fitting.

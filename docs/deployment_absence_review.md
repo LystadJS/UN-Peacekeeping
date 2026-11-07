@@ -1,5 +1,7 @@
 # Deployment absence investigation
 
+Follow-up dated 2026-11-07: [official-report evidence and listing audit](deployment_absence_followup.md) identify documented deployments in Djugu despite its unlisted status in the source-derived panel. This strengthens the reason to preserve missing values; it does not supply the quarterly strength measurements needed to add Djugu to the fitted sample.
+
 The revised pilot does **not** recode unlisted locality-months as zero. The outcome of this investigation is a narrower observation rule, not certification of military absence.
 
 Reviewed original sources: January 2016 map 4412 Rev.18, page 18 of S/2016/233; and November 2023 map 4412 Rev.52. Both were downloaded from UN sources, rendered and visually inspected. Paths, URLs and hashes are in `data/pilot_source_manifest.csv`; observations are in `data/map_review.csv`. This is an endpoint spot check of two maps, not a review of every intervening revision.

@@ -1,0 +1,7 @@
+"place","name_pattern","monthly_rows","map_rows","interpretation"
+"Drodro","^(drodro|drodo)$",0,0,"Name diagnostic only; not exhaustive alias adjudication"
+"Bayoo","^(bayoo|bayo)$",0,0,"Name diagnostic only; not exhaustive alias adjudication"
+"Fataki","^fataki$",0,0,"Name diagnostic only; not exhaustive alias adjudication"
+"Rhoo","^(rhoo|roe)$",0,0,"Name diagnostic only; not exhaustive alias adjudication"
+"Jina","^jina$",0,0,"Name diagnostic only; not exhaustive alias adjudication"
+"Amee","^(amee|ame)$",0,0,"Name diagnostic only; not exhaustive alias adjudication"

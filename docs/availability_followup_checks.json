@@ -1,0 +1,13 @@
+{
+  "investigation_date": "2026-11-07",
+  "scope": "Additive source and timing audits; no new model fitting or full workflow rerun",
+  "audits_run_in_working_and_isolated_projects": 2,
+  "aggregate_tables_matched_exactly": 4,
+  "available_evidence_files_hash_verified": 6,
+  "frozen_analysis_files_verified": 18,
+  "r_and_workflow_syntax": "passed",
+  "un_report_access": "Indexed official-source passages; direct full-document retrieval unavailable",
+  "absence_certified": false,
+  "historical_predictor_availability_certified": false,
+  "human_review": "skipped_by_user_not_completed"
+}

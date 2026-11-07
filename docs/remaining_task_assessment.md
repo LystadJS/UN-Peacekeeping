@@ -77,3 +77,7 @@ Finish the already assigned dictionary/source checks, descriptive figures and sy
 ## Completed follow-up
 
 The assigned dictionary/source checks, descriptive figures and full synthetic archive are now complete. Six source cases passed; all 36 exported fields are documented; 2,000 panels were regenerated independently in both projects and all 4,000 file hashes verified. The current 18-file snapshot was recorded and verified without backdating. See followup_checks.json, quarterly_source_spotchecks.md, simulation_archive.md and descriptive_panel_results.md. The plan has been reconciled and human review is skipped by user instruction, not completed.
+
+## Availability follow-up — 2026-11-07
+
+The requested follow-up is complete: [deployment evidence](deployment_absence_followup.md) identifies presence in unlisted Djugu; [historical archives](historical_data_availability.md) provide a possible reconstruction route; [source-date and eligibility checks](historical_availability_code_audit.md) quantify delayed listed reporting and narrow one selection concern. Absence certification, complete as-of reconstruction and operational validation remain unresolved. The current panel, model estimates and human-review disposition are unchanged.

@@ -77,6 +77,8 @@ function Complete-RBatch($jobs) {
 & $Rscript --vanilla scripts/rebuild_original_inputs.R $cleanProject --prepared-project --execute
 if ($LASTEXITCODE -ne 0) { throw 'Original-input rebuild failed.' }
 Run-RStage 'scripts/check_quarterly_source_records.R'
+Run-RStage 'scripts/audit_absence_followup.R'
+Run-RStage 'scripts/audit_historical_source_dates.R'
 Run-RStage 'scripts/record_analysis_snapshot.R'
 # Empty state: successful flags are reconstructed, never inherited from main.
 [IO.File]::WriteAllText((Join-Path $cleanProject 'data/pilot_validation_status.json'), '{}')

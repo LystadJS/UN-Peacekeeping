@@ -22,7 +22,8 @@ record <- function(path, check, passed, detail = "") {
 # They are listed explicitly; no arbitrary missing CSV is silently discarded.
 static_data <- c("audit_checks.csv", "audit_package_versions.csv", "data_dictionary.csv",
   "map_review.csv", "pilot_package_versions.csv", "pilot_protocol_version.csv",
-  "pilot_source_manifest.csv", "quarterly_data_dictionary.csv", "source_manifest.csv")
+  "pilot_source_manifest.csv", "quarterly_data_dictionary.csv", "source_manifest.csv",
+  "absence_followup_evidence.csv", "historical_availability_evidence.csv")
 reference_data <- list.files("data", pattern = "\\.csv$", full.names = TRUE)
 expected_data <- reference_data[!basename(reference_data) %in% static_data]
 raw_directories <- c("outputs/week_1/audit_aggregated", "outputs/quarterly_pilot/panel",
