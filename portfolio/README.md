@@ -10,6 +10,10 @@ Prepared on 6 November 2026 for discussion with Marc A. Scott. The portfolio pre
 
 The central finding is an inconclusive common deployment-strength association. The history model improves retrospective prediction modestly on average, with gains concentrated in a few localities. Timing and recording assumptions remain consequential. No locality-specific deployment slopes or protection rankings are presented.
 
+## Human review
+
+Use the [human-review packet](human_review/README.md) for the review order, concise checklist and blank feedback form. The packet is prepared; feedback has not been received and human review remains outstanding.
+
 ## Figure guide
 
 1. Recorded violence, held-out predictions and source-map timing for three explicitly selected localities; an all-nine-locality supplement is supplied.

@@ -1,0 +1,77 @@
+{
+  "portfolio_revision": "ebe983a6c45040ac7fff5c6a7e77422ee3240929",
+  "files": [
+    {
+      "path": "portfolio/research_memo.pdf",
+      "sha256": "9cb1dcb52770d9a69ab291d7fceec2f0288f14ff778ef323a5ead0554f10af3b"
+    },
+    {
+      "path": "portfolio/scott_discussion.pptx",
+      "sha256": "64c1c5368d021a14a2ea3c6265c7700d31aa237177dccf8fb8cdeeac009553d3"
+    },
+    {
+      "path": "portfolio/figures/figure_1_trajectories.png",
+      "sha256": "a924a2c91572a21f67d1c405a5f62141d58fbbf1b53603d909a2b683c27c811e"
+    },
+    {
+      "path": "portfolio/figures/figure_1_trajectories.pdf",
+      "sha256": "d1ac43fe6280ae3d72197f445c7899d3746b913f02f40de2b8d602711dccbcd4"
+    },
+    {
+      "path": "portfolio/figures/figure_1_all_localities.png",
+      "sha256": "03e530f2120ae7fad079cd067f8b621a4669ed9da09123b7be1f65a71758a5d1"
+    },
+    {
+      "path": "portfolio/figures/figure_1_all_localities.pdf",
+      "sha256": "c1e46aac1a05491fa32d26555300ec24b254302a00641551ed655a90f75bb049"
+    },
+    {
+      "path": "portfolio/figures/figure_2_simulation_recovery.png",
+      "sha256": "3763645634824bbbf946ae7c1ac51809504e12cc42d2cbe75447a8e8cee94fda"
+    },
+    {
+      "path": "portfolio/figures/figure_2_simulation_recovery.pdf",
+      "sha256": "229bec8596f960bc2ed9772c877062a39822d42fdf0ed5915f7ec9d099e0d535"
+    },
+    {
+      "path": "portfolio/figures/figure_2_simulation_recovery_memo.png",
+      "sha256": "967c02fa9571a179651a084a7894404ac373bea51beda030781c77176a36aefd"
+    },
+    {
+      "path": "portfolio/figures/figure_2_simulation_recovery_memo.pdf",
+      "sha256": "9124ae74e3903470ab2ace61fecba3a0eea03ba3cdc735efcd771a219e808505"
+    },
+    {
+      "path": "portfolio/figures/figure_3_reporting_sensitivity.png",
+      "sha256": "c8ac703fc8a6e95ee8716411cb34bb5bec7af83f515f82c6ff8b8a1f762f1f8d"
+    },
+    {
+      "path": "portfolio/figures/figure_3_reporting_sensitivity.pdf",
+      "sha256": "8249ef9ab91f84b50d9888d3fbaa1fc3f90fc4cd9508cdf0b3a68ad303dddc57"
+    },
+    {
+      "path": "portfolio/figures/figure_3_reporting_sensitivity_memo.png",
+      "sha256": "dcdea9a32aafe08a60374b2fe5215a4e8d76d3db1e6eab6d20e39f82b7d35e40"
+    },
+    {
+      "path": "portfolio/figures/figure_3_reporting_sensitivity_memo.pdf",
+      "sha256": "6e804c0ae90aaceefa2b318383c71769159c391a9819f6f4fa586497c092b237"
+    },
+    {
+      "path": "portfolio/figures/figure_4_empirical_sensitivity.png",
+      "sha256": "aa5d39555629fd1b5d9ecdf539a04ce059c07f228ecd21ab6ef8fe2f6e08cd27"
+    },
+    {
+      "path": "portfolio/figures/figure_4_empirical_sensitivity.pdf",
+      "sha256": "5fc73643d51254f7875f590fbce60ee1a435dcd4fb6986c79c9104628a866119"
+    },
+    {
+      "path": "portfolio/figures/figure_5_prediction_comparison.png",
+      "sha256": "9bbe72b595aca02272c28d535c1736b1032a5f8c66fa2b6d255e0285e86d5f6d"
+    },
+    {
+      "path": "portfolio/figures/figure_5_prediction_comparison.pdf",
+      "sha256": "e476b1ebda15fa446e7014b2c87dcd84239915624aae2496e49ed122237eb3db"
+    }
+  ]
+}

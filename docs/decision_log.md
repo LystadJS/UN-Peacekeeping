@@ -57,3 +57,7 @@ PDF pages, figure exports and all five slides were visually reviewed; package an
 ## Clean reproduction and portfolio repairs — 2026-11-06
 
 The user authorized parallel final-portfolio auditing and an end-to-end clean run. The isolated run reconstructed original-file audits, panels, all 2,200 simulation fits, primary models and follow-up evaluations; 383 scientific comparisons passed. Presentation wording, PNG device selection and parallel failure handling were repaired without changing scientific estimates. The regenerated figures, memo and deck passed structural and agent visual review. Exact Windows installed-package hashes and non-R artifact runtime details are recorded. Fresh source installation and independent human review remain untested; the latter is explicitly false in status. See docs/clean_rebuild_results.md.
+
+## Human-review packet prepared — 2026-11-06
+
+Prepared a versioned reviewer guide, second-pass checklist and blank feedback form for the memo, figures and deck. The guide collects unaided interpretation before presenting diagnostic prompts, records partial coverage and requested revisions, and separates feedback receipt from acceptance. No feedback has been received, no outreach was sent, and all human-review flags remain false.

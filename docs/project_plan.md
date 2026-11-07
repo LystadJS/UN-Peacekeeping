@@ -235,7 +235,7 @@ Evidence: portfolio/research_memo.pdf (four pages), portfolio/scott_discussion.p
 - [x] Confirm source versions, random seeds and package environments are recorded.
 - [x] Verify every numerical statement against the saved analysis outputs.
 - [x] Document failed models, exclusions, deviations and unresolved discrepancies.
-- [ ] Have another reader interpret the central figures without coaching.
+- [ ] Have another reader interpret the central figures without coaching. The [human-review packet](../portfolio/human_review/README.md) is ready; actual feedback and its assessment remain outstanding.
 - [x] Prepare a concise explanation of the skills demonstrated: data auditing, multilevel modeling, simulation and uncertainty analysis.
 - [x] Prepare two focused questions for Scott about the findings and a possible research extension.
 
