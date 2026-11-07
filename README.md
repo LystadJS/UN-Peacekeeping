@@ -24,6 +24,8 @@ The [clean rebuild](docs/clean_rebuild_results.md) reproduced the active workflo
 
 ## Start here
 
+The [one-origin reconstruction](docs/forecast_origin_reconstruction.md) examines what could be known on **1 October 2023**. Three dated UN reports support the relevant deployment-map identities; archived event counts differ from the current panel. July version availability has historical-use evidence, while August/September availability and historical numeric coding remain incomplete. The full-quarter archive benchmark includes post-cutoff source material and is not an authenticated forecast input. Reproducible comparisons and explicit remaining gaps are provided; no model was refitted.
+
 The [deployment-absence follow-up](docs/deployment_absence_followup.md) and [historical-availability investigation](docs/historical_data_availability.md) document what additional sources can resolve. UN reports provide positive deployment evidence for an unlisted locality; archived UCDP releases provide a route to a future as-of reconstruction. Neither certifies zero deployment or real-time availability for the current panel. The [code audit](docs/historical_availability_code_audit.md) separates occurrence-time checks from publication availability. These follow-ups leave the fitted sample and model estimates unchanged.
 
 For the active revision, use the [quarterly runbook](docs/quarterly_runbook.md), [freshness audit](docs/quarterly_freshness_audit.md), and [predictor-design diagnostics](docs/quarterly_design_diagnostics.md). The older starter commands below remain useful for the original scaffold, not as evidence that its full model has been validated.

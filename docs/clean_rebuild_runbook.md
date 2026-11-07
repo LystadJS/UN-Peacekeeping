@@ -31,3 +31,7 @@ Inspect the rebuilt PDF pages and slide previews, and run `scripts/audit_portfol
 The `-Prepared` option exists for a project whose code, originals and verified library have already been staged. It still rejects derived outputs. It is a preparation convenience, not permission to resume from cached scientific results.
 
 The workflow now also copies the static quarterly dictionary, checks six source-record cases, verifies the current analysis snapshot, materializes the existing 2,000 simulation panels, and builds the descriptive supplement. These additive stages were separately tested against the retained clean project; they do not change the recorded earlier full-run receipt or imply another complete refitting run.
+
+## One-origin reconstruction supplement
+
+Before a new full clean run, run `scripts/acquire_forecast_origin_inputs.R` in the source project to obtain or verify the six additional pinned originals. The orchestrator copies only these original CSV/PDF downloads and their evidence manifests after the original-input guard, then regenerates the one-origin event and deployment comparisons and runs `tests/run_forecast_origin_checks.R`. It does not copy derived supplement ledgers or use them for fitting. The two analysis stages and checks were also tested in the retained isolated project; this additive check is not another full model run. See [the single-origin reconstruction](forecast_origin_reconstruction.md).

@@ -1,5 +1,7 @@
 # Historical data availability investigation
 
+Follow-up completed 2026-11-07: the [1 October 2023 reconstruction](forecast_origin_reconstruction.md) now implements the bounded single-origin exercise proposed below. It recovers dated map evidence and compares archived event content, while leaving the complete historical predictor set uncertified. The earlier investigation below is retained as its starting evidence.
+
 Investigated 2026-11-07. **Historical releases exist, but the present pilot has not reconstructed what an analyst could actually have known at each forecast origin.** The existing 2019 Q1–2023 Q4 validation remains retrospective. This investigation identifies a feasible follow-on route and specific gaps; it does not revise any panel, predictor, model or score.
 
 ## Four different dates

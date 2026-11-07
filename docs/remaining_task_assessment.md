@@ -81,3 +81,7 @@ The assigned dictionary/source checks, descriptive figures and full synthetic ar
 ## Availability follow-up — 2026-11-07
 
 The requested follow-up is complete: [deployment evidence](deployment_absence_followup.md) identifies presence in unlisted Djugu; [historical archives](historical_data_availability.md) provide a possible reconstruction route; [source-date and eligibility checks](historical_availability_code_audit.md) quantify delayed listed reporting and narrow one selection concern. Absence certification, complete as-of reconstruction and operational validation remain unresolved. The current panel, model estimates and human-review disposition are unchanged.
+
+## One-origin follow-up — 2026-11-07
+
+The [fixed-origin exercise](forecast_origin_reconstruction.md) is complete as a partial information reconstruction. Three original report maps and three archived Candidate files were inspected or processed and fingerprinted. Current-panel comparisons are reproducible; missing last-month information, unauthenticated numeric deployment coding and unreconstructed training histories prevent an authenticated historical forecast. This narrows the evidence gaps without marking operational validation complete or changing the fitted sample.

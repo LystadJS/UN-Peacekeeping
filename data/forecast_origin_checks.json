@@ -1,0 +1,12 @@
+{
+  "investigation_date": "2026-11-07",
+  "forecast_origin_utc": "2023-10-01T00:00:00Z",
+  "scope": "Additive partial information reconstruction; no new model fits or full estimation rerun",
+  "original_artifacts_verified": 6,
+  "generated_tables_matched_exactly": 8,
+  "input_hashes_verified_per_project": 11,
+  "isolated_supplement_checks": "passed",
+  "frozen_analysis_files_verified": 18,
+  "authenticated_full_information_set": false,
+  "human_review": "skipped_by_user_not_completed"
+}

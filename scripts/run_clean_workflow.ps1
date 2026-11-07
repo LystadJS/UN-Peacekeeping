@@ -76,6 +76,24 @@ function Complete-RBatch($jobs) {
 # Raw-input entry point refuses copied intermediates and verifies source hashes.
 & $Rscript --vanilla scripts/rebuild_original_inputs.R $cleanProject --prepared-project --execute
 if ($LASTEXITCODE -ne 0) { throw 'Original-input rebuild failed.' }
+# Seed the one-origin supplement with its six pinned ORIGINAL downloads only.
+# Derived ledgers, counts, maps rendered as images and fitted objects are not copied.
+foreach ($manifest in @('forecast_origin_event_inputs.csv','forecast_origin_deployment_sources.csv','forecast_origin_release_evidence.csv')) {
+    Copy-Item -LiteralPath (Join-Path 'data' $manifest) -Destination (Join-Path $cleanProject "data/$manifest")
+}
+$eventOriginals = @(Import-Csv 'data/forecast_origin_event_inputs.csv' | Where-Object { $_.source -match '^https://' } | ForEach-Object { $_.path })
+$reportOriginals = @(Import-Csv 'data/forecast_origin_deployment_sources.csv' | ForEach-Object { $_.local_path })
+$supplementOriginals = @($eventOriginals) + @($reportOriginals)
+if ($supplementOriginals.Count -ne 6) { throw 'Expected six original one-origin artifacts.' }
+foreach ($relativePath in $supplementOriginals) {
+    $destination = Join-Path $cleanProject $relativePath
+    New-Item -ItemType Directory -Path (Split-Path $destination) -Force | Out-Null
+    Copy-Item -LiteralPath $relativePath -Destination $destination
+}
+Run-RStage 'scripts/acquire_forecast_origin_inputs.R'
+Run-RStage 'scripts/reconstruct_forecast_origin_events.R'
+Run-RStage 'scripts/audit_forecast_origin_deployment.R'
+Run-RStage 'tests/run_forecast_origin_checks.R'
 Run-RStage 'scripts/check_quarterly_source_records.R'
 Run-RStage 'scripts/audit_absence_followup.R'
 Run-RStage 'scripts/audit_historical_source_dates.R'
