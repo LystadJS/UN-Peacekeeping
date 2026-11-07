@@ -19,5 +19,19 @@ complete_locality,locality_quarter,All 32 lagged exposure quarters available und
 core_sample,locality_quarter,Membership of nine-locality complete-exposure sample,boolean,Does not certify reporting completeness
 history_complete,locality_quarter,Prior count and uncensored spell and second strength lag available,boolean,False if any required history missing
 history_sample_candidate,locality_quarter,Core sample with complete required histories,boolean,Does not authorize model fitting before validation gate
-initial_spell,locality_initial_state,Observed consecutive positive-count quarters through 2015Q4,quarters,Use with initial censoring flag; exported separately from panel
+initial_spell,locality_initial_state,Uncensored consecutive positive-count quarters through 2015Q4,quarters,NA when left censored; exported separately from panel
 initial_spell_left_censored,locality_initial_state,Initial positive run may precede available 2014 history,boolean,Preserve flag; exported in initial-condition table
+known_months,locality_quarter,Number of outcome-quarter months with finite nonnegative listed strength and map age zero through five,months_0_to_3,Not allowed; describes current quarter rather than lagged predictor
+strength,locality_quarter,Mean monthly military strength in outcome quarter after subtracting FPU from listed total,1000_personnel,NA unless exactly three acceptable months; not a model predictor for current outcome
+source_maps,locality_quarter,Concatenated source labels and map dates for listed outcome-quarter rows,text,Empty when no source listing; not proof of absence
+exposure_sources,locality_quarter,Prior-quarter source_maps string documenting strength_lag provenance,text,Empty when no source listing
+locality,locality_quarter,Fixed SALB locality or analytical city-territory composite label,text,Not allowed
+province,locality_quarter,Fixed SALB province name used as categorical predictor,text,Not allowed
+source_quarter,locality_quarter,Outcome year multiplied by four plus quarter minus one,integer_quarter_index,Not allowed; not a source release date
+history_outcome_quarter,locality_quarter,source_quarter minus one identifying the prior event-count quarter,integer_quarter_index,NA before available history; retrospective event dates do not establish real-time availability
+strength_lag_rebuilt,locality_quarter,Independent history-grid reconstruction of prior-quarter mean military strength,1000_personnel,Same eligibility and NA rule as strength_lag; equality checked
+outcome_zero_definition,locality_quarter,Literal reminder that zero means no retained GED record rather than reporting completeness,text,Not allowed
+strength_rebuilt,locality_quarter,History-grid reconstruction of current-quarter mean military strength,1000_personnel,NA unless three finite nonnegative monthly strengths with map ages zero through five
+initial_recorded_events,locality_initial_state,Retained event count in 2015Q4 exported for initial-condition diagnostics,events,Zero means no retained record; not universal zero initialization
+initial_civilian_fatalities,locality_initial_state,Sum deaths_civilians among retained 2015Q4 events,people,Zero means no retained fatalities under the event filter
+initial_strength,locality_initial_state,History-grid strength_rebuilt in 2015Q4,1000_personnel,NA under identical three-month strength eligibility rules

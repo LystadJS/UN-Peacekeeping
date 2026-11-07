@@ -1,6 +1,6 @@
 # Human-review packet
 
-**Status: awaiting human feedback.** Prepared 6 November 2026. No reviewer response has been received or recorded. Automated and agent checks do not satisfy this review.
+**Status: skipped at the user's request on 6 November 2026.** No reviewer response has been received or recorded, and human review is not marked complete. This packet is retained for optional future use; it is no longer a required next step. Automated and agent checks are not human review.
 
 Allow about 20–30 minutes. The purpose is to find what a reader understands without coaching, where the evidence is unclear, and what needs revision before a research discussion. Statistical expertise is helpful but not required; please note your background in the form.
 
@@ -29,6 +29,6 @@ After the unaided pass, optional references are the [figure notes](../../docs/po
 
 ## Recording feedback
 
-Keep human review outstanding until a real response has been received and its coverage assessed. Receipt alone does not establish acceptance: record the reviewed version, materials covered, requested revisions and their disposition. Substantive revisions should be returned for confirmation where needed. A partial response leaves unreviewed materials outstanding.
+If human review is resumed, keep it uncompleted until a real response has been received and its coverage assessed. Receipt alone does not establish acceptance: record the reviewed version, materials covered, requested revisions and their disposition. Substantive revisions should be returned for confirmation where needed. A partial response leaves unreviewed materials outstanding.
 
 The [review status](review_status.json) is intentionally uncompleted. When feedback arrives, preserve the original response separately, record its receipt and coverage, and update the project checklist and human-review flags only when supported. Do not publish reviewer identity or private comments without permission. Native PowerPoint testing is a separate claim and can be recorded only if someone actually opens and checks the deck in that application. No outreach is performed by preparing this packet.

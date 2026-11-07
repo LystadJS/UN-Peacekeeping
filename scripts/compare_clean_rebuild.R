@@ -49,7 +49,8 @@ panel_paths <- c(unlist(lapply(raw_directories, list.files, pattern = "\\.csv$",
   full.names = TRUE, recursive = TRUE)), "outputs/quarterly_pilot/exposure_audit.csv",
   "outputs/quarterly_pilot/exposure_coverage.csv")
 manifest_paths <- c("data/quarterly_panel_manifest.csv", "data/quarterly_evaluation_input_manifest.csv",
-                    "portfolio/figures/figure_manifest.csv")
+                    "portfolio/figures/figure_manifest.csv",
+                    "portfolio/figures/descriptive_panel_manifest.csv")
 
 compare_column <- function(a, b, exact = FALSE) {
   if (length(a) != length(b) || !identical(is.na(a), is.na(b))) return(FALSE)

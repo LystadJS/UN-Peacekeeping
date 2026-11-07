@@ -71,6 +71,21 @@ def main():
         require(figure_path.is_relative_to(project_root), "Figure path leaves repository.")
         require(file_sha256(figure_path) == row["sha256"], f"Figure hash mismatch: {row['file']}")
 
+    # Optional descriptive supplement added after the original portfolio freeze.
+    # Keep its checks separate from the sixteen core exports and review packet.
+    supplement_path = project_root / "portfolio/figures/descriptive_panel_manifest.csv"
+    supplement_count = 0
+    if supplement_path.exists():
+        with supplement_path.open(encoding="utf-8-sig", newline="") as stream:
+            supplement = list(csv.DictReader(stream))
+        require(len(supplement) == 2, "Expected two descriptive supplement exports.")
+        require(len({row["file"] for row in supplement}) == 2, "Duplicate supplement paths.")
+        for row in supplement:
+            path = (project_root / row["file"]).resolve()
+            require(path.is_relative_to(project_root), "Supplement leaves repository.")
+            require(file_sha256(path) == row["sha256"], "Descriptive supplement hash mismatch.")
+        supplement_count = len(supplement)
+
     # Hash final artifacts only. No self-hash or claim of unperformed human review.
     manifest = {
         "analysis_commit": analysis_commit,
@@ -78,7 +93,8 @@ def main():
         "native_powerpoint_tested": False,
         "validation_scope": "Automated structural and hash checks; agent visual QA is documented separately.",
         "checks": {"memo_pages": page_count, "deck": deck_counts,
-                   "verified_figure_hashes": len(figure_records)},
+                   "verified_figure_hashes": len(figure_records),
+                   "verified_supplement_hashes": supplement_count},
         "artifacts": [
             {"file": path.relative_to(project_root).as_posix(),
              "bytes": path.stat().st_size, "sha256": file_sha256(path)}

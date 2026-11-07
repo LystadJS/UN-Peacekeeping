@@ -27,7 +27,7 @@ if (prepared_project) {
     stop("Prepared project must not contain outputs, interim or processed directories.")
   }
   data_entries <- list.files(file.path(target, "data"), all.files = TRUE, no.. = TRUE)
-  if (!all(data_entries %in% c("raw", "source_manifest.csv"))) stop("Unapproved prepared data input.")
+  if (!all(data_entries %in% c("raw", "source_manifest.csv", "quarterly_data_dictionary.csv"))) stop("Unapproved prepared data input.")
   allowed_top <- c("scripts", "tests", "R", "config", "docs", "data", "portfolio",
     ".local_library", "un_peacekeeping.Rproj", "README.md", "AGENTS.md", ".gitignore",
     "DESCRIPTION", "LICENSE", ".Rprofile", "renv.lock")
@@ -58,7 +58,8 @@ copy_relative <- function(path) {
 # CSVs from accidentally satisfying downstream requirements in the clean run.
 code_paths <- unlist(lapply(c("scripts", "tests", "R", "config"), function(directory)
   list.files(directory, recursive = TRUE, full.names = TRUE)))
-copy_paths <- unique(c(code_paths, "un_peacekeeping.Rproj", "data/source_manifest.csv", manifest$local_path))
+copy_paths <- unique(c(code_paths, "un_peacekeeping.Rproj", "data/source_manifest.csv",
+                       "data/quarterly_data_dictionary.csv", manifest$local_path))
 if (prepared_project) copy_paths <- copy_paths[file.exists(copy_paths)]
 if (!prepared_project) for (path in copy_paths) copy_relative(path)
 for (i in seq_len(nrow(manifest))) {

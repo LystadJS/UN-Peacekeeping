@@ -4,7 +4,7 @@
 
 **Plan recorded:** 2026-11-05 (America/New_York). Weeks indicate sequence and approximate effort, not scheduled dates. Week 1 acquisition and audit were subsequently authorized and executed; see [findings](week_1_audit.md). Decision: revise the design. The revised quarterly model, bounded simulation evaluation and follow-up diagnostics are now complete; see the active revision below.
 
-Checked items have evidence in the current repository. Unchecked items may have scaffolding but have not met their acceptance conditions. Change status only when an evidence path can be recorded. See [Week 1 runbook](week_1_runbook.md), [research protocol](research_protocol.md), and [decision log](decision_log.md).
+Checked items have evidence in the current repository. On 2026-11-06 the user skipped human review; unchecked items explicitly marked skipped, deferred or unresolved are not unexecuted routine work. See [remaining-task assessment](remaining_task_assessment.md). Unchecked items may have scaffolding but have not met their acceptance conditions. Change status only when an evidence path can be recorded. See [Week 1 runbook](week_1_runbook.md), [research protocol](research_protocol.md), and [decision log](decision_log.md).
 
 **Authorized scope revision:** the active pilot is 2016–2023 quarterly, with a common listed-strength slope in 19 candidate composites and nine complete-history localities. Monthly binary-presence models, the original eight-cell heterogeneity design and locality-specific slope recovery are deferred extensions, not requirements that have already been satisfied. The [quarterly protocol](quarterly_protocol.md) controls current modeling. The core and ordinary dynamic simulation gates passed, panel checks passed, and the bounded baseline/history fits are complete. The requested residual, influence, sensitivity and retrospective prediction evaluation is complete; unresolved model limitations remain; the research portfolio is now prepared. See quarterly_evaluation_findings.md. An independent review and parallel follow-up work began on 2026-11-06.
 
@@ -24,7 +24,7 @@ Checked items have evidence in the current repository. Unchecked items may have 
 - [x] Obtain Geo-PKO deployment data, UCDP GED, their codebooks and suitable administrative boundaries. Evidence: 20-artifact manifest; SALB and geoBoundaries acquired; HDX geometry download failed.
 - [x] Record source URLs, versions, retrieval dates, file hashes and applicable use requirements. Evidence: source manifest; unresolved Geo-PKO redistribution permission is documented.
 - [x] Preserve original files separately from processed data. Evidence: ignored `data/raw/` and `data/interim/`.
-- [ ] Create a data dictionary documenting variable definitions, units, missing values and transformations.
+- [x] Complete the active quarterly data dictionary: all 36 exported fields have definitions, units, missingness and transformation rules. Evidence: data/quarterly_data_dictionary.csv and docs/quarterly_source_spotchecks.md.
 - [x] Establish an R project with relative paths, fixed seeds and recorded packages. The clean run verified exact installed-package versions and hashes in an isolated Windows/R library; source reinstall and cross-platform restoration remain untested.
 
 ### Coverage and measurement audit
@@ -32,9 +32,9 @@ Checked items have evidence in the current repository. Unchecked items may have 
 - [x] Inventory observations by locality, month and source. Evidence: Week 1 audit outputs.
 - [x] Check duplicate identifiers, invalid dates, impossible coordinates and inconsistent locality names. Evidence: source checks and name/discrepancy ledgers.
 - [x] Audit administrative boundary changes and document the geographic crosswalk. Evidence: four vintages and footprint comparison; early Djugu equivalence remains unresolved.
-- [ ] Distinguish observed deployment absence from unknown deployment status.
+- [x] Keep unknown listing status separate from zero; do not certify absence from missing listings. Evidence: deployment_absence_review.md and source spot checks. Verified absence remains unavailable.
 - [x] Preserve deployment-map dates and identify months populated through carry-forward. Evidence: monthly-to-map reconciliation and freshness table.
-- [x] Inspect conflict-event date and location precision; define exclusion or aggregation rules. Evidence: strict feasibility rules and event ledger; model protocol not yet frozen.
+- [x] Inspect conflict-event date and location precision; define exclusion or aggregation rules. Evidence: strict feasibility rules and event ledger; primary model protocol and current snapshot are documented.
 - [x] Identify localities with sufficient deployment changes to support within-locality analysis. Assessment completed: sparse support and unverified zeros prevent approval of varying presence slopes.
 
 ### Outputs and visualizations
@@ -46,11 +46,11 @@ Checked items have evidence in the current repository. Unchecked items may have 
 
 ### Evaluation and progress gate
 
-- [x] Resolve every duplicate analysis key and unexplained join expansion. No duplicate feasibility keys or join expansion; final model panel remains pending.
+- [x] Resolve every duplicate analysis key and unexplained join expansion. No duplicate feasibility or quarterly analysis keys or unexplained join expansion; panel tests and clean reproduction passed.
 - [x] Account for every excluded record with a documented reason. Evidence: all 5,511 DRC audit records accounted for; global country/year filter reproducible.
 - [x] Confirm that retained observations can be traced to their sources. Evidence: event IDs and deployment source-row/map references.
-- [x] Decide whether monthly timing is defensible or quarterly aggregation should be primary. Recommend quarterly for revised pilot; monthly sensitivity remains necessary.
-- [x] Record the feasibility decision: **revise the design**. Evidence: `feasibility_decision.md`; empirical estimation is not cleared.
+- [x] Decide whether monthly timing is defensible or quarterly aggregation should be primary. Quarterly is primary; the explicitly exploratory monthly sensitivity was completed.
+- [x] Record the feasibility decision: **revise the design**. Evidence: `feasibility_decision.md`; the later authorized quarterly revision completed bounded empirical estimation.
 
 ## 2. Minimal simulation and model validation — Weeks 1–2
 
@@ -59,8 +59,8 @@ Checked items have evidence in the current repository. Unchecked items may have 
 - [x] Simulate repeated quarterly observations within localities. Evidence: core quarterly generator; monthly design is deferred.
 - [x] Generate locality-specific baseline violence and overdispersed event counts. Evidence: NB2 core simulation.
 - [x] Specify a known common deployment effect under a favorable exposure design. The core conditions on observed strength schedules; dynamic assignment is a separate scenario.
-- [ ] Fit the proposed baseline count model.
-- [ ] Verify that simulated deployment, violence and locality differences match their intended distributions.
+- [x] Fit the common-strength simulation count model and the separate empirical baseline. Evidence: quarterly_validation_results.md and quarterly_empirical_results.md.
+- [x] Check the declared generators and all dynamic generated panels for valid counts, thinning and history distributions. Evidence: dynamic_quarterly_generated_audit.csv and generator checks; simulations remain illustrative rather than calibrated to the DRC.
 - [x] Confirm that core coefficients and truth share the log-count scale per 1,000 listed personnel. Dynamic extension checked separately.
 
 The common-strength core passed its favorable/null gate. This does not validate history adjustment or endogenous deployment. The baseline without strength has no strength coefficient; recovery uses the corresponding strength model. The original binary generator is retained as historical scaffolding.
@@ -73,7 +73,7 @@ The common-strength core passed its favorable/null gate. This does not validate 
 - [ ] Deferred: compare common versus heterogeneous effects after common-slope recovery is defensible.
 - [ ] Deferred: implement the original eight-cell selection/reporting/heterogeneity design if heterogeneity is reinstated.
 - [x] Include a null-effect scenario to assess spurious directional conclusions. Evidence: core null scenario.
-- [ ] Preserve latent event counts, recorded counts, deployment assignments and true parameters.
+- [x] Preserve all 2,000 unique generated panels, their full returned objects, seeds, generator sources and hashes locally. They cover all 2,200 fit attempts. Evidence: simulation_archive.md.
 
 ### Performance evaluation
 
@@ -82,7 +82,7 @@ The common-strength core passed its favorable/null gate. This does not validate 
 - [x] Measure core coefficient bias, RMSE and interval coverage.
 - [ ] Deferred: measure between-locality slope-variation recovery if varying slopes return to scope.
 - [x] Measure confidently incorrect directional conclusions in core scenarios.
-- [ ] Increase replications until Monte Carlo uncertainty is sufficiently small for the planned comparisons.
+- [x] Assess Monte Carlo precision for the bounded comparisons. Required gate coverage MCSEs meet the prespecified threshold; stress-case intervals establish large recovery failures. A tight claim about near-threshold null bias remains unsupported. No additional fits were selected to force a pass.
 - [x] Set core tolerances before the validation run; dynamic tolerances recorded independently before that run.
 
 ### Outputs and visualizations
@@ -94,9 +94,9 @@ The common-strength core passed its favorable/null gate. This does not validate 
 ### Evaluation and progress gate
 
 - [x] Verify favorable common-strength core recovery. Ordinary history-adjusted recovery subsequently passed its required gates; see dynamic results.
-- [ ] Investigate unexpected failures before interpreting adverse scenarios.
-- [ ] Distinguish computational failure, finite-sample limitations and structural bias.
-- [ ] Freeze a manageable model set for the empirical analysis.
+- [x] Investigate numerical/initial-condition problems and keep adverse-scenario failures visible. Evidence: dynamic_quarterly_results.md and quarterly_evaluation_findings.md.
+- [x] Separate fit usability, finite-sample uncertainty and structural recovery failures. Evidence: dynamic_quarterly_results.md and research memo.
+- [x] Restrict estimation to the documented baseline and ordinary common-slope history model; no locality-specific slopes or estimator search. Evidence: empirical_quarterly_protocol.md.
 
 ## 3. Analysis panel and protocol — Week 2
 
@@ -104,35 +104,35 @@ The common-strength core passed its favorable/null gate. This does not validate 
 
 - [x] Construct the complete eligible locality–time grid.
 - [x] Aggregate conflict events using the audited geographic and temporal rules.
-- [ ] Distinguish zero recorded events from unavailable or ineligible observations.
+- [x] Separate zero retained events from unknown deployment/ineligible rows. Evidence: quarterly panel dictionary, panel tests and six source spot checks.
 - [x] Aggregate deployments without counting repeated representations of the same unit twice.
 - [x] Calculate lagged deployment, prior violence and recent conflict-history variables.
 - [x] Calculate within-locality deployment deviations and between-locality deployment averages.
-- [ ] Ensure every predictor uses information available before the relevant outcome period.
-- [ ] Verify selected locality–time records manually against their source records.
+- [ ] Unresolved: historical release vintages are unavailable, so real-time information availability cannot be certified. Lag construction and training-only centering are verified; retrospective full-period sample selection is disclosed.
+- [ ] Skipped with human review: manual source verification. A separate automated reconstruction of six fixed cases passed against original GED and Geo-PKO files; see quarterly_source_spotchecks.md.
 
 ### Analysis commitments
 
-- [ ] Specify baseline, history-adjusted and varying-slope models.
-- [ ] Define the primary deployment contrast and coefficient interpretation.
-- [ ] Prespecify temporal validation windows, predictive scores and interval levels.
-- [ ] Define how sparse localities, uncertain locations and stale deployments will be handled.
-- [ ] Specify criteria for simplifying unsupported random slopes.
-- [ ] Separate confirmatory analyses from exploratory extensions.
-- [ ] Timestamp the protocol before examining substantive deployment estimates.
+- [x] Specify baseline and history-adjusted common-slope models; explicitly defer varying slopes under the revised scope. Evidence: empirical_quarterly_protocol.md.
+- [x] Define the conditional within-locality association per 1,000 prior-quarter listed military personnel. Evidence: empirical_quarterly_protocol.md.
+- [x] Record the rolling windows, log scores and conditional 80%/95% count intervals before the main validation run. Evidence: quarterly_prediction_protocol.md; local protocol records are not external preregistration.
+- [x] Document complete-history selection, strict primary event precision and five-month map freshness, with sensitivity alternatives. Evidence: quarterly_protocol.md and quarterly_sensitivity_protocol.md.
+- [x] Defer locality slopes because the revised design does not establish recoverable heterogeneity. Evidence: quarterly_design_diagnostics.md and empirical_quarterly_protocol.md.
+- [x] Distinguish the declared primary comparison from follow-up diagnostics and exploratory timing/outcome/reporting alternatives. Evidence: quarterly_evaluation_scope.md and decision_log.md.
+- [ ] Historical limit: protocols report local pre-fit preparation, but no external preregistration or independently verifiable pre-results freeze exists. Do not backdate the current snapshot.
 
 ### Outputs and visualizations
 
 - [x] Save the analysis panel with a reproducible construction script.
 - [x] Produce a sample-flow table showing retention and exclusions.
-- [ ] Plot outcome distributions, deployment variation and usable observations by locality.
+- [x] Plot retained outcome/strength distributions and publish a 19-locality coverage/variation summary. Evidence: descriptive_panel_results.md and portfolio/figures/descriptive_panel_distributions.pdf.
 
 ### Evaluation and progress gate
 
 - [x] Confirm unique locality–time keys and reconciled event totals.
 - [x] Verify that joins have not duplicated events or deployments.
-- [ ] Confirm adequate within-locality deployment variation.
-- [ ] Freeze the panel and protocol; log subsequent changes explicitly.
+- [x] Assess variation: eight of nine retained localities vary in strength, one is constant, and adjacent lags are highly correlated. Common-slope precision is limited; varying slopes remain unsupported. Evidence: quarterly_design_diagnostics.md.
+- [x] Record the current reviewed analysis snapshot with 18 file hashes and verify it. Evidence: config/analysis_snapshot.json and scripts/record_analysis_snapshot.R. This is a post-results snapshot, not retrospective preregistration.
 
 ## 4. Multilevel estimation and predictive evaluation — Week 3
 
@@ -141,7 +141,7 @@ The common-strength core passed its favorable/null gate. This does not validate 
 - [x] Fit the locality and calendar baseline model. Evidence: initial empirical results.
 - [x] Add deployment and prespecified conflict-history variables. Evidence: initial empirical results.
 - [x] Distinguish within-locality deployment associations from between-locality differences. Evidence: fitted history formula.
-- [ ] Fit locality-specific deployment slopes only where the design supports them.
+- [ ] Deferred: locality-specific slopes are outside the current approved common-slope pilot and are not supported merely by computational convergence.
 - [x] Document estimator settings, convergence information and uncertainty calculations.
 
 ### Diagnostics and validation
@@ -157,8 +157,8 @@ The common-strength core passed its favorable/null gate. This does not validate 
 
 ### Outputs and visualizations
 
-- [ ] Create small-multiple locality trajectories with observed deployment dates and predictive intervals.
-- [ ] Plot partially pooled deployment coefficients with uncertainty and deployment-change information.
+- [x] Create three-locality trajectories with source-map dates and held-out intervals, plus an all-nine supplement. Evidence: portfolio/figures/figure_1_trajectories.pdf and portfolio_figure_notes.md.
+- [ ] Deferred: no locality-specific deployment coefficients were fitted. Common-association sensitivity and simulation-recovery figures replace this unsupported display.
 - [x] Show predictive performance across validation periods.
 - [x] Retain the inconclusive common association; locality-specific heterogeneity remains deferred, not estimated.
 
@@ -235,8 +235,8 @@ Evidence: portfolio/research_memo.pdf (four pages), portfolio/scott_discussion.p
 - [x] Confirm source versions, random seeds and package environments are recorded.
 - [x] Verify every numerical statement against the saved analysis outputs.
 - [x] Document failed models, exclusions, deviations and unresolved discrepancies.
-- [ ] Have another reader interpret the central figures without coaching. The [human-review packet](../portfolio/human_review/README.md) is ready; actual feedback and its assessment remain outstanding.
+- [ ] Skipped at the user's request on 2026-11-06: independent human interpretation. The optional packet is retained; no feedback was received and human review is not marked complete.
 - [x] Prepare a concise explanation of the skills demonstrated: data auditing, multilevel modeling, simulation and uncertainty analysis.
 - [x] Prepare two focused questions for Scott about the findings and a possible research extension.
 
-Independent reader review is an external acceptance step; a self-check cannot mark it complete.
+Independent reader review was waived by the user for continuation. It remains unperformed; agent checks do not convert it into completed human review.

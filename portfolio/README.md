@@ -12,7 +12,7 @@ The central finding is an inconclusive common deployment-strength association. T
 
 ## Human review
 
-Use the [human-review packet](human_review/README.md) for the review order, concise checklist and blank feedback form. The packet is prepared; feedback has not been received and human review remains outstanding.
+Use the [human-review packet](human_review/README.md) for the review order, concise checklist and blank feedback form. The packet is retained for optional use. Human review was skipped at the user's request; no feedback was received and review is not marked complete.
 
 ## Figure guide
 
@@ -24,14 +24,16 @@ Use the [human-review packet](human_review/README.md) for the review order, conc
 
 The original proposal's locality-specific association figure was replaced after the design revision. The final figures show the common model and its limitations rather than inventing unsupported heterogeneity estimates. See [figure notes](../docs/portfolio_figure_notes.md) for the selection rules and uncertainty definitions.
 
+Additional descriptive context: [outcome and deployment distributions](figures/descriptive_panel_distributions.pdf), [19-locality aggregate summary](figures/descriptive_panel_summary.csv), and [interpretation notes](../docs/descriptive_panel_results.md). These describe the retained sample and do not estimate locality-specific protection effects.
+
 ## Evidence and reproduction
 
 The [combined evaluation findings](../docs/quarterly_evaluation_findings.md) link the detailed analyses and aggregate tables. The [Scott source brief](../docs/scott_research_connection.md) bounds the connection to his documented work. Analysis inputs and fitted objects remain in their original local directories; this portfolio publishes summaries and presentation artifacts.
 
 Rebuild figures with `scripts/build_portfolio_figures.R`. The memo and deck have separate artifact builders under `scripts/`; they use the bundled document/presentation runtime recorded in their instructions. R remains the language for scientific calculations; Python handles PDF typesetting and JavaScript handles editable slide authoring.
 
-No outreach is included. Independent human interpretation of the central figures remains a separate acceptance step. Automated checks and agent review do not satisfy that requirement.
+No outreach is included. Independent human interpretation was skipped at the user's request. Automated checks and agent review are not substitutes for an actual human response.
 
 See the [validation record](../docs/portfolio_validation.md) and [artifact manifest](artifact_manifest.json). Run the bundled Python interpreter on scripts/check_portfolio_artifacts.py to recheck page/object counts and hashes. The deck builder depends on the recorded Codex presentation runtime; native PowerPoint behavior has not been tested.
 
-The [clean reproduction and final audit](../docs/clean_rebuild_results.md) rebuilt the scientific workflow and presentation artifacts. It corrected model-attribution wording, the responsive-selection description, and implicit PNG-renderer selection. Scientific findings are unchanged; human review remains outstanding.
+The [clean reproduction and final audit](../docs/clean_rebuild_results.md) rebuilt the scientific workflow and presentation artifacts. It corrected model-attribution wording, the responsive-selection description, and implicit PNG-renderer selection. Scientific findings are unchanged; human review is skipped, not completed.

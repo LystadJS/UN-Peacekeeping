@@ -23,6 +23,7 @@ if (-not $Prepared) {
     New-Item -ItemType Directory -Path (Join-Path $cleanProject 'data'), (Join-Path $cleanProject 'portfolio') | Out-Null
     Copy-Item -LiteralPath 'data/raw' -Destination (Join-Path $cleanProject 'data') -Recurse
     Copy-Item -LiteralPath 'data/source_manifest.csv' -Destination (Join-Path $cleanProject 'data/source_manifest.csv')
+    Copy-Item -LiteralPath 'data/quarterly_data_dictionary.csv' -Destination (Join-Path $cleanProject 'data/quarterly_data_dictionary.csv')
     foreach ($file in @('research_memo.md','discussion_outline.md')) {
         Copy-Item -LiteralPath (Join-Path 'portfolio' $file) -Destination (Join-Path $cleanProject 'portfolio')
     }
@@ -75,6 +76,8 @@ function Complete-RBatch($jobs) {
 # Raw-input entry point refuses copied intermediates and verifies source hashes.
 & $Rscript --vanilla scripts/rebuild_original_inputs.R $cleanProject --prepared-project --execute
 if ($LASTEXITCODE -ne 0) { throw 'Original-input rebuild failed.' }
+Run-RStage 'scripts/check_quarterly_source_records.R'
+Run-RStage 'scripts/record_analysis_snapshot.R'
 # Empty state: successful flags are reconstructed, never inherited from main.
 [IO.File]::WriteAllText((Join-Path $cleanProject 'data/pilot_validation_status.json'), '{}')
 Run-RStage 'tests/run_checks.R'
@@ -84,6 +87,7 @@ $simulationJobs = @(
     (Start-RStage 'scripts/validate_dynamic_quarterly_null.R')
 )
 Complete-RBatch $simulationJobs
+Run-RStage 'scripts/archive_simulation_panels.R'
 foreach ($script in @('scripts/recheck_simulation_summary.R','scripts/check_dynamic_generated_data.R',
     'scripts/summarize_dynamic_quarterly.R','scripts/update_quarterly_validation_status.R',
     'scripts/plot_dynamic_validation.R','scripts/reaffirm_reproduction_gate.R',
@@ -98,7 +102,7 @@ Complete-RBatch $evaluationJobs
 foreach ($script in @('tests/run_quarterly_diagnostic_checks.R','scripts/summarize_quarterly_variance.R',
     'tests/run_quarterly_sensitivity_checks.R','tests/run_quarterly_prediction_checks.R',
     'scripts/check_quarterly_evaluation.R','scripts/record_quarterly_evaluation_status.R',
-    'scripts/build_portfolio_figures.R')) { Run-RStage $script }
+    'scripts/build_portfolio_figures.R','scripts/build_descriptive_panel_figures.R')) { Run-RStage $script }
 Push-Location $cleanProject
 try {
     & ./scripts/build_portfolio_artifacts.ps1

@@ -1,0 +1,8 @@
+{
+  "aggregate_tables_matched": 3,
+  "synthetic_panels_per_run": 2000,
+  "archived_files_hash_verified": 4000,
+  "snapshot_files_verified": 18,
+  "human_review": "skipped_by_user_not_completed",
+  "new_model_fits": 0
+}

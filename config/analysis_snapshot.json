@@ -1,0 +1,98 @@
+{
+  "recorded_utc": "2026-11-07 04:49:40 UTC",
+  "scope": "Current reviewed common-slope quarterly analysis; no new estimation",
+  "registration_claim": "Post-results local snapshot, not external preregistration or proof of pre-results freezing",
+  "change_rule": "Log any later change and record a new explicitly dated snapshot; do not silently overwrite this one",
+  "files": [
+    {
+      "path": "config/city_aggregation.csv",
+      "hash_method": "utf8_lf",
+      "sha256": "309c448324b639b5752e3daccfcc751b468f4b03dc153db7f052f07554023029"
+    },
+    {
+      "path": "data/source_manifest.csv",
+      "hash_method": "utf8_lf",
+      "sha256": "74ad7901a3b774a3ee53bbb65f0dde4c6455e7dd46663dd723f5993e06029cb9"
+    },
+    {
+      "path": "docs/quarterly_protocol.md",
+      "hash_method": "utf8_lf",
+      "sha256": "cf20aab4b7baf6d4c24b4f14217321ec015745e6abb78b8da9089be87f22d78e"
+    },
+    {
+      "path": "docs/empirical_quarterly_protocol.md",
+      "hash_method": "utf8_lf",
+      "sha256": "e028dfca00f7daad3c9da6d40ed79f7ead86cff33f3bc0560b9a410f8de61e0a"
+    },
+    {
+      "path": "docs/dynamic_quarterly_protocol.md",
+      "hash_method": "utf8_lf",
+      "sha256": "e23b07670e183c905eafa8d2ac5f28b62d4e66c8a910baa1012d73994d35c1ff"
+    },
+    {
+      "path": "docs/dynamic_quarterly_null_extension.md",
+      "hash_method": "utf8_lf",
+      "sha256": "235f3ad235357db9e65ae5b9d5d315709e2505bd38161ce2523e144d9b73dd23"
+    },
+    {
+      "path": "R/quarterly_simulation.R",
+      "hash_method": "utf8_lf",
+      "sha256": "c314693e0faaa33235c89b0882dde9334144dfa3a591eca7ffda4445ed86903c"
+    },
+    {
+      "path": "R/dynamic_quarterly_simulation.R",
+      "hash_method": "utf8_lf",
+      "sha256": "7250a451c534ca4174c4c9a01eba25b3d648ee9951d94dc45b2b1eb5c7ef2773"
+    },
+    {
+      "path": "R/diagnostic_helpers.R",
+      "hash_method": "utf8_lf",
+      "sha256": "df6bc2fa04a00d54bab223ad14a75dcb92fda5e792ebb8a186d9e6a3b9072f14"
+    },
+    {
+      "path": "scripts/audit_week_1.R",
+      "hash_method": "utf8_lf",
+      "sha256": "e00c4ebdcb80b49f3d0d7ff1fb45500ff87a20640010750ab4ec825ca7badb0c"
+    },
+    {
+      "path": "scripts/build_quarterly_exposure.R",
+      "hash_method": "utf8_lf",
+      "sha256": "6d0c6adf948626050a1ffe374ae8c73d84035fd7388efc123bdc87b39cad6e10"
+    },
+    {
+      "path": "scripts/build_quarterly_panel.R",
+      "hash_method": "utf8_lf",
+      "sha256": "5ce03fe33a032e2e5271ef277e726f53c730a22e19446c1739ac9c7772481cf4"
+    },
+    {
+      "path": "scripts/fit_quarterly_empirical.R",
+      "hash_method": "utf8_lf",
+      "sha256": "952f9cff8e6e2c1866c91794add249c86934cbb18d183451e26f481f0622f616"
+    },
+    {
+      "path": "scripts/diagnose_quarterly_models.R",
+      "hash_method": "utf8_lf",
+      "sha256": "0912821f70c3a6cafaee2aebe8812ab72b6193f594b0e87b70209f27a4dfb63f"
+    },
+    {
+      "path": "scripts/analyze_quarterly_sensitivity.R",
+      "hash_method": "utf8_lf",
+      "sha256": "8df6cea109929ab0b1d81a3f2fb57cf2a1150ba07ded43f54672c6050d6b74bc"
+    },
+    {
+      "path": "scripts/validate_quarterly_prediction.R",
+      "hash_method": "utf8_lf",
+      "sha256": "89cc6c0e11efb8cf764fcb45b3a8a5e6b6444cd77697fb59a6c8b6d24aba2335"
+    },
+    {
+      "path": "outputs/quarterly_pilot/panel/quarterly_panel_all_localities.csv",
+      "hash_method": "raw_bytes",
+      "sha256": "b85e028585062810bd47f810e84d60e49d01cb3e7f331de98b19c8f239a73830"
+    },
+    {
+      "path": "outputs/quarterly_pilot/panel/quarterly_panel_complete_exposure.csv",
+      "hash_method": "raw_bytes",
+      "sha256": "5cbc990402efeb48170988c31bec42dcd2b1f4cebd5de6da93878c2e28be0d8d"
+    }
+  ]
+}

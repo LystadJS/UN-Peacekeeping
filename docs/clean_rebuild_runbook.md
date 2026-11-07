@@ -26,6 +26,8 @@ After completion, compare the new results with the retained reference outputs:
 
 This comparison is deliberately downstream of generation. No reference panel, model, prediction or simulation record is supplied to the clean fitting workflow. Panel and lineage values must match exactly; model quantities use an absolute tolerance of 1e-8. Timings and named artifact metadata are excluded explicitly, not silently treated as scientific discrepancies.
 
-Inspect the rebuilt PDF pages and slide previews, and run `scripts/audit_portfolio_claims.R` through the isolated launcher in the clean project. Rendering, structural checks and agent interpretation do not complete independent human review. Keep that acceptance item outstanding. Never promote a partial run merely because some figures or summaries exist.
+Inspect the rebuilt PDF pages and slide previews, and run `scripts/audit_portfolio_claims.R` through the isolated launcher in the clean project. Rendering, structural checks and agent interpretation do not complete independent human review. Human review was subsequently skipped at the user's request; keep its completion flag false rather than treating agent checks as a human response. Never promote a partial run merely because some figures or summaries exist.
 
 The `-Prepared` option exists for a project whose code, originals and verified library have already been staged. It still rejects derived outputs. It is a preparation convenience, not permission to resume from cached scientific results.
+
+The workflow now also copies the static quarterly dictionary, checks six source-record cases, verifies the current analysis snapshot, materializes the existing 2,000 simulation panels, and builds the descriptive supplement. These additive stages were separately tested against the retained clean project; they do not change the recorded earlier full-run receipt or imply another complete refitting run.

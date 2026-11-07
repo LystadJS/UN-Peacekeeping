@@ -18,9 +18,9 @@ The [quarterly panel audit](docs/quarterly_panel_audit.md) reconciles 608 rows a
 
 Start with the [combined evaluation findings](docs/quarterly_evaluation_findings.md). All 17 history-model deletion intervals and all 11 measurement/secondary/monthly specification intervals include zero. Residual temporal structure remains. Across 20 rolling forecast quarters, history has a small mean log-score gain (+0.0429), but removing Irumu's scores reverses that average advantage. Reporting sensitivity remains assumption-dependent; no causal protection effect or operational forecasting readiness is established.
 
-The [research discussion portfolio](portfolio/README.md) now includes a four-page memo, five-slide editable deck, and final figures using the saved findings. Independent human figure review and prospective validation remain open.
+The [research discussion portfolio](portfolio/README.md) now includes a four-page memo, five-slide editable deck, and final figures using the saved findings. Human figure review was skipped at the user's request; prospective validation remains unperformed.
 
-The [clean rebuild](docs/clean_rebuild_results.md) reproduced the active workflow from retained originals in an isolated, hash-verified Windows/R package environment. All 383 scientific comparisons passed. Use the [clean-run instructions](docs/clean_rebuild_runbook.md); human review remains outstanding.
+The [clean rebuild](docs/clean_rebuild_results.md) reproduced the active workflow from retained originals in an isolated, hash-verified Windows/R package environment. All 383 scientific comparisons passed. Use the [clean-run instructions](docs/clean_rebuild_runbook.md); human review is skipped at the user's request, not completed.
 
 ## Start here
 
