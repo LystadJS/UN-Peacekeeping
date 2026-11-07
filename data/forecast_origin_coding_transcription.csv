@@ -1,0 +1,31 @@
+revision,location,military_battalions,military_companies,military_platoons,fpu_companies,unsized_military_present,excluded_nonmilitary,geosplit_observed,visual_note
+49,Komanda,0,1,0,0,FALSE,UNMO,FALSE,Kenya infantry symbol with one size bar
+49,Bogoro,0,1,0,0,FALSE,none,FALSE,Indonesia infantry symbol with one size bar
+49,Eringeti,0,1,0,0,FALSE,none,FALSE,South Africa infantry symbol with one size bar
+49,Kamango,0,1,0,0,FALSE,none,FALSE,Tanzania infantry symbol with one size bar
+49,Lubero,0,1,0,0,FALSE,UNMO,FALSE,India infantry symbol with one size bar
+49,Nyanzale,0,1,0,0,FALSE,none,FALSE,India infantry symbol with one size bar
+49,Kamanyola,0,1,0,0,FALSE,none,FALSE,Pakistan infantry symbol with one size bar
+49,Sange,1,0,0,0,FALSE,UNMO,FALSE,Pakistan infantry symbol with two size bars
+49,Beni,0,0,0,2,FALSE,IPO,FALSE,Senegal and India FPU symbols each with one size bar; not operational absence
+49,Uvira,1,1,0,1,TRUE,UNMO and IPO,FALSE,Pakistan battalion and company; Jordan FPU company; unsized Bangladesh MP excluded from sized sum
+50,Komanda,0,1,0,0,FALSE,UNMO,FALSE,Indonesia infantry symbol with one size bar
+50,Bogoro,0,1,0,0,FALSE,none,FALSE,Indonesia infantry symbol with one size bar
+50,Eringeti,0,1,0,0,FALSE,none,FALSE,South Africa infantry symbol with one size bar
+50,Kamango,0,1,0,0,FALSE,none,FALSE,Tanzania infantry symbol with one size bar
+50,Lubero,0,1,0,0,FALSE,UNMO,FALSE,India infantry symbol with one size bar
+50,Nyanzale,0,1,0,0,FALSE,none,FALSE,India infantry symbol with one size bar
+50,Kamanyola,0,1,0,0,FALSE,none,FALSE,Pakistan infantry symbol with one size bar
+50,Sange,1,0,0,0,FALSE,UNMO,FALSE,Pakistan infantry symbol with two size bars
+50,Beni,0,0,0,2,FALSE,IPO,FALSE,Senegal and India FPU symbols each with one size bar; not operational absence
+50,Uvira,1,1,0,1,TRUE,UNMO and IPO,FALSE,Pakistan battalion and company; Jordan FPU company; unsized Bangladesh MP excluded from sized sum
+51,Komanda,1,0,0,0,FALSE,UNMO,FALSE,Indonesia infantry symbol with two size bars
+51,Bogoro,0,1,0,0,FALSE,none,FALSE,Indonesia infantry symbol with one size bar
+51,Eringeti,0,1,0,0,FALSE,none,FALSE,South Africa infantry symbol with one size bar
+51,Kamango,0,1,0,0,FALSE,none,FALSE,Tanzania infantry symbol with one size bar
+51,Lubero,0,1,0,0,FALSE,UNMO,FALSE,India infantry symbol with one size bar
+51,Nyanzale,0,1,0,0,FALSE,none,FALSE,India infantry symbol with one size bar
+51,Kamanyola,0,1,0,0,FALSE,none,FALSE,Pakistan infantry symbol with one size bar
+51,Sange,1,0,0,0,FALSE,UNMO,FALSE,Pakistan infantry symbol with two size bars
+51,Beni,0,0,0,2,FALSE,IPO,FALSE,Senegal and India FPU symbols each with one size bar; not operational absence
+51,Uvira,1,1,0,1,TRUE,UNMO and IPO,FALSE,Pakistan battalion and company; Jordan FPU company; unsized Bangladesh MP excluded from sized sum

@@ -2,6 +2,8 @@
 
 Reconstructed on 2026-11-07 for **2023-10-01 00:00 UTC**, the start of the existing 2023 Q4 forecast fold. The investigation supports availability of the three relevant map identities before this origin. It does **not** authenticate the modern Geo-PKO numeric coding as the exact information distributed in 2023, and it does not certify operational absence anywhere.
 
+The subsequent [numeric-coding follow-up](forecast_origin_coding_followup.md) recovered Geo-PKO 2.0 from a pinned provider commit, reconstructed its early training prefix, and checked 30 selected sized-unit/FPU components on these maps. The original map-identity investigation below remains the basis for source provenance; complete 2023 numeric coding is still unresolved.
+
 ## Evidence recovered
 
 Three official UN report PDFs were downloaded from the UN Digital Library, hashed and retained locally. Their covers and final map pages were inspected. Each report contains the map revision cited in the current deployment lineage:

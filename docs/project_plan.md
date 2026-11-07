@@ -109,6 +109,7 @@ The common-strength core passed its favorable/null gate. This does not validate 
 - [x] Calculate lagged deployment, prior violence and recent conflict-history variables.
 - [x] Calculate within-locality deployment deviations and between-locality deployment averages.
 - [ ] Unresolved: real-time information availability cannot be certified for the current panel. The 2026-11-07 investigation located archived UCDP releases, so blanket unavailability is no longer claimed; a complete as-of reconstruction across event, deployment and boundary sources has not been performed. Lag construction and training-only centering are verified. See [historical availability](historical_data_availability.md) and the [code audit](historical_availability_code_audit.md).
+- [x] Reconstruct the available histories for the fixed 1 October 2023 origin: 570 event-training rows through Q2, an early deployment prefix and 162 jointly populated rows. Verify pre-origin advertisement of August and retain missing Q3 totals/later deployment coding. This completes the bounded [training follow-up](forecast_training_followup.md), not operational validation.
 - [ ] Skipped with human review: manual source verification. A separate automated reconstruction of six fixed cases passed against original GED and Geo-PKO files; see quarterly_source_spotchecks.md.
 
 ### Analysis commitments

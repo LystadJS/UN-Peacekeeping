@@ -1,0 +1,20 @@
+"locality_id","locality","current_core","complete_training_quarters","archive_events","current_events","changed_quarter_counts","changed_prior_counts","changed_spell_lengths"
+"COD009007","Masisi",TRUE,30,65,67,4,4,1
+"COD009012","Walikale",FALSE,30,30,31,4,4,2
+"COD009015","Rutshuru",TRUE,30,218,225,10,10,0
+"COD011004","Idjwi",FALSE,30,1,1,0,0,0
+"COD011006","Kalehe",FALSE,30,30,30,2,1,0
+"COD011013","Walungu",TRUE,30,5,5,0,0,0
+"COD011015","Mwenga",FALSE,30,34,31,2,1,0
+"COD011016","Shabunda",TRUE,30,2,2,0,0,0
+"COD017010","Mambasa",FALSE,30,57,59,2,2,1
+"COD017012","Aru",FALSE,30,4,4,0,0,0
+"COD017013","Djugu",FALSE,30,493,497,4,3,0
+"COD017014","Mahagi",FALSE,30,96,98,2,2,0
+"COMPOSITE_BENI","Beni including city",TRUE,30,459,473,8,7,0
+"COMPOSITE_FIZI","Fizi including Baraka",FALSE,30,43,41,1,1,1
+"COMPOSITE_IRUMU","Irumu including Bunia",TRUE,30,296,306,8,7,1
+"COMPOSITE_KABARE","Kabare including Bukavu",TRUE,30,21,22,2,1,0
+"COMPOSITE_LUBERO","Lubero including Butembo",FALSE,30,72,77,4,4,0
+"COMPOSITE_NYIRAGONGO","Nyiragongo including Goma",TRUE,30,30,27,2,1,0
+"COMPOSITE_UVIRA","Uvira including city",TRUE,30,23,20,2,1,1

@@ -85,3 +85,7 @@ The requested follow-up is complete: [deployment evidence](deployment_absence_fo
 ## One-origin follow-up — 2026-11-07
 
 The [fixed-origin exercise](forecast_origin_reconstruction.md) is complete as a partial information reconstruction. Three original report maps and three archived Candidate files were inspected or processed and fingerprinted. Current-panel comparisons are reproducible; missing last-month information, unauthenticated numeric deployment coding and unreconstructed training histories prevent an authenticated historical forecast. This narrows the evidence gaps without marking operational validation complete or changing the fitted sample.
+
+## Training reconstruction follow-up — 2026-11-07
+
+The [available training-history reconstruction](forecast_training_followup.md) is complete for its supported scope. August public-advertisement evidence is now resolved, event histories cover 30 complete outcome quarters, and a pinned older deployment file supplies an early prefix. The full joint historical training set and origin predictors remain incomplete. These findings supersede earlier blanket statements that training histories had not been reconstructed, without certifying an operational forecast or changing the fitted pilot.

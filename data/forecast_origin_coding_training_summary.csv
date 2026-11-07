@@ -1,0 +1,6 @@
+"core_sample","comparison_status","locality_quarters"
+FALSE,"both_known_equal",11
+FALSE,"both_missing",241
+FALSE,"current_only_known",58
+TRUE,"both_known_equal",153
+TRUE,"current_only_known",126

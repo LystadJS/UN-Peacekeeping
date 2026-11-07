@@ -1,0 +1,20 @@
+"locality_id","locality","province","current_core","july_partial_events","july_august_partial_events","latest_complete_occurrence_quarter","complete_training_quarters_2016_onward","q3_full_events","origin_q4_events_lag","origin_q4_violent_spell_lag","historical_byte_identity_verified","deployment_history_reconstructed"
+"COD009007","Masisi","Nord-Kivu",TRUE,1,2,"2023Q2",30,,,,FALSE,FALSE
+"COD009012","Walikale","Nord-Kivu",FALSE,0,0,"2023Q2",30,,,,FALSE,FALSE
+"COD009015","Rutshuru","Nord-Kivu",TRUE,7,8,"2023Q2",30,,,,FALSE,FALSE
+"COD011004","Idjwi","Sud-Kivu",FALSE,0,1,"2023Q2",30,,,,FALSE,FALSE
+"COD011006","Kalehe","Sud-Kivu",FALSE,1,1,"2023Q2",30,,,,FALSE,FALSE
+"COD011013","Walungu","Sud-Kivu",TRUE,0,0,"2023Q2",30,,,,FALSE,FALSE
+"COD011015","Mwenga","Sud-Kivu",FALSE,0,3,"2023Q2",30,,,,FALSE,FALSE
+"COD011016","Shabunda","Sud-Kivu",TRUE,0,0,"2023Q2",30,,,,FALSE,FALSE
+"COD017010","Mambasa","Ituri",FALSE,0,2,"2023Q2",30,,,,FALSE,FALSE
+"COD017012","Aru","Ituri",FALSE,0,0,"2023Q2",30,,,,FALSE,FALSE
+"COD017013","Djugu","Ituri",FALSE,5,7,"2023Q2",30,,,,FALSE,FALSE
+"COD017014","Mahagi","Ituri",FALSE,2,3,"2023Q2",30,,,,FALSE,FALSE
+"COMPOSITE_BENI","Beni including city","Nord-Kivu",TRUE,3,6,"2023Q2",30,,,,FALSE,FALSE
+"COMPOSITE_FIZI","Fizi including Baraka","Sud-Kivu",FALSE,0,3,"2023Q2",30,,,,FALSE,FALSE
+"COMPOSITE_IRUMU","Irumu including Bunia","Ituri",TRUE,9,21,"2023Q2",30,,,,FALSE,FALSE
+"COMPOSITE_KABARE","Kabare including Bukavu","Sud-Kivu",TRUE,0,1,"2023Q2",30,,,,FALSE,FALSE
+"COMPOSITE_LUBERO","Lubero including Butembo","Nord-Kivu",FALSE,1,2,"2023Q2",30,,,,FALSE,FALSE
+"COMPOSITE_NYIRAGONGO","Nyiragongo including Goma","Nord-Kivu",TRUE,0,0,"2023Q2",30,,,,FALSE,FALSE
+"COMPOSITE_UVIRA","Uvira including city","Sud-Kivu",TRUE,1,2,"2023Q2",30,,,,FALSE,FALSE

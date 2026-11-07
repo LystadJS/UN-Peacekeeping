@@ -102,7 +102,7 @@ audit_rows <- function(rows, end_date_limit) {
 windows <- data.frame(window = c("july_only", "july_august", "q3_conditional"),
   last_archive_month = 7:9, end = as.Date(c("2023-07-31", "2023-08-31", "2023-09-30")),
   availability = c("July version existed before origin; historical byte identity unverified",
-    "August availability unverified; conditional archive comparison",
+    "August advertised before origin; historical CSV byte identity unverified",
     "Retrospective Q3 benchmark; includes post-origin listed sources"))
 comparisons <- flows <- summaries <- transitions <- retained_source_dates <- list()
 for (i in seq_len(nrow(windows))) {

@@ -6,7 +6,7 @@ Completed 2026-11-07 under the [single-origin protocol](forecast_origin_reconstr
 
 Three official UCDP Candidate CSVs, versions 23.0.7, 23.0.8 and 23.0.9, were downloaded, parsed and hashed. These are monthly information products, not snapshots of the full annual GED. The [input manifest](../data/forecast_origin_event_inputs.csv) records their official URLs and all eight inputs used by the comparison. Original files and event-level audit ledgers remain ignored under `outputs/forecast_origin/`.
 
-The [release-evidence investigation](forecast_origin_release_evidence.md) supports the existence of the July version before the origin through a later official report documenting its August download. It does not certify that today's downloaded bytes are identical to those used then. August availability remains unverified, and September is not admitted to the supported historical information set. Accordingly, July is the strongest supported **version-level** comparison; July–August is a conditional archive comparison; the full quarter is a retrospective sensitivity benchmark that includes post-origin listed sources. None supplies a certified complete prior-quarter count.
+The [release-evidence investigation](forecast_origin_release_evidence.md) supports the existence of the July version before the origin through a later official report documenting its August download. The subsequent [release follow-up](forecast_origin_release_followup.md) recovered a 30 September archived UCDP page advertising August 23.0.8. July–August now has supported **version-level** availability; this supersedes the initial unverified-August classification. Today's downloaded CSV bytes are still not authenticated against historical copies, and September is not admitted to the supported information set. The full-quarter comparison remains retrospective. None supplies a certified complete prior-quarter count.
 
 The same 19 fixed SALB city–territory composites and the same event inclusion rules are applied independently to the coordinates, event types, precision and dates in each release: one-sided violence, exact-place precision, valid coordinates and dates, one unique polygon match, and an event interval contained within one calendar month. Holding geography fixed isolates record differences; it does not authenticate this boundary file's historical availability.
 
@@ -19,7 +19,7 @@ Counts below apply identical occurrence windows and filters. The nine-locality c
 | Occurrence window and information scope | Archived events, all 19 localities | Current events, all 19 | Archived events, current nine-locality sample | Current events, current nine-locality sample |
 |---|---:|---:|---:|---:|
 | July; version existence supported, byte identity unverified | 30 | 39 | 21 | 23 |
-| July–August; conditional archive comparison | 62 | 78 | 40 | 50 |
+| July–August; versions supported before origin, historical bytes unverified | 62 | 78 | 40 | 50 |
 | July–September; retrospective sensitivity benchmark, not an as-of predictor | 85 | 112 | 53 | 71 |
 
 The full-quarter current counts reconcile exactly with `events_lag` for **all 19 locality rows** in the frozen 2023 Q4 panel. The current panel's 71 events in its nine retained localities should therefore not be substituted for what was known at the historical cutoff. Nor should 21 July events be presented as a full-quarter count: later months are unverified or unavailable, not zero.
@@ -35,6 +35,8 @@ In the retrospective full-quarter benchmark, **16 of 85 retained events have eve
 The raw July file contains one DRC source date of **2032-07-15**, outside the retained sample. It is a calendar-valid but implausibly future value relative to retrieval. It is flagged and left unchanged; it may be a coding error and is not evidence of actual publication in 2032 or proof of a late archive revision. Two July global records have no valid listed source date, including one DRC record. Missing and implausible dates are not silently converted into availability evidence.
 
 ## Reproduction and unresolved inputs
+
+The subsequent [training reconstruction](forecast_training_reconstruction.md) now supplies annual and early-2023 histories, and the [coding follow-up](forecast_origin_coding_followup.md) supplies an older deployment prefix. The bounded event-window comparison below remains unchanged numerically; its original exclusions and unreconstructed-input scope describe this stage, not the entire later supplement.
 
 Run `Rscript scripts/reconstruct_forecast_origin_events.R` after the existing panel build. Missing Candidate files are downloaded from their official URLs and must match the recorded hashes; a changed upstream file causes failure instead of silent substitution. The script writes six CSVs, including the input manifest, under `data/forecast_origin_event*`, with full rows and lineage kept locally. It checks unique IDs within each file, deterministic cross-file deduplication, 19 unique locality keys per comparison, exhaustive ordered exclusion ledgers, and exact reconciliation with the current Q4 lag counts. Full-quarter certified as-of counts remain `NA` in every comparison row.
 

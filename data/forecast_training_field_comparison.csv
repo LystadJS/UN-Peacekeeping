@@ -1,0 +1,15 @@
+"population","field","locality_quarters","equal_including_missing","changed"
+"all_19","recorded_events",570,513,57
+"all_19","civilian_fatalities",570,513,57
+"all_19","events_lag",570,521,49
+"all_19","log1p_events_lag",570,521,49
+"all_19","violent_spell_lag_observed",570,563,7
+"all_19","violent_spell_left_censored",570,570,0
+"all_19","violent_spell_lag",570,563,7
+"current_core_9","recorded_events",270,234,36
+"current_core_9","civilian_fatalities",270,234,36
+"current_core_9","events_lag",270,239,31
+"current_core_9","log1p_events_lag",270,239,31
+"current_core_9","violent_spell_lag_observed",270,267,3
+"current_core_9","violent_spell_left_censored",270,270,0
+"current_core_9","violent_spell_lag",270,267,3

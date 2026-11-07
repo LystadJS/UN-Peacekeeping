@@ -35,3 +35,9 @@ The workflow now also copies the static quarterly dictionary, checks six source-
 ## One-origin reconstruction supplement
 
 Before a new full clean run, run `scripts/acquire_forecast_origin_inputs.R` in the source project to obtain or verify the six additional pinned originals. The orchestrator copies only these original CSV/PDF downloads and their evidence manifests after the original-input guard, then regenerates the one-origin event and deployment comparisons and runs `tests/run_forecast_origin_checks.R`. It does not copy derived supplement ledgers or use them for fitting. The two analysis stages and checks were also tested in the retained isolated project; this additive check is not another full model run. See [the single-origin reconstruction](forecast_origin_reconstruction.md).
+
+## Training-history extension
+
+The [training follow-up](forecast_training_followup.md) adds archived annual/cumulative event data, a pinned older Geo-PKO release and static release/symbol evidence. Before a full clean run, retain or acquire the originals listed in data/forecast_training_inputs.csv and data/forecast_origin_coding_sources.csv, and preserve the seven evidence artifacts in data/forecast_origin_release_followup.csv. The latter includes locally recorded archive-response metadata and query results; their exact bytes cannot be assumed reproducible from a later live request.
+
+The orchestrator copies only original artifacts and static evidence/transcriptions, regenerates histories and comparisons, then runs independent history and availability checks. It does not copy reference training panels or use the supplement to fit models. Fifteen generated tables and four private histories were compared against a rerun in the retained isolated project; this is additive validation, not a repeat of the entire fitting workflow.

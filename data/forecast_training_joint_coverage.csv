@@ -1,0 +1,20 @@
+"locality_id","locality","current_core","complete_event_outcome_quarters","event_history_populated_rows","both_deployment_lags_populated_rows","jointly_populated_rows","first_joint_quarter","last_joint_quarter","full_30_quarter_centering_available"
+"COD009007","Masisi",TRUE,30,30,17,17,"2016Q1","2020Q1",FALSE
+"COD009012","Walikale",FALSE,30,30,0,0,,,FALSE
+"COD009015","Rutshuru",TRUE,30,30,17,17,"2016Q1","2020Q1",FALSE
+"COD011004","Idjwi",FALSE,30,30,0,0,,,FALSE
+"COD011006","Kalehe",FALSE,30,30,0,0,,,FALSE
+"COD011013","Walungu",TRUE,30,30,17,17,"2016Q1","2020Q1",FALSE
+"COD011015","Mwenga",FALSE,30,30,0,0,,,FALSE
+"COD011016","Shabunda",TRUE,30,30,17,17,"2016Q1","2020Q1",FALSE
+"COD017010","Mambasa",FALSE,30,30,0,0,,,FALSE
+"COD017012","Aru",FALSE,30,30,0,0,,,FALSE
+"COD017013","Djugu",FALSE,30,30,0,0,,,FALSE
+"COD017014","Mahagi",FALSE,30,30,1,1,"2016Q1","2016Q1",FALSE
+"COMPOSITE_BENI","Beni including city",TRUE,30,30,17,17,"2016Q1","2020Q1",FALSE
+"COMPOSITE_FIZI","Fizi including Baraka",FALSE,30,30,2,2,"2019Q3","2019Q4",FALSE
+"COMPOSITE_IRUMU","Irumu including Bunia",TRUE,30,30,17,17,"2016Q1","2020Q1",FALSE
+"COMPOSITE_KABARE","Kabare including Bukavu",TRUE,30,30,17,17,"2016Q1","2020Q1",FALSE
+"COMPOSITE_LUBERO","Lubero including Butembo",FALSE,30,30,6,6,"2018Q4","2020Q1",FALSE
+"COMPOSITE_NYIRAGONGO","Nyiragongo including Goma",TRUE,30,30,17,17,"2016Q1","2020Q1",FALSE
+"COMPOSITE_UVIRA","Uvira including city",TRUE,30,30,17,17,"2016Q1","2020Q1",FALSE

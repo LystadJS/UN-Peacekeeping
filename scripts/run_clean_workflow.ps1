@@ -94,6 +94,23 @@ Run-RStage 'scripts/acquire_forecast_origin_inputs.R'
 Run-RStage 'scripts/reconstruct_forecast_origin_events.R'
 Run-RStage 'scripts/audit_forecast_origin_deployment.R'
 Run-RStage 'tests/run_forecast_origin_checks.R'
+# Stage the training extension's originals and static evidence, never its panels.
+foreach ($manifest in @('forecast_training_inputs.csv','forecast_origin_release_followup.csv',
+    'forecast_origin_coding_sources.csv','forecast_origin_coding_transcription.csv')) {
+    Copy-Item -LiteralPath (Join-Path 'data' $manifest) -Destination (Join-Path $cleanProject "data/$manifest")
+}
+$trainingOriginals = @(Import-Csv 'data/forecast_training_inputs.csv' | Where-Object { $_.source -match '^https://' } | ForEach-Object { $_.path })
+$codingOriginals = @(Import-Csv 'data/forecast_origin_coding_sources.csv' | ForEach-Object { $_.path })
+$releaseEvidence = @(Import-Csv 'data/forecast_origin_release_followup.csv' | ForEach-Object { $_.local_path })
+foreach ($relativePath in (@($trainingOriginals) + @($codingOriginals) + @($releaseEvidence) | Sort-Object -Unique)) {
+    $destination = Join-Path $cleanProject $relativePath
+    New-Item -ItemType Directory -Path (Split-Path $destination) -Force | Out-Null
+    Copy-Item -LiteralPath $relativePath -Destination $destination
+}
+Run-RStage 'scripts/reconstruct_forecast_training.R'
+Run-RStage 'scripts/audit_forecast_origin_coding.R'
+Run-RStage 'scripts/assemble_forecast_training_availability.R'
+Run-RStage 'tests/run_forecast_training_checks.R'
 Run-RStage 'scripts/check_quarterly_source_records.R'
 Run-RStage 'scripts/audit_absence_followup.R'
 Run-RStage 'scripts/audit_historical_source_dates.R'

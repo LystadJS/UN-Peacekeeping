@@ -64,9 +64,17 @@
   "immediate_history_events_earliest_listed_source_after_origin": 300,
   "forecast_origin_investigated": "2023-10-01T00:00:00Z",
   "forecast_origin_investigation_complete": true,
-  "forecast_origin_information_set": "Partial; version-level July evidence and dated maps, with conditional archive comparisons",
+  "forecast_origin_information_set": "Partial; annual/H1 event history and July-August version evidence, dated maps and an early archived deployment prefix",
   "forecast_origin_candidate_files_verified": 3,
   "forecast_origin_report_files_verified": 3,
   "authenticated_historical_forecast_reconstructed": false,
-  "forecast_origin_new_model_fits": 0
+  "forecast_origin_new_model_fits": 0,
+  "forecast_origin_august_public_advertisement_by": "2023-09-30T03:04:00Z",
+  "reconstructed_complete_event_training_quarters": 30,
+  "reconstructed_event_training_locality_quarters": 570,
+  "reconstructed_joint_training_rows": 162,
+  "reconstructed_current_core_joint_training_rows": 153,
+  "archived_deployment_last_observed_month": "2019-12",
+  "selected_2023_map_symbol_checks": 30,
+  "historical_full_training_information_complete": false
 }
