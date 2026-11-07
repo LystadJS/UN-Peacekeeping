@@ -1,0 +1,93 @@
+revision,location,military_battalions,military_companies,military_platoons,fpu_companies,unsized_military_present,coding_status,visual_note
+39,Sake,0,2,0,0,TRUE,sized_components_read,India infantry one bar plus Guatemala SF one bar; Bangladesh MP unsized
+39,Bunia,2,4,0,1,TRUE,sized_components_read,Bangladesh and Nepal infantry two bars each; four military support companies one bar each; Bangladesh MP unsized; Senegal FPU one bar; HQ and IPO excluded
+40,Beni,0,0,0,2,TRUE,sized_components_read,Senegal and India one-bar FPU; unsized Bangladesh MP; adjacent site symbols not assigned to Beni
+40,Bogoro,0,1,0,0,FALSE,sized_components_read,Nepal one-bar infantry connected to Bogoro
+40,Eringeti,NA,NA,NA,NA,NA,site_not_named,Eringeti not named; nearby South Africa symbols not reassigned by assumption
+40,Kamango,0,1,0,0,FALSE,sized_components_read,Tanzania one-bar infantry connected to Kamango
+40,Kamanyola,0,1,0,0,FALSE,sized_components_read,Pakistan one-bar infantry connected to Kamanyola
+40,Komanda,0,1,0,0,FALSE,sized_components_read,Bangladesh one-bar infantry
+40,Lubero,0,1,0,0,FALSE,sized_components_read,India one-bar infantry connected to named site
+40,Nyanzale,0,1,0,0,FALSE,sized_components_read,India one-bar infantry connected to named site
+40,Sange,1,0,0,0,FALSE,sized_components_read,Pakistan two-bar infantry connected to Sange
+40,Uvira,1,0,0,0,TRUE,sized_components_read,Pakistan two-bar infantry; unsized Bangladesh MP; separately labelled Kavimvira company excluded
+41,Beni,0,0,0,2,TRUE,sized_components_read,Senegal and India one-bar FPU; unsized Bangladesh MP; adjacent site symbols not assigned to Beni
+41,Bogoro,0,1,0,0,FALSE,sized_components_read,Nepal one-bar infantry connected to Bogoro
+41,Eringeti,NA,NA,NA,NA,NA,site_not_named,Eringeti not named; nearby South Africa symbols not reassigned by assumption
+41,Kamango,0,1,0,0,FALSE,sized_components_read,Tanzania one-bar infantry connected to Kamango
+41,Kamanyola,0,1,0,0,FALSE,sized_components_read,Pakistan one-bar infantry connected to Kamanyola
+41,Komanda,0,1,0,0,FALSE,sized_components_read,Bangladesh one-bar infantry
+41,Lubero,0,1,0,0,FALSE,sized_components_read,India one-bar infantry connected to named site
+41,Nyanzale,0,1,0,0,FALSE,sized_components_read,India one-bar infantry connected to named site
+41,Sange,1,0,0,0,FALSE,sized_components_read,Pakistan two-bar infantry connected to Sange
+41,Uvira,1,1,0,0,TRUE,sized_components_read,Pakistan two-bar plus one-bar infantry; unsized Bangladesh MP
+42,Beni,0,0,0,2,TRUE,sized_components_read,Senegal and India one-bar FPU; Kenya QRF and Bangladesh MP unsized; HQ excluded
+42,Bogoro,0,1,0,0,FALSE,sized_components_read,Nepal one-bar infantry connected to Bogoro
+42,Eringeti,0,1,0,0,FALSE,sized_components_read,South Africa one-bar infantry connected to named Eringeti
+42,Kamango,0,1,0,0,FALSE,sized_components_read,Tanzania one-bar infantry connected to Kamango
+42,Kamanyola,0,1,0,0,FALSE,sized_components_read,Pakistan one-bar infantry connected to Kamanyola
+42,Komanda,0,1,0,0,FALSE,sized_components_read,Bangladesh one-bar infantry
+42,Lubero,0,1,0,0,FALSE,sized_components_read,India one-bar infantry connected to named site
+42,Nyanzale,0,1,0,0,FALSE,sized_components_read,India one-bar infantry connected to named site
+42,Sange,1,0,0,0,FALSE,sized_components_read,Pakistan two-bar infantry connected to Sange
+42,Uvira,1,1,0,0,TRUE,sized_components_read,Pakistan two-bar plus one-bar infantry; unsized Bangladesh MP
+43,Beni,0,0,0,2,FALSE,sized_components_read,Senegal and India one-bar FPU; HQ and observer symbols excluded; zero sized military is not absence
+43,Bogoro,0,1,0,0,FALSE,sized_components_read,Nepal one-bar infantry connected to Bogoro
+43,Eringeti,0,1,0,0,FALSE,sized_components_read,South Africa one-bar infantry connected to named Eringeti
+43,Kamango,0,1,0,0,FALSE,sized_components_read,Tanzania one-bar infantry connected to Kamango
+43,Kamanyola,0,1,0,0,FALSE,sized_components_read,Pakistan one-bar infantry connected to Kamanyola
+43,Komanda,0,1,0,0,FALSE,sized_components_read,Bangladesh one-bar infantry
+43,Lubero,0,1,0,0,FALSE,sized_components_read,India one-bar infantry connected to named site
+43,Nyanzale,0,1,0,0,FALSE,sized_components_read,India one-bar infantry connected to named site
+43,Sange,1,0,0,0,FALSE,sized_components_read,Pakistan two-bar infantry connected to Sange
+43,Uvira,1,1,0,0,TRUE,sized_components_read,Pakistan two-bar plus one-bar infantry; unsized Bangladesh MP
+44,Beni,0,0,0,2,FALSE,sized_components_read,Senegal and India one-bar FPU; HQ and observer symbols excluded; zero sized military is not absence
+44,Bogoro,0,1,0,0,FALSE,sized_components_read,Nepal one-bar infantry connected to Bogoro
+44,Eringeti,0,1,0,0,FALSE,sized_components_read,South Africa one-bar infantry connected to named Eringeti
+44,Kamango,0,1,0,0,FALSE,sized_components_read,Tanzania one-bar infantry connected to Kamango
+44,Kamanyola,0,1,0,0,FALSE,sized_components_read,Pakistan one-bar infantry connected to Kamanyola
+44,Komanda,0,1,0,0,FALSE,sized_components_read,Bangladesh one-bar infantry
+44,Lubero,0,1,0,0,FALSE,sized_components_read,India one-bar infantry connected to named site
+44,Nyanzale,0,1,0,0,FALSE,sized_components_read,India one-bar infantry connected to named site
+44,Sange,1,0,0,0,FALSE,sized_components_read,Pakistan two-bar infantry connected to Sange
+44,Uvira,1,1,0,0,TRUE,sized_components_read,Pakistan two-bar plus one-bar infantry; unsized Bangladesh MP
+45.1,Beni,0,0,0,2,FALSE,sized_components_read,Senegal and India one-bar FPU; HQ and observer symbols excluded; zero sized military is not absence
+45.1,Bogoro,0,1,0,0,FALSE,sized_components_read,Nepal one-bar infantry connected to Bogoro
+45.1,Eringeti,0,1,0,0,FALSE,sized_components_read,South Africa one-bar infantry connected to named Eringeti
+45.1,Kamango,0,1,0,0,FALSE,sized_components_read,Tanzania one-bar infantry connected to Kamango
+45.1,Kamanyola,0,1,0,0,FALSE,sized_components_read,Pakistan one-bar infantry connected to Kamanyola
+45.1,Komanda,0,1,0,0,FALSE,sized_components_read,Malawi one-bar infantry; map title May and footer June disagree
+45.1,Lubero,0,1,0,0,FALSE,sized_components_read,India one-bar infantry connected to named site
+45.1,Nyanzale,0,1,0,0,FALSE,sized_components_read,India one-bar infantry connected to named site
+45.1,Sange,1,0,0,0,FALSE,sized_components_read,Pakistan two-bar infantry connected to Sange
+45.1,Uvira,1,1,0,0,TRUE,sized_components_read,Pakistan two-bar plus one-bar infantry; unsized Bangladesh MP
+46,Beni,0,0,0,2,FALSE,sized_components_read,Senegal and India one-bar FPU; HQ and observer symbols excluded; zero sized military is not absence
+46,Bogoro,0,1,0,0,FALSE,sized_components_read,Nepal one-bar infantry connected to Bogoro
+46,Eringeti,0,1,0,0,FALSE,sized_components_read,South Africa one-bar infantry connected to named Eringeti
+46,Kamango,0,1,0,0,FALSE,sized_components_read,Tanzania one-bar infantry connected to Kamango
+46,Kamanyola,0,1,0,0,FALSE,sized_components_read,Pakistan one-bar infantry connected to Kamanyola
+46,Komanda,0,1,0,0,FALSE,sized_components_read,Bangladesh one-bar infantry
+46,Lubero,0,1,0,0,FALSE,sized_components_read,India one-bar infantry connected to named site
+46,Nyanzale,0,1,0,0,FALSE,sized_components_read,India one-bar infantry connected to named site
+46,Sange,1,0,0,0,FALSE,sized_components_read,Pakistan two-bar infantry connected to Sange
+46,Uvira,1,1,0,0,TRUE,sized_components_read,Pakistan two-bar plus one-bar infantry; unsized Bangladesh MP
+47,Beni,0,0,0,2,FALSE,sized_components_read,Senegal and India one-bar FPU; HQ and observer symbols excluded; zero sized military is not absence
+47,Bogoro,0,1,0,0,FALSE,sized_components_read,Nepal one-bar infantry connected to Bogoro
+47,Eringeti,0,1,0,0,FALSE,sized_components_read,South Africa one-bar infantry connected to named Eringeti
+47,Kamango,0,1,0,0,FALSE,sized_components_read,Tanzania one-bar infantry connected to Kamango
+47,Kamanyola,0,1,0,0,FALSE,sized_components_read,Pakistan one-bar infantry connected to Kamanyola
+47,Komanda,0,1,0,0,FALSE,sized_components_read,Bangladesh one-bar infantry
+47,Lubero,0,1,0,0,FALSE,sized_components_read,India one-bar infantry connected to named site
+47,Nyanzale,0,1,0,0,FALSE,sized_components_read,India one-bar infantry connected to named site
+47,Sange,1,0,0,0,FALSE,sized_components_read,Pakistan two-bar infantry connected to Sange
+47,Uvira,1,1,0,0,TRUE,sized_components_read,Pakistan two-bar plus one-bar infantry; unsized Bangladesh MP
+48,Beni,0,0,0,2,FALSE,sized_components_read,Senegal and India one-bar FPU; HQ and observer symbols excluded; zero sized military is not absence
+48,Bogoro,0,1,0,0,FALSE,sized_components_read,Nepal one-bar infantry connected to Bogoro
+48,Eringeti,0,1,0,0,FALSE,sized_components_read,South Africa one-bar infantry connected to named Eringeti
+48,Kamango,0,1,0,0,FALSE,sized_components_read,Tanzania one-bar infantry connected to Kamango
+48,Kamanyola,0,1,0,0,FALSE,sized_components_read,Pakistan one-bar infantry connected to Kamanyola
+48,Komanda,0,1,0,0,FALSE,sized_components_read,Kenya one-bar infantry
+48,Lubero,0,1,0,0,FALSE,sized_components_read,India one-bar infantry connected to named site
+48,Nyanzale,0,1,0,0,FALSE,sized_components_read,India one-bar infantry connected to named site
+48,Sange,1,0,0,0,FALSE,sized_components_read,Pakistan two-bar infantry connected to Sange
+48,Uvira,1,1,0,1,TRUE,sized_components_read,Pakistan two-bar plus one-bar infantry; Jordan one-bar FPU; unsized Bangladesh MP

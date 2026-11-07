@@ -1,0 +1,11 @@
+revision,map_title_month,map_footer_month,availability_status,reviewed_site_rows,numeric_sized_rows,unresolved_site_rows,rows_with_unsized_units,comparable_modern_rows,differing_sized_rows,differing_fpu_rows
+39,2020-12,2020-12,dated_official_report_before_cutoff,2,2,0,2,2,0,0
+40,2021-02,2021-02,dated_official_report_before_cutoff,10,9,1,2,9,0,0
+41,2021-06,2021-06,dated_official_report_before_cutoff,10,9,1,2,9,0,0
+42,2021-09,2021-09,dated_official_report_before_cutoff,10,10,0,2,10,0,0
+43,2021-11,2021-11,dated_official_report_before_cutoff,10,10,0,1,10,0,0
+44,2022-02,2022-02,dated_official_report_before_cutoff,10,10,0,1,10,0,0
+45.1,2022-05,2022-06,dated_official_report_before_cutoff,10,10,0,1,10,0,0
+46,2022-08,2022-08,standalone_exact_public_release_unverified,10,10,0,1,10,0,0
+47,2022-09,2022-09,dated_official_report_before_cutoff,10,10,0,1,10,0,0
+48,2022-11,2022-11,dated_official_report_before_cutoff,10,10,0,1,10,0,0

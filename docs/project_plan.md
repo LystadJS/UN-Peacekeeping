@@ -241,3 +241,12 @@ Evidence: portfolio/research_memo.pdf (four pages), portfolio/scott_discussion.p
 - [x] Prepare two focused questions for Scott about the findings and a possible research extension.
 
 Independent reader review was waived by the user for continuation. It remains unperformed; agent checks do not convert it into completed human review.
+
+## Post-2019/September follow-up — 2026-11-07
+
+- [x] Extend the recovered archived numeric deployment prefix through December 2020 and reconcile its source-vintage differences. Evidence: [deployment reconstruction](post2019_deployment_reconstruction.md).
+- [x] Reconstruct selected later map components and document missing/unsized observations and timing discrepancies. Evidence: [map audit](post2019_map_coding.md); unblinded agent readings, not complete locality strengths.
+- [x] Investigate September reporting and advertised release evidence without substituting a partial source proxy for a coded quarterly count. Evidence: [September findings](september_2023_availability.md).
+- [ ] Authenticate complete September coded inputs and the full later deployment sequence; unresolved, not an instruction to impute missing information. Joint overlap is now 204 of 570 rows, not a complete historical training set.
+
+See [the combined findings](post2019_and_september_followup.md). No fitted estimate or model scope changed. Human review remains user-skipped, not completed.

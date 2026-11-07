@@ -111,6 +111,26 @@ Run-RStage 'scripts/reconstruct_forecast_training.R'
 Run-RStage 'scripts/audit_forecast_origin_coding.R'
 Run-RStage 'scripts/assemble_forecast_training_availability.R'
 Run-RStage 'tests/run_forecast_training_checks.R'
+# Stage only retained originals for the September/reporting and post-2019
+# deployment supplements. Their panels and summaries must be rebuilt below.
+foreach ($manifest in @('september_2023_evidence.csv','post2019_deployment_sources.csv',
+    'post2019_map_coding_sources.csv','post2019_map_coding_transcription.csv')) {
+    Copy-Item -LiteralPath (Join-Path 'data' $manifest) -Destination (Join-Path $cleanProject "data/$manifest")
+}
+$septemberOriginals = @(Import-Csv 'data/september_2023_evidence.csv' | ForEach-Object { $_.path })
+$post2019Originals = @(Import-Csv 'data/post2019_deployment_sources.csv' | ForEach-Object { $_.path })
+$post2019MapOriginals = @(Import-Csv 'data/post2019_map_coding_sources.csv' | ForEach-Object { $_.path })
+foreach ($relativePath in (@($septemberOriginals) + @($post2019Originals) + @($post2019MapOriginals) | Sort-Object -Unique)) {
+    $destination = Join-Path $cleanProject $relativePath
+    New-Item -ItemType Directory -Path (Split-Path $destination) -Force | Out-Null
+    Copy-Item -LiteralPath $relativePath -Destination $destination
+}
+Run-RStage 'scripts/audit_september_2023.R'
+Run-RStage 'scripts/reconstruct_post2019_deployment.R'
+Run-RStage 'scripts/audit_post2019_map_coding.R'
+Run-RStage 'scripts/assemble_post2019_training.R'
+Run-RStage 'tests/run_post2019_followup_checks.R'
+
 Run-RStage 'scripts/check_quarterly_source_records.R'
 Run-RStage 'scripts/audit_absence_followup.R'
 Run-RStage 'scripts/audit_historical_source_dates.R'

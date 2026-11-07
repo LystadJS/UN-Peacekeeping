@@ -89,3 +89,7 @@ The [fixed-origin exercise](forecast_origin_reconstruction.md) is complete as a 
 ## Training reconstruction follow-up — 2026-11-07
 
 The [available training-history reconstruction](forecast_training_followup.md) is complete for its supported scope. August public-advertisement evidence is now resolved, event histories cover 30 complete outcome quarters, and a pinned older deployment file supplies an early prefix. The full joint historical training set and origin predictors remain incomplete. These findings supersede earlier blanket statements that training histories had not been reconstructed, without certifying an operational forecast or changing the fitted pilot.
+
+## Post-2019/September reassessment — 2026-11-07
+
+The [latest follow-up](post2019_and_september_followup.md) resolves a further year of archived numeric deployment coding and extends selected dated-map evidence. It yields 208 known first lags and 204 jointly populated training rows, including 189 in the current sample. Two current-vintage first-lag differences are preserved. September source availability is better characterized but a complete pre-cutoff coded count remains unknown; seven records with earlier listed material do not complete the quarter. Full later locality deployment histories, historical centering and geographic availability remain unresolved. Further fitting is not warranted by this partial reconstruction alone. Human review remains skipped, not completed.

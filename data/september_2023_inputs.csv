@@ -1,0 +1,4 @@
+"path","bytes","sha256","scope"
+"outputs/forecast_origin/q3_conditionalarchive_ledger.csv",139988,"b5c8c3dcc795cf1636416173c21c657fb5dd0c9f8534f92db086de7c404d56e7","Audited archived Candidate window; not available-by-cutoff proof"
+"outputs/forecast_origin/q3_conditionalcurrent_ledger.csv",8628840,"72a253f6205814c65526474f4ab38bbed349cb921a9fd4124d2c2fcd009ddb35","Audited current GED window; retrospective comparator"
+"outputs/quarterly_pilot/exposure_coverage.csv",868,"cdc39e1eefde1f55a61152aa8c8e2e3fe98bf2870e514d6605396fbf029faef5","Current sample marker only"

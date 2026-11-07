@@ -48,3 +48,7 @@ source("tests/run_forecast_training_checks.R")
 ```
 
 The first two scripts verify pinned inputs and download missing dataset/codebook originals. Preserve the seven release-evidence artifacts at their ledger paths for the archive-response and hash checks; these include locally recorded response metadata, not just remotely downloadable datasets. Raw files and detailed histories remain ignored. Static source and symbol-transcription ledgers are distinguished from generated comparisons in the clean workflow. The additive stages were rerun in the isolated project, without repeating model estimation. See [check receipt](../data/forecast_training_checks.json).
+
+## Subsequent extension — 2026-11-07
+
+The counts above describe the original 2.0-prefix reconstruction. The [post-2019/September follow-up](post2019_and_september_followup.md) supersedes current coverage with 204 jointly populated rows, including 189 in the current nine, from a pinned 2.1 archive through December 2020. It also extends map-component evidence and September release investigation. Earlier results remain preserved as provenance; no fitted analysis changed.

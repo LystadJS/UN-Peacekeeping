@@ -1,0 +1,7 @@
+"core_sample","version_status","locality_quarters"
+FALSE,"newly_recovered",8
+FALSE,"older_overlap_equal",11
+FALSE,"still_unknown",291
+TRUE,"newly_recovered",36
+TRUE,"older_overlap_equal",153
+TRUE,"still_unknown",90

@@ -1,0 +1,15 @@
+{
+  "investigation_date": "2026-11-07",
+  "forecast_origin_utc": "2023-10-01T00:00:00Z",
+  "scope": "Additive reconstruction rerun in retained isolated project; no full model or estimation rerun",
+  "public_generated_tables_matched": 12,
+  "private_history_tables_matched": 9,
+  "input_hashes_verified_per_project": 21,
+  "historical_git_blob_verified": true,
+  "independent_followup_checks": "passed in working and isolated projects",
+  "frozen_analysis_files_verified": 18,
+  "jointly_populated_training_rows": 204,
+  "current_core_jointly_populated_rows": 189,
+  "authenticated_full_information_set": false,
+  "human_review": "skipped_by_user_not_completed"
+}

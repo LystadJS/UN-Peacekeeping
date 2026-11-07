@@ -1,0 +1,11 @@
+# September reporting and post-2019 deployment extension
+
+Recorded 2026-11-07 for the unchanged **2023-10-01 00:00 UTC** cutoff. This extends the historical-input investigation without changing the fitted pilot, forecast target or event/geographic filters. No new model will be fitted.
+
+Investigate September reporting using dated release records and contemporaneous source material. A source article predating the cutoff can support availability of that report, not automatic availability of a fully classified and geolocated UCDP event. Filtering a later release by its listed source dates is a retrospective information diagnostic, not a historical release reconstruction. Missing September information must not become zero or a complete Q3 total. Day-level publication on 1 October is not known to precede the midnight cutoff.
+
+Seek archived provider deployment versions covering dates after December 2019, with dated pre-cutoff evidence and pinned contents. Rebuild comparable monthly/quarterly histories from each version's own rows and coordinates, preserving FPU deductions, geosplit allocations, map revisions and unknown values. Avoid summing superseded maps. Do not extrapolate beyond an archive's observed coverage or relax the five-month source-age rule to fill gaps.
+
+Use dated UN maps as a complementary reconstruction route. Transcribe only readable unit components using explicit historical codebook rules, preserve ambiguous values as unknown, and distinguish site components from complete locality strength. Unblinded agent readings do not constitute independent human review. A successful selected-symbol comparison does not validate omitted units, operational reach or actual headcounts.
+
+Compare any recovered numeric history with the existing panel and prior archived prefix. Update joint event/deployment coverage only for fields reconstructed on compatible locality-quarter units; never join selected site components as if they were complete composite-locality exposure. Keep detailed histories and original sources local; publish aggregate checks, source ledgers, explicit transcription inputs and remaining gaps. Verify new inputs and the original analysis snapshot, and test the additive workflow in the retained isolated environment. No complete historical forecast is claimed unless the required information set is actually reconstructed.
