@@ -1,5 +1,7 @@
 # Independent scientific audit of the discussion portfolio
 
+Historical audit of the 6 November portfolio. The corrected-panel refresh on 7 November changes the memo, deck and figures; this audit is not acceptance of those revised artifacts. Current checks are documented in [portfolio validation](portfolio_validation.md).
+
 Reviewed 2026-11-06 by a separate agent. Scope: consequential claims in the editable memo and its four-page PDF, discussion outline and five-slide PPTX including speaker notes, and scientific figure data. This is not independent human interpretation, native PowerPoint application testing, or a claim that residual limitations have been resolved. No models were fitted or artifacts modified by this audit.
 
 ## Assessment

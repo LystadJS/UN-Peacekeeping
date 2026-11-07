@@ -51,3 +51,5 @@ Remaining items from the [full project plan](docs/project_plan.md), updated belo
 The ten component discrepancies and Nyamilima locality have been adjudicated. The [Mavivi analysis resolution and corrected-panel sensitivity](docs/corrected_panel_sensitivity_findings.md) are now complete: the corrected estimate is −0.189 (95% interval −0.830 to 0.452), remaining inconclusive. The original panel is unchanged; the provider's reason for the Mavivi field discrepancy remains unverified.
 
 - [ ] Establish complete deployment histories and September coded inputs available at the fixed cutoff; still unresolved.
+
+The [research portfolio](portfolio/README.md) now incorporates the corrected-panel comparison in the memo, final figures and five-slide deck. Original-panel forecasting and simulation results remain explicitly labeled; corrected-panel rolling validation has not been run. Human review remains skipped, not completed.

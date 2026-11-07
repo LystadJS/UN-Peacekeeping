@@ -105,3 +105,7 @@ The [ten component decisions and Nyamilima locality](deployment_adjudication_fin
 ## Corrected-panel sensitivity completed — 2026-11-07
 
 The [Mavivi analysis resolution and corrected-panel sensitivity](corrected_panel_sensitivity_findings.md) are complete. The primary coded total is 2,200; the alternative 2,350 was retained as a stress scenario rather than silently discarded. Corrected estimates and locality-deletion intervals remain inconclusive. The original source-field cause, exact base location, actual unsized personnel, other deployment-coverage gaps and historical September information remain uncertain. This does not require treating the completed bounded model sensitivity as unfinished. Original files and docs/project_plan.md are unchanged; no new rolling forecast validation or full simulation run is claimed.
+
+## Corrected-panel presentation refresh — 2026-11-07
+
+The memo, figures and five-slide discussion deck now incorporate the corrected-panel comparisons and limitations. No presentation task remains pending from that correction. The original simulation and rolling prediction remain explicitly scoped to the original panel; rerunning them on corrected exposures would be additional scientific work, not something completed by refreshing these artifacts. Historical information availability and provider-error attribution remain unresolved. Human review is still skipped, not completed. See portfolio_validation.md for current validation scope.

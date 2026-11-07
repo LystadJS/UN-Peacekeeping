@@ -1,5 +1,9 @@
 {
-  "analysis_commit": "36f4b09adcddb954db3de59975155fc95659f513",
+  "analysis_commit": "8510728538026e8e3da1910360c0671b96dd0c2c",
+  "original_analysis_commit": "36f4b09adcddb954db3de59975155fc95659f513",
+  "portfolio_revision_date": "2026-11-07",
+  "corrected_panel_findings_included": true,
+  "corrected_panel_predictive_validation_rerun": false,
   "human_review": false,
   "native_powerpoint_tested": false,
   "validation_scope": "Automated structural and hash checks; agent visual QA is documented separately.",
@@ -18,13 +22,13 @@
   "artifacts": [
     {
       "file": "portfolio/research_memo.pdf",
-      "bytes": 282054,
-      "sha256": "9cb1dcb52770d9a69ab291d7fceec2f0288f14ff778ef323a5ead0554f10af3b"
+      "bytes": 281858,
+      "sha256": "745186d256af3037f609d37ad260defd8e78da60580cc8aa240780cd0ccc468f"
     },
     {
       "file": "portfolio/scott_discussion.pptx",
-      "bytes": 56132,
-      "sha256": "64c1c5368d021a14a2ea3c6265c7700d31aa237177dccf8fb8cdeeac009553d3"
+      "bytes": 55615,
+      "sha256": "5bab0244b5b9298dec0c94ffc100d5f1e709cb0239d1fd00ae047f5fade35710"
     }
   ]
 }

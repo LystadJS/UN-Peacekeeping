@@ -2,9 +2,9 @@
 
 ## Local violence and observation uncertainty in a quarterly pilot
 
-Prepared for Marc A. Scott | 6 November 2026
+Prepared for Marc A. Scott | Updated 7 November 2026
 
-**The pilot does not establish a protective or harmful deployment association.** It provides a reproducible assessment of what a multilevel count model can recover, where that recovery fails, and how measurement assumptions affect interpretation. The history-adjusted model modestly improves retrospective prediction, but the average gain is concentrated geographically. The contribution is a methodological application with an empirical case, rather than a new identification result.
+**The corrected panel still does not establish a protective or harmful deployment association.** Source corrections make the estimate somewhat more negative, with wide uncertainty. The original analysis modestly improved retrospective prediction, but that gain was concentrated geographically and prediction has not been rerun on the corrected panel. The contribution is a reproducible methodological application that examines recovery and measurement uncertainty, rather than a new identification result.
 
 ## Scope and measurement
 
@@ -18,17 +18,17 @@ Geo-PKO 2.3 supplies listed military strength, excluding formed police units, ra
 
 The negative-binomial model includes a locality random intercept, province effects, a linear quarterly trend and seasonality. It separates within-locality deviations in lagged strength from between-locality mean strength, then adjusts for the log-transformed previous recorded event count, prior violent-spell duration and an earlier strength lag. The target is a common conditional within-locality association per 1,000 personnel.
 
-Locality-specific deployment slopes were not fitted. Only eight of the nine retained localities supply within-strength variation, and within-centered adjacent strength lags correlate 0.954. These constraints support caution about recoverable heterogeneity; they do not show that heterogeneity is absent. The empirical coefficient is -0.133 (95% Wald interval [-0.770, 0.504]). The corresponding count ratio is **0.876 [0.463, 1.656]**. Both directions remain compatible with the interval.
+Locality-specific deployment slopes were not fitted. The original design had within-strength variation in eight localities and adjacent within-strength lag correlation of 0.954; heterogeneity remains outside this common-slope pilot. The corrected coefficient is -0.189 (conditional 95% Wald interval [-0.830, 0.452]), giving a count ratio of **0.828 [0.436, 1.572]**. Both directions remain compatible with the interval. Correcting source coding does not establish causal identification or remove nine-locality uncertainty.
 
 <!-- pagebreak -->
 
 ## What simulation establishes
 
-Simulation preceded empirical fitting. An initial fixed-design experiment used 800 fits. The subsequent dynamic evaluation used the actual nine-locality exposure schedule as a base, with synthetic counts, known coefficients and explicit initial histories; the selection scenario perturbed that schedule. It retained 1,400 fits across 1,200 generated panels; two estimators were applied to the same 200 prehistory panels. The ordinary model was tested under favorable and null conditions, correlated prehistory, responsive deployment and differential recording. Each scenario used 200 replications.
+Simulation preceded the original empirical fitting and has not been rerun on the corrected exposure schedule. An initial fixed-design experiment used 800 fits. The dynamic evaluation used the original nine-locality schedule, synthetic counts, known coefficients and explicit initial histories; responsive selection perturbed that schedule. It retained 1,400 fits across 1,200 generated panels; two estimators shared 200 prehistory panels. Favorable, null, correlated-prehistory, responsive-deployment and differential-recording scenarios each used 200 replications.
 
 ![Simulation recovery across controlled and adverse scenarios](figures/figure_2_simulation_recovery_memo.png)
 
-*Figure 1. Synthetic recovery on the audited exposure design. The plotted mean estimates and their Monte Carlo intervals summarize repeated simulations; they are not empirical locality effects or individual coefficient intervals. Coverage refers to nominal 95% coefficient intervals. The known nonnull coefficient is -0.30.*
+*Figure 1. Synthetic recovery on the original exposure design. Mean estimates and Monte Carlo intervals summarize repeated simulations, not empirical locality effects or individual coefficient intervals. Coverage refers to nominal 95% coefficient intervals. The known nonnull coefficient is -0.30; this exercise was not repeated for the corrected panel.*
 
 The ordinary model passed its prespecified favorable and initial-condition screens. Coverage was 95.5% in the favorable scenario and 93.5% with correlated prehistory. The matched prehistory null gave 95.5% coverage and a 4.5% false-direction rate. Its bias of 0.042, with Monte Carlo SE 0.023, was close to the 0.05 tolerance. Passing this finite screen does not establish negligible bias more generally.
 
@@ -38,25 +38,29 @@ The simulation is illustrative rather than calibrated to every empirical paramet
 
 <!-- pagebreak -->
 
-## Empirical sensitivity and remaining dependence
+## Corrected panel and observation sensitivity
 
-All 17 history-model deletion intervals included zero, but point estimates moved appreciably. Removing 2017 changed the slope from -0.133 to -0.535. All 11 measurement, secondary-outcome and monthly specification intervals also included zero. Early and midpoint deployment-change assumptions shifted the point estimate to +0.193 and +0.347. The monthly and fatality analogues change the target and have not received matching simulation validation.
+The corrected sensitivity supplement propagates Nyamilima's locality reassignment, adjudicated Rwindi/Nyamilima unit assignments and Bukavu's military-only subtotal. Mavivi uses a sized military total of 2,200, not verified headcount; the provider's field discrepancy remains unexplained. A 2,350 alternative applies only to map revision 51. Outcomes, sample membership and model specification are unchanged. Original sources and the primary analysis are preserved. [7]
+
+| Exposure version | Coefficient | Conditional 95% interval |
+|---|---:|---:|
+| Original reference | -0.133 | [-0.770, 0.504] |
+| Supported corrections | -0.189 | [-0.830, 0.452] |
+| Corrections plus Mavivi alternative | -0.210 | [-0.850, 0.429] |
 
 ![Sensitivity to assumed relative recording probabilities](figures/figure_3_reporting_sensitivity_memo.png)
 
-*Figure 2. Assumed recording differences can change the inferred association. The band is a model-based 95% interval conditional on each recording ratio. Movement across the curve represents changes in assumptions. The curve is an exact algebraic coefficient shift, not an estimate of actual recording probabilities.*
+*Figure 2. Corrected-panel association under assumed recording differences. The band is conditional on each recording ratio; movement along the curve changes the assumption. This is an algebraic shift of the corrected coefficient, not an estimated recording process or a new model fit.*
 
-For the log-linear recording model, the point estimate changes sign at an assumed probability ratio of 0.876 per additional 1,000 personnel. The conditional interval becomes wholly positive below 0.463 or wholly negative above 1.656. Equal recording probabilities leave the original inconclusive result. Nonlinear recording assumptions give different thresholds; none of these calculations removes deployment confounding.
+The corrected point estimate changes sign at an assumed recording-probability ratio of 0.828 per additional 1,000 personnel. The conditional interval is wholly positive below 0.436 or wholly negative above 1.572. Equal recording leaves an inconclusive result. These are hypothetical log-linear assumptions; nonlinear mechanisms yield other thresholds. Reporting sensitivity does not remove deployment confounding.
 
-Residual checks also limit interpretation. The history model's median lag-two randomized-residual correlation was 0.140, above its conditional reference bound of 0.114. Its range across randomizations overlapped the envelope, while a deterministic Pearson check gave 0.189. This is a warning about unresolved temporal structure, not a calibrated significance test. The mean spatial statistic fell inside a narrow reference based on a two-neighbor graph among the nine retained localities; other spatial patterns remain possible.
-
-Conditional count simulations reproduced the inspected history-model summaries, including zero frequency and the number of large counts. They held fitted effects and observed histories fixed, so they did not evaluate evolving trajectories or full parameter uncertainty. All 34 deletion fits and 44 sensitivity fits met numerical checks. This supports reproducibility of the calculations, not universal model adequacy.
+All 13 follow-up fits were usable and independently reproduced in the retained isolated environment. All nine corrected-panel locality-deletion intervals include zero. Corrected Pearson lag-two residual correlation remains 0.187, compared with 0.189 originally. This warns of unresolved temporal structure; it is not a calibrated significance test. The earlier timing, outcome, year-deletion and simulation checks were not repeated on this panel. The small coefficient shift is descriptive, not an equivalence test.
 
 <!-- pagebreak -->
 
 ## Prediction and discussion
 
-Expanding training windows predicted 2019 Q1 through 2023 Q4, using training-only exposure means and preceding-quarter outcomes. All 40 fits were usable, producing 180 held-out forecasts per model. The history model improved mean log score by 0.0429 and performed better in 14 of 20 quarters. Only four of nine locality averages improved; excluding Irumu's scores reversed the aggregate advantage. This concentration check changes score aggregation without refitting the models.
+The original-panel rolling evaluation predicted 2019 Q1 through 2023 Q4 with training-only exposure means and preceding-quarter outcomes. All 40 fits were usable, producing 180 forecasts per model. Mean log score improved by 0.0429, with improvement in 14 of 20 quarters but only four of nine locality averages. Excluding Irumu's scores reversed the aggregate advantage without refitting. These results have not been rerun on the corrected panel.
 
 | Held-out metric | Baseline | History |
 |---|---:|---:|
@@ -65,7 +69,7 @@ Expanding training windows predicted 2019 Q1 through 2023 Q4, using training-onl
 | Observed coverage of 95% intervals | 95.0% | 95.0% |
 | Mean 95% interval width | 22.98 | 17.07 |
 
-The intervals are conditional plug-in NB2 predictions and omit uncertainty in estimated parameters and locality effects. The localities were selected retrospectively. Historical release vintages were unavailable, so occurrence dates do not establish real-time availability. The results therefore concern recorded violence under retrospective information, not operational forecasting or latent violence.
+The intervals are conditional plug-in NB2 predictions, omitting parameter and locality-effect uncertainty. Localities were selected retrospectively. Subsequent work located archived releases, but complete September coded inputs and deployment histories available by 1 October 2023 remain uncertified. Occurrence dates alone do not establish availability. These are retrospective predictions of recorded violence, not validated operational forecasts or latent violence. [7]
 
 This application connects to your work on prediction and uncertainty conditional on sequence history, the IES project's concern with heterogeneity and overstated certainty, and thinkCausal's attention to methods as implemented in practice. [4-6] It does not implement the sequence paper's decomposition or evaluate software usability. The repository makes the underlying work inspectable: source reconciliation, multilevel estimation, simulation with known truth, and tests of assumptions and uncertainty.
 
@@ -74,10 +78,12 @@ I would next compare the current model with one prespecified second violence-his
 1. With residual lag-two structure and nine localities, would a second violence-history lag be informative, or would it mainly add instability?
 2. What simulation evidence and deployment variation would justify reintroducing locality-specific deployment slopes?
 
-Better deployment-change dates, verification of listing completeness and historical event-publication records would reduce uncertainty that richer regression alone cannot resolve. The current findings support methodological discussion without protection rankings or deployment recommendations.
+Better deployment-change dates, listing-completeness evidence and historical publication records would reduce uncertainty that richer regression cannot resolve. Human review was skipped at the user's request and remains incomplete. The findings support methodological discussion without locality rankings or deployment recommendations.
 
 ### Sources and reproducibility
 
 [1] [UCDP methodology and GED](https://www.uu.se/en/department/peace-and-conflict-research/research/ucdp/ucdp-methodology.html), GED 26.1. [2] [Geo-PKO dataset](https://www.uu.se/en/department/peace-and-conflict-research/research/research-data/geo-pko-dataset), version 2.3. [3] [Repository findings and reproducible evidence](https://github.com/LystadJS/UN-Peacekeeping/blob/36f4b09adcddb954db3de59975155fc95659f513/docs/quarterly_evaluation_findings.md).
 
 [4] Scott, Pennoni and Bórquez (2026), [Knowing What We Don't Know](https://doi.org/10.3390/e28070730). [5] NYU, [IES project on heterogeneity and uncertainty](https://steinhardt.nyu.edu/priism/what-when-and-whom). [6] Perrett, Hill, Srivastava and Scott (2026), [thinkCausal software evaluation](https://doi.org/10.1080/00031305.2026.2627264).
+
+[7] [Corrected-panel findings and reproduction evidence](https://github.com/LystadJS/UN-Peacekeeping/blob/8510728538026e8e3da1910360c0671b96dd0c2c/docs/corrected_panel_sensitivity_findings.md), 7 November 2026. Original simulation and predictive results above retain their original-panel scope.

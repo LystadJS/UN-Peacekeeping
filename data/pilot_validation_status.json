@@ -123,5 +123,9 @@
   "mavivi_analysis_total": 2200,
   "mavivi_subtotal_alternative_tested": 2350,
   "mavivi_provider_cause_verified": false,
-  "mavivi_original_source_field_inconsistency_retained": true
+  "mavivi_original_source_field_inconsistency_retained": true,
+  "portfolio_corrected_panel_refresh_date": "2026-11-07",
+  "portfolio_corrected_panel_findings_included": true,
+  "corrected_panel_rolling_validation_rerun": false,
+  "corrected_panel_simulation_rerun": false
 }

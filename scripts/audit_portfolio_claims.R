@@ -51,12 +51,23 @@ stopifnot(nrow(paired) == 180L, sum(tapply(gain, paired$test_index, mean) > 0) =
 near(mean(gain), read.csv("data/quarterly_prediction_comparison.csv")$mean_log_score_difference)
 
 # Exact reporting transformation and figure source bindings.
-fit <- readRDS("outputs/quarterly_pilot/empirical/history_model.rds")
+fit <- readRDS("outputs/corrected_panel_sensitivity/models/supported_corrections_history_model.rds")
 coefficient <- summary(fit)$coefficients$cond["strength_within", ]
 reporting <- read.csv("portfolio/figures/figure_3_reporting_data.csv")
 near(reporting$estimate, coefficient[1] - log(reporting$relative_recording_per_1000))
 near(reporting$lower_95, reporting$estimate - qnorm(.975) * coefficient[2])
 near(reporting$upper_95, reporting$estimate + qnorm(.975) * coefficient[2])
+# Confirm illustrative recording probabilities are feasible on corrected support.
+corrected_panel <- readRDS(paste0("outputs/corrected_panel_sensitivity/",
+                                "supported_corrections/quarterly_panel_complete_exposure.rds"))
+expected_q_min <- vapply(log(reporting$relative_recording_per_1000), function(lambda) {
+  relative_log_q <- lambda * corrected_panel$strength_lag
+  min(.8 * exp(relative_log_q - max(relative_log_q)))
+}, numeric(1))
+near(reporting$q_min, expected_q_min)
+stopifnot(all(reporting$q_max == .8), all(reporting$q_min > 0),
+          all(reporting$scenario == "supported_corrections"),
+          all(reporting$calculation == "algebraic_no_refit"))
 simulation <- read.csv("portfolio/figures/figure_2_simulation_data.csv")
 records <- rbind(read.csv("outputs/dynamic_quarterly/fit_records.csv"),
                  read.csv("outputs/dynamic_quarterly_null_disjoint/fit_records.csv"))
@@ -72,9 +83,23 @@ for (i in seq_len(nrow(simulation))) {
 }
 specifications <- read.csv("data/quarterly_sensitivity_specifications.csv")
 figure <- read.csv("portfolio/figures/figure_4_empirical_data.csv")
-match_rows <- match(figure$scenario, specifications$scenario)
+corrected_comparison <- read.csv("data/corrected_panel_model_comparison.csv")
+match_rows <- match(figure$scenario, corrected_comparison$scenario)
+stopifnot(nrow(figure) == 3L, !anyNA(match_rows),
+          setequal(figure$scenario, corrected_comparison$scenario))
 near(as.matrix(figure[c("estimate", "lower_95", "upper_95", "rows")]),
-     as.matrix(specifications[match_rows, c("estimate", "lower_95", "upper_95", "rows")]))
+     as.matrix(corrected_comparison[match_rows, c("estimate", "lower_95", "upper_95", "rows")]))
+# Validate the revised public comparisons directly against retained fitted objects.
+# Original measurement sensitivities below remain historical evidence, not refits.
+for (i in seq_len(nrow(corrected_comparison))) {
+  row <- corrected_comparison[i, ]
+  saved_fit <- readRDS(paste0("outputs/corrected_panel_sensitivity/models/",
+                            row$scenario, "_history_model.rds"))
+  saved_beta <- summary(saved_fit)$coefficients$cond["strength_within", ]
+  near(c(row$estimate, row$standard_error), unname(saved_beta[1:2]))
+  near(c(row$lower_95, row$upper_95),
+       saved_beta[1] + c(-1, 1) * qnorm(.975) * saved_beta[2])
+}
 stopifnot(nrow(specifications) == 11L, all(specifications$usable),
           all(specifications$lower_95 < 0 & specifications$upper_95 > 0))
 for (i in seq_len(nrow(specifications))) {

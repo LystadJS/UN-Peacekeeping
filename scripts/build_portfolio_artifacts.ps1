@@ -1,7 +1,7 @@
 # Typeset the final portfolio only after its scientific figure inputs exist.
 # This uses the recorded Windows document runtime; it does not fit any model.
 param(
-    [string]$RuntimeRoot = 'C:/Program Files/WindowsApps/OpenAI.CodexPrimaryRuntime.v26-1030-493-0_26.1030.493.0_x64__3k8sg7r9htsxt/dependencies'
+    [string]$RuntimeRoot = 'C:/Program Files/WindowsApps/OpenAI.CodexPrimaryRuntime.v26-1104-2876-0_26.1104.2876.0_x64__3k8sg7r9htsxt/dependencies'
 )
 $ErrorActionPreference = 'Stop'
 $python = Join-Path $RuntimeRoot 'python/python.exe'

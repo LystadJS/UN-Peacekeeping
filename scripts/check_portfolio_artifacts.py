@@ -18,7 +18,7 @@ from pypdf import PdfReader
 
 
 project_root = Path(__file__).resolve().parents[1]
-analysis_commit = "36f4b09adcddb954db3de59975155fc95659f513"
+analysis_commit = "8510728538026e8e3da1910360c0671b96dd0c2c"
 
 
 def require(condition, message):
@@ -89,6 +89,10 @@ def main():
     # Hash final artifacts only. No self-hash or claim of unperformed human review.
     manifest = {
         "analysis_commit": analysis_commit,
+        "original_analysis_commit": "36f4b09adcddb954db3de59975155fc95659f513",
+        "portfolio_revision_date": "2026-11-07",
+        "corrected_panel_findings_included": True,
+        "corrected_panel_predictive_validation_rerun": False,
         "human_review": False,
         "native_powerpoint_tested": False,
         "validation_scope": "Automated structural and hash checks; agent visual QA is documented separately.",

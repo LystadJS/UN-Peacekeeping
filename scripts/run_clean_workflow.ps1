@@ -210,11 +210,13 @@ Complete-RBatch $evaluationJobs
 foreach ($script in @('tests/run_quarterly_diagnostic_checks.R','scripts/summarize_quarterly_variance.R',
     'tests/run_quarterly_sensitivity_checks.R','tests/run_quarterly_prediction_checks.R',
     'scripts/check_quarterly_evaluation.R','scripts/record_quarterly_evaluation_status.R',
-    'scripts/build_portfolio_figures.R','scripts/build_descriptive_panel_figures.R')) { Run-RStage $script }
+    'scripts/build_descriptive_panel_figures.R')) { Run-RStage $script }
 # Dependencies include the original empirical coefficient files and locality
 # influence output. Never copy those derived reference tables into a fresh run.
 Run-RStage 'scripts/fit_corrected_panel_sensitivity.R'
 Run-RStage 'tests/run_corrected_panel_sensitivity_checks.R'
+# Current portfolio figures consume the separately fitted corrected scenarios.
+Run-RStage 'scripts/build_portfolio_figures.R'
 Push-Location $cleanProject
 try {
     & ./scripts/build_portfolio_artifacts.ps1

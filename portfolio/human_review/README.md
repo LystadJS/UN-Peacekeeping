@@ -6,7 +6,7 @@ Allow about 20–30 minutes. The purpose is to find what a reader understands wi
 
 ## Materials
 
-This packet covers portfolio revision `ebe983a6c45040ac7fff5c6a7e77422ee3240929`. The [file manifest](review_manifest.json) identifies the exact artifact bytes. If reviewing a later revision, record its commit or file version on the form.
+The retained manifest below describes the historical packet, not the revised artifact bytes. The linked memo, figures and deck were updated on 7 November 2026 with corrected-panel results; use the [current artifact manifest](../artifact_manifest.json) and [figure manifest](../figures/figure_manifest.csv) for their hashes. No review response is implied by this update. This original packet covers portfolio revision `ebe983a6c45040ac7fff5c6a7e77422ee3240929`. The [file manifest](review_manifest.json) identifies the exact artifact bytes. If reviewing a later revision, record its commit or file version on the form.
 
 | Material | Open |
 |---|---|

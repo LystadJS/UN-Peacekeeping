@@ -1,5 +1,7 @@
 # Portfolio validation
 
+The 7 November 2026 corrected-panel refresh supersedes the older artifact-specific claims below. The earlier sections remain a dated record of the original portfolio; current bytes and source version are in portfolio/artifact_manifest.json. See the refresh section at the end.
+
 Validation performed 6 November 2026. This is automated checking and agent review, not independent human-reader acceptance. No empirical or simulation model was refitted for this check.
 
 ## Independent numeric checks
@@ -35,3 +37,15 @@ Independent human interpretation of the central figures and discussion materials
 ## Clean-rebuild final verification
 
 The isolated original-input run passed all 383 scientific comparisons. The two wording corrections in the independent audit were verified in the rebuilt PDF/PPTX. The final figure builder now specifies the Cairo PNG device explicitly; all eight new PNGs and eight rendered PDFs were inspected, and the two affected memo pages were rechecked after the renderer fix. Current artifact hashes are in portfolio/artifact_manifest.json. See clean_rebuild_results.md for the environment scope and resolved chart-workbook permission retry. Human review remains outstanding.
+
+## Corrected-panel refresh — 7 November 2026
+
+The current memo, figures and deck incorporate the separately versioned corrected-panel findings at analysis commit `8510728538026e8e3da1910360c0671b96dd0c2c`. The supported common slope is −0.188535 (conditional 95% Wald interval −0.829557 to 0.452487); the original and Mavivi-alternative intervals also include zero. This is not equivalence or a causal estimate.
+
+The updated R claim audit passed against retained fitted objects, row-level original forecasts, simulation records and diagnostic draws. Figure 4's three rows match the corrected model comparison and retained coefficient matrices. Figure 3's 81 rows equal the corrected coefficient and interval minus the assumed log recording ratio. Its feasible probability range was independently recalculated over corrected exposure support. The reporting process is assumed, not estimated, and no model is refitted by this figure. Original prediction and simulation displays are explicitly labeled as not rerun on corrected exposures.
+
+Agent visual review covered all four memo pages, all five deck slides, the six changed PNG designs and all eight independently rendered figure PDFs. A separate agent compared the final memo, outline, extracted PPTX notes and figure documentation with the saved corrected results; no outstanding discrepancy remained. Automated artifact checks passed: four memo pages; five slides and notes; three native charts and workbooks; two native tables; all sixteen figure hashes and two descriptive-supplement hashes matched. Current PDF/PPTX hashes are in `portfolio/artifact_manifest.json`. Deck package/layout validation is recorded locally at `outputs/portfolio_deck/validation-1794090035083.json`. The current presentation runtime is bundle 26.1104.22356, dependency runtime v26-1104-2876-0.
+
+The corrected-panel source/lag/model checks were rerun and passed, including verification of all eighteen frozen original-analysis files. The unchanged project-plan SHA-256 is `e6a030f560f682facab30843f298731e69b85c8cb523021c2ce0341ac609d4b9`. The clean workflow now constructs and fits corrected panels before building portfolio figures. No full end-to-end scientific run, new simulation or rolling forecast was performed for this presentation refresh; the previous full-run receipt is not extended. Human review remains skipped by the user, not completed; native PowerPoint opening remains untested.
+
+A final read-only PPTX check compared all 486 chart-cache numbers across the three 81-point reporting series with the corrected saved coefficients and log recording ratios: maximum rounding difference 4.94e-12 (tolerance 1e-10). Embedded workbook values match chart caches exactly, and all three coefficient-table rows match at displayed precision. The private receipt is outputs/portfolio_deck/independent_corrected_value_check.json.

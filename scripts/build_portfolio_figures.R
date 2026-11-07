@@ -85,7 +85,7 @@ trajectory <- ggplot(combined, aes(date, value)) +
   facet_wrap(~ facet, ncol = 2, scales = "free_y") + time_scale +
   scale_y_continuous(limits = c(0, NA), expand = expansion(mult = c(0, .08))) +
   labs(title = "Recorded violence and deployment observation timing",
-    subtitle = "Three named examples from nine selected localities; independent panel scales",
+    subtitle = "Original-panel validation; three named examples; independent panel scales",
     x = NULL, y = NULL,
     caption = "Black: recorded events. Blue: held-out history mean and 95% plug-in count interval (2019-2023).\nOrange: monthly listed stock; dots mark source-map months, steps include carry-forward.\nThe model uses prior-quarter mean strength. Beni/Irumu include their city composites; no causal contrast is shown.") + theme_portfolio(9.5)
 save_figure(trajectory, "figure_1_trajectories", 7, 6.2)
@@ -97,7 +97,7 @@ all_trajectory <- ggplot(panel, aes(date, recorded_events)) +
   geom_line(data = predictions, aes(date, predicted_mean), colour = blue, linewidth = .6) +
   facet_wrap(~ locality, ncol = 3, scales = "free_y", labeller = label_wrap_gen(24)) + time_scale +
   scale_y_continuous(limits = c(0, NA), expand = expansion(mult = c(0, .08))) +
-  labs(title = "All nine selected locality trajectories", subtitle = "288 recorded quarters; 180 held-out forecasts; panel-specific count scales",
+  labs(title = "All nine selected locality trajectories", subtitle = "Original-panel validation: 288 quarters and 180 held-out forecasts",
     x = NULL, y = "Recorded events", caption = "Black: recorded counts. Blue: history mean and conditional 95% plug-in count interval.\nRetrospective selected sample; parameter/random-effect estimation uncertainty and real-time release availability are not represented.") +
   theme_portfolio(9)
 save_figure(all_trajectory, "figure_1_all_localities", 8, 6.5)
@@ -132,7 +132,30 @@ simulation_memo <- simulation_plot + labs(title = NULL, subtitle = NULL,
   theme_portfolio(9.5) + theme(strip.text.y = element_text(size = 8.5, angle = 0))
 save_figure(simulation_memo, "figure_2_simulation_recovery_memo", 6.5, 2.8)
 
-reporting <- read.csv("data/quarterly_sensitivity_reporting_curve.csv")
+# Translate the supported-correction slope under the same prespecified
+# log-linear recording assumption. This is algebra, not an additional fit.
+# A bounded intercept makes every illustrated q a feasible probability over
+# the observed corrected deployment range; that intercept is not estimated.
+corrected_comparison <- read.csv("data/corrected_panel_model_comparison.csv")
+corrected_coefficient <- corrected_comparison |>
+  filter(scenario == "supported_corrections", model == "history")
+corrected_panel <- readRDS("outputs/corrected_panel_sensitivity/supported_corrections/quarterly_panel_complete_exposure.rds")
+stopifnot(nrow(corrected_coefficient) == 1L, corrected_coefficient$usable,
+          nrow(corrected_panel) == 288L)
+lambda <- seq(log(.25), log(4), length.out = 81L)
+reporting <- data.frame(lambda = lambda, relative_recording_per_1000 = exp(lambda),
+  estimate = corrected_coefficient$estimate - lambda,
+  se = corrected_coefficient$standard_error,
+  lower_95 = corrected_coefficient$lower_95 - lambda,
+  upper_95 = corrected_coefficient$upper_95 - lambda,
+  q_min = vapply(lambda, function(value) {
+    log_q <- log(.8) + value * corrected_panel$strength_lag -
+      max(value * corrected_panel$strength_lag)
+    min(exp(log_q))
+  }, numeric(1)), q_max = .8,
+  scenario = "supported_corrections", calculation = "algebraic_no_refit")
+stopifnot(all(reporting$q_min > 0), all(reporting$q_min <= reporting$q_max),
+          all(reporting$q_max <= 1))
 write.csv(reporting, file.path(directory, "figure_3_reporting_data.csv"), row.names = FALSE)
 reporting_plot <- ggplot(reporting, aes(relative_recording_per_1000, estimate)) +
   geom_ribbon(aes(ymin = lower_95, ymax = upper_95), fill = blue, alpha = .18) +
@@ -140,21 +163,20 @@ reporting_plot <- ggplot(reporting, aes(relative_recording_per_1000, estimate)) 
   geom_vline(xintercept = 1, colour = "#888888", linetype = 3) +
   scale_x_log10(breaks = c(.25, .5, 1, 2, 4)) +
   labs(title = "Reporting assumptions and the inferred association",
-    subtitle = "Nine localities; 288 quarters; exact log-linear offset sensitivity",
+    subtitle = "Corrected panel: nine localities, 288 quarters; algebraic sensitivity",
     x = "Assumed recording-probability ratio per 1,000 additional personnel",
     y = "Conditional log count coefficient",
-    caption = "Band: 95% coefficient interval conditional on each assumed recording ratio.\nThe shift is algebraic; recording is not estimated and confounding remains.") + theme_portfolio(10)
+    caption = "Band: 95% coefficient interval conditional on each feasible assumed recording ratio.\nAlgebraic shift only: no new fits, no estimated reporting process, no control for unmeasured confounding.") + theme_portfolio(10)
 save_figure(reporting_plot, "figure_3_reporting_sensitivity", 7, 4.2)
 reporting_memo <- reporting_plot + labs(title = NULL, subtitle = NULL,
   x = "Assumed recording-probability ratio per 1,000 personnel",
   y = "Conditional coefficient",
-  caption = "Band: conditional 95% coefficient interval. Curve movement reflects assumptions, not estimated reporting.\nThe algebraic shift does not address deployment confounding.") + theme_portfolio(9.5)
+  caption = "Corrected panel. Band: conditional 95% coefficient interval under feasible assumed recording ratios.\nAlgebraic shift only; no new fits or estimated reporting. Deployment confounding remains.") + theme_portfolio(9.5)
 save_figure(reporting_memo, "figure_3_reporting_sensitivity_memo", 6.5, 2.8)
 
-specification_names <- c(primary = "Primary quarterly (n=288)", age_three = "Map age at most 3 months (n=252)",
-  early_map_switch = "Early map switch (n=288)", midpoint_map_switch = "Midpoint switch (n=288)",
-  location_precision_1_or_2 = "Location precision 1 or 2 (n=288)")
-specifications <- read.csv("data/quarterly_sensitivity_specifications.csv") |>
+specification_names <- c(original = "Original panel", supported_corrections = "Supported corrections",
+  mavivi_plus_150 = "Mavivi 2,350 alternative")
+specifications <- corrected_comparison |>
   filter(scenario %in% names(specification_names)) |>
   mutate(label = factor(unname(specification_names[scenario]), levels = rev(unname(specification_names))))
 write.csv(specifications, file.path(directory, "figure_4_empirical_data.csv"), row.names = FALSE)
@@ -162,9 +184,9 @@ empirical_plot <- ggplot(specifications, aes(estimate, label)) +
   geom_vline(xintercept = 0, linetype = 2, colour = "#555555") +
   geom_errorbar(aes(xmin = lower_95, xmax = upper_95), orientation = "y", width = .15, colour = blue) +
   geom_point(size = 2.3, colour = blue) +
-  labs(title = "The common association remains imprecise", subtitle = "Actual quarterly event-count fits under five measurement assumptions",
+  labs(title = "The corrected common association remains inconclusive", subtitle = "Three saved fits; same nine localities, 288 quarters and 1,248 events",
     x = "Log count coefficient per 1,000 listed military personnel", y = NULL,
-    caption = "Points and model-based 95% Wald intervals. No locality-specific deployment slopes were fitted.\nTiming alternatives use later maps retrospectively; the three-month rule changes the sample.") + theme_portfolio(10)
+    caption = "Points and conditional 95% Wald intervals; no locality-specific deployment slopes.\nSupported Mavivi total: 2,200. Alternative: 2,350 for map revision 51 only.\nOriginal provider discrepancy remains unverified; interval overlap does not establish equivalence.") + theme_portfolio(10)
 save_figure(empirical_plot, "figure_4_empirical_sensitivity", 7, 3.6)
 
 locality_scores <- read.csv("data/quarterly_prediction_localities.csv") |> arrange(locality)
@@ -177,7 +199,7 @@ prediction_plot <- ggplot(locality_scores, aes(mean_log_score_difference, locali
   geom_segment(aes(x = 0, xend = mean_log_score_difference, yend = locality), colour = blue, linewidth = .7) +
   geom_point(colour = blue, size = 2.3) +
   labs(title = "Predictive gains are concentrated across localities",
-    subtitle = "20 held-out quarters per locality; alphabetical order",
+    subtitle = "Original-panel validation; 20 held-out quarters each; alphabetical order",
     x = "Mean log score: history minus baseline", y = NULL,
     caption = "Positive values favor history. Dashed line: overall +0.0429; omitting Irumu scores gives -0.0147.\nDescriptive score aggregation, not refitting or protection ranking. Retrospective plug-in forecasts only.") + theme_portfolio(10)
 save_figure(prediction_plot, "figure_5_prediction_comparison", 7, 4.5)
