@@ -110,5 +110,18 @@
   "nyamilima_exact_base_point_verified": false,
   "remaining_mavivi_tcc_total_inconsistencies": 1,
   "adjudicated_corrections_applied_to_frozen_panel": false,
-  "corrected_panel_sensitivity_fitted": false
+  "corrected_panel_sensitivity_fitted": true,
+  "corrected_panel_sensitivity_completed": true,
+  "corrected_panel_sensitivity_completed_on": "2026-11-07",
+  "corrected_panel_fits_per_run": 13,
+  "corrected_panel_usable_fits_per_run": 13,
+  "corrected_panel_independent_reproduction_passed": true,
+  "corrected_panel_supported_within_estimate": -0.188534899958554,
+  "corrected_panel_supported_lower_95": -0.829556573131208,
+  "corrected_panel_supported_upper_95": 0.4524867732141,
+  "mavivi_analysis_choice_resolved": true,
+  "mavivi_analysis_total": 2200,
+  "mavivi_subtotal_alternative_tested": 2350,
+  "mavivi_provider_cause_verified": false,
+  "mavivi_original_source_field_inconsistency_retained": true
 }

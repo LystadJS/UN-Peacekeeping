@@ -1,0 +1,4 @@
+"scenario","rows","mean_absolute_change","maximum_absolute_change","summed_conditional_mean","interpretation"
+"mavivi_plus_150",288,0.0433211584888235,0.738914958310417,1252.56567131917,"in_sample_conditional_mean_change_not_forecast_validation"
+"original",288,0,0,1253.86277199583,"in_sample_conditional_mean_change_not_forecast_validation"
+"supported_corrections",288,0.0335522612522192,0.743187794528392,1252.77541278155,"in_sample_conditional_mean_change_not_forecast_validation"

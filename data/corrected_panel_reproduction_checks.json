@@ -1,0 +1,21 @@
+{
+  "run_date": "2026-11-07",
+  "scope": "Corrected-panel construction and thirteen bounded fits repeated in retained isolated environment; original full simulation and rolling forecasting workflow not rerun",
+  "public_generated_tables_compared": 11,
+  "private_csv_tables_compared": 17,
+  "panel_rds_objects_compared": 6,
+  "model_objects_compared": 13,
+  "scientific_numeric_absolute_tolerance": 1e-06,
+  "panel_comparison_tolerance": 1e-10,
+  "incidental_fields_excluded": "seconds; sha256/bytes only in named input manifests; paths retained",
+  "independent_lag_and_centering_checks": "passed in working and isolated projects",
+  "fits_per_run": 13,
+  "usable_fits_per_run": 13,
+  "original_snapshot_files_verified": 18,
+  "project_plan_unchanged": true,
+  "project_plan_sha256": "e6a030f560f682facab30843f298731e69b85c8cb523021c2ce0341ac609d4b9",
+  "original_panel_modified": false,
+  "corrected_panel_sensitivity_completed": true,
+  "historical_information_set_authenticated": false,
+  "human_review": "skipped_by_user_not_completed"
+}

@@ -1,5 +1,7 @@
 # Adjudication of the ten deployment-symbol discrepancies
 
+**Sensitivity follow-up — 2026-11-07:** The [Mavivi analysis choice and separately versioned corrected-panel sensitivity](corrected_panel_sensitivity_findings.md) are now complete. The primary total is 2,200; the 2,350 alternative was tested. The original field's cause remains unverified. This supersedes the analysis-blocker wording below without changing original source rows or fits.
+
 Reviewed 7 November 2026 against the original 2023 UN maps, the retained Geo-PKO 2.3 source rows and the historical version 2.0 codebook. **The ten previously reported discrepancies now have explicit source-level decisions.** Three were errors in our earlier visual transcription; one is an internally inconsistent FPU field; six involve site assignment. This adjudicates the coded components, not actual troop headcounts, provider publication timing or the complete historical panel.
 
 The [ten-row decision table](../data/deployment_symbol_adjudication.csv) preserves the earlier reading, current coded military value and adjudicated component. Earlier static transcriptions remain unchanged so the correction is auditable. The [source manifest](../data/deployment_symbol_adjudication_sources.csv) fingerprints all five retained originals used here.

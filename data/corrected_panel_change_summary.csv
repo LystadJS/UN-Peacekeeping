@@ -1,0 +1,11 @@
+"scenario","field","changed_all_rows","changed_core_rows","max_absolute_change","all_rows","core_rows"
+"supported_corrections","strength",18,18,0.65,608,288
+"supported_corrections","strength_lag",17,17,0.65,608,288
+"supported_corrections","strength_lag2",16,16,0.65,608,288
+"supported_corrections","strength_between",64,64,0.110416666666666,608,288
+"supported_corrections","strength_within",64,64,0.539583333333334,608,288
+"mavivi_plus_150","strength",20,20,0.65,608,288
+"mavivi_plus_150","strength_lag",18,18,0.65,608,288
+"mavivi_plus_150","strength_lag2",16,16,0.65,608,288
+"mavivi_plus_150","strength_between",96,96,0.110416666666666,608,288
+"mavivi_plus_150","strength_within",96,96,0.539583333333334,608,288

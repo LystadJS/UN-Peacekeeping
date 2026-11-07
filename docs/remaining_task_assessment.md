@@ -101,3 +101,7 @@ The [latest follow-up](post2019_and_september_followup.md) resolves a further ye
 ## Adjudication follow-up — 2026-11-07
 
 The [ten component decisions and Nyamilima locality](deployment_adjudication_findings.md) are adjudicated. Earlier Mavivi readings were corrected rather than forcing the provider total to match our mistaken transcription. The remaining work is the separate August contributor-subtotal inconsistency, a separately versioned corrected-panel sensitivity covering the full affected source lineage, and the previously documented historical-availability gaps. Exact base coordinates and actual unsized personnel remain unknown. No original fits changed; docs/project_plan.md remains untouched.
+
+## Corrected-panel sensitivity completed — 2026-11-07
+
+The [Mavivi analysis resolution and corrected-panel sensitivity](corrected_panel_sensitivity_findings.md) are complete. The primary coded total is 2,200; the alternative 2,350 was retained as a stress scenario rather than silently discarded. Corrected estimates and locality-deletion intervals remain inconclusive. The original source-field cause, exact base location, actual unsized personnel, other deployment-coverage gaps and historical September information remain uncertain. This does not require treating the completed bounded model sensitivity as unfinished. Original files and docs/project_plan.md are unchanged; no new rolling forecast validation or full simulation run is claimed.

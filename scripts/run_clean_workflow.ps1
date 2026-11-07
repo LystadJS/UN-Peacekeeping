@@ -170,6 +170,17 @@ Run-RStage 'scripts/audit_deployment_coding_conventions.R'
 Run-RStage 'scripts/adjudicate_nyamilima_geography.R'
 Run-RStage 'scripts/audit_deployment_adjudication_impact.R'
 Run-RStage 'tests/run_deployment_adjudication_checks.R'
+# Keep the Mavivi source evidence and correction scenarios separate from frozen
+# inputs. Panel rebuilding can run now; fitting waits for original comparison
+# results and influence summaries generated later in this workflow.
+Copy-Item -LiteralPath 'data/mavivi_subtotal_sources.csv' -Destination (Join-Path $cleanProject 'data/mavivi_subtotal_sources.csv')
+foreach ($relativePath in ((Import-Csv 'data/mavivi_subtotal_sources.csv').path | Sort-Object -Unique)) {
+    $destination = Join-Path $cleanProject $relativePath
+    New-Item -ItemType Directory -Path (Split-Path $destination) -Force | Out-Null
+    Copy-Item -LiteralPath $relativePath -Destination $destination
+}
+Run-RStage 'scripts/resolve_mavivi_subtotal.R'
+Run-RStage 'scripts/build_corrected_panel_sensitivity.R'
 
 Run-RStage 'scripts/check_quarterly_source_records.R'
 Run-RStage 'scripts/audit_absence_followup.R'
@@ -200,6 +211,10 @@ foreach ($script in @('tests/run_quarterly_diagnostic_checks.R','scripts/summari
     'tests/run_quarterly_sensitivity_checks.R','tests/run_quarterly_prediction_checks.R',
     'scripts/check_quarterly_evaluation.R','scripts/record_quarterly_evaluation_status.R',
     'scripts/build_portfolio_figures.R','scripts/build_descriptive_panel_figures.R')) { Run-RStage $script }
+# Dependencies include the original empirical coefficient files and locality
+# influence output. Never copy those derived reference tables into a fresh run.
+Run-RStage 'scripts/fit_corrected_panel_sensitivity.R'
+Run-RStage 'tests/run_corrected_panel_sensitivity_checks.R'
 Push-Location $cleanProject
 try {
     & ./scripts/build_portfolio_artifacts.ps1

@@ -48,10 +48,6 @@ Remaining items from the [full project plan](docs/project_plan.md), updated belo
 
 ## Deployment-history completion investigation — 2026-11-07
 
-The [adjudication findings](docs/deployment_adjudication_findings.md) resolve the ten original component discrepancies and Nyamilima's settlement/locality assignment. The original panel remains unchanged.
-
-- [ ] Resolve the separate Mavivi revision-51 contributor-subtotal inconsistency: 2,350 versus the 2,200 total and unit-count arithmetic.
-
-- [ ] Complete a separately versioned corrected-panel sensitivity analysis, auditing all 17 affected Nyamilima source rows and the adjudicated 2023 unit decisions.
+The ten component discrepancies and Nyamilima locality have been adjudicated. The [Mavivi analysis resolution and corrected-panel sensitivity](docs/corrected_panel_sensitivity_findings.md) are now complete: the corrected estimate is −0.189 (95% interval −0.830 to 0.452), remaining inconclusive. The original panel is unchanged; the provider's reason for the Mavivi field discrepancy remains unverified.
 
 - [ ] Establish complete deployment histories and September coded inputs available at the fixed cutoff; still unresolved.

@@ -81,3 +81,7 @@ After the prior post-2019 stages, run `audit_deployment_release_catalog.R`, `aud
 ## Deployment adjudication
 
 After the deployment-history completion checks, run `scripts/audit_deployment_coding_conventions.R`, `scripts/adjudicate_nyamilima_geography.R`, `scripts/audit_deployment_adjudication_impact.R`, and `tests/run_deployment_adjudication_checks.R`. Preserve the four static inputs: the three source manifests and ten-row symbol decision ledger. The three stages regenerate component evidence, the geographic proposal and crossed map-subtotal scenarios; they do not modify the fitted panel. See [decisions and scope](deployment_adjudication_findings.md).
+
+## Corrected-panel sensitivity
+
+After source adjudication, run `scripts/resolve_mavivi_subtotal.R` and `scripts/build_corrected_panel_sensitivity.R`. The panel script verifies the unmodified reconstruction before creating supported-correction and Mavivi-alternative panels. Once the original empirical and influence outputs exist, run `scripts/fit_corrected_panel_sensitivity.R` and `tests/run_corrected_panel_sensitivity_checks.R`. These later dependencies are explicit in the clean orchestrator. See [protocol](corrected_panel_sensitivity_protocol.md), [construction](corrected_panel_construction.md) and [findings](corrected_panel_sensitivity_findings.md). All corrected artifacts remain separate from the original fitted panel.

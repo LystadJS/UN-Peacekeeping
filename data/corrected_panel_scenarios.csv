@@ -1,0 +1,4 @@
+"scenario","interpretation","original_panel_modified","authenticated_historical_forecast"
+"original_reconstructed","Unchanged reconstruction gate against frozen panel",FALSE,FALSE
+"supported_corrections","Adjudicated settlement/locality and explicit source-component decisions",FALSE,FALSE
+"mavivi_plus_150","Supported corrections plus unverified150-person Mavivi revision51 alternative",FALSE,FALSE

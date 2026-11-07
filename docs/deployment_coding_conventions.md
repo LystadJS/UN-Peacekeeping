@@ -1,5 +1,7 @@
 # Deployment coding conventions and internal component checks
 
+**Sensitivity follow-up — 2026-11-07:** The [Mavivi analysis choice and separately versioned corrected-panel sensitivity](corrected_panel_sensitivity_findings.md) are now complete. The primary total is 2,200; the 2,350 alternative was tested. The original field's cause remains unverified. This supersedes the analysis-blocker wording below without changing original source rows or fits.
+
 Adjudication dated 7 November 2026. This audit checks the published source-row fields underlying the ten proposed 2023 discrepancies. It does not change the original panel or authenticate a historical release.
 
 ## Rules and evidence

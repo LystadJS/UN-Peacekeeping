@@ -59,3 +59,9 @@ An additive run in the retained isolated project matched all those tables exactl
 ## Adjudication validation — 2026-11-07
 
 The clean workflow stages static decision/source inputs and the eight distinct originals named across `deployment_coding_conventions_sources.csv`, `nyamilima_geography_sources.csv` and `deployment_symbol_adjudication_sources.csv`. It regenerates four public tables and three private audit files and runs the independent adjudication checks. The retained isolated project reproduced all seven tables exactly; the original 18-file analysis snapshot and untouched project-plan hash were verified. See [adjudication receipt](../data/deployment_adjudication_checks.json). No full model or corrected-panel run is claimed. PDF font-weight warnings did not prevent extraction or visual inspection of the UN locality evidence.
+
+## Corrected-panel fitting reproduction — 2026-11-07
+
+The orchestrator stages the originals named by `data/mavivi_subtotal_sources.csv`, then resolves the analysis subtotal and builds separately versioned panels after adjudication. New model fits and checks run only after the original empirical coefficients and influence results have been generated. Reference derived panels are not copied as corrected inputs.
+
+The retained isolated environment repeated the three new stages and independent checks: all 13 fits were usable. Eleven generated public tables, 17 private CSV tables, six panel objects and 13 model objects matched under the protocol's tolerances. Only elapsed seconds and hash/size metadata in specifically named input manifests are excluded from cross-run table comparison; their paths remain checked and each run verifies its own source fingerprints. See [receipt](../data/corrected_panel_reproduction_checks.json). This is a bounded fitting rerun, not a repeat of the original full simulation and rolling forecast workflow. The original snapshot and project-plan hash were verified unchanged.

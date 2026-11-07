@@ -1,5 +1,7 @@
 # Deployment-coding adjudication: decisions and remaining work
 
+**Sensitivity follow-up — 2026-11-07:** The [Mavivi analysis choice and separately versioned corrected-panel sensitivity](corrected_panel_sensitivity_findings.md) are now complete. The primary total is 2,200; the 2,350 alternative was tested. The original field's cause remains unverified. This supersedes the analysis-blocker wording below without changing original source rows or fits.
+
 Completed 7 November 2026. **All ten previously identified component discrepancies have been adjudicated, and Nyamilima's settlement/locality mismatch is resolved for a correction scenario.** This does not certify actual headcounts, exact base coordinates or a complete historical information set. A separate August 2023 contributor-subtotal inconsistency remains unresolved.
 
 ## Decisions

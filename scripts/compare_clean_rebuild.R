@@ -39,6 +39,8 @@ adjudication_static <- c("deployment_coding_conventions_sources.csv",
   "nyamilima_geography_sources.csv", "deployment_symbol_adjudication_sources.csv",
   "deployment_symbol_adjudication.csv")
 static_data <- c(static_data, adjudication_static)
+corrected_static <- "mavivi_subtotal_sources.csv"
+static_data <- c(static_data, corrected_static)
 reference_data <- list.files("data", pattern = "\\.csv$", full.names = TRUE)
 expected_data <- reference_data[!basename(reference_data) %in% static_data]
 raw_directories <- c("outputs/week_1/audit_aggregated", "outputs/quarterly_pilot/panel",
@@ -58,7 +60,7 @@ if (panel_only) {
   # Also inspect every other common data CSV, including the pinned source manifest.
   common <- intersect(reference_data, paste0("data/", list.files(file.path(clean_root, "data"),
     pattern = "\\.csv$")))
-  csv_paths <- c(csv_paths, common[!basename(common) %in% c(post2019_static, completion_static, adjudication_static)])
+  csv_paths <- c(csv_paths, common[!basename(common) %in% c(post2019_static, completion_static, adjudication_static, corrected_static)])
   # Enumerate derived private files explicitly: never compare a raw CSV as though
   # it were regenerated, and never silently omit a missing private reconstruction.
   csv_paths <- c(csv_paths,
@@ -80,14 +82,30 @@ if (panel_only) {
     "outputs/coding_conventions/affected_source_rows.csv",
     "outputs/nyamilima_adjudication/osm_coordinate_history.csv",
     "outputs/deployment_adjudication/source_row_scenarios.csv")
+  # Corrected histories must be regenerated. Three complete scenario grids are
+  # required, including the zero-change reconstruction gate, not just files that
+  # happen to be present in both projects. Model objects have a separate receipt.
+  corrected_panel_csvs <- unlist(lapply(c("original_reconstructed", "supported_corrections", "mavivi_plus_150"),
+    function(scenario) file.path("outputs/corrected_panel_sensitivity", scenario,
+      c("monthly_source_lineage.csv", "monthly_exposure_grid.csv",
+        "quarterly_panel_all_localities.csv", "quarterly_panel_complete_exposure.csv"))))
+  corrected_changes <- file.path("outputs/corrected_panel_sensitivity",
+    c("supported_corrections", "mavivi_plus_150"), "quarterly_exposure_changes.csv")
+  csv_paths <- c(csv_paths, corrected_panel_csvs, corrected_changes,
+    "outputs/mavivi_subtotal_resolution/source_transition_rows.csv",
+    "outputs/corrected_panel_sensitivity/models/conditional_predictions.csv",
+    "outputs/corrected_panel_sensitivity/models/input_manifest.csv")
 }
 csv_paths <- sort(unique(gsub("\\\\", "/", csv_paths)))
 panel_paths <- c(unlist(lapply(raw_directories, list.files, pattern = "\\.csv$",
   full.names = TRUE, recursive = TRUE)), "outputs/quarterly_pilot/exposure_audit.csv",
   "outputs/quarterly_pilot/exposure_coverage.csv")
+if (!panel_only) panel_paths <- c(panel_paths, corrected_panel_csvs, corrected_changes)
 manifest_paths <- c("data/quarterly_panel_manifest.csv", "data/quarterly_evaluation_input_manifest.csv",
                     "portfolio/figures/figure_manifest.csv",
-                    "portfolio/figures/descriptive_panel_manifest.csv")
+                    "portfolio/figures/descriptive_panel_manifest.csv",
+                    "data/corrected_panel_inputs.csv",
+                    "outputs/corrected_panel_sensitivity/models/input_manifest.csv")
 
 compare_column <- function(a, b, exact = FALSE) {
   if (length(a) != length(b) || !identical(is.na(a), is.na(b))) return(FALSE)
@@ -146,6 +164,15 @@ rds_paths <- c("outputs/quarterly_pilot/exposure_design.rds",
   "outputs/quarterly_pilot/panel/quarterly_panel_complete_exposure.rds")
 if (!panel_only) rds_paths <- unique(c(rds_paths, unlist(lapply(scientific_directories,
   list.files, pattern = "\\.rds$", full.names = TRUE, recursive = TRUE))))
+if (!panel_only) {
+  corrected_rds <- unlist(lapply(c("original_reconstructed", "supported_corrections", "mavivi_plus_150"),
+    function(scenario) file.path("outputs/corrected_panel_sensitivity", scenario,
+      c("quarterly_panel_all_localities.rds", "quarterly_panel_complete_exposure.rds"))))
+  corrected_models <- list.files("outputs/corrected_panel_sensitivity/models",
+    pattern = "_model\\.rds$", full.names = TRUE)
+  stopifnot(length(corrected_models) == 13L)
+  rds_paths <- unique(c(rds_paths, corrected_rds, corrected_models))
+}
 for (path in sort(rds_paths)) {
   rebuilt <- file.path(clean_root, path)
   if (!file.exists(rebuilt)) { record(path, "required_file", FALSE, "Missing rebuilt RDS"); next }
