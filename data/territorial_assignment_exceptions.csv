@@ -1,0 +1,8 @@
+id,accept_from_source,exclusion_reason,evidence
+150043,FALSE,contradictory_alternative_location,Description offers Mambelenga in Orientale as an alternative to Beni
+434146,FALSE,province_wide_narrative,Description says mainly Nord Kivu rather than one territory despite precision 3
+219009,FALSE,additional_unspecified_locations,Description adds three other places in North Kivu; full record not securely contained
+380989,FALSE,province_description_conflict,Description places Mambasa in North Kivu; unresolved geographic inconsistency
+364097,FALSE,boundary_uncertainty,Description identifies border to Ituri; conservative exclusion pending source adjudication
+499579,TRUE,,Radio Okapi 2023-11-08 identifies the three attacks as in southern Irumu; same source and Bandikumu description match GED; https://www.radiookapi.net/2023/11/08/actualite/securite/irumu-les-adf-tuent-onze-personnes-tchabi-et-mitego
+502510,TRUE,,Radio Okapi 2023-11-24 identifies Maobo and Makodu within Batangi-Mbau Beni; GED cites the same source; https://www.radiookapi.net/2023/11/24/actualite/securite/beni-9-civils-tues-lors-dune-nouvelle-attaque-attribuee-aux-adf

@@ -1,0 +1,25 @@
+definition,period,events,deaths,kst_events,okapi_events,missing_source,kst_share
+all_spatial_precisions,2022,31,97,27,2,0,0.8709677419354839
+all_spatial_precisions,2023 Jan-Oct,17,16,16,1,0,0.9411764705882353
+all_spatial_precisions,2023 Nov-Dec,1,5,0,0,0,0
+all_spatial_precisions,2024 Apr,1,1,0,0,0,0
+all_spatial_precisions,2024 Jan-Mar,7,6,0,3,0,0
+all_spatial_precisions,2024 May-Oct,12,19,0,2,0,0
+all_spatial_precisions,2024 Nov-Dec,3,3,0,2,0,0
+all_spatial_precisions,2025,36,319,2,16,0,0.05555555555555555
+strict,2022,28,66,26,1,0,0.9285714285714286
+strict,2023 Jan-Oct,14,13,14,0,0,1
+strict,2023 Nov-Dec,0,0,0,0,0,NA
+strict,2024 Apr,1,1,0,0,0,0
+strict,2024 Jan-Mar,6,5,0,3,0,0
+strict,2024 May-Oct,7,8,0,2,0,0
+strict,2024 Nov-Dec,1,1,0,1,0,0
+strict,2025,26,100,1,10,0,0.038461538461538464
+territorial,2022,28,66,26,1,0,0.9285714285714286
+territorial,2023 Jan-Oct,16,15,16,0,0,1
+territorial,2023 Nov-Dec,0,0,0,0,0,NA
+territorial,2024 Apr,1,1,0,0,0,0
+territorial,2024 Jan-Mar,6,5,0,3,0,0
+territorial,2024 May-Oct,10,11,0,2,0,0
+territorial,2024 Nov-Dec,2,1,0,1,0,0
+territorial,2025,30,297,2,11,0,0.06666666666666667

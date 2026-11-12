@@ -1,0 +1,8 @@
+check,passed,value
+unique descriptive case IDs,TRUE,27
+event/monthly counts reconcile,TRUE,1692
+24 baseline months per case and definition,TRUE,24
+6 follow-up months per case and definition,TRUE,6
+timing windows complete,TRUE,108
+upstream input hashes unchanged,TRUE,9
+new effect models fitted,TRUE,0

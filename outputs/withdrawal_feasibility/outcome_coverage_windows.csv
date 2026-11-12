@@ -1,0 +1,181 @@
+episode_id,decision_cluster,locality_id,locality,definition,block,months,events,civilian_deaths,largest_episode,kst_events,un_events,okapi_events
+baraka_2024,south_kivu_2024,COMPOSITE_FIZI,Fizi including Baraka,strict,post_1_3,3,1,0,0,0,0,0
+baraka_2024,south_kivu_2024,COMPOSITE_FIZI,Fizi including Baraka,strict,post_4_6,3,0,0,0,0,0,0
+baraka_2024,south_kivu_2024,COMPOSITE_FIZI,Fizi including Baraka,strict,pre_24,24,8,27,14,7,0,0
+baraka_2024,south_kivu_2024,COMPOSITE_FIZI,Fizi including Baraka,territorial,post_1_3,3,1,0,0,0,0,0
+baraka_2024,south_kivu_2024,COMPOSITE_FIZI,Fizi including Baraka,territorial,post_4_6,3,0,0,0,0,0,0
+baraka_2024,south_kivu_2024,COMPOSITE_FIZI,Fizi including Baraka,territorial,pre_24,24,8,27,14,7,0,0
+bukavu_2024,south_kivu_2024,COMPOSITE_KABARE,Kabare including Bukavu,strict,post_1_3,3,1,1,1,0,0,0
+bukavu_2024,south_kivu_2024,COMPOSITE_KABARE,Kabare including Bukavu,strict,post_4_6,3,0,0,0,0,0,0
+bukavu_2024,south_kivu_2024,COMPOSITE_KABARE,Kabare including Bukavu,strict,pre_24,24,8,8,1,4,0,2
+bukavu_2024,south_kivu_2024,COMPOSITE_KABARE,Kabare including Bukavu,territorial,post_1_3,3,1,1,1,0,0,0
+bukavu_2024,south_kivu_2024,COMPOSITE_KABARE,Kabare including Bukavu,territorial,post_4_6,3,0,0,0,0,0,0
+bukavu_2024,south_kivu_2024,COMPOSITE_KABARE,Kabare including Bukavu,territorial,pre_24,24,8,8,1,4,0,2
+bunyakiri_2024,south_kivu_2024,COD011006,Kalehe,strict,post_1_3,3,1,1,1,0,0,0
+bunyakiri_2024,south_kivu_2024,COD011006,Kalehe,strict,post_4_6,3,3,5,4,0,0,1
+bunyakiri_2024,south_kivu_2024,COD011006,Kalehe,strict,pre_24,24,8,7,1,7,0,0
+bunyakiri_2024,south_kivu_2024,COD011006,Kalehe,territorial,post_1_3,3,1,1,1,0,0,0
+bunyakiri_2024,south_kivu_2024,COD011006,Kalehe,territorial,post_4_6,3,5,8,4,0,0,1
+bunyakiri_2024,south_kivu_2024,COD011006,Kalehe,territorial,pre_24,24,8,7,1,7,0,0
+bunyampuri_2017,nk_2017_reconfiguration,COD009012,Walikale,strict,post_1_3,3,4,4,1,4,0,0
+bunyampuri_2017,nk_2017_reconfiguration,COD009012,Walikale,strict,post_4_6,3,1,1,1,1,0,0
+bunyampuri_2017,nk_2017_reconfiguration,COD009012,Walikale,strict,pre_24,24,5,43,34,0,1,0
+bunyampuri_2017,nk_2017_reconfiguration,COD009012,Walikale,territorial,post_1_3,3,4,4,1,4,0,0
+bunyampuri_2017,nk_2017_reconfiguration,COD009012,Walikale,territorial,post_4_6,3,1,1,1,1,0,0
+bunyampuri_2017,nk_2017_reconfiguration,COD009012,Walikale,territorial,pre_24,24,8,59,34,0,1,0
+butembo_2022,butembo_2022,COMPOSITE_LUBERO,Lubero including Butembo,strict,post_1_3,3,9,9,1,9,0,0
+butembo_2022,butembo_2022,COMPOSITE_LUBERO,Lubero including Butembo,strict,post_4_6,3,6,7,2,6,0,0
+butembo_2022,butembo_2022,COMPOSITE_LUBERO,Lubero including Butembo,strict,pre_24,24,13,13,1,13,0,1
+butembo_2022,butembo_2022,COMPOSITE_LUBERO,Lubero including Butembo,territorial,post_1_3,3,9,9,1,9,0,0
+butembo_2022,butembo_2022,COMPOSITE_LUBERO,Lubero including Butembo,territorial,post_4_6,3,6,7,2,6,0,0
+butembo_2022,butembo_2022,COMPOSITE_LUBERO,Lubero including Butembo,territorial,pre_24,24,14,14,1,13,0,1
+kamango_2023,beni_2023,COMPOSITE_BENI,Beni including city,strict,post_1_3,3,28,98,16,28,0,1
+kamango_2023,beni_2023,COMPOSITE_BENI,Beni including city,strict,post_4_6,3,15,63,27,10,0,4
+kamango_2023,beni_2023,COMPOSITE_BENI,Beni including city,strict,pre_24,24,227,893,37,181,1,30
+kamango_2023,beni_2023,COMPOSITE_BENI,Beni including city,territorial,post_1_3,3,33,114,16,31,0,2
+kamango_2023,beni_2023,COMPOSITE_BENI,Beni including city,territorial,post_4_6,3,18,80,27,10,0,6
+kamango_2023,beni_2023,COMPOSITE_BENI,Beni including city,territorial,pre_24,24,255,1110,38,194,2,36
+kamanyola_2024,south_kivu_2024,COD011013,Walungu,strict,post_1_3,3,1,1,1,0,0,1
+kamanyola_2024,south_kivu_2024,COD011013,Walungu,strict,post_4_6,3,0,0,0,0,0,0
+kamanyola_2024,south_kivu_2024,COD011013,Walungu,strict,pre_24,24,0,0,0,0,0,0
+kamanyola_2024,south_kivu_2024,COD011013,Walungu,territorial,post_1_3,3,1,1,1,0,0,1
+kamanyola_2024,south_kivu_2024,COD011013,Walungu,territorial,post_4_6,3,0,0,0,0,0,0
+kamanyola_2024,south_kivu_2024,COD011013,Walungu,territorial,pre_24,24,0,0,0,0,0,0
+kavumu_2024,south_kivu_2024,COMPOSITE_KABARE,Kabare including Bukavu,strict,post_1_3,3,2,2,1,0,0,1
+kavumu_2024,south_kivu_2024,COMPOSITE_KABARE,Kabare including Bukavu,strict,post_4_6,3,0,0,0,0,0,0
+kavumu_2024,south_kivu_2024,COMPOSITE_KABARE,Kabare including Bukavu,strict,pre_24,24,7,7,1,4,0,1
+kavumu_2024,south_kivu_2024,COMPOSITE_KABARE,Kabare including Bukavu,territorial,post_1_3,3,2,2,1,0,0,1
+kavumu_2024,south_kivu_2024,COMPOSITE_KABARE,Kabare including Bukavu,territorial,post_4_6,3,0,0,0,0,0,0
+kavumu_2024,south_kivu_2024,COMPOSITE_KABARE,Kabare including Bukavu,territorial,pre_24,24,7,7,1,4,0,1
+lubero_2023,lubero_2023,COMPOSITE_LUBERO,Lubero including Butembo,strict,post_1_3,3,1,1,1,0,0,0
+lubero_2023,lubero_2023,COMPOSITE_LUBERO,Lubero including Butembo,strict,post_4_6,3,4,17,14,0,0,1
+lubero_2023,lubero_2023,COMPOSITE_LUBERO,Lubero including Butembo,strict,pre_24,24,31,41,10,31,0,1
+lubero_2023,lubero_2023,COMPOSITE_LUBERO,Lubero including Butembo,territorial,post_1_3,3,1,1,1,0,0,0
+lubero_2023,lubero_2023,COMPOSITE_LUBERO,Lubero including Butembo,territorial,post_4_6,3,8,21,14,0,0,1
+lubero_2023,lubero_2023,COMPOSITE_LUBERO,Lubero including Butembo,territorial,pre_24,24,31,41,10,31,0,1
+luofu_2017,nk_2017_reconfiguration,COMPOSITE_LUBERO,Lubero including Butembo,strict,post_1_3,3,4,7,3,3,0,0
+luofu_2017,nk_2017_reconfiguration,COMPOSITE_LUBERO,Lubero including Butembo,strict,post_4_6,3,0,0,0,0,0,0
+luofu_2017,nk_2017_reconfiguration,COMPOSITE_LUBERO,Lubero including Butembo,strict,pre_24,24,11,42,16,1,1,0
+luofu_2017,nk_2017_reconfiguration,COMPOSITE_LUBERO,Lubero including Butembo,territorial,post_1_3,3,4,7,3,3,0,0
+luofu_2017,nk_2017_reconfiguration,COMPOSITE_LUBERO,Lubero including Butembo,territorial,post_4_6,3,0,0,0,0,0,0
+luofu_2017,nk_2017_reconfiguration,COMPOSITE_LUBERO,Lubero including Butembo,territorial,pre_24,24,13,46,16,1,1,0
+lusenda_2021,lusenda_2021,COMPOSITE_FIZI,Fizi including Baraka,strict,post_1_3,3,3,4,2,2,0,1
+lusenda_2021,lusenda_2021,COMPOSITE_FIZI,Fizi including Baraka,strict,post_4_6,3,2,4,3,2,0,0
+lusenda_2021,lusenda_2021,COMPOSITE_FIZI,Fizi including Baraka,strict,pre_24,24,14,26,6,11,0,0
+lusenda_2021,lusenda_2021,COMPOSITE_FIZI,Fizi including Baraka,territorial,post_1_3,3,3,4,2,2,0,1
+lusenda_2021,lusenda_2021,COMPOSITE_FIZI,Fizi including Baraka,territorial,post_4_6,3,2,4,3,2,0,0
+lusenda_2021,lusenda_2021,COMPOSITE_FIZI,Fizi including Baraka,territorial,pre_24,24,14,26,6,11,0,0
+masisi_2017,nk_2017_reconfiguration,COD009007,Masisi,strict,post_1_3,3,1,2,2,1,0,0
+masisi_2017,nk_2017_reconfiguration,COD009007,Masisi,strict,post_4_6,3,0,0,0,0,0,0
+masisi_2017,nk_2017_reconfiguration,COD009007,Masisi,strict,pre_24,24,0,0,0,0,0,0
+masisi_2017,nk_2017_reconfiguration,COD009007,Masisi,territorial,post_1_3,3,1,2,2,1,0,0
+masisi_2017,nk_2017_reconfiguration,COD009007,Masisi,territorial,post_4_6,3,0,0,0,0,0,0
+masisi_2017,nk_2017_reconfiguration,COD009007,Masisi,territorial,pre_24,24,0,0,0,0,0,0
+mutarule_2018,mutarule_2018,COMPOSITE_UVIRA,Uvira including city,strict,post_1_3,3,1,1,1,1,0,0
+mutarule_2018,mutarule_2018,COMPOSITE_UVIRA,Uvira including city,strict,post_4_6,3,0,0,0,0,0,0
+mutarule_2018,mutarule_2018,COMPOSITE_UVIRA,Uvira including city,strict,pre_24,24,3,5,3,2,0,1
+mutarule_2018,mutarule_2018,COMPOSITE_UVIRA,Uvira including city,territorial,post_1_3,3,1,1,1,1,0,0
+mutarule_2018,mutarule_2018,COMPOSITE_UVIRA,Uvira including city,territorial,post_4_6,3,0,0,0,0,0,0
+mutarule_2018,mutarule_2018,COMPOSITE_UVIRA,Uvira including city,territorial,pre_24,24,6,13,5,4,0,2
+mutwanga_2023,beni_2023,COMPOSITE_BENI,Beni including city,strict,post_1_3,3,39,170,17,36,0,4
+mutwanga_2023,beni_2023,COMPOSITE_BENI,Beni including city,strict,post_4_6,3,16,66,13,14,0,2
+mutwanga_2023,beni_2023,COMPOSITE_BENI,Beni including city,strict,pre_24,24,227,894,37,179,1,30
+mutwanga_2023,beni_2023,COMPOSITE_BENI,Beni including city,territorial,post_1_3,3,46,215,26,40,0,6
+mutwanga_2023,beni_2023,COMPOSITE_BENI,Beni including city,territorial,post_4_6,3,19,71,13,15,0,3
+mutwanga_2023,beni_2023,COMPOSITE_BENI,Beni including city,territorial,pre_24,24,254,1136,38,192,2,35
+nyabiondo_2017,nk_2017_reconfiguration,COD009007,Masisi,strict,post_1_3,3,1,2,2,1,0,0
+nyabiondo_2017,nk_2017_reconfiguration,COD009007,Masisi,strict,post_4_6,3,0,0,0,0,0,0
+nyabiondo_2017,nk_2017_reconfiguration,COD009007,Masisi,strict,pre_24,24,0,0,0,0,0,0
+nyabiondo_2017,nk_2017_reconfiguration,COD009007,Masisi,territorial,post_1_3,3,1,2,2,1,0,0
+nyabiondo_2017,nk_2017_reconfiguration,COD009007,Masisi,territorial,post_4_6,3,0,0,0,0,0,0
+nyabiondo_2017,nk_2017_reconfiguration,COD009007,Masisi,territorial,pre_24,24,0,0,0,0,0,0
+nyanzale_2024,nk_m23_2024,COD009015,Rutshuru,strict,post_1_3,3,6,22,12,0,0,2
+nyanzale_2024,nk_m23_2024,COD009015,Rutshuru,strict,post_4_6,3,2,3,3,0,0,0
+nyanzale_2024,nk_m23_2024,COD009015,Rutshuru,strict,pre_24,24,118,480,80,75,5,15
+nyanzale_2024,nk_m23_2024,COD009015,Rutshuru,territorial,post_1_3,3,7,23,12,0,0,2
+nyanzale_2024,nk_m23_2024,COD009015,Rutshuru,territorial,post_4_6,3,2,3,3,0,0,0
+nyanzale_2024,nk_m23_2024,COD009015,Rutshuru,territorial,pre_24,24,131,531,80,82,7,17
+rumangabo_2022,m23_2022,COD009015,Rutshuru,strict,post_1_3,3,26,87,32,22,1,1
+rumangabo_2022,m23_2022,COD009015,Rutshuru,strict,post_4_6,3,22,41,13,16,0,3
+rumangabo_2022,m23_2022,COD009015,Rutshuru,strict,pre_24,24,48,77,13,42,0,3
+rumangabo_2022,m23_2022,COD009015,Rutshuru,territorial,post_1_3,3,28,91,32,24,1,1
+rumangabo_2022,m23_2022,COD009015,Rutshuru,territorial,post_4_6,3,22,41,13,16,0,3
+rumangabo_2022,m23_2022,COD009015,Rutshuru,territorial,pre_24,24,51,90,13,44,0,4
+rwindi_2024,nk_m23_2024,COD009015,Rutshuru,strict,post_1_3,3,6,22,12,0,0,2
+rwindi_2024,nk_m23_2024,COD009015,Rutshuru,strict,post_4_6,3,2,3,3,0,0,0
+rwindi_2024,nk_m23_2024,COD009015,Rutshuru,strict,pre_24,24,118,480,80,75,5,15
+rwindi_2024,nk_m23_2024,COD009015,Rutshuru,territorial,post_1_3,3,7,23,12,0,0,2
+rwindi_2024,nk_m23_2024,COD009015,Rutshuru,territorial,post_4_6,3,2,3,3,0,0,0
+rwindi_2024,nk_m23_2024,COD009015,Rutshuru,territorial,pre_24,24,131,531,80,82,7,17
+sake_2024,nk_m23_2024,COD009007,Masisi,strict,post_1_3,3,4,4,1,0,0,1
+sake_2024,nk_m23_2024,COD009007,Masisi,strict,post_4_6,3,5,9,3,0,1,1
+sake_2024,nk_m23_2024,COD009007,Masisi,strict,pre_24,24,19,31,5,15,1,3
+sake_2024,nk_m23_2024,COD009007,Masisi,territorial,post_1_3,3,4,4,1,0,0,1
+sake_2024,nk_m23_2024,COD009007,Masisi,territorial,post_4_6,3,5,9,3,0,1,1
+sake_2024,nk_m23_2024,COD009007,Masisi,territorial,pre_24,24,21,33,5,15,3,3
+sange_2024,south_kivu_2024,COMPOSITE_UVIRA,Uvira including city,strict,post_1_3,3,0,0,0,0,0,0
+sange_2024,south_kivu_2024,COMPOSITE_UVIRA,Uvira including city,strict,post_4_6,3,0,0,0,0,0,0
+sange_2024,south_kivu_2024,COMPOSITE_UVIRA,Uvira including city,strict,pre_24,24,8,13,6,6,0,2
+sange_2024,south_kivu_2024,COMPOSITE_UVIRA,Uvira including city,territorial,post_1_3,3,0,0,0,0,0,0
+sange_2024,south_kivu_2024,COMPOSITE_UVIRA,Uvira including city,territorial,post_4_6,3,1,0,0,0,0,0
+sange_2024,south_kivu_2024,COMPOSITE_UVIRA,Uvira including city,territorial,pre_24,24,8,13,6,6,0,2
+shabunda_2022,shabunda_2022,COD011016,Shabunda,strict,post_1_3,3,0,0,0,0,0,0
+shabunda_2022,shabunda_2022,COD011016,Shabunda,strict,post_4_6,3,0,0,0,0,0,0
+shabunda_2022,shabunda_2022,COD011016,Shabunda,strict,pre_24,24,0,0,0,0,0,0
+shabunda_2022,shabunda_2022,COD011016,Shabunda,territorial,post_1_3,3,0,0,0,0,0,0
+shabunda_2022,shabunda_2022,COD011016,Shabunda,territorial,post_4_6,3,0,0,0,0,0,0
+shabunda_2022,shabunda_2022,COD011016,Shabunda,territorial,pre_24,24,0,0,0,0,0,0
+south_kivu_2024,south_kivu_2024,COD011004,Idjwi,strict,post_1_3,3,0,0,0,0,0,0
+south_kivu_2024,south_kivu_2024,COD011004,Idjwi,strict,post_4_6,3,0,0,0,0,0,0
+south_kivu_2024,south_kivu_2024,COD011004,Idjwi,strict,pre_24,24,1,1,1,1,0,0
+south_kivu_2024,south_kivu_2024,COD011004,Idjwi,territorial,post_1_3,3,0,0,0,0,0,0
+south_kivu_2024,south_kivu_2024,COD011004,Idjwi,territorial,post_4_6,3,0,0,0,0,0,0
+south_kivu_2024,south_kivu_2024,COD011004,Idjwi,territorial,pre_24,24,1,1,1,1,0,0
+south_kivu_2024,south_kivu_2024,COD011006,Kalehe,strict,post_1_3,3,1,1,1,0,0,0
+south_kivu_2024,south_kivu_2024,COD011006,Kalehe,strict,post_4_6,3,3,5,4,0,0,1
+south_kivu_2024,south_kivu_2024,COD011006,Kalehe,strict,pre_24,24,8,7,1,7,0,0
+south_kivu_2024,south_kivu_2024,COD011006,Kalehe,territorial,post_1_3,3,1,1,1,0,0,0
+south_kivu_2024,south_kivu_2024,COD011006,Kalehe,territorial,post_4_6,3,5,8,4,0,0,1
+south_kivu_2024,south_kivu_2024,COD011006,Kalehe,territorial,pre_24,24,8,7,1,7,0,0
+south_kivu_2024,south_kivu_2024,COD011013,Walungu,strict,post_1_3,3,0,0,0,0,0,0
+south_kivu_2024,south_kivu_2024,COD011013,Walungu,strict,post_4_6,3,0,0,0,0,0,0
+south_kivu_2024,south_kivu_2024,COD011013,Walungu,strict,pre_24,24,1,1,1,0,0,1
+south_kivu_2024,south_kivu_2024,COD011013,Walungu,territorial,post_1_3,3,0,0,0,0,0,0
+south_kivu_2024,south_kivu_2024,COD011013,Walungu,territorial,post_4_6,3,0,0,0,0,0,0
+south_kivu_2024,south_kivu_2024,COD011013,Walungu,territorial,pre_24,24,1,1,1,0,0,1
+south_kivu_2024,south_kivu_2024,COD011015,Mwenga,strict,post_1_3,3,0,0,0,0,0,0
+south_kivu_2024,south_kivu_2024,COD011015,Mwenga,strict,post_4_6,3,0,0,0,0,0,0
+south_kivu_2024,south_kivu_2024,COD011015,Mwenga,strict,pre_24,24,11,15,5,11,0,0
+south_kivu_2024,south_kivu_2024,COD011015,Mwenga,territorial,post_1_3,3,0,0,0,0,0,0
+south_kivu_2024,south_kivu_2024,COD011015,Mwenga,territorial,post_4_6,3,1,0,0,0,0,0
+south_kivu_2024,south_kivu_2024,COD011015,Mwenga,territorial,pre_24,24,12,16,5,12,0,0
+south_kivu_2024,south_kivu_2024,COD011016,Shabunda,strict,post_1_3,3,0,0,0,0,0,0
+south_kivu_2024,south_kivu_2024,COD011016,Shabunda,strict,post_4_6,3,0,0,0,0,0,0
+south_kivu_2024,south_kivu_2024,COD011016,Shabunda,strict,pre_24,24,0,0,0,0,0,0
+south_kivu_2024,south_kivu_2024,COD011016,Shabunda,territorial,post_1_3,3,0,0,0,0,0,0
+south_kivu_2024,south_kivu_2024,COD011016,Shabunda,territorial,post_4_6,3,0,0,0,0,0,0
+south_kivu_2024,south_kivu_2024,COD011016,Shabunda,territorial,pre_24,24,1,1,1,1,0,0
+south_kivu_2024,south_kivu_2024,COMPOSITE_FIZI,Fizi including Baraka,strict,post_1_3,3,0,0,0,0,0,0
+south_kivu_2024,south_kivu_2024,COMPOSITE_FIZI,Fizi including Baraka,strict,post_4_6,3,1,0,0,0,0,0
+south_kivu_2024,south_kivu_2024,COMPOSITE_FIZI,Fizi including Baraka,strict,pre_24,24,8,27,14,7,0,0
+south_kivu_2024,south_kivu_2024,COMPOSITE_FIZI,Fizi including Baraka,territorial,post_1_3,3,0,0,0,0,0,0
+south_kivu_2024,south_kivu_2024,COMPOSITE_FIZI,Fizi including Baraka,territorial,post_4_6,3,1,0,0,0,0,0
+south_kivu_2024,south_kivu_2024,COMPOSITE_FIZI,Fizi including Baraka,territorial,pre_24,24,8,27,14,7,0,0
+south_kivu_2024,south_kivu_2024,COMPOSITE_KABARE,Kabare including Bukavu,strict,post_1_3,3,2,2,1,0,0,1
+south_kivu_2024,south_kivu_2024,COMPOSITE_KABARE,Kabare including Bukavu,strict,post_4_6,3,0,0,0,0,0,0
+south_kivu_2024,south_kivu_2024,COMPOSITE_KABARE,Kabare including Bukavu,strict,pre_24,24,7,7,1,4,0,1
+south_kivu_2024,south_kivu_2024,COMPOSITE_KABARE,Kabare including Bukavu,territorial,post_1_3,3,2,2,1,0,0,1
+south_kivu_2024,south_kivu_2024,COMPOSITE_KABARE,Kabare including Bukavu,territorial,post_4_6,3,0,0,0,0,0,0
+south_kivu_2024,south_kivu_2024,COMPOSITE_KABARE,Kabare including Bukavu,territorial,pre_24,24,7,7,1,4,0,1
+south_kivu_2024,south_kivu_2024,COMPOSITE_UVIRA,Uvira including city,strict,post_1_3,3,0,0,0,0,0,0
+south_kivu_2024,south_kivu_2024,COMPOSITE_UVIRA,Uvira including city,strict,post_4_6,3,0,0,0,0,0,0
+south_kivu_2024,south_kivu_2024,COMPOSITE_UVIRA,Uvira including city,strict,pre_24,24,8,13,6,6,0,2
+south_kivu_2024,south_kivu_2024,COMPOSITE_UVIRA,Uvira including city,territorial,post_1_3,3,0,0,0,0,0,0
+south_kivu_2024,south_kivu_2024,COMPOSITE_UVIRA,Uvira including city,territorial,post_4_6,3,0,0,0,0,0,0
+south_kivu_2024,south_kivu_2024,COMPOSITE_UVIRA,Uvira including city,territorial,pre_24,24,8,13,6,6,0,2
+walikale_2017,nk_2017_reconfiguration,COD009012,Walikale,strict,post_1_3,3,4,4,1,4,0,0
+walikale_2017,nk_2017_reconfiguration,COD009012,Walikale,strict,post_4_6,3,1,1,1,1,0,0
+walikale_2017,nk_2017_reconfiguration,COD009012,Walikale,strict,pre_24,24,5,43,34,0,1,0
+walikale_2017,nk_2017_reconfiguration,COD009012,Walikale,territorial,post_1_3,3,4,4,1,4,0,0
+walikale_2017,nk_2017_reconfiguration,COD009012,Walikale,territorial,post_4_6,3,1,1,1,1,0,0
+walikale_2017,nk_2017_reconfiguration,COD009012,Walikale,territorial,pre_24,24,8,59,34,0,1,0

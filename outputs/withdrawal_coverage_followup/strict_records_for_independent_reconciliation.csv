@@ -1,0 +1,99 @@
+id,locality_id,start_date,end_date,deaths_civilians,source_article,period
+425329,COD011015,2022-01-03,2022-01-03,1,"""BBC Monitoring Africa,2022-01-03,Protesters in eastern DR Congo rally against mounting insecurity"";""Kivu Security Tracker,2022-02-07,Incident #17873""",2022
+426211,COMPOSITE_FIZI,2022-01-07,2022-01-07,3,"""Kivu Security Tracker,2022-01-17,Incident #17763""",2022
+434535,COD011015,2022-03-20,2022-03-20,1,"""Kivu Security Tracker,2022-04-12,Incident #18576""",2022
+434708,COD011006,2022-04-02,2022-04-02,1,"""Kivu Security Tracker,2022-04-12,Incident #18677""",2022
+436177,COD011006,2022-04-17,2022-04-17,1,"""Kivu Security Tracker,2022-05-05,Incident #18795""",2022
+438844,COD011015,2022-02-11,2022-02-11,8,"""Kivu Security Tracker,2022-06-13,Incident #19257""",2022
+441681,COD011015,2022-05-15,2022-05-15,1,"""Kivu Security Tracker,2022-05-15,https://kivusecurity.org/incident/19287""",2022
+441732,COMPOSITE_FIZI,2022-06-01,2022-06-01,2,"""Kivu Security Tracker,2022-07-04,Incident #19407""",2022
+441755,COMPOSITE_UVIRA,2022-06-07,2022-06-07,1,"""Kivu Security Tracker,2022-07-04,Incident #19417""",2022
+441761,COD011015,2022-06-09,2022-06-09,1,"""Kivu Security Tracker,2022-07-04,Incident #19435""",2022
+441778,COMPOSITE_FIZI,2022-06-11,2022-06-11,1,"""Kivu Security Tracker,2022-07-04,Incident #19476""",2022
+441799,COMPOSITE_KABARE,2022-06-14,2022-06-14,1,"""Kivu Security Tracker,2022-07-04,Incident #19605""",2022
+446471,COMPOSITE_FIZI,2022-08-17,2022-08-17,7,"""AllAfrica,2022-08-22,Violence in the East of the Country - At Least 21 Dead in Attack On Gold Mine in Bigaragara
+CR 	Fides News Agency"";""Kivu Security Tracker,2022-09-05,Incident #19939""",2022
+446595,COMPOSITE_FIZI,2022-08-17,2022-08-17,14,"""Africanews.com,2022-08-19,Community clashes over gold in eastern DRC leave seven dead"";""AllAfrica,2022-08-22,Violence in the East of the Country - At Least 21 Dead in Attack On Gold Mine in Bigaragara
+CR 	Fides News Agency""",2022
+446605,COMPOSITE_UVIRA,2022-08-17,2022-08-17,6,"""AllAfrica,2022-08-22,Violence in the East of the Country - At Least 21 Dead in Attack On Gold Mine in Bigaragara
+CR 	Fides News Agency""",2022
+447886,COMPOSITE_KABARE,2022-09-03,2022-09-03,1,"""Kivu Security Tracker,2022-09-19,Incident #20073""",2022
+451319,COD011015,2022-10-09,2022-10-09,1,"""Kivu Security Tracker,2022-10-21,INCIDENT #20338""",2022
+453353,COD011015,2022-11-06,2022-11-06,1,"""Kivu Security Tracker,2022-11-14,https://kivusecurity.org/incident/20493""",2022
+455924,COMPOSITE_KABARE,2022-11-12,2022-11-12,1,"""Kivu Security Tracker,2022-11-30,INCIDENT #20543""",2022
+456000,COD011015,2022-11-07,2022-11-07,1,"""Kivu Security Tracker,2022-12-01,Incident #20547""",2022
+456064,COMPOSITE_FIZI,2022-11-15,2022-11-15,1,"""Kivu Security Tracker,2022-12-01,Incident #20592""",2022
+456071,COD011006,2022-11-18,2022-11-18,1,"""Kivu Security Tracker,2022-12-01,Incident #20614""",2022
+456106,COD011006,2022-11-26,2022-11-26,1,"""Kivu Security Tracker,2022-12-01,https://kivusecurity.org/incident/20707""",2022
+460058,COD011015,2022-12-14,2022-12-14,5,"""Kivu Security Tracker,2023-01-09,INCIDENT #20913"";""Kivu Security Tracker,2023-01-09,INCIDENT #20914""",2022
+460449,COMPOSITE_UVIRA,2022-12-25,2022-12-25,1,"""Radio Okapi,2022-12-26,South Kivu: a doctor killed by suspected Mai-Mai in Uvira"";""Kivu Security Tracker,2023-01-16,INCIDENT #21142""",2022
+460620,COD011006,2023-01-05,2023-01-05,1,"""Kivu Security Tracker,2023-01-16,INCIDENT #21112""",2023 Jan-Oct
+460642,COMPOSITE_UVIRA,2022-12-24,2022-12-24,1,"""Kivu Security Tracker,2023-01-16,INCIDENT #21141""",2022
+460646,COMPOSITE_UVIRA,2022-12-27,2022-12-27,1,"""Kivu Security Tracker,2023-01-16,INCIDENT #21144""",2022
+462784,COMPOSITE_FIZI,2022-08-02,2022-08-02,1,"""Kivu Security Tracker,2023-02-06,INCIDENT #21356"";""Kivu Security Tracker,2023-02-06,INCIDENT #21357""",2022
+467227,COD011015,2023-03-04,2023-03-04,1,"""Kivu Security Tracker,2023-03-10,INCIDENT #21751""",2023 Jan-Oct
+474903,COD011015,2023-04-16,2023-04-16,1,"""Kivu Security Tracker,2023-05-15,INCIDENT #22344""",2023 Jan-Oct
+478248,COD011015,2023-05-28,2023-05-28,1,"""Kivu Security Tracker,2023-06-26,INCIDENT #22778""",2023 Jan-Oct
+478579,COD011006,2023-04-27,2023-04-27,1,"""Kivu Security Tracker,2023-06-28,INCIDENT #22880""",2023 Jan-Oct
+483512,COMPOSITE_UVIRA,2023-07-09,2023-07-09,2,"""Kivu Security Tracker,2023-08-02,INCIDENT #23097""",2023 Jan-Oct
+483518,COD011006,2023-07-06,2023-07-06,1,"""Kivu Security Tracker,2023-08-02,INCIDENT #23102""",2023 Jan-Oct
+486243,COMPOSITE_UVIRA,2023-08-08,2023-08-08,0,"""Kivu Security Tracker,2023-08-21,INCIDENT #23356""",2023 Jan-Oct
+487520,COMPOSITE_KABARE,2023-08-12,2023-08-12,1,"""Kivu Security Tracker,2023-09-04,INCIDENT #23396""",2023 Jan-Oct
+487809,COMPOSITE_FIZI,2023-08-20,2023-08-20,1,"""Kivu Security Tracker,2023-09-06,INCIDENT #23461""",2023 Jan-Oct
+487810,COD011015,2023-08-12,2023-08-12,1,"""Kivu Security Tracker,2023-09-06,INCIDENT #23466""",2023 Jan-Oct
+490476,COD011004,2023-08-31,2023-08-31,1,"""Kivu Security Tracker,2023-09-18,INCIDENT #23545""",2023 Jan-Oct
+495770,COD011015,2023-10-01,2023-10-01,1,"""Kivu Security Tracker,2023-10-25,INCIDENT #23880""",2023 Jan-Oct
+495802,COMPOSITE_FIZI,2023-10-08,2023-10-08,0,"""Kivu Security Tracker,2023-10-25,INCIDENT #23916""",2023 Jan-Oct
+511488,COMPOSITE_KABARE,2024-01-30,2024-01-30,1,"""Radio Okapi,2024-02-02,Bukavu : un militaire condamné à mort pour meurtre d’une femme à Panzi""",2024 Jan-Mar
+517211,COMPOSITE_UVIRA,2024-03-21,2024-03-21,1,"""Radio Okapi,2024-03-22,Uvira: paralysis of activities following the murder of a young person""",2024 Jan-Mar
+519156,COD011013,2024-03-26,2024-03-26,1,"""Radio Okapi,2024-03-28,Walungu: 3 dead during the clashes between the military and young Wazalendo""",2024 Jan-Mar
+524907,COMPOSITE_KABARE,2024-05-21,2024-05-23,1,"""Radio Okapi,2024-05-24,Kabare : au moins 7 morts à la suite d’es altercations entre civils et militaires à Katana"";""AllAfrica,2024-05-28,Sud-Kivu - Condamnation à mort de 4 militaires pour meurtre à Katana
+CR 	Radio Okapi""",2024 May-Oct
+538744,COMPOSITE_FIZI,2024-08-12,2024-08-18,0,"""Rwanda News Agency (Agence Rwandaise d'Information),2024-08-20,Le M23 accuse les milices liées au gouvernement congolais de cannibalisme contre les Tutsi""",2024 May-Oct
+543153,COD011006,2024-09-19,2024-09-19,1,"""Radio Okapi,2024-09-20,Sud-Kivu : un agent de la Caritas abattu par des miliciens Raia Mutomboki à Kalehe"";""AllAfrica,2024-09-20,Sud-Kivu - Un agent de la Caritas abattu par des miliciens Raia Mutomboki à Kalehe
+CR 	Radio Okapi""",2024 May-Oct
+559160,COD011006,2024-12-17,2024-12-17,1,"""Radio Okapi,2024-12-18,Sud-Kivu : quatre morts dans un affrontement entre militaires et combattants Wazalendo""",2024 Nov-Dec
+561969,COMPOSITE_KABARE,2024-01-04,2024-01-04,1,"""Kivu Morning Post,2024-01-05,South Kivu: High tension in Kavumu the day after a civilian was beaten by a FARDC soldier - Kivu Morning Post""",2024 Jan-Mar
+562011,COD011006,2024-01-22,2024-01-22,0,"""Kivu Morning Post,2024-01-22,Kalehe: A couple murdered in Bulenga""",2024 Jan-Mar
+563562,COD011006,2024-04-01,2024-04-02,1,"""Kivu Morning Post,2024-04-03,Goma: The People's Alliance for a Free and Sovereign Congo, APCLS, takes drastic measures to ensure security"";""Kivu Morning Post,2024-04-03,Kalehe: Assassination of a young man for refusing to transport a package for the Wazalendo""",2024 Apr
+565179,COMPOSITE_KABARE,2024-02-28,2024-02-28,1,"""Kivu Times,2024-02-29,Kabare : Un militaire de la force navale met fin à la vie d’une fille à Kabamba""",2024 Jan-Mar
+565242,COD011006,2024-08-29,2024-08-29,0,"""La Prunelle RDC,2024-08-30,Kalehe : un motard tué par balles à Buganga""",2024 May-Oct
+565244,COMPOSITE_KABARE,2024-07-16,2024-07-16,1,"""La Prunelle RDC,2024-07-16,Bukavu : un policier tue un jeune homme sur avenue Michombero (Nkafu)""",2024 May-Oct
+565245,COD011006,2024-07-10,2024-07-10,1,"""La Prunelle RDC,2024-07-10,Kalehe : un homme tué par un Muzalendo à Buganga"";""Kivu Morning Post,2024-07-11,Kalehe: A father of a family loses his life following serious torture in Buganga""",2024 May-Oct
+567319,COD011006,2024-09-19,2024-09-19,4,"""Kivu Morning Post,2024-09-21,Kalehe: Four dead and eight injured by bullets in Numbi, civil society calls for urgent action from the government""",2024 May-Oct
+565329,COD011006,2025-01-21,2025-01-21,8,"""Beto.cd,2025-01-22,Agression rwandaise : près de 30 personnes tuées par les M23 à Minova et à Bweremana"";""A/HRC/60/80,2025-09-05,Advance unedited version: Report of the OHCHR Fact-Finding Mission on the situation in North and South Kivu Provinces of the Democratic Republic of Congo* """,2025
+569320,COD011006,2025-02-06,2025-02-06,1,"""Radio Okapi,2025-02-14,L’artiste musicien Idengo, alias « Delcato » tué par de présumés rebelles du M23 à Goma""",2025
+569818,COD011006,2025-02-12,2025-02-12,5,"""HRW,2025-03-12,DR Congo: Rwanda-Backed M23 Target Journalists, Activists"";""@DRCNewsToday X,2025-02-13,#FARDC""",2025
+569870,COMPOSITE_KABARE,2025-02-27,2025-02-27,13,"""Xinhua News Agency,2025-02-27,1st LD: At least 5 killed in explosions after rally in eastern DR Congo's Bukavu city"";""CE NoticiasFinancieras,2025-02-27,Attack during M23 mass rally in Bukavu leaves several dead and wounded"";""Agence France Presse,2025-02-27,Explosions at M23 rally in east DRC kill at least 11: hospital source"";""The New Times,2025-02-27,Explosives at huge M23 meeting in Bukavu kill civilians"";""CE NoticiasFinancieras,2025-02-27,Chain of explosions kills at least 30 in Bukavu city"";""Associated Press Newswires,2025-02-27,At least 11 dead and scores injured in Congo after blasts at M23 rebel leaders' rally, rebels say"";""Reuters News,2025-02-28,Congo trades blame with rebels over rally blasts that killed 13"";""Crisis Watch,2025-03-01,Democratic Republic of Congo February 2025"";""AllAfrica,2025-02-28,Il existe trois versions de l'attentat d'aujourd'hui à Bukavu
+CR 	Fides News Agency"";""AllAfrica,2025-03-04,Rebel Movement M23 Is Said to Be Responsible for the Attack in Bukavu
+CR 	Fides News Agency"";""Africa research Bulletin ,2025-04-30,DR Congo M23 Advances February March"";""A/HRC/60/80,2025-09-05,Advance unedited version: Report of the OHCHR Fact-Finding Mission on the situation in North and South Kivu Provinces of the Democratic Republic of Congo* "";""@DRCNewsToday X,2025-03-01,#DRC #M23"";""@DRCNewsToday X,2025-02-28,#Bukavu"";""Actualite.cd,2025-02-28,Bukavu: plus de 10 corps sans vie découverts ce vendredi""",2025
+570624,COD011013,2025-03-01,2025-03-03,0,"""AllAfrica,2025-03-05,Meurtres, disparitions, travaux forcés à Kamanyola sous le contrôle du M23CR 	Fides News Agency""",2025
+571878,COMPOSITE_KABARE,2025-03-13,2025-03-13,1,"""Radio Okapi,2025-03-16,Sud-Kivu : graves violations des droits humains signalées sous l’occupation du M23""",2025
+584850,COD011013,2025-06-22,2025-06-22,17,"""Actualité.cd,2025-06-24,RDC : l’Armée qualifie de “pogrom” l'exécution sommaire de 17 civils à Walungu par la coalition RDF/AFC/M23"";""Xinhua News Agency,2025-06-23,M23 rebels kills 17 civilians in eastern DR Congo: military"";""Xinhua News Agency,2025-06-23,M23 rebels kills 17 civilians in eastern DR Congo: military""",2025
+591042,COMPOSITE_KABARE,2025-01-20,2025-01-20,0,"""Radio Okapi,2025-01-21,Sud-Kivu : 2 morts et 2 blessés à la suite des tirs des militaires FARDC à Kavumu et Katana""",2025
+591262,COMPOSITE_KABARE,2025-08-04,2025-08-05,1,"""BBC Monitoring News Alert,2025-08-07,DR Congo government condemns killing of journalist in rebel-held city
+CR 	Source: Politico.cd, Kinshasa, in French on 6 Aug 25"";""Radio Okapi,2025-08-05,Le journaliste Fiston Wilondja Mukamba tué à Bukavu""",2025
+591266,COD011006,2025-08-04,2025-08-04,0,"""Associated Press Newswires,2025-08-09,Rwanda-backed rebels have killed at least 80 civilians in recent weeks, Congolese authorities say"";""Radio Okapi,2025-08-09,Les FARDC dénoncent les exactions du M23/RDF/AFC dans le Sud-Kivu""",2025
+591465,COD011006,2025-07-24,2025-07-24,6,"""Radio Okapi,2025-08-09,Les FARDC dénoncent les exactions du M23/RDF/AFC dans le Sud-Kivu""",2025
+591513,COMPOSITE_KABARE,2025-08-11,2025-08-11,0,"""Radio Okapi,2025-08-13,Bukavu : le pasteur Kelly Bahati assassiné, l’insécurité continue de faire des victimes"";""@StanysBujakera X,2025-08-12,#Bukavu""",2025
+593722,COMPOSITE_KABARE,2025-02-16,2025-02-16,1,"""A/HRC/60/80,2025-09-05,Advance unedited version: Report of the OHCHR Fact-Finding Mission on the situation in North and South Kivu Provinces of the Democratic Republic of Congo* """,2025
+593739,COD011013,2025-02-15,2025-02-20,20,"""A/HRC/60/80,2025-09-05,Advance unedited version: Report of the OHCHR Fact-Finding Mission on the situation in North and South Kivu Provinces of the Democratic Republic of Congo* """,2025
+605680,COMPOSITE_UVIRA,2025-11-23,2025-11-23,2,"""BBC Monitoring News Alert,2025-11-23,Gunman kills four worshippers in attack on east DR Congo church
+CR 	Source: Radio GO FM in French 1230 GMT 23 Nov 25"";""AllAfrica,2025-11-25,Est du pays - Au moins sept tués à Uvira dans des troubles impliquant des milices Wazalendo
+CR 	Radio France Internationale"";""Ebuteli,2025-12-18,Rapport mensuel Barometre securitaire de Kivu Novembre 2025""",2025
+605696,COMPOSITE_KABARE,2025-11-23,2025-11-23,3,"""AllAfrica,2025-11-25,Despite Ongoing Peace Talks, Massacres of Civilians Continue
+CR 	Fides News Agency"";""Radio Okapi,2025-11-25,Au moins 12 civils sommairement abattus par le M23 à Kabare (ONG)"";""Bunia Actualite,2025-11-25,Sud-Kivu : le M23 accusé du massacre d’au moins 12 civils à Kabare"";""Kivu Morning Post,2025-11-26,South Kivu: Denis Mukwege raises the alarm about summary executions and violence""",2025
+605702,COMPOSITE_KABARE,2025-11-24,2025-11-24,1,"""AllAfrica,2025-11-25,Despite Ongoing Peace Talks, Massacres of Civilians Continue
+CR 	Fides News Agency""",2025
+605703,COMPOSITE_KABARE,2025-11-18,2025-11-24,3,"""AllAfrica,2025-11-25,Despite Ongoing Peace Talks, Massacres of Civilians Continue
+CR 	Fides News Agency"";""AllAfrica,2025-11-28,Les motards de Bukavu dénoncent une série de meurtres ciblés sur le boulevard Patrice Lumumba
+CR 	Radio Okapi""",2025
+605773,COD011013,2025-11-21,2025-11-21,2,"""Radio Okapi,2025-11-25,Au moins 12 civils sommairement abattus par le M23 à Kabare (ONG)"";""AllAfrica,2025-11-21,Des obus touchent une école publique à Walungu lors des combats M23-Wazalendo
+CR 	Radio Okapi""",2025
+606525,COD011015,2025-11-18,2025-11-18,1,"""Actualite.cd,2025-11-20,Mwenga : un chef local meurt fouetté par les wazalendo à Lugushwa""",2025
+611081,COMPOSITE_KABARE,2025-03-28,2025-03-28,2,"""@DRCNewsToday X,2025-03-28,#DRC""",2025
+611162,COMPOSITE_KABARE,2025-03-05,2025-03-05,1,"""@DRCNewsToday X,2025-03-05,#Bukavu""",2025
+612358,COMPOSITE_KABARE,2025-04-04,2025-04-05,1,"""Commission Nationale des Droits de l’Homme – Democratic Republic of Congo (CNDH-RDC),2025-10-01,RAPPORT PONCTUEL  SUR LES VIOLATIONS MASSIVES DES DROITS DE L’HOMME ET DU DROIT INTERNATIONAL HUMANITAIRE DANS LES PROVINCES D’ITURI, NORD-KIVU ET SUD-KIVU EN REPUBLIQUE DEMOCRATIQUE DU CONGO   DE JANVIER A JUIN 2025 """,2025
+612360,COMPOSITE_KABARE,2025-06-30,2025-06-30,6,"""Commission Nationale des Droits de l’Homme – Democratic Republic of Congo (CNDH-RDC),2025-10-01,RAPPORT PONCTUEL  SUR LES VIOLATIONS MASSIVES DES DROITS DE L’HOMME ET DU DROIT INTERNATIONAL HUMANITAIRE DANS LES PROVINCES D’ITURI, NORD-KIVU ET SUD-KIVU EN REPUBLIQUE DEMOCRATIQUE DU CONGO   DE JANVIER A JUIN 2025 """,2025
+612362,COD011013,2025-06-29,2025-06-29,4,"""Commission Nationale des Droits de l’Homme – Democratic Republic of Congo (CNDH-RDC),2025-10-01,RAPPORT PONCTUEL  SUR LES VIOLATIONS MASSIVES DES DROITS DE L’HOMME ET DU DROIT INTERNATIONAL HUMANITAIRE DANS LES PROVINCES D’ITURI, NORD-KIVU ET SUD-KIVU EN REPUBLIQUE DEMOCRATIQUE DU CONGO   DE JANVIER A JUIN 2025 """,2025
+618346,COMPOSITE_FIZI,2025-03-03,2025-03-03,1,"""Critical Threats,2025-03-04,Congo War Security Review"";""@JosaphatNgira x,2025-03-04,Pastor Karuchiye Kayani"";""@bukuru_wa_s x,2025-03-03,Genocide awareness""",2025

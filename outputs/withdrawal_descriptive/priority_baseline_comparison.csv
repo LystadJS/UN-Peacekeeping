@@ -1,0 +1,7 @@
+candidate_locality,deaths,first_12_deaths,last_12_deaths,death_months,actor_overlap,other_change_ids
+Masisi,31,9,22,13,0.3881578947368421,sake_2024
+Kalehe,7,5,2,5,1,bunyakiri_2024
+Djugu,955,726,229,22,0.01619433198380566,NA
+Beni including city,832,538,294,24,0.08290155440414508,mutwanga_2023;kamango_2023
+Kabare including Bukavu,7,3,4,6,0.875,kavumu_2024;bukavu_2024
+Uvira including city,13,10,3,5,0.75,sange_2024

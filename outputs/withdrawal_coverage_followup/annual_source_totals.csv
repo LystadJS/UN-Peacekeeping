@@ -1,0 +1,13 @@
+definition,year,events,deaths,kst_events,okapi_events
+all_spatial_precisions,2022,31,97,27,2
+all_spatial_precisions,2023,18,21,16,1
+all_spatial_precisions,2024,23,29,0,7
+all_spatial_precisions,2025,36,319,2,16
+strict,2022,28,66,26,1
+strict,2023,14,13,14,0
+strict,2024,15,15,0,6
+strict,2025,26,100,1,10
+territorial,2022,28,66,26,1
+territorial,2023,16,15,16,0
+territorial,2024,19,18,0,6
+territorial,2025,30,297,2,11
