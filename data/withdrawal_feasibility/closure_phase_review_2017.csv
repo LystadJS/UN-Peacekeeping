@@ -1,0 +1,7 @@
+phase,event_date,publication_date,scope,evidence_status,interpretation,source_url
+announcement,2017-07-19,2017-07-19,five fixed bases,planned,Closure scheduled for July 31; not proof of completed departure,https://www.unmissions.org/en/peacekeeping/news/closure-of-5-fixed-bases-in-the-north-kivu-province-for-the-purposes-of-more
+fixed_base_closure,2017-07-31,2017-08-01,five fixed bases,reported completed,Supported closure anchor; not end of all community protection,https://aa.com.tr/fr/afrique/rdc-nord-kivu-quel-avenir-apr%C3%A8s-le-d%C3%A9part-de-la-monusco-/873948
+mobile_deployment_onset,2017-08-03,2017-08-11,Masisi-centre; Lukweti; Nyabiondo; Ntoto; Buleusa; Kabalo,reported activity,Named mobile deployments do not establish complete geographic or temporal coverage,https://monusco.unmissions.org/fr/news/la-monusco-experimente-un-nouveau-dispositif-militaire-au-nord-kivu-apres-la-fermeture
+retained_patrol_capacity,2017-07-19,2017-08-01,Kanyabayonga; Kirumba,announced capacity,Potential launching bases; no executed patrol inferred,https://aa.com.tr/fr/afrique/rdc-nord-kivu-quel-avenir-apr%C3%A8s-le-d%C3%A9part-de-la-monusco-/873948
+retrospective_report,,2017-10-19,five fixed bases,publication only,Do not treat publication date as operational departure date,https://www.radiookapi.net/2017/10/19/actualite/securite/nord-kivu-evaluation-des-defis-securitaires-apres-la-fermeture-des
+end_of_protection,,,territorial catchments,unresolved,No verified cessation date for all mobile protection activities,

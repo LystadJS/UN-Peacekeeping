@@ -47,7 +47,7 @@ Reporting is not stable by assumption: KST announced a pause in November 2023, b
 
 **Walikale:** the apparent decrease is highly dependent on event 234588, the Luhanga massacre with 34 stored civilian deaths. Its coordinates fall in the project’s Walikale polygon, but GED ADM2 identifies Lubero. [AFP/VOA](https://www.voaafrique.com/a/pres-de-34-civils-tues-dans-aatque-village-hutu-par-des-miliciens-nande-en-rdc/3613252.html) and [Radio Okapi](https://www.radiookapi.net/2016/11/29/actualite/securite/nord-kivu-inhumation-des-victimes-de-massacre-de-luhanga) also identify Lubero. Radio Okapi’s later burial report gives a different civilian tally from the provisional AFP report. Preserve the data for reproduction, but do not treat either the locality assignment or stored fatality bounds as settled.
 
-**Lubero:** anchoring the 2017 change to July rather than October changes which violent months enter follow-up. A direction that depends on an unresolved departure interval is not a robust withdrawal finding.
+**Timing correction (12 November):** July 31 is the supported fixed-base closure anchor. October 19 is a retrospective publication date, not a documented departure alternative. Historical envelope and October-anchor outputs remain for reproduction only. Mobile protection continued in named locations; the end of all coverage is unknown. See [follow-up review](withdrawal_followup_review.md).
 
 **Bunyakiri/Kalehe:** four of the six strict follow-up deaths are in Numbi; the other records are in Buganga and Cifunzi Kalonge. These are territorial outcomes, not demonstrated Bunyakiri protection-area outcomes. The local increase survives deleting the four-death event, but the geographic exposure problem remains.
 
