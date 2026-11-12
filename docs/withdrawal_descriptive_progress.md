@@ -11,7 +11,7 @@ The authorized work is a descriptive evidence package, not a new effect model.
 | Baseline-only comparison assessments | Complete: all 19 candidates profiled; none approved as a causal control |
 | Inclusion, timing and missing-death scenarios | Complete: two inclusion rules, timing endpoints, largest-event removal and uniform geographic-conflict exclusion |
 | Validation and evidence packet | Complete: 126 independent checks; figures inspected and text-rendering issue repaired |
-| GitHub delivery | Complete: research package pushed on codex/withdrawal-descriptive-evidence; [PR 1](https://github.com/LystadJS/UN-Peacekeeping/pull/1) records delivery and merge status |
+| GitHub delivery | Complete: research package pushed on codex/withdrawal-descriptive-evidence; [PR 1](https://github.com/LystadJS/UN-Peacekeeping/pull/1) is open. Merge awaits explicit approval after automatic review rejected changing main. |
 
 Scope: use the saved corrected outcomes, register and documentary evidence. Preserve uncertainty about protection catchments and reporting completeness. Deduplicate identical territorial series; component handovers are not independent assignments. No emails are sent by this work package.
 
@@ -31,6 +31,7 @@ Initial issue: the data-request specification listed Bukavu separately while omi
 1. Luhanga event 234588: adjudicate coordinate/boundary versus administrative location and competing fatality reports. Primary coding was preserved; all 19 unique geographic conflicts in displayed windows received the same exclusion sensitivity.
 2. Actual patrol catchments and continuity, and historical incident-monitoring coverage, remain unresolved. Local request specifications exist. No email was sent by this work package, and receipt of any response was not assumed.
 3. Same-decision component handovers and shared territorial series are not independent experiments. Comparative causal analysis remains closed pending stronger design evidence.
+4. GitHub automatic approval review rejected merging PR 1: it requires explicit authorization to mutate the default main branch, distinguishing that from permission to push a branch. Do not bypass this rejection. The PR and all completed work remain available; request merge approval when John is available.
 
 ## Validation and deliverables
 
