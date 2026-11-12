@@ -1,0 +1,3 @@
+definition,localities,deaths_pre,deaths_post,events_pre,events_post,pre_monthly_deaths,post_monthly_deaths,monthly_difference,additional_post_deaths_to_erase_decline
+strict,8,71,8,44,7,2.9583333333333335,1.3333333333333333,-1.6250000000000002,10
+territorial,8,73,11,46,10,3.0416666666666665,1.8333333333333333,-1.2083333333333333,8

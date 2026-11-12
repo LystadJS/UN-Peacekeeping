@@ -1,4 +1,14 @@
-# MONUSCO Multilevel Research Pilot — Remaining Checklist
+# MONUSCO withdrawal and civilian protection
+
+**Active direction, 11 November 2026:** establish which documented withdrawals can support a defensible study of recorded civilian deaths. Start with the [withdrawal feasibility decision](docs/withdrawal_feasibility_audit.md), [episode register](data/withdrawal_feasibility/episode_register.csv), and [R audit](scripts/audit_withdrawal_feasibility.R).
+
+Latest evidence: [2017 protection reach and South Kivu reporting continuity](docs/withdrawal_protection_coverage_followup.md). Named mobile deployments are documented; protection boundaries and stable reporting completeness remain unresolved. Pinga's conflicting date and geography are now flagged rather than assigned a numeric treatment window.
+
+**12 November descriptive extension:** the [evidence packet](docs/withdrawal_descriptive_evidence_packet.md) contains fixed-window timelines, severe-event checks, baseline comparison profiles and measurement sensitivities. It identifies a consequential Luhanga geography conflict and timing-sensitive Lubero patterns. These are descriptive findings; no causal control or withdrawal-effect model is approved. See [work status and review issues](docs/withdrawal_descriptive_progress.md) and the [combined figures](outputs/withdrawal_descriptive/all_case_timelines.pdf).
+
+The first milestone is a treatment, outcome-coverage, and comparison audit. No new effect model is authorized by this milestone. The corrected troop-strength analysis remains background; forecasting, review-slot optimization, and additional spline searches are set aside. Existing files remain preserved. The class paper and slides have not been rewritten for this reset.
+
+## Historical pilot checklist — not the active work queue
 
 Remaining items from the [full project plan](docs/project_plan.md), updated below as follow-up work is resolved. Deferred, skipped, and historical-limit labels are preserved; these items are not all active work.
 

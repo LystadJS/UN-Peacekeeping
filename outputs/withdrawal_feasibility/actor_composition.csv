@@ -1,0 +1,749 @@
+definition,locality_id,year,side_a,side_b,events
+strict,COD009007,2017,FDLR-FOCA,Civilians,1
+strict,COD009007,2017,Government of DR Congo (Zaire),Civilians,3
+strict,COD009007,2017,RMDC,Civilians,1
+strict,COD009007,2018,RMDC,Civilians,1
+strict,COD009007,2019,Government of DR Congo (Zaire),Civilians,2
+strict,COD009007,2019,NDC-R,Civilians,5
+strict,COD009007,2020,CMC,Civilians,6
+strict,COD009007,2020,FDLR-FOCA,Civilians,1
+strict,COD009007,2020,Government of DR Congo (Zaire),Civilians,9
+strict,COD009007,2020,NDC-R,Civilians,10
+strict,COD009007,2021,CMC,Civilians,3
+strict,COD009007,2021,Government of DR Congo (Zaire),Civilians,9
+strict,COD009007,2022,CMC,Civilians,4
+strict,COD009007,2022,Government of DR Congo (Zaire),Civilians,6
+strict,COD009007,2023,AFC,Civilians,1
+strict,COD009007,2023,Government of DR Congo (Zaire),Civilians,3
+strict,COD009007,2023,Government of Rwanda,Civilians,3
+strict,COD009007,2023,M23,Civilians,2
+strict,COD009007,2023,VDP,Civilians,5
+strict,COD009007,2024,AFC,Civilians,10
+strict,COD009007,2024,Government of DR Congo (Zaire),Civilians,3
+strict,COD009007,2024,VDP,Civilians,5
+strict,COD009007,2025,AFC,Civilians,8
+strict,COD009007,2025,FDLR-FOCA,Civilians,1
+strict,COD009007,2025,VDP,Civilians,6
+strict,COD009012,2015,FDLR-FOCA,Civilians,1
+strict,COD009012,2016,FDLR-FOCA,Civilians,1
+strict,COD009012,2016,Mayi Mayi Mazembe,Civilians,2
+strict,COD009012,2016,NDC,Civilians,1
+strict,COD009012,2017,Mayi Mayi Mazembe,Civilians,1
+strict,COD009012,2017,NDC-R,Civilians,1
+strict,COD009012,2018,Government of DR Congo (Zaire),Civilians,1
+strict,COD009012,2018,NDC-R,Civilians,5
+strict,COD009012,2018,RMDC,Civilians,2
+strict,COD009012,2019,Government of DR Congo (Zaire),Civilians,1
+strict,COD009012,2020,CMC,Civilians,1
+strict,COD009012,2020,Government of DR Congo (Zaire),Civilians,2
+strict,COD009012,2020,NDC-R,Civilians,6
+strict,COD009012,2021,CMC,Civilians,1
+strict,COD009012,2021,NDC-R,Civilians,1
+strict,COD009012,2022,NDC-R,Civilians,1
+strict,COD009012,2023,Government of DR Congo (Zaire),Civilians,1
+strict,COD009012,2023,VDP,Civilians,7
+strict,COD009012,2024,VDP,Civilians,1
+strict,COD009012,2025,AFC,Civilians,6
+strict,COD009012,2025,Government of DR Congo (Zaire),Civilians,1
+strict,COD009012,2025,VDP,Civilians,4
+strict,COD009015,2015,FDLR-FOCA,Civilians,1
+strict,COD009015,2016,Mayi Mayi Mazembe,Civilians,3
+strict,COD009015,2017,CMC,Civilians,10
+strict,COD009015,2017,FDLR-FOCA,Civilians,5
+strict,COD009015,2017,Government of DR Congo (Zaire),Civilians,3
+strict,COD009015,2017,Mayi Mayi Mazembe,Civilians,6
+strict,COD009015,2017,"Mayi Mayi Mazembe, NDC-R",Civilians,1
+strict,COD009015,2018,CMC,Civilians,5
+strict,COD009015,2018,FDLR-FOCA,Civilians,1
+strict,COD009015,2018,Government of DR Congo (Zaire),Civilians,8
+strict,COD009015,2018,Mayi Mayi Mazembe,Civilians,2
+strict,COD009015,2018,RMDC,Civilians,5
+strict,COD009015,2019,CMC,Civilians,10
+strict,COD009015,2019,FDLR-FOCA,Civilians,4
+strict,COD009015,2019,Government of DR Congo (Zaire),Civilians,12
+strict,COD009015,2019,NDC-R,Civilians,2
+strict,COD009015,2020,CMC,Civilians,12
+strict,COD009015,2020,FDLR-FOCA,Civilians,5
+strict,COD009015,2020,Government of DR Congo (Zaire),Civilians,16
+strict,COD009015,2020,Government of Rwanda,Civilians,2
+strict,COD009015,2020,Mayi Mayi Mazembe,Civilians,2
+strict,COD009015,2020,NDC-R,Civilians,3
+strict,COD009015,2021,CMC,Civilians,6
+strict,COD009015,2021,FDLR-FOCA,Civilians,3
+strict,COD009015,2021,Government of DR Congo (Zaire),Civilians,10
+strict,COD009015,2022,CMC,Civilians,5
+strict,COD009015,2022,FDLR-FOCA,Civilians,3
+strict,COD009015,2022,Government of DR Congo (Zaire),Civilians,9
+strict,COD009015,2022,Government of Rwanda,Civilians,12
+strict,COD009015,2022,M23,Civilians,22
+strict,COD009015,2022,Mayi Mayi Mazembe,Civilians,1
+strict,COD009015,2023,AFC,Civilians,5
+strict,COD009015,2023,FDLR-FOCA,Civilians,4
+strict,COD009015,2023,Government of Rwanda,Civilians,25
+strict,COD009015,2023,M23,Civilians,22
+strict,COD009015,2023,VDP,Civilians,9
+strict,COD009015,2024,AFC,Civilians,21
+strict,COD009015,2024,Government of Rwanda,Civilians,1
+strict,COD009015,2024,VDP,Civilians,1
+strict,COD009015,2025,AFC,Civilians,26
+strict,COD009015,2025,FDLR-FOCA,Civilians,1
+strict,COD009015,2025,Government of Rwanda,Civilians,1
+strict,COD009015,2025,VDP,Civilians,3
+strict,COD011004,2020,Government of DR Congo (Zaire),Civilians,1
+strict,COD011004,2023,Government of DR Congo (Zaire),Civilians,1
+strict,COD011006,2017,Government of DR Congo (Zaire),Civilians,6
+strict,COD011006,2018,CNPSC,Civilians,1
+strict,COD011006,2018,Government of DR Congo (Zaire),Civilians,3
+strict,COD011006,2019,Government of DR Congo (Zaire),Civilians,2
+strict,COD011006,2019,RMDC,Civilians,1
+strict,COD011006,2020,CNPSC,Civilians,2
+strict,COD011006,2020,Government of DR Congo (Zaire),Civilians,4
+strict,COD011006,2021,Government of DR Congo (Zaire),Civilians,5
+strict,COD011006,2022,Government of DR Congo (Zaire),Civilians,4
+strict,COD011006,2023,Government of DR Congo (Zaire),Civilians,3
+strict,COD011006,2024,Government of DR Congo (Zaire),Civilians,2
+strict,COD011006,2024,VDP,Civilians,5
+strict,COD011006,2025,AFC,Civilians,5
+strict,COD011013,2017,Government of DR Congo (Zaire),Civilians,1
+strict,COD011013,2018,Government of DR Congo (Zaire),Civilians,1
+strict,COD011013,2019,Government of DR Congo (Zaire),Civilians,1
+strict,COD011013,2020,Twiganeho,Civilians,1
+strict,COD011013,2021,Government of DR Congo (Zaire),Civilians,1
+strict,COD011013,2024,Government of DR Congo (Zaire),Civilians,1
+strict,COD011013,2025,AFC,Civilians,4
+strict,COD011013,2025,Government of DR Congo (Zaire),Civilians,1
+strict,COD011015,2017,Government of DR Congo (Zaire),Civilians,1
+strict,COD011015,2018,CNPSC,Civilians,1
+strict,COD011015,2018,Government of DR Congo (Zaire),Civilians,1
+strict,COD011015,2019,CNPSC,Civilians,3
+strict,COD011015,2020,CNPSC,Civilians,1
+strict,COD011015,2020,Government of DR Congo (Zaire),Civilians,1
+strict,COD011015,2020,Twiganeho,Civilians,6
+strict,COD011015,2021,"AFP-Gutabara, Ngumino",Civilians,1
+strict,COD011015,2021,CNPSC,Civilians,1
+strict,COD011015,2021,Government of DR Congo (Zaire),Civilians,1
+strict,COD011015,2021,Twiganeho,Civilians,2
+strict,COD011015,2022,"AFP-Gutabara, Ngumino",Civilians,2
+strict,COD011015,2022,Government of Burundi,Civilians,1
+strict,COD011015,2022,Government of DR Congo (Zaire),Civilians,6
+strict,COD011015,2023,Government of Burundi,Civilians,1
+strict,COD011015,2023,Government of DR Congo (Zaire),Civilians,4
+strict,COD011015,2025,VDP,Civilians,1
+strict,COD011016,2017,Government of DR Congo (Zaire),Civilians,1
+strict,COD011016,2018,Government of DR Congo (Zaire),Civilians,1
+strict,COD017010,2015,ADF,Civilians,1
+strict,COD017010,2016,"ADF, Vuba militia",Civilians,1
+strict,COD017010,2017,Mayi Mayi Simba,Civilians,1
+strict,COD017010,2018,Mayi Mayi Simba,Civilians,1
+strict,COD017010,2019,IS,Civilians,1
+strict,COD017010,2020,IS,Civilians,7
+strict,COD017010,2020,Mayi Mayi Simba,Civilians,1
+strict,COD017010,2020,URDPC,Civilians,1
+strict,COD017010,2021,FPIC Chambre noire sanduku,Civilians,1
+strict,COD017010,2021,Government of DR Congo (Zaire),Civilians,5
+strict,COD017010,2021,IS,Civilians,10
+strict,COD017010,2022,Government of DR Congo (Zaire),Civilians,5
+strict,COD017010,2022,IS,Civilians,16
+strict,COD017010,2023,FPIC Chambre noire sanduku,Civilians,1
+strict,COD017010,2023,Government of DR Congo (Zaire),Civilians,2
+strict,COD017010,2023,IS,Civilians,12
+strict,COD017010,2024,Government of DR Congo (Zaire),Civilians,1
+strict,COD017010,2024,IS,Civilians,13
+strict,COD017010,2025,Government of DR Congo (Zaire),Civilians,1
+strict,COD017010,2025,IS,Civilians,2
+strict,COD017012,2022,Government of DR Congo (Zaire),Civilians,1
+strict,COD017012,2022,Government of South Sudan,Civilians,1
+strict,COD017012,2023,Government of DR Congo (Zaire),Civilians,2
+strict,COD017013,2018,URDPC,Civilians,1
+strict,COD017013,2019,URDPC,Civilians,24
+strict,COD017013,2020,ALC,Civilians,2
+strict,COD017013,2020,CODECO-BTD,Civilians,1
+strict,COD017013,2020,FDBC,Civilians,2
+strict,COD017013,2020,Government of DR Congo (Zaire),Civilians,2
+strict,COD017013,2020,URDPC,Civilians,48
+strict,COD017013,2021,ALC,Civilians,5
+strict,COD017013,2021,CODECO-BTD,Civilians,2
+strict,COD017013,2021,FDBC,Civilians,13
+strict,COD017013,2021,"FPIC Chambre noire sanduku, URDPC",Civilians,1
+strict,COD017013,2021,Government of DR Congo (Zaire),Civilians,8
+strict,COD017013,2021,URDPC,Civilians,72
+strict,COD017013,2021,Zaire self-defense group,Civilians,13
+strict,COD017013,2022,ALC,Civilians,22
+strict,COD017013,2022,CODECO-BTD,Civilians,2
+strict,COD017013,2022,FDBC,Civilians,41
+strict,COD017013,2022,FPIC Chambre noire sanduku,Civilians,2
+strict,COD017013,2022,"FPIC Chambre noire sanduku, URDPC",Civilians,2
+strict,COD017013,2022,Government of DR Congo (Zaire),Civilians,5
+strict,COD017013,2022,IS,Civilians,1
+strict,COD017013,2022,URDPC,Civilians,98
+strict,COD017013,2022,Zaire self-defense group,Civilians,30
+strict,COD017013,2023,FPIC Chambre noire sanduku,Civilians,5
+strict,COD017013,2023,Government of DR Congo (Zaire),Civilians,2
+strict,COD017013,2023,URDPC,Civilians,102
+strict,COD017013,2023,Zaire self-defense group,Civilians,9
+strict,COD017013,2024,URDPC,Civilians,26
+strict,COD017013,2024,Zaire self-defense group,Civilians,6
+strict,COD017013,2025,URDPC,Civilians,20
+strict,COD017013,2025,Zaire self-defense group,Civilians,7
+strict,COD017014,2019,Government of DR Congo (Zaire),Civilians,1
+strict,COD017014,2020,Government of DR Congo (Zaire),Civilians,1
+strict,COD017014,2020,URDPC,Civilians,4
+strict,COD017014,2021,URDPC,Civilians,13
+strict,COD017014,2021,Zaire self-defense group,Civilians,1
+strict,COD017014,2022,FDBC,Civilians,2
+strict,COD017014,2022,Government of DR Congo (Zaire),Civilians,2
+strict,COD017014,2022,URDPC,Civilians,65
+strict,COD017014,2022,Zaire self-defense group,Civilians,1
+strict,COD017014,2023,Government of DR Congo (Zaire),Civilians,1
+strict,COD017014,2023,URDPC,Civilians,15
+strict,COD017014,2023,Zaire self-defense group,Civilians,1
+strict,COD017014,2024,Government of DR Congo (Zaire),Civilians,1
+strict,COD017014,2024,URDPC,Civilians,2
+strict,COMPOSITE_BENI,2014,ADF,Civilians,12
+strict,COMPOSITE_BENI,2014,"ADF, Mayi Mayi Mayangose",Civilians,2
+strict,COMPOSITE_BENI,2014,Government of DR Congo (Zaire),Civilians,3
+strict,COMPOSITE_BENI,2015,ADF,Civilians,12
+strict,COMPOSITE_BENI,2015,"ADF, Vuba militia",Civilians,1
+strict,COMPOSITE_BENI,2016,ADF,Civilians,11
+strict,COMPOSITE_BENI,2016,"ADF, Vuba militia",Civilians,1
+strict,COMPOSITE_BENI,2016,Government of DR Congo (Zaire),Civilians,2
+strict,COMPOSITE_BENI,2017,ADF,Civilians,1
+strict,COMPOSITE_BENI,2017,Government of DR Congo (Zaire),Civilians,4
+strict,COMPOSITE_BENI,2018,Government of DR Congo (Zaire),Civilians,16
+strict,COMPOSITE_BENI,2018,IS,Civilians,18
+strict,COMPOSITE_BENI,2019,Government of DR Congo (Zaire),Civilians,7
+strict,COMPOSITE_BENI,2019,IS,Civilians,49
+strict,COMPOSITE_BENI,2019,Mayi Mayi Mazembe,Civilians,1
+strict,COMPOSITE_BENI,2020,Government of DR Congo (Zaire),Civilians,12
+strict,COMPOSITE_BENI,2020,IS,Civilians,71
+strict,COMPOSITE_BENI,2021,Government of DR Congo (Zaire),Civilians,7
+strict,COMPOSITE_BENI,2021,IS,Civilians,79
+strict,COMPOSITE_BENI,2022,Government of DR Congo (Zaire),Civilians,13
+strict,COMPOSITE_BENI,2022,IS,Civilians,120
+strict,COMPOSITE_BENI,2023,Government of DR Congo (Zaire),Civilians,8
+strict,COMPOSITE_BENI,2023,IS,Civilians,72
+strict,COMPOSITE_BENI,2023,M23,Civilians,1
+strict,COMPOSITE_BENI,2023,VDP,Civilians,3
+strict,COMPOSITE_BENI,2024,Government of DR Congo (Zaire),Civilians,1
+strict,COMPOSITE_BENI,2024,IS,Civilians,47
+strict,COMPOSITE_BENI,2025,Government of DR Congo (Zaire),Civilians,1
+strict,COMPOSITE_BENI,2025,IS,Civilians,12
+strict,COMPOSITE_BENI,2025,VDP,Civilians,1
+strict,COMPOSITE_FIZI,2017,CNPSC,Civilians,3
+strict,COMPOSITE_FIZI,2017,Government of DR Congo (Zaire),Civilians,5
+strict,COMPOSITE_FIZI,2018,Government of DR Congo (Zaire),Civilians,3
+strict,COMPOSITE_FIZI,2019,CNPSC,Civilians,2
+strict,COMPOSITE_FIZI,2019,Government of DR Congo (Zaire),Civilians,3
+strict,COMPOSITE_FIZI,2020,CNPSC,Civilians,6
+strict,COMPOSITE_FIZI,2020,Government of DR Congo (Zaire),Civilians,1
+strict,COMPOSITE_FIZI,2020,Twiganeho,Civilians,2
+strict,COMPOSITE_FIZI,2021,"AFP-Gutabara, Ngumino",Civilians,1
+strict,COMPOSITE_FIZI,2021,CNPSC,Civilians,4
+strict,COMPOSITE_FIZI,2021,Government of DR Congo (Zaire),Civilians,3
+strict,COMPOSITE_FIZI,2021,Twiganeho,Civilians,1
+strict,COMPOSITE_FIZI,2022,"AFP-Gutabara, Ngumino",Civilians,1
+strict,COMPOSITE_FIZI,2022,"AFP-Gutabara, Ngumino, Twiganeho",Civilians,2
+strict,COMPOSITE_FIZI,2022,CNPSC,Civilians,1
+strict,COMPOSITE_FIZI,2022,Government of DR Congo (Zaire),Civilians,3
+strict,COMPOSITE_FIZI,2023,Government of DR Congo (Zaire),Civilians,1
+strict,COMPOSITE_FIZI,2023,VDP,Civilians,1
+strict,COMPOSITE_FIZI,2024,VDP,Civilians,1
+strict,COMPOSITE_FIZI,2025,VDP,Civilians,1
+strict,COMPOSITE_IRUMU,2014,ADF,Civilians,2
+strict,COMPOSITE_IRUMU,2014,FRPI,Civilians,4
+strict,COMPOSITE_IRUMU,2015,FRPI,Civilians,5
+strict,COMPOSITE_IRUMU,2016,FRPI,Civilians,1
+strict,COMPOSITE_IRUMU,2016,Government of DR Congo (Zaire),Civilians,2
+strict,COMPOSITE_IRUMU,2017,Government of DR Congo (Zaire),Civilians,1
+strict,COMPOSITE_IRUMU,2018,FRPI,Civilians,1
+strict,COMPOSITE_IRUMU,2020,ALC,Civilians,1
+strict,COMPOSITE_IRUMU,2020,FPIC Chambre noire sanduku,Civilians,6
+strict,COMPOSITE_IRUMU,2020,FRPI,Civilians,3
+strict,COMPOSITE_IRUMU,2020,IS,Civilians,13
+strict,COMPOSITE_IRUMU,2020,Mayi Mayi Mazembe,Civilians,1
+strict,COMPOSITE_IRUMU,2020,URDPC,Civilians,1
+strict,COMPOSITE_IRUMU,2020,Zaire self-defense group,Civilians,1
+strict,COMPOSITE_IRUMU,2021,FPIC Chambre noire sanduku,Civilians,8
+strict,COMPOSITE_IRUMU,2021,FRPI,Civilians,3
+strict,COMPOSITE_IRUMU,2021,Government of DR Congo (Zaire),Civilians,6
+strict,COMPOSITE_IRUMU,2021,IS,Civilians,44
+strict,COMPOSITE_IRUMU,2021,Zaire self-defense group,Civilians,1
+strict,COMPOSITE_IRUMU,2022,FPIC Chambre noire sanduku,Civilians,27
+strict,COMPOSITE_IRUMU,2022,"FPIC Chambre noire sanduku, URDPC",Civilians,1
+strict,COMPOSITE_IRUMU,2022,FRPI,Civilians,3
+strict,COMPOSITE_IRUMU,2022,Government of DR Congo (Zaire),Civilians,11
+strict,COMPOSITE_IRUMU,2022,IS,Civilians,69
+strict,COMPOSITE_IRUMU,2022,Mayi Mayi Chini ya Tuna,Civilians,3
+strict,COMPOSITE_IRUMU,2022,Zaire self-defense group,Civilians,8
+strict,COMPOSITE_IRUMU,2023,FPIC Chambre noire sanduku,Civilians,25
+strict,COMPOSITE_IRUMU,2023,FRPI,Civilians,8
+strict,COMPOSITE_IRUMU,2023,Government of DR Congo (Zaire),Civilians,11
+strict,COMPOSITE_IRUMU,2023,IS,Civilians,66
+strict,COMPOSITE_IRUMU,2023,Mayi Mayi Chini ya Tuna,Civilians,3
+strict,COMPOSITE_IRUMU,2023,URDPC,Civilians,9
+strict,COMPOSITE_IRUMU,2023,Zaire self-defense group,Civilians,4
+strict,COMPOSITE_IRUMU,2024,Government of DR Congo (Zaire),Civilians,4
+strict,COMPOSITE_IRUMU,2024,IS,Civilians,46
+strict,COMPOSITE_IRUMU,2024,URDPC,Civilians,1
+strict,COMPOSITE_IRUMU,2025,FPIC Chambre noire sanduku,Civilians,1
+strict,COMPOSITE_IRUMU,2025,Government of DR Congo (Zaire),Civilians,2
+strict,COMPOSITE_IRUMU,2025,IS,Civilians,24
+strict,COMPOSITE_KABARE,2018,Government of DR Congo (Zaire),Civilians,2
+strict,COMPOSITE_KABARE,2019,Government of DR Congo (Zaire),Civilians,4
+strict,COMPOSITE_KABARE,2019,RMDC,Civilians,2
+strict,COMPOSITE_KABARE,2020,Government of DR Congo (Zaire),Civilians,5
+strict,COMPOSITE_KABARE,2021,Government of DR Congo (Zaire),Civilians,6
+strict,COMPOSITE_KABARE,2022,Government of DR Congo (Zaire),Civilians,3
+strict,COMPOSITE_KABARE,2023,Government of DR Congo (Zaire),Civilians,1
+strict,COMPOSITE_KABARE,2024,Government of DR Congo (Zaire),Civilians,5
+strict,COMPOSITE_KABARE,2025,AFC,Civilians,12
+strict,COMPOSITE_KABARE,2025,Government of DR Congo (Zaire),Civilians,1
+strict,COMPOSITE_LUBERO,2014,FDLR-FOCA,Civilians,2
+strict,COMPOSITE_LUBERO,2015,FDLR-FOCA,Civilians,2
+strict,COMPOSITE_LUBERO,2016,FDLR-FOCA,Civilians,2
+strict,COMPOSITE_LUBERO,2016,Mayi Mayi Mazembe,Civilians,2
+strict,COMPOSITE_LUBERO,2017,FDLR-FOCA,Civilians,1
+strict,COMPOSITE_LUBERO,2017,Government of DR Congo (Zaire),Civilians,6
+strict,COMPOSITE_LUBERO,2017,Mayi Mayi Mazembe,Civilians,10
+strict,COMPOSITE_LUBERO,2017,NDC,Civilians,3
+strict,COMPOSITE_LUBERO,2017,NDC-R,Civilians,5
+strict,COMPOSITE_LUBERO,2018,Government of DR Congo (Zaire),Civilians,2
+strict,COMPOSITE_LUBERO,2018,Mayi Mayi Mazembe,Civilians,1
+strict,COMPOSITE_LUBERO,2019,Government of DR Congo (Zaire),Civilians,5
+strict,COMPOSITE_LUBERO,2019,NDC-R,Civilians,2
+strict,COMPOSITE_LUBERO,2020,Government of DR Congo (Zaire),Civilians,6
+strict,COMPOSITE_LUBERO,2020,NDC-R,Civilians,2
+strict,COMPOSITE_LUBERO,2021,Government of DR Congo (Zaire),Civilians,5
+strict,COMPOSITE_LUBERO,2022,Government of DR Congo (Zaire),Civilians,15
+strict,COMPOSITE_LUBERO,2022,Mayi Mayi Simba,Civilians,1
+strict,COMPOSITE_LUBERO,2022,NDC-R,Civilians,1
+strict,COMPOSITE_LUBERO,2023,Government of DR Congo (Zaire),Civilians,7
+strict,COMPOSITE_LUBERO,2023,IS,Civilians,1
+strict,COMPOSITE_LUBERO,2023,VDP,Civilians,6
+strict,COMPOSITE_LUBERO,2024,AFC,Civilians,1
+strict,COMPOSITE_LUBERO,2024,Government of DR Congo (Zaire),Civilians,2
+strict,COMPOSITE_LUBERO,2024,IS,Civilians,22
+strict,COMPOSITE_LUBERO,2024,VDP,Civilians,1
+strict,COMPOSITE_LUBERO,2025,Government of DR Congo (Zaire),Civilians,1
+strict,COMPOSITE_LUBERO,2025,IS,Civilians,23
+strict,COMPOSITE_LUBERO,2025,VDP,Civilians,1
+strict,COMPOSITE_NYIRAGONGO,2017,Government of DR Congo (Zaire),Civilians,3
+strict,COMPOSITE_NYIRAGONGO,2018,FDLR-FOCA,Civilians,1
+strict,COMPOSITE_NYIRAGONGO,2018,Government of DR Congo (Zaire),Civilians,1
+strict,COMPOSITE_NYIRAGONGO,2019,Government of DR Congo (Zaire),Civilians,6
+strict,COMPOSITE_NYIRAGONGO,2020,FDLR-FOCA,Civilians,2
+strict,COMPOSITE_NYIRAGONGO,2020,Government of DR Congo (Zaire),Civilians,1
+strict,COMPOSITE_NYIRAGONGO,2021,FDLR-FOCA,Civilians,1
+strict,COMPOSITE_NYIRAGONGO,2021,Government of DR Congo (Zaire),Civilians,2
+strict,COMPOSITE_NYIRAGONGO,2022,Government of DR Congo (Zaire),Civilians,5
+strict,COMPOSITE_NYIRAGONGO,2022,M23,Civilians,1
+strict,COMPOSITE_NYIRAGONGO,2023,Government of DR Congo (Zaire),Civilians,7
+strict,COMPOSITE_NYIRAGONGO,2023,Government of Rwanda,Civilians,1
+strict,COMPOSITE_NYIRAGONGO,2024,Government of DR Congo (Zaire),Civilians,8
+strict,COMPOSITE_NYIRAGONGO,2024,VDP,Civilians,7
+strict,COMPOSITE_NYIRAGONGO,2025,AFC,Civilians,26
+strict,COMPOSITE_NYIRAGONGO,2025,Government of Rwanda,Civilians,3
+strict,COMPOSITE_UVIRA,2018,Government of DR Congo (Zaire),Civilians,2
+strict,COMPOSITE_UVIRA,2018,Twiganeho,Civilians,2
+strict,COMPOSITE_UVIRA,2019,CNPSC,Civilians,1
+strict,COMPOSITE_UVIRA,2019,Government of DR Congo (Zaire),Civilians,1
+strict,COMPOSITE_UVIRA,2020,"AFP-Gutabara, Ngumino, Twiganeho",Civilians,1
+strict,COMPOSITE_UVIRA,2020,Government of DR Congo (Zaire),Civilians,1
+strict,COMPOSITE_UVIRA,2020,Twiganeho,Civilians,1
+strict,COMPOSITE_UVIRA,2021,CNPSC,Civilians,1
+strict,COMPOSITE_UVIRA,2021,Government of DR Congo (Zaire),Civilians,4
+strict,COMPOSITE_UVIRA,2021,Twiganeho,Civilians,1
+strict,COMPOSITE_UVIRA,2022,"AFP-Gutabara, Ngumino, Twiganeho",Civilians,1
+strict,COMPOSITE_UVIRA,2022,CNPSC,Civilians,1
+strict,COMPOSITE_UVIRA,2022,Government of DR Congo (Zaire),Civilians,3
+strict,COMPOSITE_UVIRA,2023,Government of DR Congo (Zaire),Civilians,1
+strict,COMPOSITE_UVIRA,2023,VDP,Civilians,1
+strict,COMPOSITE_UVIRA,2024,Government of DR Congo (Zaire),Civilians,1
+strict,COMPOSITE_UVIRA,2025,VDP,Civilians,1
+territorial,COD009007,2015,FDLR-FOCA,Civilians,1
+territorial,COD009007,2017,CMC,Civilians,1
+territorial,COD009007,2017,FDLR-FOCA,Civilians,1
+territorial,COD009007,2017,Government of DR Congo (Zaire),Civilians,3
+territorial,COD009007,2017,RMDC,Civilians,1
+territorial,COD009007,2018,RMDC,Civilians,1
+territorial,COD009007,2019,Government of DR Congo (Zaire),Civilians,3
+territorial,COD009007,2019,NDC-R,Civilians,9
+territorial,COD009007,2020,CMC,Civilians,7
+territorial,COD009007,2020,FDLR-FOCA,Civilians,1
+territorial,COD009007,2020,Government of DR Congo (Zaire),Civilians,9
+territorial,COD009007,2020,NDC-R,Civilians,10
+territorial,COD009007,2021,CMC,Civilians,4
+territorial,COD009007,2021,Government of DR Congo (Zaire),Civilians,9
+territorial,COD009007,2022,CMC,Civilians,4
+territorial,COD009007,2022,Government of DR Congo (Zaire),Civilians,6
+territorial,COD009007,2023,AFC,Civilians,1
+territorial,COD009007,2023,Government of DR Congo (Zaire),Civilians,3
+territorial,COD009007,2023,Government of Rwanda,Civilians,3
+territorial,COD009007,2023,M23,Civilians,3
+territorial,COD009007,2023,VDP,Civilians,5
+territorial,COD009007,2024,AFC,Civilians,10
+territorial,COD009007,2024,Government of DR Congo (Zaire),Civilians,3
+territorial,COD009007,2024,VDP,Civilians,7
+territorial,COD009007,2025,AFC,Civilians,8
+territorial,COD009007,2025,FDLR-FOCA,Civilians,1
+territorial,COD009007,2025,VDP,Civilians,7
+territorial,COD009012,2015,FDLR-FOCA,Civilians,3
+territorial,COD009012,2016,FDLR-FOCA,Civilians,2
+territorial,COD009012,2016,Mayi Mayi Mazembe,Civilians,2
+territorial,COD009012,2016,NDC,Civilians,1
+territorial,COD009012,2017,Mayi Mayi Mazembe,Civilians,1
+territorial,COD009012,2017,NDC-R,Civilians,1
+territorial,COD009012,2018,Government of DR Congo (Zaire),Civilians,1
+territorial,COD009012,2018,NDC-R,Civilians,6
+territorial,COD009012,2018,RMDC,Civilians,2
+territorial,COD009012,2019,Government of DR Congo (Zaire),Civilians,1
+territorial,COD009012,2020,CMC,Civilians,1
+territorial,COD009012,2020,Government of DR Congo (Zaire),Civilians,2
+territorial,COD009012,2020,NDC-R,Civilians,6
+territorial,COD009012,2021,CMC,Civilians,1
+territorial,COD009012,2021,NDC-R,Civilians,1
+territorial,COD009012,2022,NDC-R,Civilians,1
+territorial,COD009012,2023,Government of DR Congo (Zaire),Civilians,1
+territorial,COD009012,2023,VDP,Civilians,7
+territorial,COD009012,2024,VDP,Civilians,1
+territorial,COD009012,2025,AFC,Civilians,8
+territorial,COD009012,2025,Government of DR Congo (Zaire),Civilians,1
+territorial,COD009012,2025,VDP,Civilians,4
+territorial,COD009015,2014,FDLR-FOCA,Civilians,1
+territorial,COD009015,2015,FDLR-FOCA,Civilians,1
+territorial,COD009015,2016,FDLR-FOCA,Civilians,1
+territorial,COD009015,2016,Mayi Mayi Mazembe,Civilians,4
+territorial,COD009015,2017,CMC,Civilians,13
+territorial,COD009015,2017,FDLR-FOCA,Civilians,7
+territorial,COD009015,2017,Government of DR Congo (Zaire),Civilians,3
+territorial,COD009015,2017,Mayi Mayi Mazembe,Civilians,8
+territorial,COD009015,2017,"Mayi Mayi Mazembe, NDC-R",Civilians,1
+territorial,COD009015,2018,CMC,Civilians,7
+territorial,COD009015,2018,FDLR-FOCA,Civilians,2
+territorial,COD009015,2018,Government of DR Congo (Zaire),Civilians,8
+territorial,COD009015,2018,Mayi Mayi Mazembe,Civilians,2
+territorial,COD009015,2018,RMDC,Civilians,7
+territorial,COD009015,2019,CMC,Civilians,13
+territorial,COD009015,2019,FDLR-FOCA,Civilians,4
+territorial,COD009015,2019,Government of DR Congo (Zaire),Civilians,13
+territorial,COD009015,2019,NDC-R,Civilians,2
+territorial,COD009015,2020,CMC,Civilians,14
+territorial,COD009015,2020,FDLR-FOCA,Civilians,5
+territorial,COD009015,2020,Government of DR Congo (Zaire),Civilians,17
+territorial,COD009015,2020,Government of Rwanda,Civilians,2
+territorial,COD009015,2020,Mayi Mayi Mazembe,Civilians,2
+territorial,COD009015,2020,NDC-R,Civilians,5
+territorial,COD009015,2021,CMC,Civilians,6
+territorial,COD009015,2021,FDLR-FOCA,Civilians,3
+territorial,COD009015,2021,Government of DR Congo (Zaire),Civilians,10
+territorial,COD009015,2022,CMC,Civilians,5
+territorial,COD009015,2022,FDLR-FOCA,Civilians,4
+territorial,COD009015,2022,Government of DR Congo (Zaire),Civilians,10
+territorial,COD009015,2022,Government of Rwanda,Civilians,14
+territorial,COD009015,2022,M23,Civilians,22
+territorial,COD009015,2022,Mayi Mayi Mazembe,Civilians,1
+territorial,COD009015,2023,AFC,Civilians,5
+territorial,COD009015,2023,FDLR-FOCA,Civilians,4
+territorial,COD009015,2023,Government of Rwanda,Civilians,29
+territorial,COD009015,2023,M23,Civilians,24
+territorial,COD009015,2023,VDP,Civilians,9
+territorial,COD009015,2024,AFC,Civilians,26
+territorial,COD009015,2024,Government of Rwanda,Civilians,1
+territorial,COD009015,2024,VDP,Civilians,1
+territorial,COD009015,2025,AFC,Civilians,28
+territorial,COD009015,2025,FDLR-FOCA,Civilians,1
+territorial,COD009015,2025,Government of Rwanda,Civilians,1
+territorial,COD009015,2025,VDP,Civilians,3
+territorial,COD011004,2018,Government of Rwanda,Civilians,1
+territorial,COD011004,2020,Government of DR Congo (Zaire),Civilians,1
+territorial,COD011004,2023,Government of DR Congo (Zaire),Civilians,1
+territorial,COD011006,2017,Government of DR Congo (Zaire),Civilians,7
+territorial,COD011006,2018,CNPSC,Civilians,1
+territorial,COD011006,2018,Government of DR Congo (Zaire),Civilians,6
+territorial,COD011006,2019,Government of DR Congo (Zaire),Civilians,2
+territorial,COD011006,2019,RMDC,Civilians,1
+territorial,COD011006,2020,CNPSC,Civilians,2
+territorial,COD011006,2020,Government of DR Congo (Zaire),Civilians,4
+territorial,COD011006,2020,RMDC,Civilians,1
+territorial,COD011006,2021,Government of DR Congo (Zaire),Civilians,5
+territorial,COD011006,2022,Government of DR Congo (Zaire),Civilians,4
+territorial,COD011006,2023,Government of DR Congo (Zaire),Civilians,3
+territorial,COD011006,2024,Government of DR Congo (Zaire),Civilians,2
+territorial,COD011006,2024,VDP,Civilians,7
+territorial,COD011006,2025,AFC,Civilians,6
+territorial,COD011013,2017,Government of DR Congo (Zaire),Civilians,1
+territorial,COD011013,2018,Government of DR Congo (Zaire),Civilians,2
+territorial,COD011013,2019,Government of DR Congo (Zaire),Civilians,1
+territorial,COD011013,2020,Twiganeho,Civilians,1
+territorial,COD011013,2021,Government of DR Congo (Zaire),Civilians,1
+territorial,COD011013,2024,Government of DR Congo (Zaire),Civilians,1
+territorial,COD011013,2025,AFC,Civilians,5
+territorial,COD011013,2025,Government of DR Congo (Zaire),Civilians,1
+territorial,COD011015,2017,Government of DR Congo (Zaire),Civilians,1
+territorial,COD011015,2018,CNPSC,Civilians,1
+territorial,COD011015,2018,Government of DR Congo (Zaire),Civilians,1
+territorial,COD011015,2019,CNPSC,Civilians,3
+territorial,COD011015,2020,"AFP-Gutabara, Ngumino, Twiganeho",Civilians,1
+territorial,COD011015,2020,CNPSC,Civilians,2
+territorial,COD011015,2020,Government of DR Congo (Zaire),Civilians,1
+territorial,COD011015,2020,Twiganeho,Civilians,7
+territorial,COD011015,2021,"AFP-Gutabara, Ngumino",Civilians,1
+territorial,COD011015,2021,CNPSC,Civilians,1
+territorial,COD011015,2021,Government of DR Congo (Zaire),Civilians,1
+territorial,COD011015,2021,Twiganeho,Civilians,2
+territorial,COD011015,2022,"AFP-Gutabara, Ngumino",Civilians,2
+territorial,COD011015,2022,Government of Burundi,Civilians,1
+territorial,COD011015,2022,Government of DR Congo (Zaire),Civilians,6
+territorial,COD011015,2023,Government of Burundi,Civilians,1
+territorial,COD011015,2023,Government of DR Congo (Zaire),Civilians,4
+territorial,COD011015,2023,VDP,Civilians,1
+territorial,COD011015,2024,VDP,Civilians,1
+territorial,COD011015,2025,VDP,Civilians,2
+territorial,COD011016,2017,Government of DR Congo (Zaire),Civilians,1
+territorial,COD011016,2018,Government of DR Congo (Zaire),Civilians,2
+territorial,COD011016,2023,Government of DR Congo (Zaire),Civilians,1
+territorial,COD017010,2014,Mayi Mayi Simba,Civilians,1
+territorial,COD017010,2015,ADF,Civilians,2
+territorial,COD017010,2016,"ADF, Vuba militia",Civilians,1
+territorial,COD017010,2017,Mayi Mayi Simba,Civilians,2
+territorial,COD017010,2018,Mayi Mayi Simba,Civilians,1
+territorial,COD017010,2019,IS,Civilians,1
+territorial,COD017010,2019,Mayi Mayi Simba,Civilians,1
+territorial,COD017010,2020,IS,Civilians,10
+territorial,COD017010,2020,Mayi Mayi Simba,Civilians,1
+territorial,COD017010,2020,URDPC,Civilians,1
+territorial,COD017010,2021,FPIC Chambre noire sanduku,Civilians,1
+territorial,COD017010,2021,Government of DR Congo (Zaire),Civilians,5
+territorial,COD017010,2021,IS,Civilians,12
+territorial,COD017010,2022,Government of DR Congo (Zaire),Civilians,5
+territorial,COD017010,2022,IS,Civilians,18
+territorial,COD017010,2023,FPIC Chambre noire sanduku,Civilians,1
+territorial,COD017010,2023,Government of DR Congo (Zaire),Civilians,2
+territorial,COD017010,2023,IS,Civilians,19
+territorial,COD017010,2024,Government of DR Congo (Zaire),Civilians,1
+territorial,COD017010,2024,IS,Civilians,32
+territorial,COD017010,2024,VDP,Civilians,1
+territorial,COD017010,2025,Government of DR Congo (Zaire),Civilians,1
+territorial,COD017010,2025,IS,Civilians,4
+territorial,COD017012,2020,Government of South Sudan,Civilians,1
+territorial,COD017012,2022,Government of DR Congo (Zaire),Civilians,1
+territorial,COD017012,2022,Government of South Sudan,Civilians,1
+territorial,COD017012,2023,Government of DR Congo (Zaire),Civilians,2
+territorial,COD017012,2023,URDPC,Civilians,1
+territorial,COD017013,2018,URDPC,Civilians,2
+territorial,COD017013,2019,Government of DR Congo (Zaire),Civilians,1
+territorial,COD017013,2019,URDPC,Civilians,30
+territorial,COD017013,2020,ALC,Civilians,2
+territorial,COD017013,2020,CODECO-BTD,Civilians,1
+territorial,COD017013,2020,FDBC,Civilians,3
+territorial,COD017013,2020,Government of DR Congo (Zaire),Civilians,2
+territorial,COD017013,2020,URDPC,Civilians,77
+territorial,COD017013,2021,ALC,Civilians,6
+territorial,COD017013,2021,CODECO-BTD,Civilians,3
+territorial,COD017013,2021,FDBC,Civilians,13
+territorial,COD017013,2021,"FPIC Chambre noire sanduku, URDPC",Civilians,1
+territorial,COD017013,2021,Government of DR Congo (Zaire),Civilians,9
+territorial,COD017013,2021,URDPC,Civilians,90
+territorial,COD017013,2021,Zaire self-defense group,Civilians,13
+territorial,COD017013,2022,ALC,Civilians,22
+territorial,COD017013,2022,CODECO-BTD,Civilians,3
+territorial,COD017013,2022,FDBC,Civilians,41
+territorial,COD017013,2022,FPIC Chambre noire sanduku,Civilians,2
+territorial,COD017013,2022,"FPIC Chambre noire sanduku, URDPC",Civilians,3
+territorial,COD017013,2022,Government of DR Congo (Zaire),Civilians,5
+territorial,COD017013,2022,IS,Civilians,1
+territorial,COD017013,2022,URDPC,Civilians,102
+territorial,COD017013,2022,Zaire self-defense group,Civilians,32
+territorial,COD017013,2023,FPIC Chambre noire sanduku,Civilians,5
+territorial,COD017013,2023,Government of DR Congo (Zaire),Civilians,3
+territorial,COD017013,2023,URDPC,Civilians,112
+territorial,COD017013,2023,Zaire self-defense group,Civilians,9
+territorial,COD017013,2024,URDPC,Civilians,36
+territorial,COD017013,2024,Zaire self-defense group,Civilians,8
+territorial,COD017013,2025,URDPC,Civilians,30
+territorial,COD017013,2025,Zaire self-defense group,Civilians,9
+territorial,COD017014,2019,Government of DR Congo (Zaire),Civilians,1
+territorial,COD017014,2020,Government of DR Congo (Zaire),Civilians,1
+territorial,COD017014,2020,URDPC,Civilians,7
+territorial,COD017014,2021,URDPC,Civilians,13
+territorial,COD017014,2021,Zaire self-defense group,Civilians,1
+territorial,COD017014,2022,FDBC,Civilians,2
+territorial,COD017014,2022,Government of DR Congo (Zaire),Civilians,2
+territorial,COD017014,2022,URDPC,Civilians,67
+territorial,COD017014,2022,Zaire self-defense group,Civilians,2
+territorial,COD017014,2023,Government of DR Congo (Zaire),Civilians,1
+territorial,COD017014,2023,URDPC,Civilians,18
+territorial,COD017014,2023,Zaire self-defense group,Civilians,1
+territorial,COD017014,2024,Government of DR Congo (Zaire),Civilians,1
+territorial,COD017014,2024,URDPC,Civilians,2
+territorial,COMPOSITE_BENI,2014,ADF,Civilians,17
+territorial,COMPOSITE_BENI,2014,"ADF, Mayi Mayi Mayangose",Civilians,3
+territorial,COMPOSITE_BENI,2014,Government of DR Congo (Zaire),Civilians,3
+territorial,COMPOSITE_BENI,2015,ADF,Civilians,16
+territorial,COMPOSITE_BENI,2015,"ADF, Vuba militia",Civilians,1
+territorial,COMPOSITE_BENI,2016,ADF,Civilians,18
+territorial,COMPOSITE_BENI,2016,"ADF, Vuba militia",Civilians,1
+territorial,COMPOSITE_BENI,2016,Government of DR Congo (Zaire),Civilians,2
+territorial,COMPOSITE_BENI,2017,ADF,Civilians,1
+territorial,COMPOSITE_BENI,2017,Government of DR Congo (Zaire),Civilians,5
+territorial,COMPOSITE_BENI,2017,Mayi Mayi Mazembe,Civilians,1
+territorial,COMPOSITE_BENI,2018,Government of DR Congo (Zaire),Civilians,19
+territorial,COMPOSITE_BENI,2018,IS,Civilians,24
+territorial,COMPOSITE_BENI,2019,Government of DR Congo (Zaire),Civilians,10
+territorial,COMPOSITE_BENI,2019,IS,Civilians,67
+territorial,COMPOSITE_BENI,2019,Mayi Mayi Mazembe,Civilians,2
+territorial,COMPOSITE_BENI,2020,Government of DR Congo (Zaire),Civilians,12
+territorial,COMPOSITE_BENI,2020,IS,Civilians,88
+territorial,COMPOSITE_BENI,2021,Government of DR Congo (Zaire),Civilians,7
+territorial,COMPOSITE_BENI,2021,IS,Civilians,91
+territorial,COMPOSITE_BENI,2022,Government of DR Congo (Zaire),Civilians,14
+territorial,COMPOSITE_BENI,2022,IS,Civilians,134
+territorial,COMPOSITE_BENI,2023,Government of DR Congo (Zaire),Civilians,8
+territorial,COMPOSITE_BENI,2023,Government of Uganda,Civilians,1
+territorial,COMPOSITE_BENI,2023,IS,Civilians,90
+territorial,COMPOSITE_BENI,2023,M23,Civilians,1
+territorial,COMPOSITE_BENI,2023,VDP,Civilians,3
+territorial,COMPOSITE_BENI,2024,Government of DR Congo (Zaire),Civilians,1
+territorial,COMPOSITE_BENI,2024,IS,Civilians,66
+territorial,COMPOSITE_BENI,2025,Government of DR Congo (Zaire),Civilians,1
+territorial,COMPOSITE_BENI,2025,IS,Civilians,20
+territorial,COMPOSITE_BENI,2025,VDP,Civilians,1
+territorial,COMPOSITE_FIZI,2014,Government of DR Congo (Zaire),Civilians,1
+territorial,COMPOSITE_FIZI,2017,CNPSC,Civilians,3
+territorial,COMPOSITE_FIZI,2017,Government of DR Congo (Zaire),Civilians,5
+territorial,COMPOSITE_FIZI,2018,CNPSC,Civilians,2
+territorial,COMPOSITE_FIZI,2018,Government of DR Congo (Zaire),Civilians,4
+territorial,COMPOSITE_FIZI,2019,CNPSC,Civilians,2
+territorial,COMPOSITE_FIZI,2019,Government of DR Congo (Zaire),Civilians,3
+territorial,COMPOSITE_FIZI,2020,CNPSC,Civilians,6
+territorial,COMPOSITE_FIZI,2020,Government of DR Congo (Zaire),Civilians,1
+territorial,COMPOSITE_FIZI,2020,Twiganeho,Civilians,2
+territorial,COMPOSITE_FIZI,2021,"AFP-Gutabara, Ngumino",Civilians,1
+territorial,COMPOSITE_FIZI,2021,CNPSC,Civilians,4
+territorial,COMPOSITE_FIZI,2021,Government of DR Congo (Zaire),Civilians,3
+territorial,COMPOSITE_FIZI,2021,Twiganeho,Civilians,1
+territorial,COMPOSITE_FIZI,2022,"AFP-Gutabara, Ngumino",Civilians,1
+territorial,COMPOSITE_FIZI,2022,"AFP-Gutabara, Ngumino, Twiganeho",Civilians,2
+territorial,COMPOSITE_FIZI,2022,CNPSC,Civilians,1
+territorial,COMPOSITE_FIZI,2022,Government of DR Congo (Zaire),Civilians,3
+territorial,COMPOSITE_FIZI,2023,Government of DR Congo (Zaire),Civilians,1
+territorial,COMPOSITE_FIZI,2023,VDP,Civilians,1
+territorial,COMPOSITE_FIZI,2024,VDP,Civilians,1
+territorial,COMPOSITE_FIZI,2025,VDP,Civilians,2
+territorial,COMPOSITE_IRUMU,2014,ADF,Civilians,5
+territorial,COMPOSITE_IRUMU,2014,FRPI,Civilians,5
+territorial,COMPOSITE_IRUMU,2015,FRPI,Civilians,6
+territorial,COMPOSITE_IRUMU,2016,FRPI,Civilians,1
+territorial,COMPOSITE_IRUMU,2016,Government of DR Congo (Zaire),Civilians,2
+territorial,COMPOSITE_IRUMU,2017,FRPI,Civilians,1
+territorial,COMPOSITE_IRUMU,2017,Government of DR Congo (Zaire),Civilians,1
+territorial,COMPOSITE_IRUMU,2018,FRPI,Civilians,2
+territorial,COMPOSITE_IRUMU,2019,FRPI,Civilians,2
+territorial,COMPOSITE_IRUMU,2020,ALC,Civilians,3
+territorial,COMPOSITE_IRUMU,2020,FPIC Chambre noire sanduku,Civilians,11
+territorial,COMPOSITE_IRUMU,2020,FRPI,Civilians,3
+territorial,COMPOSITE_IRUMU,2020,IS,Civilians,15
+territorial,COMPOSITE_IRUMU,2020,Mayi Mayi Mazembe,Civilians,1
+territorial,COMPOSITE_IRUMU,2020,URDPC,Civilians,1
+territorial,COMPOSITE_IRUMU,2020,Zaire self-defense group,Civilians,3
+territorial,COMPOSITE_IRUMU,2021,FPIC Chambre noire sanduku,Civilians,12
+territorial,COMPOSITE_IRUMU,2021,FRPI,Civilians,3
+territorial,COMPOSITE_IRUMU,2021,Government of DR Congo (Zaire),Civilians,6
+territorial,COMPOSITE_IRUMU,2021,IS,Civilians,58
+territorial,COMPOSITE_IRUMU,2021,Zaire self-defense group,Civilians,1
+territorial,COMPOSITE_IRUMU,2022,FPIC Chambre noire sanduku,Civilians,27
+territorial,COMPOSITE_IRUMU,2022,"FPIC Chambre noire sanduku, URDPC",Civilians,1
+territorial,COMPOSITE_IRUMU,2022,FRPI,Civilians,3
+territorial,COMPOSITE_IRUMU,2022,Government of DR Congo (Zaire),Civilians,12
+territorial,COMPOSITE_IRUMU,2022,IS,Civilians,79
+territorial,COMPOSITE_IRUMU,2022,Mayi Mayi Chini ya Tuna,Civilians,3
+territorial,COMPOSITE_IRUMU,2022,Zaire self-defense group,Civilians,8
+territorial,COMPOSITE_IRUMU,2023,FPIC Chambre noire sanduku,Civilians,26
+territorial,COMPOSITE_IRUMU,2023,FRPI,Civilians,8
+territorial,COMPOSITE_IRUMU,2023,Government of DR Congo (Zaire),Civilians,11
+territorial,COMPOSITE_IRUMU,2023,IS,Civilians,76
+territorial,COMPOSITE_IRUMU,2023,Mayi Mayi Chini ya Tuna,Civilians,3
+territorial,COMPOSITE_IRUMU,2023,URDPC,Civilians,11
+territorial,COMPOSITE_IRUMU,2023,Zaire self-defense group,Civilians,5
+territorial,COMPOSITE_IRUMU,2024,Government of DR Congo (Zaire),Civilians,4
+territorial,COMPOSITE_IRUMU,2024,IS,Civilians,53
+territorial,COMPOSITE_IRUMU,2024,URDPC,Civilians,1
+territorial,COMPOSITE_IRUMU,2025,FPIC Chambre noire sanduku,Civilians,1
+territorial,COMPOSITE_IRUMU,2025,Government of DR Congo (Zaire),Civilians,4
+territorial,COMPOSITE_IRUMU,2025,IS,Civilians,29
+territorial,COMPOSITE_KABARE,2018,Government of DR Congo (Zaire),Civilians,2
+territorial,COMPOSITE_KABARE,2019,Government of DR Congo (Zaire),Civilians,4
+territorial,COMPOSITE_KABARE,2019,RMDC,Civilians,2
+territorial,COMPOSITE_KABARE,2020,Government of DR Congo (Zaire),Civilians,5
+territorial,COMPOSITE_KABARE,2021,Government of DR Congo (Zaire),Civilians,6
+territorial,COMPOSITE_KABARE,2022,Government of DR Congo (Zaire),Civilians,3
+territorial,COMPOSITE_KABARE,2023,Government of DR Congo (Zaire),Civilians,1
+territorial,COMPOSITE_KABARE,2024,Government of DR Congo (Zaire),Civilians,5
+territorial,COMPOSITE_KABARE,2025,AFC,Civilians,12
+territorial,COMPOSITE_KABARE,2025,Government of DR Congo (Zaire),Civilians,1
+territorial,COMPOSITE_LUBERO,2014,FDLR-FOCA,Civilians,2
+territorial,COMPOSITE_LUBERO,2015,FDLR-FOCA,Civilians,2
+territorial,COMPOSITE_LUBERO,2016,FDLR-FOCA,Civilians,3
+territorial,COMPOSITE_LUBERO,2016,Mayi Mayi Mazembe,Civilians,3
+territorial,COMPOSITE_LUBERO,2017,FDLR-FOCA,Civilians,1
+territorial,COMPOSITE_LUBERO,2017,Government of DR Congo (Zaire),Civilians,6
+territorial,COMPOSITE_LUBERO,2017,Mayi Mayi Mazembe,Civilians,10
+territorial,COMPOSITE_LUBERO,2017,NDC,Civilians,3
+territorial,COMPOSITE_LUBERO,2017,NDC-R,Civilians,5
+territorial,COMPOSITE_LUBERO,2018,Government of DR Congo (Zaire),Civilians,2
+territorial,COMPOSITE_LUBERO,2018,Mayi Mayi Mazembe,Civilians,1
+territorial,COMPOSITE_LUBERO,2019,Government of DR Congo (Zaire),Civilians,5
+territorial,COMPOSITE_LUBERO,2019,NDC-R,Civilians,2
+territorial,COMPOSITE_LUBERO,2020,Government of DR Congo (Zaire),Civilians,6
+territorial,COMPOSITE_LUBERO,2020,Mayi Mayi Mazembe,Civilians,1
+territorial,COMPOSITE_LUBERO,2020,NDC-R,Civilians,2
+territorial,COMPOSITE_LUBERO,2021,Government of DR Congo (Zaire),Civilians,5
+territorial,COMPOSITE_LUBERO,2022,Government of DR Congo (Zaire),Civilians,15
+territorial,COMPOSITE_LUBERO,2022,Mayi Mayi Simba,Civilians,1
+territorial,COMPOSITE_LUBERO,2022,NDC-R,Civilians,1
+territorial,COMPOSITE_LUBERO,2023,Government of DR Congo (Zaire),Civilians,7
+territorial,COMPOSITE_LUBERO,2023,IS,Civilians,1
+territorial,COMPOSITE_LUBERO,2023,VDP,Civilians,6
+territorial,COMPOSITE_LUBERO,2024,AFC,Civilians,2
+territorial,COMPOSITE_LUBERO,2024,Government of DR Congo (Zaire),Civilians,5
+territorial,COMPOSITE_LUBERO,2024,IS,Civilians,33
+territorial,COMPOSITE_LUBERO,2024,VDP,Civilians,2
+territorial,COMPOSITE_LUBERO,2025,Government of DR Congo (Zaire),Civilians,2
+territorial,COMPOSITE_LUBERO,2025,IS,Civilians,38
+territorial,COMPOSITE_LUBERO,2025,VDP,Civilians,1
+territorial,COMPOSITE_NYIRAGONGO,2017,Government of DR Congo (Zaire),Civilians,4
+territorial,COMPOSITE_NYIRAGONGO,2018,FDLR-FOCA,Civilians,1
+territorial,COMPOSITE_NYIRAGONGO,2018,Government of DR Congo (Zaire),Civilians,1
+territorial,COMPOSITE_NYIRAGONGO,2019,Government of DR Congo (Zaire),Civilians,6
+territorial,COMPOSITE_NYIRAGONGO,2020,FDLR-FOCA,Civilians,2
+territorial,COMPOSITE_NYIRAGONGO,2020,Government of DR Congo (Zaire),Civilians,1
+territorial,COMPOSITE_NYIRAGONGO,2021,FDLR-FOCA,Civilians,1
+territorial,COMPOSITE_NYIRAGONGO,2021,Government of DR Congo (Zaire),Civilians,2
+territorial,COMPOSITE_NYIRAGONGO,2022,Government of DR Congo (Zaire),Civilians,5
+territorial,COMPOSITE_NYIRAGONGO,2022,M23,Civilians,1
+territorial,COMPOSITE_NYIRAGONGO,2023,Government of DR Congo (Zaire),Civilians,7
+territorial,COMPOSITE_NYIRAGONGO,2023,Government of Rwanda,Civilians,1
+territorial,COMPOSITE_NYIRAGONGO,2023,M23,Civilians,1
+territorial,COMPOSITE_NYIRAGONGO,2024,Government of DR Congo (Zaire),Civilians,8
+territorial,COMPOSITE_NYIRAGONGO,2024,VDP,Civilians,7
+territorial,COMPOSITE_NYIRAGONGO,2025,AFC,Civilians,28
+territorial,COMPOSITE_NYIRAGONGO,2025,Government of Rwanda,Civilians,3
+territorial,COMPOSITE_UVIRA,2018,CNPSC,Civilians,1
+territorial,COMPOSITE_UVIRA,2018,Government of DR Congo (Zaire),Civilians,2
+territorial,COMPOSITE_UVIRA,2018,Twiganeho,Civilians,4
+territorial,COMPOSITE_UVIRA,2019,CNPSC,Civilians,1
+territorial,COMPOSITE_UVIRA,2019,Government of DR Congo (Zaire),Civilians,1
+territorial,COMPOSITE_UVIRA,2020,"AFP-Gutabara, Ngumino, Twiganeho",Civilians,1
+territorial,COMPOSITE_UVIRA,2020,Government of DR Congo (Zaire),Civilians,1
+territorial,COMPOSITE_UVIRA,2020,Twiganeho,Civilians,1
+territorial,COMPOSITE_UVIRA,2021,CNPSC,Civilians,1
+territorial,COMPOSITE_UVIRA,2021,Government of DR Congo (Zaire),Civilians,4
+territorial,COMPOSITE_UVIRA,2021,Twiganeho,Civilians,1
+territorial,COMPOSITE_UVIRA,2022,"AFP-Gutabara, Ngumino, Twiganeho",Civilians,1
+territorial,COMPOSITE_UVIRA,2022,CNPSC,Civilians,1
+territorial,COMPOSITE_UVIRA,2022,Government of DR Congo (Zaire),Civilians,3
+territorial,COMPOSITE_UVIRA,2023,Government of DR Congo (Zaire),Civilians,1
+territorial,COMPOSITE_UVIRA,2023,VDP,Civilians,1
+territorial,COMPOSITE_UVIRA,2024,Government of DR Congo (Zaire),Civilians,1
+territorial,COMPOSITE_UVIRA,2024,VDP,Civilians,1
+territorial,COMPOSITE_UVIRA,2025,VDP,Civilians,1

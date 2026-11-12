@@ -1,0 +1,25 @@
+locality_id,checkpoint,locality,source_id,status,full_locality_coverage,comparable_mortality_series
+COD011004,April 2024,Idjwi,r02,Not established by reviewed territorial table; not zero incidents,Unknown,FALSE
+COD011004,August 2024,Idjwi,r04,Not established by reviewed territorial table; not zero incidents,Unknown,FALSE
+COD011004,January-June 2024,Idjwi,r03,Not established by reviewed territorial table; not zero incidents,Unknown,FALSE
+COD011006,April 2024,Kalehe,r02,Locality named; reporting activity documented,Unknown,FALSE
+COD011006,August 2024,Kalehe,r04,Locality named; reporting activity documented,Unknown,FALSE
+COD011006,January-June 2024,Kalehe,r03,Locality named; reporting activity documented,Unknown,FALSE
+COD011013,April 2024,Walungu,r02,Not established by reviewed territorial table; not zero incidents,Unknown,FALSE
+COD011013,August 2024,Walungu,r04,Not established by reviewed territorial table; not zero incidents,Unknown,FALSE
+COD011013,January-June 2024,Walungu,r03,Not established by reviewed territorial table; not zero incidents,Unknown,FALSE
+COD011015,April 2024,Mwenga,r02,Not established by reviewed territorial table; not zero incidents,Unknown,FALSE
+COD011015,August 2024,Mwenga,r04,Not established by reviewed territorial table; not zero incidents,Unknown,FALSE
+COD011015,January-June 2024,Mwenga,r03,Not established by reviewed territorial table; not zero incidents,Unknown,FALSE
+COD011016,April 2024,Shabunda,r02,Not established by reviewed territorial table; not zero incidents,Unknown,FALSE
+COD011016,August 2024,Shabunda,r04,Not established by reviewed territorial table; not zero incidents,Unknown,FALSE
+COD011016,January-June 2024,Shabunda,r03,Not established by reviewed territorial table; not zero incidents,Unknown,FALSE
+COMPOSITE_FIZI,April 2024,Fizi including Baraka,r02,Locality named; reporting activity documented,Unknown,FALSE
+COMPOSITE_FIZI,August 2024,Fizi including Baraka,r04,Locality named; reporting activity documented,Unknown,FALSE
+COMPOSITE_FIZI,January-June 2024,Fizi including Baraka,r03,Locality named; reporting activity documented,Unknown,FALSE
+COMPOSITE_KABARE,April 2024,Kabare including Bukavu,r02,Not established by reviewed territorial table; not zero incidents,Unknown,FALSE
+COMPOSITE_KABARE,August 2024,Kabare including Bukavu,r04,Not established by reviewed territorial table; not zero incidents,Unknown,FALSE
+COMPOSITE_KABARE,January-June 2024,Kabare including Bukavu,r03,Not established by reviewed territorial table; not zero incidents,Unknown,FALSE
+COMPOSITE_UVIRA,April 2024,Uvira including city,r02,Locality named; reporting activity documented,Unknown,FALSE
+COMPOSITE_UVIRA,August 2024,Uvira including city,r04,Locality named; reporting activity documented,Unknown,FALSE
+COMPOSITE_UVIRA,January-June 2024,Uvira including city,r03,Locality named; reporting activity documented,Unknown,FALSE

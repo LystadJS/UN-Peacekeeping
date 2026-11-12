@@ -1,0 +1,110 @@
+MONUSCO withdrawal study: records request specifications
+Prepared 11 November 2026. Status: prepared locally; not sent.
+
+Purpose
+Determine whether documented reductions in UN presence can be linked to changes
+in recorded civilian deaths without confusing lost patrol coverage with a base
+listing change, or lost reporting coverage with lower violence. This is an
+academic feasibility inquiry, not a request for a predetermined finding.
+
+REQUEST 1: HISTORICAL BASE OPERATIONS AND COMPLETED PATROLS
+
+Initial routing: UN Archives and Records Management Section, arms@un.org.
+Verified public routing source: https://archives.un.org/en/content/about-us
+Ask which MONUSCO or DPO office holds the records if they are not in ARMS.
+Do not assume that ARMS holds these records or can authorize their release.
+
+Geography: Masisi-centre, Nyabiondo and Sake, North Kivu, including documented
+communities visited from those bases. These are an interconnected operational
+network, not presumed independent treated and untreated locations.
+Retrieval dates: 1 July 2015 to 28 February 2018.
+
+Stage 1: Does a releasable historical record series exist? Please identify its
+custodian, date coverage, geographic detail, access conditions, missing periods,
+and available dictionary or small example extract. Public redacted or aggregated
+records are sufficient for this initial feasibility assessment.
+
+Stage 2, only if feasible: Request an existing export or documents containing:
+- Base opening, temporary suspension, closure, relocation and reopening dates;
+  distinguish actual departure from announcement and formal handover.
+- Completed patrol/mission date or interval; origin base; destination settlements
+  or named areas; activity type; duration if recorded.
+- Planned versus executed status and cancellations, if recorded.
+- Whether an absent entry means no mission, incomplete reporting, or unknown.
+- Reporting-unit changes and known gaps in the record series.
+- Contemporary protection-priority areas or authorized area-of-responsibility
+  descriptions, distinguishing plans from demonstrated reach.
+
+Fallback: monthly completed-patrol totals by origin and destination, with coverage
+flags; no personnel identities, beneficiary identities, current operational
+routes or sensitive tactical detail are needed. If date precision is restricted,
+retain the supplied intervals rather than inventing exact dates.
+
+Anchor documents to help retrieval: OIOS audit 2017/011, the MONUSCO 11 August
+2017 account of fixed-base closures and mobile deployments, and the UN briefing
+covering 13-20 September 2017 describing the Sake-Nyabiondo mission of 15-16
+September. These establish leads, not a complete patrol census.
+
+REQUEST 2: HISTORICAL INCIDENT-MONITORING COVERAGE
+
+Initial routing: SAR protection-monitoring team, contact@sarmp.unhcr.org.
+Verified public routing source: https://sar-drc.unhcr.org/
+Referral: DRC Protection Cluster information management team; current directory
+lists Eric Bazie (information management) and Steve Ndikumwenayo (coordinator):
+https://globalprotectioncluster.org/democratic-republic-congo
+Mailbox delivery and continued staffing have not been tested.
+
+Geography: South Kivu, specifically Kabare (including Bukavu), Kalehe, Fizi
+(including Baraka), Idjwi, Mwenga, Shabunda, Uvira (including city) and Walungu.
+Request explicit geographic identifiers and the distinction between cities and
+territories. Priority areas surround Bunyakiri, Kavumu Airport
+and Sange; do not assume a base location equals an entire territory's coverage.
+Retrieval dates: 1 April 2022 to 30 November 2024.
+
+Stage 1: Are historical monthly inputs to the monitoring-coverage dashboard or
+partner coverage matrices retained and releasable? Request a dictionary, sample,
+coverage dates, and an explanation of the public dashboard's reference period.
+Clarify whether the linked August 2021 data page is obsolete and where archived
+2022-2024 coverage records are held.
+
+Stage 2, only if feasible: Request existing location-month metadata for:
+- Organization and monitoring program, geographic unit and identifiers.
+- Actual operating periods, active monitors or monitor-days where recorded.
+- Full, partial, suspended, absent, or unknown monitoring coverage, using the
+  provider's definitions rather than retrospectively invented categories.
+- Access interruptions, logistical changes, staff redeployment and restart dates.
+- Zero-incident reporting rules: whether zero reports were submitted, or whether
+  silence is indistinguishable from no monitoring.
+- Active surveillance versus passive receipt of reports; verification thresholds,
+  changes in incident definitions, and geography changes (including whether
+  South Kivu and Maniema were combined in published aggregates).
+- Data version, retrospective additions and revised records where documented.
+
+Fallback: dated coverage maps and interruption notes with the underlying
+geographic legend. Partner service-delivery 3W/6W lists should be labelled as such;
+they cannot substitute for incident-monitoring effort. No victim, witness or
+monitor identities are requested. Incident-level personal data are unnecessary
+for this first coverage inquiry.
+
+Why this matters: the Protection Cluster 2024 annual report describes declining
+atrocity-monitoring capacity after withdrawal; public reports still record
+incidents afterward. We need to distinguish continuity of some reporting from
+stable observation effort. Neither report totals nor staff totals alone establish
+how many deaths were missed by UCDP or any other event dataset.
+
+RECEIPT AND DECISION RULES
+
+For each response record custodian, receipt date, version, permitted use,
+geographic and temporal scope, missingness semantics, and completeness caveats.
+Keep untouched source files and provenance before any R transformations.
+Start with a sample: assess whether locations and dates can be matched under
+the project's existing boundaries and fixed feasibility windows.
+Do not change outcome definitions or treatment dates to obtain a better result.
+Do not convert unknown coverage to zero patrols, zero monitors or zero deaths.
+Do not use post-withdrawal monitoring effort as an ordinary regression control
+and claim this recovers the total effect of withdrawal; it is an observation
+process requiring separate measurement reasoning.
+If only selected anecdotes or current snapshots exist, retain descriptive
+inference. If records are unavailable, stop this acquisition route rather than
+extend model search. Useful records clear measurement questions only; comparison
+credibility, selection and spillovers still need separate adjudication.
