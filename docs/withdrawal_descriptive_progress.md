@@ -11,7 +11,7 @@ The authorized work is a descriptive evidence package, not a new effect model.
 | Baseline-only comparison assessments | Complete: all 19 candidates profiled; none approved as a causal control |
 | Inclusion, timing and missing-death scenarios | Complete: two inclusion rules, timing endpoints, largest-event removal and uniform geographic-conflict exclusion |
 | Validation and evidence packet | Complete: 126 independent checks; figures inspected and text-rendering issue repaired |
-| GitHub delivery | Branch prepared; commit/push verification in progress |
+| GitHub delivery | Complete: research package pushed on codex/withdrawal-descriptive-evidence; [PR 1](https://github.com/LystadJS/UN-Peacekeeping/pull/1) records delivery and merge status |
 
 Scope: use the saved corrected outcomes, register and documentary evidence. Preserve uncertainty about protection catchments and reporting completeness. Deduplicate identical territorial series; component handovers are not independent assignments. No emails are sent by this work package.
 
@@ -37,3 +37,7 @@ Initial issue: the data-request specification listed Bukavu separately while omi
 [Evidence packet](withdrawal_descriptive_evidence_packet.md), [timeline PDF](../outputs/withdrawal_descriptive/all_case_timelines.pdf), and [validation results](../outputs/withdrawal_descriptive/validation_checks.csv).
 
 All 608 original locality-quarter outcomes and 12 earlier daily handover windows reproduce. Case-month counts reconcile against event lineage; the 24/6-month windows, geographic inclusion nesting and minimal integer missing-death thresholds pass checks. The upstream input hashes match. Main plots, baseline comparison figure and sensitivity figure were visually checked. Local R reports startup locale warnings, but no remaining parsing or analytical warnings occurred in final validation. No original outcomes, manuscript or PowerPoint were changed.
+
+GitHub package: initial analysis commit bc515db, with a separate status-record update. The repository has no configured workflow in the local checkout and the initial commit had no posted status checks; validation here refers to executed local R checks, not CI. Unrelated historical work remains outside this commit. Source-derived CSV whitespace is preserved; whitespace checks pass for code, documentation and curated source registers.
+
+Full regeneration requires the existing raw GED/boundary files and baseline audit artifacts. Rebuild upstream audit manifests after a new checkout if line-ending normalization changes byte hashes. Committed derived outputs support inspection without redistributing the complete raw GED download.
