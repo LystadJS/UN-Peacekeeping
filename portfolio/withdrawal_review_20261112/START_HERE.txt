@@ -1,0 +1,32 @@
+MONUSCO WITHDRAWAL REVIEW - 12 NOVEMBER 2026
+
+Start with review_brief.txt (about five minutes), then open luhanga_boundary_review.png.
+The Markdown copy has clickable source links in compatible viewers.
+
+Please respond to the three items in review_decisions.csv, or simply send your
+answers in chat. You do NOT need to adjudicate 85 incidents individually.
+
+1. Geography: review the recommended handling of the Luhanga discrepancy.
+2. Scope: review the descriptive framing for the class project.
+3. Records: share any patrol/monitoring replies you have received.
+
+The July closure-date correction is already documented; it is not a request to
+choose a date based on results. No primary outcome data have been overwritten.
+The Luhanga scenario uses historical broad-envelope windows solely to isolate
+geographic reassignment. The closure comparison table distinguishes July from
+the unsupported October report-date anchor. Do not combine those as effect estimates.
+
+Supporting files:
+- closure_phase_review_2017.csv: dates, evidence status and source links.
+- closure_vs_report_date_comparison.csv: existing counts with corrected labels.
+- luhanga_reassignment_scenario.csv: same total deaths, alternative assignment.
+- geography_review_all_conflicts.csv: consistent 85-record diagnostic queue.
+- all_boundary_assignments.csv: results across five saved boundary layers.
+- acceptance_checks.csv: four automated checks, all passed.
+- external_records_request_specifications.txt: records still needed, not proof of sending.
+- session_info.txt: R software environment.
+- file_manifest.csv: SHA256 checksums of the packaged files.
+
+No manuscript or PowerPoint was changed. No email was sent. No causal model was
+fitted. Full regeneration uses scripts/audit_withdrawal_geography_review.R in
+the project and its existing GED/boundary inputs; this ZIP is a review packet.

@@ -1,0 +1,5 @@
+check,passed
+unique conflict records,TRUE
+all five boundary layers checked,TRUE
+Luhanga row present,TRUE
+scenario conserves baseline deaths across Walikale and Lubero,TRUE
