@@ -48,3 +48,31 @@ Rscript scripts/test_prospective_scoring.R
 Synthetic checks cover zero counts, exact surge thresholds, just-below thresholds, reordered rows, missing/duplicate localities, unknown/fractional/negative counts, incomplete coverage, wrong target period, premature release use, and a severe count beyond the empirical benchmark's support. These checks passed on 16 November 2026. They validate software behavior, not model accuracy or outcome measurement. No actual outcome score files were written.
 
 The immutable forecast archive remains commit f8f04ab35cf38433b980adf67dbf478710d38d28. The scoring code is a later separately versioned addition; it does not alter that archive or retrospectively establish a new prediction.
+
+## Raw-release preparation (added 16 November 2026)
+
+A separate converter now implements the frozen geography and event rule:
+
+Rscript scripts/build_prospective_outcomes.R release.csv release_metadata.csv
+
+Use the extracted publisher CSV, not a concatenation of monthly releases. The
+input IDs must be unique; duplication requires an explicit reconciliation.
+The builder verifies the pinned boundary/crosswalk hashes, assigns each event
+using that release's coordinates, and retains all DRC exclusion reasons.
+It writes a 19-row panel only after the metadata timing/coverage checks pass.
+
+Set eligibility_audit_path exactly to:
+outputs/prospective_2027_q1_outcomes/preliminary/event_ledger.csv
+or the corresponding final/event_ledger.csv.
+The builder refuses to overwrite an existing stage or audit.
+
+Inspect that ledger and publisher evidence, then pass the resulting outcomes.csv
+and release_metadata.csv to the scorer. Preliminary and final releases are
+built and scored separately. The pipeline does not automatically certify the
+first eligible release or detect reporting omissions.
+
+Run scripts/test_prospective_outcomes.R for verification. It reproduces all 19
+strict 2023 Q4 locality counts (38 total events) from GED26.1 and tests the
+quarter edges, cross-month intervals, precision exclusions, violence type and
+duplicate-ID rejection using explicitly synthetic records. No 2027 outcome
+panel or score has been created.
