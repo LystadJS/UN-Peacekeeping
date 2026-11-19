@@ -1,5 +1,7 @@
 # MONUSCO withdrawal and civilian protection
 
+**Class project, updated 19 November 2026.** The Windows ZIP includes the corrected supplementary deployment audit and the raw-data audit. The export now includes all 44 restored Nyamilima listings for Rutshuru. [Download the complete class project](https://github.com/LystadJS/UN-Peacekeeping/releases/download/v2026.11.18-class-project/monusco_class_project_20261118_windows.zip?revision=20261119)
+
 **Active direction, 11 November 2026:** establish which documented withdrawals can support a defensible study of recorded civilian deaths. Start with the [withdrawal feasibility decision](docs/withdrawal_feasibility_audit.md), [episode register](data/withdrawal_feasibility/episode_register.csv), and [R audit](scripts/audit_withdrawal_feasibility.R).
 
 Latest evidence: [2017 protection reach and South Kivu reporting continuity](docs/withdrawal_protection_coverage_followup.md). Named mobile deployments are documented; protection boundaries and stable reporting completeness remain unresolved. Pinga's conflicting date and geography are now flagged rather than assigned a numeric treatment window.
@@ -58,7 +60,7 @@ Remaining items from the [full project plan](docs/project_plan.md), updated belo
 
 ## Deployment-history completion investigation — 2026-11-07
 
-The ten component discrepancies and Nyamilima locality have been adjudicated. The [Mavivi analysis resolution and corrected-panel sensitivity](docs/corrected_panel_sensitivity_findings.md) are now complete: the corrected estimate is −0.189 (95% interval −0.830 to 0.452), remaining inconclusive. The original panel is unchanged; the provider's reason for the Mavivi field discrepancy remains unverified.
+The ten troop-symbol decisions in the class dataset came from unblinded agent review of the source maps. Independent human verification is pending. The project also records a separate locality correction for Nyamilima. The [Mavivi analysis resolution and corrected-panel sensitivity](docs/corrected_panel_sensitivity_findings.md) are now complete: the corrected estimate is −0.189 (95% interval −0.830 to 0.452), remaining inconclusive. The original panel is unchanged; the provider's reason for the Mavivi field discrepancy remains unverified.
 
 - [ ] Establish complete deployment histories and September coded inputs available at the fixed cutoff; still unresolved.
 
