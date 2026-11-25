@@ -1,0 +1,112 @@
+---
+title: "MONUSCO deployment and recorded civilian-targeted violence in eastern DRC"
+subtitle: "Territory-month replication and South Kivu withdrawal evidence"
+format:
+  html:
+    embed-resources: true
+    toc: true
+execute:
+  echo: false
+  warning: false
+---
+
+```{r}
+library(readr)
+library(dplyr)
+library(tidyr)
+library(ggplot2)
+root <- Sys.getenv("MONUSCO_MONTHLY_RESULTS", "results")
+result <- function(file) read_csv(file.path(root, paste0(file, ".csv")), show_col_types = FALSE)
+status <- result("run_status")
+panel <- result("territory_month_panel")
+coverage <- count(panel, deployment_status, name = "territory_months")
+get_status <- function(stage_name) {
+  match <- status$status[status$stage == stage_name]
+  if (length(match)) match else "stage omitted from this run"
+}
+```
+
+## Abstract
+
+This study examines the association between map-listed MONUSCO military presence and recorded civilian-targeted violence across eastern Democratic Republic of the Congo. It also tests whether deployment improves next-month incident count forecasts and describes changes in recorded violence around South Kivu's 2024 withdrawal. The current run covers `r n_distinct(panel$territory_id)` administrative units and `r n_distinct(panel$month)` months. The primary association status is **`r get_status("primary_association")`**. The retrospective forecast status is **`r get_status("retrospective_forecast")`**.
+
+## Measurement and design
+
+The panel uses fixed OCHA administrative boundaries and WorldPop annual population estimates. The primary outcome is the number of ACLED events classified as civilian targeting. The independent UCDP GED series measures lethal one-sided violence and reported civilian deaths. Geo-PKO coverage ends in December 2024. Maps and withdrawal records were consulted for the documented subset of deployment zeros. The analysis distinguishes missing exposure, map-listed presence and supported absence of a military listing. See the [technical appendix](technical_appendix.md) and the [source manifest](results/source_manifest.csv) for definitions and provenance.
+
+```{r}
+knitr::kable(coverage, col.names = c("Deployment record", "Territory-months"))
+```
+
+## Deployment association
+
+The primary comparison uses changes in preceding-month listed presence within the same territory, adjusted for prior recorded conflict, calendar month, province and population. The estimate concerns recorded violence and is conditional on the fitted model and available observations.
+
+```{r}
+if (get_status("primary_association") == "completed") {
+  terms <- result("association_results")
+  print(knitr::kable(select(terms, specification, family, status, rows, switching_territories,
+                            rate_ratio, lower_95, upper_95), digits = 3))
+}
+```
+
+## Count forecast evaluation
+
+The locked retrospective evaluation uses time-ordered fits and compares next-month count distributions with smoothed territory history and recent-count benchmarks. The archived-input status is **`r get_status("forecast_vintages")`**.
+
+```{r}
+if (startsWith(get_status("retrospective_forecast"), "completed")) {
+  print(knitr::kable(result("forecast_outcome_history_2023_2025"), digits = 3))
+  cat(result("forecast_conclusion")$deployment_conclusion, "\n")
+}
+```
+
+## South Kivu withdrawal
+
+The mission ceased operations on April 30, 2024, and completed the phase of withdrawal on June 30. Local transfers occurred on separate dates. The Secretary-General's South Kivu security-incident series was cut off on April 30, and later humanitarian reporting describes limited monitoring. Reported outcomes therefore describe the available incident records. [Secretary-General report](https://monusco.unmissions.org/sites/default/files/s-2024-482_en.pdf) · [Withdrawal completion](https://monusco.unmissions.org/fr/node/11723) · [Protection Cluster annual report](https://globalprotectioncluster.org/sites/default/files/2025-03/rapport_annuel_du_cluster_protection_rd_congo_annee_2024.pdf)
+
+```{r}
+#| fig-cap: "South Kivu recorded outcomes by source. Dashed lines mark the first full month following operational cessation and withdrawal completion."
+monthly <- result("south_kivu_monthly")
+series_columns <- c("ucdp_incidents", "ucdp_civilian_deaths")
+if (any(!is.na(monthly$incidents))) series_columns <- c(series_columns, "incidents", "event_fatalities")
+monthly |>
+  select(month, all_of(series_columns)) |>
+  pivot_longer(-month, names_to = "series", values_to = "recorded_count") |>
+  mutate(series = recode(series, ucdp_incidents = "UCDP recorded incidents",
+                          ucdp_civilian_deaths = "UCDP reported civilian deaths",
+                          incidents = "ACLED civilian-targeted incidents",
+                          event_fatalities = "ACLED reported incident fatalities")) |>
+  ggplot(aes(month, recorded_count)) +
+  geom_vline(xintercept = as.Date(c("2024-05-01", "2024-07-01")), linetype = "dashed", colour = "#8b4942") +
+  geom_line(colour = "#244b61", linewidth = .6) +
+  facet_wrap(vars(series), ncol = 1, scales = "free_y") +
+  labs(x = NULL, y = "Count") +
+  theme_minimal(base_size = 12)
+```
+
+```{r}
+comparison <- result("south_kivu_period_comparison") |>
+  select(comparison_year, period, months, ucdp_incidents, ucdp_civilian_deaths)
+knitr::kable(comparison, digits = 2,
+  col.names = c("Comparison year", "Period", "Months", "Recorded incidents per month", "Reported civilian deaths per month"))
+```
+
+```{r}
+case_windows <- result("south_kivu_case_windows")
+if (nrow(case_windows)) {
+  print(knitr::kable(select(case_windows, case_id, date, period, months, ucdp_incidents, ucdp_civilian_deaths),
+    col.names = c("Case", "Transfer date", "Window", "Months", "Recorded incidents", "Reported civilian deaths")))
+}
+```
+
+## Interpretation
+
+The Secretary-General documented substantial conflict changes in both Kivus in early 2025. That timing affects any comparison of recorded outcomes with earlier years. [Secretary-General report](https://documents.un.org/api/symbol/access?l=en&s=S%2F2025%2F202&t=pdf)
+
+The handover evidence supports a descriptive account of the transition. A causal comparison would require documented protection reach, comparable outcome ascertainment and a credible comparison area. The current sources leave those requirements unresolved.
+
+```{r}
+knitr::kable(select(result("handover_identification_gates"), gate, status, requirement),
+             col.names = c("Requirement", "Status", "Evidence needed"))
+```

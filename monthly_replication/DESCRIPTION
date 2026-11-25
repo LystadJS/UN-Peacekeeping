@@ -1,0 +1,23 @@
+Package: monuscoMonthlyReplication
+Title: MONUSCO Monthly Replication
+Version: 0.1.0
+Description: Rebuilds the eastern DRC territory-month civilian protection study.
+License: See repository terms
+Encoding: UTF-8
+Imports:
+    digest,
+    dplyr,
+    exactextractr,
+    ggplot2,
+    glmmTMB,
+    knitr,
+    lubridate,
+    readr,
+    rmarkdown,
+    sf,
+    spdep,
+    stringi,
+    terra,
+    tidyr
+Suggests:
+    renv
